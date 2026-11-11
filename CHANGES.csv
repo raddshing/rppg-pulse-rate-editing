@@ -30,3 +30,7 @@ src/st5c/signals.py,6ebbc9cd:src/st5c/signals.py,added unchanged (brief 02 6.24)
 docs/PREREGISTRATION_STAGE5_MANIFEST_A1.csv,OPS2 (brief 02 6.24),added: RhythmFormer (i-pc) seeds 20261132/33 SHA-256,2
 docs/PREREGISTRATION_STAGE5_AMENDMENTS.md,direction (brief 02 6.24),added: text of 6.24 with date and module list filled in,1
 src/st3/base.py,6ebbc9cd:src/st3/base.py,not added: embeds an MMPD subject list,0
+src/st3/base.py,6ebbc9cd:src/st3/base.py,added unchanged (brief 02 6.25/6.26); its SUBJECTS list equals the A split in lists/mmpd_subjects_A_B.csv,1
+src/stage5/mmpd_background_flags.py,OPS2 (brief 02 6.26/6.27),added: MMPD background-peak flag of the Section 5 sensitivity analysis,1
+src/stage5/__init__.py,OPS2 (brief 02 6.26),added: empty package file,1
+docs/PREREGISTRATION_STAGE5_AMENDMENTS.md,direction (brief 02 6.26/6.27),added: two entries of 6.26/6.27 with date and path filled in,2
