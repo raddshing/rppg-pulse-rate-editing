@@ -1,0 +1,267 @@
+{
+  "status": "prepared",
+  "group": "FPm_A",
+  "model_name": "FPm",
+  "dataset": "PURE",
+  "configs": {
+    "PURE": {
+      "official_config": "configs/st30t/FPm_A_PURE.yaml",
+      "config_sha256": "1ae3948b7eb5efe55e9dadf83a6b4849f160bceb39b54aadc641405f143842f9",
+      "training_subjects": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08"
+      ],
+      "training_recordings": [
+        "01-01",
+        "01-02",
+        "01-03",
+        "01-04",
+        "01-05",
+        "01-06",
+        "02-01",
+        "02-02",
+        "02-03",
+        "02-04",
+        "02-05",
+        "02-06",
+        "03-01",
+        "03-02",
+        "03-03",
+        "03-04",
+        "03-05",
+        "03-06",
+        "04-01",
+        "04-02",
+        "04-03",
+        "04-04",
+        "04-05",
+        "04-06",
+        "05-01",
+        "05-02",
+        "05-03",
+        "05-04",
+        "05-05",
+        "05-06",
+        "06-01",
+        "06-03",
+        "06-04",
+        "06-05",
+        "06-06",
+        "07-01",
+        "07-02",
+        "07-03",
+        "07-04",
+        "07-05",
+        "07-06",
+        "08-01",
+        "08-02",
+        "08-03",
+        "08-04",
+        "08-05",
+        "08-06"
+      ],
+      "chunks": 596,
+      "steps_per_epoch": 149,
+      "batch_size": 4,
+      "epochs": 10,
+      "learning_rate": "1e-3",
+      "optimizer": "Adam default betas/eps/weight_decay",
+      "scheduler": "OneCycleLR unchanged PyTorch defaults; full Stage1 total steps",
+      "chunk_length": 160,
+      "data_type": [
+        "Raw"
+      ],
+      "label_type": "Standardized",
+      "crop_face": {
+        "DO_CROP_FACE": true,
+        "BACKEND": "HC",
+        "USE_LARGE_FACE_BOX": true,
+        "LARGE_BOX_COEF": 1.5,
+        "DETECTION": {
+          "DO_DYNAMIC_DETECTION": false,
+          "DYNAMIC_DETECTION_FREQUENCY": 30,
+          "USE_MEDIAN_FACE_BOX": false
+        }
+      },
+      "resize": {
+        "H": 72,
+        "W": 72
+      },
+      "model": {
+        "DROP_RATE": 0.1,
+        "NAME": "FactorizePhys",
+        "FactorizePhys": {
+          "CHANNELS": 3,
+          "FRAME_NUM": 160,
+          "MD_FSAM": true,
+          "MD_TYPE": "NMF",
+          "MD_R": 1,
+          "MD_S": 1,
+          "MD_STEPS": 3,
+          "MD_RESIDUAL": true,
+          "MD_INFERENCE": true
+        }
+      },
+      "validation": "unused because USE_LAST_EPOCH=True",
+      "checkpoint": "save each epoch; last epoch selected; all timing/test artifacts deleted",
+      "split_loader_sha256": "4f48b9dd0a167256b644f4f8fad5a14f257865905f5a9e8e85b707e3a7d9a6df",
+      "total_steps": 1490,
+      "dataset": "PURE"
+    }
+  },
+  "inputs": {
+    "PURE|i": {
+      "original_manifest": "outputs/st30t_FPm_A_PURE_originals.csv",
+      "pool_manifest": "outputs/st30t_FPm_A_PURE_i_pool.csv",
+      "originals": 596,
+      "pool_items": 2384,
+      "C6_receipts": [
+        "reports/st30a/C6_FPm_original_complete.json",
+        "reports/st30a/C6_FPm_i_complete.json"
+      ],
+      "BGL_required": [
+        "FPm_i"
+      ],
+      "reindexing": "Original exact population order; pool sorted within population chunk order then k; no new targets or eligibility changes"
+    },
+    "PURE|ii": {
+      "original_manifest": "outputs/st30t_FPm_A_PURE_originals.csv",
+      "pool_manifest": "outputs/st30t_FPm_A_PURE_ii_pool.csv",
+      "originals": 596,
+      "pool_items": 2384,
+      "C6_receipts": [
+        "reports/st30a/C6_FPm_original_complete.json",
+        "reports/st30a/C6_FPm_ii_complete.json"
+      ],
+      "BGL_required": [
+        "FPm_ii"
+      ],
+      "reindexing": "Original exact population order; pool sorted within population chunk order then k; no new targets or eligibility changes"
+    }
+  },
+  "runs": [
+    {
+      "order": "28",
+      "priority": "3",
+      "group": "A4",
+      "model": "FPm",
+      "population": "PURE",
+      "arm": "i",
+      "seed": "20261131",
+      "run_id": "st30t_FPm_PURE_i_s20261131",
+      "steps": "1490",
+      "gate": "none"
+    },
+    {
+      "order": "29",
+      "priority": "3",
+      "group": "A4",
+      "model": "FPm",
+      "population": "PURE",
+      "arm": "ii",
+      "seed": "20261131",
+      "run_id": "st30t_FPm_PURE_ii_s20261131",
+      "steps": "1490",
+      "gate": "none"
+    },
+    {
+      "order": "30",
+      "priority": "3",
+      "group": "A4",
+      "model": "FPm",
+      "population": "PURE",
+      "arm": "i",
+      "seed": "20261132",
+      "run_id": "st30t_FPm_PURE_i_s20261132",
+      "steps": "1490",
+      "gate": "none"
+    },
+    {
+      "order": "31",
+      "priority": "3",
+      "group": "A4",
+      "model": "FPm",
+      "population": "PURE",
+      "arm": "ii",
+      "seed": "20261132",
+      "run_id": "st30t_FPm_PURE_ii_s20261132",
+      "steps": "1490",
+      "gate": "none"
+    },
+    {
+      "order": "32",
+      "priority": "3",
+      "group": "A4",
+      "model": "FPm",
+      "population": "PURE",
+      "arm": "i",
+      "seed": "20261133",
+      "run_id": "st30t_FPm_PURE_i_s20261133",
+      "steps": "1490",
+      "gate": "none"
+    },
+    {
+      "order": "33",
+      "priority": "3",
+      "group": "A4",
+      "model": "FPm",
+      "population": "PURE",
+      "arm": "ii",
+      "seed": "20261133",
+      "run_id": "st30t_FPm_PURE_ii_s20261133",
+      "steps": "1490",
+      "gate": "none"
+    }
+  ],
+  "data_workers": 16,
+  "checkpoint_reservation_bytes": 50331648,
+  "input_guards": "reports/st30t/FPm_A_input_guards.csv",
+  "source_hashes": {
+    "configs/st30t/FPm_A_PURE.yaml": "1ae3948b7eb5efe55e9dadf83a6b4849f160bceb39b54aadc641405f143842f9",
+    "outputs/st30g_FPm_i_manifest.csv": "69c363957e4a221af6b76c3f42824a40885815b1ad505a5458f46fc988fb41c0",
+    "outputs/st30g_FPm_ii_manifest.csv": "e6da5cf29b09f37117c4071d6e99d6678a9df1c11271ff100b221ba7ba4ce521",
+    "outputs/st30g_FPm_original_manifest.csv": "4237e52c489ca5701a9f5ec13cac62133c122a76a6b3965050743bee8c2111e0",
+    "outputs/st30t_FPm_A_PURE_i_pool.csv": "86d519457422b08c556347412c8d448e0a35a0937931cb46f93b3fe25f52252a",
+    "outputs/st30t_FPm_A_PURE_ii_pool.csv": "612fd5002c3a258859317d91b78340d998e31b202d8be6421daecc8399d6c4d3",
+    "outputs/st30t_FPm_A_PURE_originals.csv": "82e745f64d8ae50536f49dc80ffad190880418178c2fd1bed49567321325c7ec",
+    "reports/st12c/st12c_initial_weights.json": "cda544f8e20b6676f334c66dfc65a8f773ccf7360402f669115eee219891bd42",
+    "reports/st30a/C6_FPm_i_complete.json": "b694b0d4b6bf340e3671552022eb40755b45a1e344175409f632a4dec0f95251",
+    "reports/st30a/C6_FPm_ii_complete.json": "d56d6591822af16b11f525d633a251753d5989d9b7e070db297683026c0a422a",
+    "reports/st30a/C6_FPm_original_complete.json": "c93c555deb002b000a7e1297efd8890f662f76647b8f230c07cc787de8053702",
+    "reports/st30g/FPm_i_generation.json": "b12a8b3e188117a2bc4811227120f6ca3c7a954f80fcb3f117909fe75e885968",
+    "reports/st30g/FPm_ii_generation.json": "602a89e9eae0a8b6365e05eb9f65bc63a209f3276e42f3f1a1d13d52191ae3fc",
+    "reports/st30p/amendment_v1_4.json": "96327201c64fcfccafa650762b70e34179fcf3e86c001187b89b2489a05c7f2e",
+    "reports/st30p/run_plan_v1_3.csv": "8d1fd5458878dbfff32853af7a85864c009681587be657bc3849998dc9e827dd",
+    "reports/st30t/FPm_A_input_guards.csv": "45ff353a111f2b48b68d0b0173da82365716bb50b953f70709b187051b0c55a9",
+    "reports/st9t/st9t_initial_weights.json": "d629f099bfffe62345982658278f7f604da0b8c47199ddbad8601477e7159c4b",
+    "reports/st9t/st9t_settings.json": "8b9069f3ad5537d6ccd99f1108148506d6b9e9cc940d452b97b14b4ccbd931f1",
+    "src/st12c/rhythm_backend_v2.py": "f9bad1bc7f18a8c32865bd7ba8bce5844c6f14c1cc9162261d64459795920f46",
+    "src/st12c/rhythm_data.py": "9af5d4a306dcb235833eeec297696dfec1964cd860d142a207c30b17f30cd66b",
+    "src/st12c/rhythm_loss_author.py": "9e50ce536e3c9b79dc50a6a1953b1c1d40da140a9ba70fa6b15a61aedfa880eb",
+    "src/st30t/pooled_backend.py": "c0fad3c73a0526c555a70dcd7fac847cd02b2eba514c40b6d1f42ac2a1a390c2",
+    "src/st30t/pooled_train.py": "fe345fc4b44d23301840da5f183e29cc3b404809df0505f7ba7eabf2c335a222",
+    "src/st30t/prepare_pooled.py": "0ec2971e6b9a69577fb1a7b25e9386886af678f057f442f608a451349e524292",
+    "src/st30t/queue_pooled.py": "030047cbea655688901dbbd06acb9f73d01301770a28aa749328cc259f4b0b28",
+    "src/st30t/train.py": "db9904376a84cfec1ddaea4b90d405bb7f0534b9c8847d63a7036748e41e13d9",
+    "src/st9s/backend.py": "5fd03c009656977895010e52f26d0d9a503daf56686ee7a6a1932490506185c6",
+    "src/st9s/streams.py": "80ba15e017ece76ade06d8c50eb24a8dea8fb2aa87436a7ba22f62c74712e80e",
+    "src/st9t/data.py": "610e48be394f4ac98b87c205132d6cf94d7766f0014d28c0b3be82e961513edf",
+    "third_party/rPPG-Toolbox/main.py": "70067b39e9140243bb56fdeed36f17d4660a920ee96d837bd5a07365bf48a568",
+    "third_party/rPPG-Toolbox/neural_methods/loss/NegPearsonLoss.py": "fc57da55e014540c52e6ded5fe6272e2dc1cf82c714667ffe72b066048f94bcf",
+    "third_party/rPPG-Toolbox/neural_methods/loss/PhysNetNegPearsonLoss.py": "dbb447a44da4ed90810ea1dc17b3a672204ad0367e30041299be95158e7acab9",
+    "third_party/rPPG-Toolbox/neural_methods/model/FactorizePhys/FactorizePhys.py": "48c4f4dc0d7d117f7426f7ff09d7821081e34377737416a38361672d17672eb7",
+    "third_party/rPPG-Toolbox/neural_methods/model/PhysNet.py": "48a5a3132d9cb737f0dd782d354d27bf36c723a3ce018b4a1ec0cc3571905d9a"
+  },
+  "training_steps": 1490,
+  "environment_unchanged": true,
+  "initial_weights": "Exact previous same-model same-seed SHA required",
+  "source_integrity": "C6-completed manifests and before/after stat guards; original SHA provenance reused, old payload audit not repeated",
+  "label_reporting": "Primary300-frame manifest achieved/reference HR convention; stored-label chunk HR additionally reported; old result files untouched",
+  "UBFC_scheduler": "Same OneCycleLR defaults with prescribed total_steps; epochs follow ceil(N/4), final partial epoch retained"
+}

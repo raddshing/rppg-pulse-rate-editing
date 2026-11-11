@@ -1,0 +1,15 @@
+file,source,change,count
+src/st9e/editor.py,6ebbc9cd:src/st9e/editor.py,injection-mode argument (brief 02 2.1),1
+src/st9e/editor.py,6ebbc9cd:src/st9e/editor.py,injection-mode argument (brief 02 2.1),1
+src/st9e/editor.py,6ebbc9cd:src/st9e/editor.py,injection-mode argument (brief 02 2.1),3
+src/st9g/pool_worker.py,6ebbc9cd:src/st9g/pool_worker.py,injection-mode argument (brief 02 2.1),1
+src/st30g/pool_A_worker.py,6ebbc9cd:src/st30g/pool_A_worker.py,injection-mode argument (brief 02 2.1),1
+src/st12c/rhythm_pool_worker.py,6ebbc9cd:src/st12c/rhythm_pool_worker.py,injection-mode argument (brief 02 2.1),1
+src/st30g/helpers.py,6ebbc9cd:src/st30g/helpers.py,injection-mode argument (brief 02 2.1),1
+src/st9e/editor.py,OPS2,added injection_waveform(),1
+src/st9/ops.py,OPS2,public stand-in for operational module,1
+settings/st12c_a_training_settings.json,6ebbc9cd:reports/st12c/st12c_a_training_settings.json,server path -> <CACHE_ROOT>,2
+settings/FPm_A_PURE.yaml,6ebbc9cd:configs/st30t/FPm_A_PURE.yaml,server path -> <BULK_ROOT>,1
+settings/FPm_A_PURE.yaml,6ebbc9cd:configs/st30t/FPm_A_PURE.yaml,server path -> <RAW_ROOT>,1
+settings/FPm_A_PURE.yaml,6ebbc9cd:configs/st30t/FPm_A_PURE.yaml,server path -> <UPSTREAM_TEMPLATE_DATA_ROOT>,4
+lists/mmpd_a_validation_windows.csv,st30a_new_A_reference.csv (A only),validation windows (in_Qstar) without reference HR values; rows=1518,1518
