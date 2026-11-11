@@ -13,3 +13,9 @@ settings/FPm_A_PURE.yaml,6ebbc9cd:configs/st30t/FPm_A_PURE.yaml,server path -> <
 settings/FPm_A_PURE.yaml,6ebbc9cd:configs/st30t/FPm_A_PURE.yaml,server path -> <RAW_ROOT>,1
 settings/FPm_A_PURE.yaml,6ebbc9cd:configs/st30t/FPm_A_PURE.yaml,server path -> <UPSTREAM_TEMPLATE_DATA_ROOT>,4
 lists/mmpd_a_validation_windows.csv,st30a_new_A_reference.csv (A only),validation windows (in_Qstar) without reference HR values; rows=1518,1518
+src/st5c/__init__.py,6ebbc9cd:src/st5c/__init__.py,added unchanged (brief 02 6.22),1
+src/st5c/mcd_align.py,6ebbc9cd:src/st5c/mcd_align.py,added unchanged (brief 02 6.22),1
+src/st5c/mcd_packets.py,6ebbc9cd:src/st5c/mcd_packets.py,added unchanged (brief 02 6.22),1
+src/st3/c4.py,6ebbc9cd:src/st3/c4.py,added unchanged (brief 02 6.22),1
+docs/PREREGISTRATION_STAGE5.md,direction (brief 02 6.20/6.22),added verbatim,1
+docs/PREREGISTRATION_STAGE5_MANIFEST.csv,OPS2 (brief 02 6.20/6.22),added: checkpoint and MCD subject-list SHA-256,1
