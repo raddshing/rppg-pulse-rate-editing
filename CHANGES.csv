@@ -19,3 +19,14 @@ src/st5c/mcd_packets.py,6ebbc9cd:src/st5c/mcd_packets.py,added unchanged (brief 
 src/st3/c4.py,6ebbc9cd:src/st3/c4.py,added unchanged (brief 02 6.22),1
 docs/PREREGISTRATION_STAGE5.md,direction (brief 02 6.20/6.22),added verbatim,1
 docs/PREREGISTRATION_STAGE5_MANIFEST.csv,OPS2 (brief 02 6.20/6.22),added: checkpoint and MCD subject-list SHA-256,1
+src/st3/c4_description.py,6ebbc9cd:src/st3/c4_description.py,added unchanged (brief 02 6.24),1
+src/st3/media.py,6ebbc9cd:src/st3/media.py,added unchanged (brief 02 6.24),1
+src/st3/progress.py,6ebbc9cd:src/st3/progress.py,added unchanged (brief 02 6.24),1
+src/st3/r3.py,6ebbc9cd:src/st3/r3.py,added unchanged (brief 02 6.24),1
+src/st3/waves.py,6ebbc9cd:src/st3/waves.py,added unchanged (brief 02 6.24),1
+src/st5c/avi_packets.py,6ebbc9cd:src/st5c/avi_packets.py,added unchanged (brief 02 6.24),1
+src/st5c/base.py,6ebbc9cd:src/st5c/base.py,added unchanged (brief 02 6.24),1
+src/st5c/signals.py,6ebbc9cd:src/st5c/signals.py,added unchanged (brief 02 6.24),1
+docs/PREREGISTRATION_STAGE5_MANIFEST_A1.csv,OPS2 (brief 02 6.24),added: RhythmFormer (i-pc) seeds 20261132/33 SHA-256,2
+docs/PREREGISTRATION_STAGE5_AMENDMENTS.md,direction (brief 02 6.24),added: text of 6.24 with date and module list filled in,1
+src/st3/base.py,6ebbc9cd:src/st3/base.py,not added: embeds an MMPD subject list,0
