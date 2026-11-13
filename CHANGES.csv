@@ -38,3 +38,5 @@ docs/PREREGISTRATION_STAGE5_AMENDMENTS.md,direction (brief 02 6.43/6.44),added: 
 docs/STAGE5_DEV_DIAGNOSTICS.md,direction (brief 02 6.48),added: development-only diagnostic rules as received (SHA-256 9d9d618f),1
 docs/timestamps/DIAG_ccecf44.txt,OPS2 (brief 02 6.48),added: hash file of commit ccecf44 (SHA-256 538fbefd),1
 docs/timestamps/DIAG_ccecf44.txt.ots,PI (brief 02 6.50),added: OpenTimestamps proof of DIAG_ccecf44.txt (pending calendar attestations: alice, bob, finney),1
+docs/timestamps/A3_b655e54.txt,OPS2 (brief 02 6.46),added: hash file of commit b655e54 (SHA-256 45d51ed3),1
+docs/timestamps/A3_b655e54.txt.ots,PI (brief 02 6.50),added: OpenTimestamps proof of A3_b655e54.txt (pending calendar attestations: alice, bob, finney),1
