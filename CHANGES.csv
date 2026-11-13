@@ -34,3 +34,4 @@ src/st3/base.py,6ebbc9cd:src/st3/base.py,added unchanged (brief 02 6.25/6.26); i
 src/stage5/mmpd_background_flags.py,OPS2 (brief 02 6.26/6.27),added: MMPD background-peak flag of the Section 5 sensitivity analysis,1
 src/stage5/__init__.py,OPS2 (brief 02 6.26),added: empty package file,1
 docs/PREREGISTRATION_STAGE5_AMENDMENTS.md,direction (brief 02 6.26/6.27),added: two entries of 6.26/6.27 with date and path filled in,2
+docs/PREREGISTRATION_STAGE5_AMENDMENTS.md,direction (brief 02 6.43/6.44),added: entry A3 of 6.44 with the date filled in,1
