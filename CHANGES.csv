@@ -35,3 +35,4 @@ src/stage5/mmpd_background_flags.py,OPS2 (brief 02 6.26/6.27),added: MMPD backgr
 src/stage5/__init__.py,OPS2 (brief 02 6.26),added: empty package file,1
 docs/PREREGISTRATION_STAGE5_AMENDMENTS.md,direction (brief 02 6.26/6.27),added: two entries of 6.26/6.27 with date and path filled in,2
 docs/PREREGISTRATION_STAGE5_AMENDMENTS.md,direction (brief 02 6.43/6.44),added: entry A3 of 6.44 with the date filled in,1
+docs/STAGE5_DEV_DIAGNOSTICS.md,direction (brief 02 6.48),added: development-only diagnostic rules as received (SHA-256 9d9d618f),1
