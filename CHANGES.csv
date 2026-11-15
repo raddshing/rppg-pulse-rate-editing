@@ -70,3 +70,7 @@ docs/timestamps/A4_a545c1c.txt.ots,PI (brief 02 6.76),added: OpenTimestamps proo
 docs/PREREGISTRATION_STAGE5_AMENDMENTS.md,direction (brief 02 6.78),added: entry A5 of 6.78 as received (SHA-256 dd503b53),1
 tools/october_test_tables.py,OPS2 (brief 02 6.78),added: tables of the stored October predictions for the comparison between test stages (b) and (c) (amendment A5),1
 docs/A5_OCTOBER_SOURCES_SHA256.txt,OPS2 (brief 02 6.78),added: SHA-256 of the 14320 stored October files that tools/october_test_tables.py reads,1
+docs/timestamps/A5_98df687.txt,OPS2 (brief 02 6.78),added: hash file of commit 98df687 (SHA-256 bbff9331),1
+docs/timestamps/A5_98df687.txt.ots,PI (brief 02 6.80),added: OpenTimestamps proof of A5_98df687.txt (pending calendar attestations: alice, bob, finney),1
+docs/timestamps/A4_98df687.txt,OPS2 (brief 02 6.80),added: copy of A5_98df687.* under the name the seal check of eval5/drive/step.sh looks for,1
+docs/timestamps/A4_98df687.txt.ots,OPS2 (brief 02 6.80),added: copy of A5_98df687.* under the name the seal check of eval5/drive/step.sh looks for,1
