@@ -65,3 +65,5 @@ docs/A4_CODE_SHA256.txt,OPS2 (brief 02 6.73/6.74),added: SHA-256 of the code fil
 docs/A4_CODE_SHA256_THIRD_PARTY.txt,OPS2 (brief 02 6.73/6.74),added: SHA-256 of the rPPG-Toolbox files run (not included),1
 docs/A4_REDACTIONS.csv,OPS2 (brief 02 6.73/6.74),added: lines whose machine-path values were replaced,1
 docs/PREREGISTRATION_STAGE5_AMENDMENTS.md,direction (brief 02 6.75),added: entry A4 of 6.75 as received (SHA-256 f07f0bf1),1
+docs/timestamps/A4_a545c1c.txt,OPS2 (brief 02 6.75),added: hash file of commit a545c1c (SHA-256 abd7c140),1
+docs/timestamps/A4_a545c1c.txt.ots,PI (brief 02 6.76),added: OpenTimestamps proof of A4_a545c1c.txt (pending calendar attestations: alice, bob, finney),1
