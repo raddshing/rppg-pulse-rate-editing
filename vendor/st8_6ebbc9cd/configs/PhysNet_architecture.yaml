@@ -1,0 +1,350 @@
+BASE:
+- ''
+DEVICE: cuda:0
+INFERENCE:
+  BATCH_SIZE: 4
+  EVALUATION_METHOD: FFT
+  EVALUATION_WINDOW:
+    USE_SMALLER_WINDOW: false
+    WINDOW_SIZE: 10
+  MODEL_PATH: ''
+LOG:
+  PATH: runs/exp
+MODEL:
+  BIGSMALL:
+    FRAME_DEPTH: 3
+  DROP_RATE: 0.2
+  EFFICIENTPHYS:
+    FRAME_DEPTH: 10
+  FactorizePhys:
+    CHANNELS: 3
+    FRAME_NUM: 160
+    MD_FSAM: false
+    MD_INFERENCE: true
+    MD_R: 1
+    MD_RESIDUAL: true
+    MD_S: 1
+    MD_STEPS: 4
+    MD_TRANSFORM: T_KAB
+    MD_TYPE: NMF
+    TYPE: Standard
+  MODEL_DIR: PreTrainedModels
+  NAME: Physnet
+  PHYSFORMER:
+    DIM: 96
+    FF_DIM: 144
+    NUM_HEADS: 4
+    NUM_LAYERS: 12
+    PATCH_SIZE: 4
+    THETA: 0.7
+  PHYSNET:
+    FRAME_NUM: 128
+  RESUME: ''
+  TSCAN:
+    FRAME_DEPTH: 10
+  iBVPNet:
+    CHANNELS: 3
+    FRAME_NUM: 160
+NUM_OF_GPU_TRAIN: 1
+TEST:
+  DATA:
+    BEGIN: 0.0
+    CACHED_PATH: <MACHINE_PATH>
+    DATASET: UBFC-rPPG
+    DATA_FORMAT: NCDHW
+    DATA_PATH: <MACHINE_PATH>
+    DO_PREPROCESS: false
+    END: 1.0
+    EXP_DATA_NAME: ''
+    FILE_LIST_PATH: PreprocessedData/DataFileLists
+    FILTERING:
+      EXCLUSION_LIST:
+      - ''
+      SELECT_TASKS: false
+      TASK_LIST:
+      - ''
+      USE_EXCLUSION_LIST: false
+    FOLD:
+      FOLD_NAME: ''
+      FOLD_PATH: ''
+    FS: 30
+    INFO:
+      EXERCISE:
+      - true
+      GENDER:
+      - ''
+      GLASSER:
+      - true
+      HAIR_COVER:
+      - true
+      LIGHT:
+      - ''
+      MAKEUP:
+      - true
+      MOTION:
+      - ''
+      SKIN_COLOR:
+      - 1
+    PREPROCESS:
+      BIGSMALL:
+        BIG_DATA_TYPE:
+        - ''
+        RESIZE:
+          BIG_H: 144
+          BIG_W: 144
+          SMALL_H: 9
+          SMALL_W: 9
+        SMALL_DATA_TYPE:
+        - ''
+      CHUNK_LENGTH: 128
+      CROP_FACE:
+        BACKEND: HC
+        DETECTION:
+          DO_DYNAMIC_DETECTION: false
+          DYNAMIC_DETECTION_FREQUENCY: 32
+          USE_MEDIAN_FACE_BOX: false
+        DO_CROP_FACE: true
+        LARGE_BOX_COEF: 1.5
+        USE_LARGE_FACE_BOX: true
+      DATA_AUG:
+      - None
+      DATA_TYPE:
+      - DiffNormalized
+      DO_CHUNK: true
+      IBVP:
+        DATA_MODE: RGB
+      LABEL_TYPE: DiffNormalized
+      RESIZE:
+        H: 72
+        W: 72
+      USE_PSUEDO_PPG_LABEL: false
+  METRICS:
+  - MAE
+  - RMSE
+  - MAPE
+  - Pearson
+  - SNR
+  - BA
+  OUTPUT_SAVE_DIR: ''
+  USE_LAST_EPOCH: true
+TOOLBOX_MODE: train_and_test
+TRAIN:
+  BATCH_SIZE: 4
+  DATA:
+    BEGIN: 0.0
+    CACHED_PATH: <MACHINE_PATH>
+    DATASET: PURE
+    DATA_FORMAT: NCDHW
+    DATA_PATH: <MACHINE_PATH>
+    DO_PREPROCESS: false
+    END: 0.8
+    EXP_DATA_NAME: ''
+    FILE_LIST_PATH: PreprocessedData/DataFileLists
+    FILTERING:
+      EXCLUSION_LIST:
+      - ''
+      SELECT_TASKS: false
+      TASK_LIST:
+      - ''
+      USE_EXCLUSION_LIST: false
+    FOLD:
+      FOLD_NAME: ''
+      FOLD_PATH: ''
+    FS: 30
+    INFO:
+      EXERCISE:
+      - true
+      GENDER:
+      - ''
+      GLASSER:
+      - true
+      HAIR_COVER:
+      - true
+      LIGHT:
+      - ''
+      MAKEUP:
+      - true
+      MOTION:
+      - ''
+      SKIN_COLOR:
+      - 1
+    PREPROCESS:
+      BIGSMALL:
+        BIG_DATA_TYPE:
+        - ''
+        RESIZE:
+          BIG_H: 144
+          BIG_W: 144
+          SMALL_H: 9
+          SMALL_W: 9
+        SMALL_DATA_TYPE:
+        - ''
+      CHUNK_LENGTH: 128
+      CROP_FACE:
+        BACKEND: HC
+        DETECTION:
+          DO_DYNAMIC_DETECTION: false
+          DYNAMIC_DETECTION_FREQUENCY: 32
+          USE_MEDIAN_FACE_BOX: false
+        DO_CROP_FACE: true
+        LARGE_BOX_COEF: 1.5
+        USE_LARGE_FACE_BOX: true
+      DATA_AUG:
+      - None
+      DATA_TYPE:
+      - DiffNormalized
+      DO_CHUNK: true
+      IBVP:
+        DATA_MODE: RGB
+      LABEL_TYPE: DiffNormalized
+      RESIZE:
+        H: 72
+        W: 72
+      USE_PSUEDO_PPG_LABEL: false
+  EPOCHS: 30
+  LR: 0.009
+  MODEL_FILE_NAME: PURE_PURE_UBFC_physnet_diffnormalized
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 0.0001
+    MOMENTUM: 0.9
+  PLOT_LOSSES_AND_LR: true
+UNSUPERVISED:
+  DATA:
+    BEGIN: 0.0
+    CACHED_PATH: PreprocessedData
+    DATASET: ''
+    DATA_FORMAT: NDCHW
+    DATA_PATH: ''
+    DO_PREPROCESS: false
+    END: 1.0
+    EXP_DATA_NAME: ''
+    FILE_LIST_PATH: PreprocessedData/DataFileLists
+    FILTERING:
+      EXCLUSION_LIST:
+      - ''
+      SELECT_TASKS: false
+      TASK_LIST:
+      - ''
+      USE_EXCLUSION_LIST: false
+    FOLD:
+      FOLD_NAME: ''
+      FOLD_PATH: ''
+    FS: 0
+    INFO:
+      EXERCISE:
+      - true
+      GENDER:
+      - ''
+      GLASSER:
+      - true
+      HAIR_COVER:
+      - true
+      LIGHT:
+      - ''
+      MAKEUP:
+      - true
+      MOTION:
+      - ''
+      SKIN_COLOR:
+      - 1
+    PREPROCESS:
+      CHUNK_LENGTH: 180
+      CROP_FACE:
+        BACKEND: HC
+        DETECTION:
+          DO_DYNAMIC_DETECTION: false
+          DYNAMIC_DETECTION_FREQUENCY: 30
+          USE_MEDIAN_FACE_BOX: false
+        DO_CROP_FACE: true
+        LARGE_BOX_COEF: 1.5
+        USE_LARGE_FACE_BOX: true
+      DATA_AUG:
+      - None
+      DATA_TYPE:
+      - ''
+      DO_CHUNK: true
+      IBVP:
+        DATA_MODE: RGB
+      LABEL_TYPE: ''
+      RESIZE:
+        H: 128
+        W: 128
+      USE_PSUEDO_PPG_LABEL: false
+  METHOD: []
+  METRICS: []
+  OUTPUT_SAVE_DIR: ''
+VALID:
+  DATA:
+    BEGIN: 0.8
+    CACHED_PATH: <MACHINE_PATH>
+    DATASET: PURE
+    DATA_FORMAT: NCDHW
+    DATA_PATH: <MACHINE_PATH>
+    DO_PREPROCESS: false
+    END: 1.0
+    EXP_DATA_NAME: ''
+    FILE_LIST_PATH: PreprocessedData/DataFileLists
+    FILTERING:
+      EXCLUSION_LIST:
+      - ''
+      SELECT_TASKS: false
+      TASK_LIST:
+      - ''
+      USE_EXCLUSION_LIST: false
+    FOLD:
+      FOLD_NAME: ''
+      FOLD_PATH: ''
+    FS: 30
+    INFO:
+      EXERCISE:
+      - true
+      GENDER:
+      - ''
+      GLASSER:
+      - true
+      HAIR_COVER:
+      - true
+      LIGHT:
+      - ''
+      MAKEUP:
+      - true
+      MOTION:
+      - ''
+      SKIN_COLOR:
+      - 1
+    PREPROCESS:
+      BIGSMALL:
+        BIG_DATA_TYPE:
+        - ''
+        RESIZE:
+          BIG_H: 144
+          BIG_W: 144
+          SMALL_H: 9
+          SMALL_W: 9
+        SMALL_DATA_TYPE:
+        - ''
+      CHUNK_LENGTH: 128
+      CROP_FACE:
+        BACKEND: HC
+        DETECTION:
+          DO_DYNAMIC_DETECTION: false
+          DYNAMIC_DETECTION_FREQUENCY: 32
+          USE_MEDIAN_FACE_BOX: false
+        DO_CROP_FACE: true
+        LARGE_BOX_COEF: 1.5
+        USE_LARGE_FACE_BOX: true
+      DATA_AUG:
+      - None
+      DATA_TYPE:
+      - DiffNormalized
+      DO_CHUNK: true
+      IBVP:
+        DATA_MODE: RGB
+      LABEL_TYPE: DiffNormalized
+      RESIZE:
+        H: 72
+        W: 72
+      USE_PSUEDO_PPG_LABEL: false

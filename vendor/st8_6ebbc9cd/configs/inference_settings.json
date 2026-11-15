@@ -1,0 +1,203 @@
+{
+ "PhysNet": {
+  "architecture_name": "PhysNet",
+  "data_format": "NCDHW",
+  "batch_size": 4,
+  "seed_inference": 100,
+  "preprocessing": {
+   "BIGSMALL": {
+    "BIG_DATA_TYPE": [
+     ""
+    ],
+    "RESIZE": {
+     "BIG_H": 144,
+     "BIG_W": 144,
+     "SMALL_H": 9,
+     "SMALL_W": 9
+    },
+    "SMALL_DATA_TYPE": [
+     ""
+    ]
+   },
+   "CHUNK_LENGTH": 128,
+   "CROP_FACE": {
+    "BACKEND": "HC",
+    "DETECTION": {
+     "DO_DYNAMIC_DETECTION": false,
+     "DYNAMIC_DETECTION_FREQUENCY": 32,
+     "USE_MEDIAN_FACE_BOX": false
+    },
+    "DO_CROP_FACE": true,
+    "LARGE_BOX_COEF": 1.5,
+    "USE_LARGE_FACE_BOX": true
+   },
+   "DATA_AUG": [
+    "None"
+   ],
+   "DATA_TYPE": [
+    "DiffNormalized"
+   ],
+   "DO_CHUNK": true,
+   "IBVP": {
+    "DATA_MODE": "RGB"
+   },
+   "LABEL_TYPE": "DiffNormalized",
+   "RESIZE": {
+    "H": 72,
+    "W": 72
+   },
+   "USE_PSUEDO_PPG_LABEL": false
+  }
+ },
+ "RhythmFormer": {
+  "architecture_name": "RhythmFormer",
+  "data_format": "NDCHW",
+  "batch_size": 4,
+  "seed_inference": 100,
+  "preprocessing": {
+   "BIGSMALL": {
+    "BIG_DATA_TYPE": [
+     ""
+    ],
+    "RESIZE": {
+     "BIG_H": 144,
+     "BIG_W": 144,
+     "SMALL_H": 9,
+     "SMALL_W": 9
+    },
+    "SMALL_DATA_TYPE": [
+     ""
+    ]
+   },
+   "CHUNK_LENGTH": 160,
+   "CROP_FACE": {
+    "BACKEND": "HC",
+    "DETECTION": {
+     "DO_DYNAMIC_DETECTION": false,
+     "DYNAMIC_DETECTION_FREQUENCY": 30,
+     "USE_MEDIAN_FACE_BOX": false
+    },
+    "DO_CROP_FACE": true,
+    "LARGE_BOX_COEF": 1.5,
+    "USE_LARGE_FACE_BOX": true
+   },
+   "DATA_AUG": [
+    "None"
+   ],
+   "DATA_TYPE": [
+    "Standardized"
+   ],
+   "DO_CHUNK": true,
+   "IBVP": {
+    "DATA_MODE": "RGB"
+   },
+   "LABEL_TYPE": "Standardized",
+   "RESIZE": {
+    "H": 128,
+    "W": 128
+   },
+   "USE_PSUEDO_PPG_LABEL": false
+  }
+ },
+ "FPm": {
+  "architecture_name": "FactorizePhys",
+  "data_format": "NCDHW",
+  "batch_size": 4,
+  "seed_inference": 100,
+  "preprocessing": {
+   "BIGSMALL": {
+    "BIG_DATA_TYPE": [
+     ""
+    ],
+    "RESIZE": {
+     "BIG_H": 144,
+     "BIG_W": 144,
+     "SMALL_H": 9,
+     "SMALL_W": 9
+    },
+    "SMALL_DATA_TYPE": [
+     ""
+    ]
+   },
+   "CHUNK_LENGTH": 160,
+   "CROP_FACE": {
+    "BACKEND": "HC",
+    "DETECTION": {
+     "DO_DYNAMIC_DETECTION": false,
+     "DYNAMIC_DETECTION_FREQUENCY": 32,
+     "USE_MEDIAN_FACE_BOX": false
+    },
+    "DO_CROP_FACE": true,
+    "LARGE_BOX_COEF": 1.5,
+    "USE_LARGE_FACE_BOX": true
+   },
+   "DATA_AUG": [
+    "None"
+   ],
+   "DATA_TYPE": [
+    "Raw"
+   ],
+   "DO_CHUNK": true,
+   "IBVP": {
+    "DATA_MODE": "RGB"
+   },
+   "LABEL_TYPE": "Standardized",
+   "RESIZE": {
+    "H": 72,
+    "W": 72
+   },
+   "USE_PSUEDO_PPG_LABEL": false
+  }
+ },
+ "FactorizePhys": {
+  "architecture_name": "FactorizePhys",
+  "data_format": "NCDHW",
+  "batch_size": 4,
+  "seed_inference": 100,
+  "preprocessing": {
+   "BIGSMALL": {
+    "BIG_DATA_TYPE": [
+     ""
+    ],
+    "RESIZE": {
+     "BIG_H": 144,
+     "BIG_W": 144,
+     "SMALL_H": 9,
+     "SMALL_W": 9
+    },
+    "SMALL_DATA_TYPE": [
+     ""
+    ]
+   },
+   "CHUNK_LENGTH": 160,
+   "CROP_FACE": {
+    "BACKEND": "Y5F",
+    "DETECTION": {
+     "DO_DYNAMIC_DETECTION": true,
+     "DYNAMIC_DETECTION_FREQUENCY": 30,
+     "USE_MEDIAN_FACE_BOX": false
+    },
+    "DO_CROP_FACE": true,
+    "LARGE_BOX_COEF": 1.5,
+    "USE_LARGE_FACE_BOX": true
+   },
+   "DATA_AUG": [
+    "None"
+   ],
+   "DATA_TYPE": [
+    "Raw"
+   ],
+   "DO_CHUNK": true,
+   "IBVP": {
+    "DATA_MODE": "RGB"
+   },
+   "LABEL_TYPE": "Standardized",
+   "RESIZE": {
+    "H": 72,
+    "W": 72
+   },
+   "USE_PSUEDO_PPG_LABEL": false
+  },
+  "source": "official PURE_iBVP_FactorizePhys_FSAM_Res.yaml TEST preprocessing (st9t settings); architecture identical to FPm config"
+ }
+}

@@ -31,6 +31,29 @@ be obtained from the dataset providers under their licences.
 Third-party code (rPPG-Toolbox at commit `b7500b8`, model definitions, the RhythmFormer author loss)
 is not redistributed; obtain it from its authors at the stated commit.
 
+## Stage-5 evaluation and exploratory-arm code (amendment A4)
+
+Added in the A4 packaging commit at the same relative paths as in the evaluation workspace. The files are the ones run in
+rehearsal part 2 of the stage-5 evaluation; files listed in `docs/A4_REDACTIONS.csv` differ only in machine-path values,
+which are replaced by `<MACHINE_PATH>` here.
+
+| Path | Contents |
+|---|---|
+| `eval5/` | Stage-5 test steps: stage 1 (`stage1_reference.py`, `mcd_recording_list.py`, `mcd_reference.py`), stage 2 inference (`stage2_predict.py`, `server.py`), the check between steps (b) and (c) (`stage3_check.py`), the analysis (`stage3_analyze.py`, `families.py`, `benchmark.py`), the start-up file of the face-detection worker (`face_guard/sitecustomize.py`) and the rehearsal-only comparisons |
+| `eval5/drive/step.sh` | Driver; the name it is called by (`test_a.sh` ... `rehearsal_check.sh`) selects the step. Machine-specific locations are read from `local_paths*.sh`, which are not included |
+| `run_test_b_locks.sh` | Launcher of test step (b): both GPUs until the step has ended |
+| `b1/` | Development bootstrap (`boot.py`, identical to `evaluation/boot.py`), checkpoint roster and the development analysis used by the row check |
+| `tools/` | Checkpoint index, re-run of differing recordings, row checks (`check_rows.py`, `check_rows_stage3.py`) and run comparisons |
+| `train/`, `audit/` | Generation and training code of the exploratory arms ((i-simple), (ii-lag), label and processing arms) |
+| `vendor/st8_6ebbc9cd/` | Archived source tree imported by the evaluation (`src/`, `configs/`): the October modules as at `6ebbc9cd` and the evaluation workspace's replacements of `src/mmpd_contract.py`, `src/st5c/base.py` and `src/st9/ops.py`. `third_party/rPPG-Toolbox` is not included |
+| `docs/PREREGISTRATION_STAGE5_MANIFEST_A4.csv` | SHA-256 of the 48 exploratory checkpoints |
+| `docs/A4_CODE_SHA256.txt`, `docs/A4_CODE_SHA256_THIRD_PARTY.txt` | SHA-256 of the code files as run (before redaction) and of the rPPG-Toolbox files run |
+| `docs/A4_REDACTIONS.csv` | Lines whose machine-path values were replaced; SHA-256 of each file before and after |
+| `docs/dev_guard_comparison/` | Summaries of the development comparisons of stored and guarded predictions (v1, v1_benchmark, v2, v2_notch): contrast cells, grade and rule changes, file and column summaries |
+
+Before each test step the files to be run are checked in the evaluation workspace with
+`sha256sum --strict --check docs/A4_CODE_SHA256.txt` and the third-party list.
+
 ## Injection mode of the editor
 
 `edited(..., inject=None)` keeps the original injection `I' = I~[1 + m·A·v·g*(t − τ)]` (default).

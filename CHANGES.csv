@@ -41,3 +41,26 @@ docs/timestamps/DIAG_ccecf44.txt.ots,PI (brief 02 6.50),added: OpenTimestamps pr
 docs/timestamps/A3_b655e54.txt,OPS2 (brief 02 6.46),added: hash file of commit b655e54 (SHA-256 45d51ed3),1
 docs/timestamps/A3_b655e54.txt.ots,PI (brief 02 6.50),added: OpenTimestamps proof of A3_b655e54.txt (pending calendar attestations: alice, bob, finney),1
 docs/STAGE5_DEV_DIAGNOSTICS.md,direction (brief 02 6.67 마),appended: diagnostic rule 6 (replicate runs) as received (file SHA-256 ffa57419),1
+eval5/,"evaluation workspace (rehearsal part 2 code, brief 02 6.73/6.74)","added unchanged: stage-5 evaluation code, driver and step-name links",22
+b1/,"evaluation workspace (rehearsal part 2 code, brief 02 6.73/6.74)","added unchanged: development bootstrap, roster and analysis used by the evaluation and the row check",2
+tools/,"evaluation workspace (rehearsal part 2 code, brief 02 6.73/6.74)","added unchanged: checkpoint index, re-run of differing recordings, row checks, run comparisons",7
+train/,"evaluation workspace (rehearsal part 2 code, brief 02 6.73/6.74)",added unchanged: generation and training code of the exploratory arms,3
+audit/,"evaluation workspace (rehearsal part 2 code, brief 02 6.73/6.74)",added unchanged: modules imported by the exploratory-arm generation code,3
+vendor/st8_6ebbc9cd/,"evaluation workspace (rehearsal part 2 code, brief 02 6.73/6.74)","added unchanged: archived source tree imported by the evaluation (src/, configs/)",46
+audit/a3_i_lag.py,"evaluation workspace (rehearsal part 2 code, brief 02 6.74 가)",added with machine-path values replaced by <MACHINE_PATH> on 1 line(s) (docs/A4_REDACTIONS.csv),1
+audit/infer_client.py,"evaluation workspace (rehearsal part 2 code, brief 02 6.74 가)",added with machine-path values replaced by <MACHINE_PATH> on 1 line(s) (docs/A4_REDACTIONS.csv),1
+b1/model_sets.py,"evaluation workspace (rehearsal part 2 code, brief 02 6.74 가)",added with machine-path values replaced by <MACHINE_PATH> on 1 line(s) (docs/A4_REDACTIONS.csv),1
+b1/roster.py,"evaluation workspace (rehearsal part 2 code, brief 02 6.74 가)",added with machine-path values replaced by <MACHINE_PATH> on 1 line(s) (docs/A4_REDACTIONS.csv),1
+run_test_b_locks.sh,"evaluation workspace (rehearsal part 2 code, brief 02 6.74 가)",added with machine-path values replaced by <MACHINE_PATH> on 1 line(s) (docs/A4_REDACTIONS.csv),1
+train/gen_i_pc.py,"evaluation workspace (rehearsal part 2 code, brief 02 6.74 가)",added with machine-path values replaced by <MACHINE_PATH> on 1 line(s) (docs/A4_REDACTIONS.csv),1
+train/gen_ipc_g80.py,"evaluation workspace (rehearsal part 2 code, brief 02 6.74 가)",added with machine-path values replaced by <MACHINE_PATH> on 1 line(s) (docs/A4_REDACTIONS.csv),1
+train/train_pc.py,"evaluation workspace (rehearsal part 2 code, brief 02 6.74 가)",added with machine-path values replaced by <MACHINE_PATH> on 2 line(s) (docs/A4_REDACTIONS.csv),1
+vendor/st8_6ebbc9cd/configs/FPm_architecture.yaml,"evaluation workspace (rehearsal part 2 code, brief 02 6.74 가)",added with machine-path values replaced by <MACHINE_PATH> on 6 line(s) (docs/A4_REDACTIONS.csv),1
+vendor/st8_6ebbc9cd/configs/FactorizePhys_architecture.yaml,"evaluation workspace (rehearsal part 2 code, brief 02 6.74 가)",added with machine-path values replaced by <MACHINE_PATH> on 6 line(s) (docs/A4_REDACTIONS.csv),1
+vendor/st8_6ebbc9cd/configs/PhysNet_architecture.yaml,"evaluation workspace (rehearsal part 2 code, brief 02 6.74 가)",added with machine-path values replaced by <MACHINE_PATH> on 6 line(s) (docs/A4_REDACTIONS.csv),1
+vendor/st8_6ebbc9cd/configs/RhythmFormer_architecture.yaml,"evaluation workspace (rehearsal part 2 code, brief 02 6.74 가)",added with machine-path values replaced by <MACHINE_PATH> on 6 line(s) (docs/A4_REDACTIONS.csv),1
+docs/dev_guard_comparison/,OPS2 (brief 02 6.73/6.74),"added: summaries of the stored-versus-guarded development comparisons (v1, v1_benchmark, v2, v2_notch; no window or recording rows)",20
+docs/PREREGISTRATION_STAGE5_MANIFEST_A4.csv,OPS2 (brief 02 6.73/6.74),added: SHA-256 of the 48 exploratory checkpoints,1
+docs/A4_CODE_SHA256.txt,OPS2 (brief 02 6.73/6.74),added: SHA-256 of the code files as run (before redaction),1
+docs/A4_CODE_SHA256_THIRD_PARTY.txt,OPS2 (brief 02 6.73/6.74),added: SHA-256 of the rPPG-Toolbox files run (not included),1
+docs/A4_REDACTIONS.csv,OPS2 (brief 02 6.73/6.74),added: lines whose machine-path values were replaced,1

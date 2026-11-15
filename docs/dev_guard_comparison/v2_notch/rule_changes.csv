@@ -1,0 +1,7 @@
+set,file,rule,backbone,stored,guarded,changed
+dev,notch_full_v_main_nodetrend/csimple.csv,"(i-simple)-(i-pc) equivalence (+-3.52 bpm, both datasets)",FactorizePhys (matched),,incomplete,True
+dev,notch_full_v_main_nodetrend/csimple.csv,"(i-simple)-(i-pc) equivalence (+-3.52 bpm, both datasets)",PhysNet,incomplete,incomplete,False
+dev,notch_full_v_main_nodetrend/csimple.csv,"(i-simple)-(i-pc) equivalence (+-3.52 bpm, both datasets)",RhythmFormer,incomplete,incomplete,False
+dev,notch_full_v_oct_nodetrend/csimple.csv,"(i-simple)-(i-pc) equivalence (+-3.52 bpm, both datasets)",FactorizePhys (matched),,incomplete,True
+dev,notch_full_v_oct_nodetrend/csimple.csv,"(i-simple)-(i-pc) equivalence (+-3.52 bpm, both datasets)",PhysNet,incomplete,incomplete,False
+dev,notch_full_v_oct_nodetrend/csimple.csv,"(i-simple)-(i-pc) equivalence (+-3.52 bpm, both datasets)",RhythmFormer,incomplete,incomplete,False
