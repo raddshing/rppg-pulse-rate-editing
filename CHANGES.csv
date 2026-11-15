@@ -74,3 +74,4 @@ docs/timestamps/A5_98df687.txt,OPS2 (brief 02 6.78),added: hash file of commit 9
 docs/timestamps/A5_98df687.txt.ots,PI (brief 02 6.80),added: OpenTimestamps proof of A5_98df687.txt (pending calendar attestations: alice, bob, finney),1
 docs/timestamps/A4_98df687.txt,OPS2 (brief 02 6.80),added: copy of A5_98df687.* under the name the seal check of eval5/drive/step.sh looks for,1
 docs/timestamps/A4_98df687.txt.ots,OPS2 (brief 02 6.80),added: copy of A5_98df687.* under the name the seal check of eval5/drive/step.sh looks for,1
+docs/TEST_STAGE_A_OUTPUTS_SHA256.txt,OPS2 (brief 02 6.76),added: SHA-256 and relative names of the 855 files of test stage (a) (outputs and recorded inputs; the files themselves are not committed),1
