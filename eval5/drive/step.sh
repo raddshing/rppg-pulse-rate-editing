@@ -205,7 +205,7 @@ case $STEP in
     done
     for run in analysis analysis_rerun; do  # 6.67 다 6: the second run must reproduce every row of the first
       run "stage 3 MMPD $run" $M "$EVAL/stage3_analyze.py" --dataset MMPD --stage1 "$OUT/stage1" --check "$OUT/check" --stage2 "$OUT/stage2_conf" "$OUT/stage2_expl" \
-        --tag automatic --vendor "$VENDOR" --out "$OUT/$run" --constants "$CONSTANTS/constants_MMPD.json" --plan-dir "$MMPD_PLAN_DIR"
+        --tag automatic --vendor "$VENDOR" --out "$OUT/$run" --constants "$CONSTANTS/constants_MMPD.json" --plan-dir "$MMPD_PLAN_DIR" --plan-prefix "${MMPD_PLAN_PREFIX:-}"
       run "stage 3 MCD $run" $M "$EVAL/stage3_analyze.py" --dataset MCD --stage1 "$OUT/stage1" --check "$OUT/check" --stage2 "$OUT/stage2_conf" "$OUT/stage2_expl" \
         --tag halves --vendor "$VENDOR" --out "$OUT/$run" --constants "$CONSTANTS/constants_MCD.json"
     done
