@@ -1,0 +1,3 @@
+instruction=director 6.85
+instruction_time=2026-11-16T17:58+09:00
+cause=FactorizePhys batch membership on MCD-rPPG: the October run batched the chunks of all recordings in one text-sorted order across recordings, whereas the test half is batched per recording in temporal order (2026-11-13 entry, item 1); all 234 differing readouts lie in the 1,448 windows per checkpoint whose batch members differ, none in the 163 windows with the same members; the re-run reproduced the stage (b) predictions byte for byte
