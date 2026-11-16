@@ -77,3 +77,8 @@ docs/timestamps/A4_98df687.txt.ots,OPS2 (brief 02 6.80),added: copy of A5_98df68
 docs/TEST_STAGE_A_OUTPUTS_SHA256.txt,OPS2 (brief 02 6.76),added: SHA-256 and relative names of the 855 files of test stage (a) (outputs and recorded inputs; the files themselves are not committed),1
 docs/timestamps/TEST_A_c6cf519.txt,OPS2 (brief 02 6.76),added: hash file of commit c6cf519 (SHA-256 c4bf3251),1
 docs/timestamps/TEST_A_c6cf519.txt.ots,PI (brief 02 6.82),added: OpenTimestamps proof of TEST_A_c6cf519.txt (pending calendar attestations: alice, bob, finney),1
+tools/mcd_gop.py,OPS2 (brief 02 6.82),added: GOP check of MCD-rPPG recordings (frame types; key-frame interval; AVI header and timestamp frame rates) without pixel decoding; the development-half script of 6.45 with the recording list and data root and output path as arguments; not in the A4 code hash list,1
+tools/test_a_compare_mmpd_b.py,OPS2 (brief 02 6.76),added: keyed comparison of the MMPD-B stage-1 sets of test stage (a) with the October files (counts only); not in the A4 code hash list,1
+docs/TEST_STAGE_A_MMPD_B_VS_OCTOBER.csv,OPS2 (brief 02 6.76),added: counts of the comparison by tools/test_a_compare_mmpd_b.py,1
+docs/TEST_STAGE_A_GOP_SHA256.txt,OPS2 (brief 02 6.82),added: SHA-256 and relative names of the 3 output files of tools/mcd_gop.py on the 385 MCD-rPPG test recordings (run after test stage (a) and before stage (b); the files themselves are not committed),1
+docs/TEST_NOTES.md,direction (brief 02 6.82),added: notes on the stage-5 test run as received (SHA-256 c4071fb9),1

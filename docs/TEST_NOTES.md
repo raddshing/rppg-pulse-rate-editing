@@ -1,0 +1,11 @@
+# Notes on the stage-5 test run
+
+Facts of the test run that the amendments do not state. Notes are appended and not rewritten.
+
+## Stage (a), 2026-11-15
+
+- Unsealing. The PI's unsealing instruction was received at 19:14 KST. It was renewed at 20:10 KST, after the entry on the comparison tables (commit 98df687) had been added, because the seal check requires the last amendment commit. The tables of that entry were written at 20:11-20:12 KST, and stage (a) started at 20:12:45 KST.
+- Stage (a) ended at 22:33:25 KST without error. docs/TEST_STAGE_A_OUTPUTS_SHA256.txt (commit c6cf519) gives the SHA-256 of its outputs.
+- MMPD-B window list and reference HRs. They are equal to those of the October evaluation. Because the October files use CRLF line endings and another row order, they were compared by key rather than byte for byte. October files: st13b_reference_audit.csv (SHA-256 347d7850a72abbfb43b3b079a7cc6dabb3cff333a542dd488c4b87776ccbbcef), st13b_qstar.csv (bac03460fff3dc2dfedea5580b1324ab56328623c7b0feaa456199a496f76585) and st13b_defect_segments.csv (b36dfbc26d3080e67c532bbcf8d2f814797d839803607275013e52981d8c5963). All 2,175 windows are in both lists, h_FFT_HAR and h_FFT_L0 are equal in every window, and the population table (4,350 rows) and the defect segments (139 rows) are equal in every compared column. Two auxiliary columns of the reference table differ by floating-point rounding: Q3_power_above_3p5_f0_ratio in 343 windows (largest absolute difference 6.1e-16) and SHR in 135 windows (4.4e-16). The comparison was made by tools/test_a_compare_mmpd_b.py, which is not in the A4 hash list; its counts are in docs/TEST_STAGE_A_MMPD_B_VS_OCTOBER.csv.
+- Face boxes. No recording of MMPD-B (435) or of the MCD-rPPG test half (385) had two equally large face detections in its first frame.
+- Frame rate and key-frame interval of the MCD-rPPG test recordings. The 2026-11-15 entry states that stage (a) records them, but the stage-(a) code does not; this was not noticed in the rehearsal. They were read from the bitstream headers of the 385 recordings, without decoding pixels, by tools/mcd_gop.py, which is not in the A4 hash list, after stage (a) and before stage (b). The script first reproduced its earlier output on the development half byte for byte. docs/TEST_STAGE_A_GOP_SHA256.txt gives the SHA-256 of its test output.

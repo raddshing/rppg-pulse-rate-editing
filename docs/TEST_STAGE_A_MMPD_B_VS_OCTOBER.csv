@@ -1,0 +1,48 @@
+table,item,new,october,equal,only_new,only_october,result,compared,different
+references,rows,2175.0,2175.0,,,,,,
+references,keys window_id,2175.0,2175.0,2175.0,0.0,0.0,same,,
+references,h_FFT_HAR,,,2175.0,,,same,2175.0,0.0
+references,h_FFT_L0,,,2175.0,,,same,2175.0,0.0
+references,recording_id,,,2175.0,,,same,2175.0,0.0
+references,subject_id,,,2175.0,,,same,2175.0,0.0
+references,window_index,,,2175.0,,,same,2175.0,0.0
+references,start_seconds,,,2175.0,,,same,2175.0,0.0
+references,T1,,,2175.0,,,same,2175.0,0.0
+references,T1b,,,2175.0,,,same,2175.0,0.0
+references,T1b_high_freq,,,2175.0,,,same,2175.0,0.0
+references,Q3_power_above_3p5_f0_ratio,,,1832.0,,,different,2175.0,343.0
+references,available,,,2175.0,,,same,2175.0,0.0
+references,grid_start,,,2175.0,,,same,2175.0,0.0
+references,h_FFT,,,2175.0,,,same,2175.0,0.0
+references,reference_class,,,2175.0,,,same,2175.0,0.0
+references,h_ACF,,,2175.0,,,same,2175.0,0.0
+references,h_IBI,,,2175.0,,,same,2175.0,0.0
+references,ACF_ratio,,,2175.0,,,same,2175.0,0.0
+references,SHR,,,2040.0,,,different,2175.0,135.0
+references,SQI_t,,,2175.0,,,same,2175.0,0.0
+references,HR_slope_bpm_per_s,,,2175.0,,,same,2175.0,0.0
+references,HR_instant_sd_bpm,,,2175.0,,,same,2175.0,0.0
+references,n_IBI_peaks,,,2175.0,,,same,2175.0,0.0
+references,d1,,,2175.0,,,same,2175.0,0.0
+references,d1_len_s,,,2175.0,,,same,2175.0,0.0
+references,d2,,,2175.0,,,same,2175.0,0.0
+references,d2_count,,,2175.0,,,same,2175.0,0.0
+references,d3,,,2175.0,,,same,2175.0,0.0
+references,d4,,,2175.0,,,same,2175.0,0.0
+references,defect_any,,,2175.0,,,same,2175.0,0.0
+references,Qstar_HAR,,,2175.0,,,same,2175.0,0.0
+references,Qstar_L0,,,2175.0,,,same,2175.0,0.0
+references,PI_confirmation_path,,,2175.0,,,same,2175.0,0.0
+references,T1b_high_frequency_A_threshold,,,2175.0,,,same,2175.0,0.0
+populations,rows,4350.0,4350.0,,,,,,
+populations,keys window_id+layer,4350.0,4350.0,4350.0,0.0,0.0,same,,
+populations,reference_HR,,,4350.0,,,same,4350.0,0.0
+populations,recording_id,,,4350.0,,,same,4350.0,0.0
+populations,subject_id,,,4350.0,,,same,4350.0,0.0
+populations,window_index,,,4350.0,,,same,4350.0,0.0
+populations,in_P,,,4350.0,,,same,4350.0,0.0
+populations,in_Qstar,,,4350.0,,,same,4350.0,0.0
+populations,high,,,4350.0,,,same,4350.0,0.0
+populations,reference_available,,,4350.0,,,same,4350.0,0.0
+populations,ground_truth_path,,,,,,only in October file (not compared),,
+defect_segments,row set,139.0,139.0,139.0,0.0,0.0,same,,
