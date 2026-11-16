@@ -34,3 +34,9 @@ Facts of the test run that the amendments do not state. Notes are appended and n
 
 - The 21 files that exist only in the repetition are, for each of the two MMPD-B passes, the eight tables that the first run did not write together with the hash list and the run record of the pass, and the comparison of the two MMPD-B passes.
 - The same two kinds of numpy warning appeared in the rehearsal, with 43 of each per MCD-rPPG pass and 421 and 442 per MMPD-A pass.
+
+## Unregistered analysis in stages (b) and (c), 2026-11-16
+
+- Stage (b) also predicted the 15 confirmatory RhythmFormer checkpoints on the 385 MCD-rPPG test recordings with the network input low-pass filtered by a Gaussian of sigma = 1.5 pixels, as defined in rule 2 of docs/STAGE5_DEV_DIAGNOSTICS.md. Stage (c) analysed these predictions as a sensitivity analysis labelled blur15: 48 rows of the MCD-rPPG sensitivity table and 8 rows of its tier-change table. The 261 checkpoints of the note on stage (b) include these 15 filtered runs.
+- Item 1 of the 2026-11-15 entry states that the line-removal sensitivity analysis remains omitted, because the filtering did not remove most of the key-frame line on the development half. The filtered path had been added to the evaluation code and to the stage commands in case the filtering passed rule 2, and it was not removed after the filtering failed, so it was part of the code fixed by the entry. This was not noticed before stage (c). It was found on 2026-11-16, when the stage-(c) tables were read for the paper.
+- The confirmatory analyses and all other analyses use the unfiltered predictions. The filtered analysis put none of the four contrasts in another tier, for high- or low-HR error. Its values are reported as not pre-registered, and no statement of the paper is based on them.
