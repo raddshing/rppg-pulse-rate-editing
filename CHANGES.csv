@@ -98,3 +98,4 @@ docs/TEST_STAGE_C_RUN1_COMPARISON.csv,OPS2 (brief 02 6.86),added: byte compariso
 docs/timestamps/TEST_C_2595fd0.txt,OPS2 (brief 02 6.86),added: hash file of commit 2595fd0 (with the commit of P14 89b786b; SHA-256 a6dfaf96),1
 docs/timestamps/TEST_C_2595fd0.txt.ots,PI (brief 02 6.86),added: OpenTimestamps proof of TEST_C_2595fd0.txt (pending calendar attestations: alice and bob and finney),1
 docs/TEST_NOTES.md,direction (brief 02 6.88),appended: section on test stage (c) (appended text SHA-256 129d0e64; earlier text unchanged),1
+docs/TEST_NOTES.md,direction (brief 02 6.89),appended: corrections to the note on test stage (c) (composition of the 21 files of the repetition; warning counts of the rehearsal) (appended text SHA-256 539221bc; earlier text unchanged),1
