@@ -1,0 +1,82 @@
+file,result
+analysis/MCD/halves/analysis_hashes.txt,same
+analysis/MCD/halves/arms.csv,same
+analysis/MCD/halves/benchmark.csv,same
+analysis/MCD/halves/benchmark_per_key.csv,same
+analysis/MCD/halves/benchmark_recordings.csv,same
+analysis/MCD/halves/common_windows.csv,same
+analysis/MCD/halves/confirmatory.csv,same
+analysis/MCD/halves/constants.csv,same
+analysis/MCD/halves/ge120.csv,same
+analysis/MCD/halves/grade_changes.csv,same
+analysis/MCD/halves/label_bins.csv,same
+analysis/MCD/halves/line.csv,same
+analysis/MCD/halves/m4_bins.csv,same
+analysis/MCD/halves/m7.csv,same
+analysis/MCD/halves/per_subject.csv,same
+analysis/MCD/halves/run.json,different
+analysis/MCD/halves/secondary.csv,same
+analysis/MCD/halves/sensitivity.csv,same
+analysis/MMPD/automatic/analysis_hashes.txt,run 2 only
+analysis/MMPD/automatic/arms.csv,same
+analysis/MMPD/automatic/attraction.csv,run 2 only
+analysis/MMPD/automatic/benchmark.csv,run 2 only
+analysis/MMPD/automatic/benchmark_per_key.csv,run 2 only
+analysis/MMPD/automatic/benchmark_recordings.csv,run 2 only
+analysis/MMPD/automatic/confirmatory.csv,same
+analysis/MMPD/automatic/constants.csv,run 2 only
+analysis/MMPD/automatic/ge120.csv,same
+analysis/MMPD/automatic/grade_changes.csv,same
+analysis/MMPD/automatic/label_bins.csv,same
+analysis/MMPD/automatic/line.csv,same
+analysis/MMPD/automatic/m4_bins.csv,same
+analysis/MMPD/automatic/per_subject.csv,same
+analysis/MMPD/automatic/run.json,run 2 only
+analysis/MMPD/automatic/secondary.csv,same
+analysis/MMPD/automatic/sensitivity.csv,same
+analysis/MMPD/automatic/subgroup_contrasts.csv,run 2 only
+analysis/MMPD/automatic/subgroup_metrics.csv,run 2 only
+analysis/MMPD/automatic/subgroup_seed_metrics.csv,run 2 only
+analysis_rerun/MCD/halves/analysis_hashes.txt,same
+analysis_rerun/MCD/halves/arms.csv,same
+analysis_rerun/MCD/halves/benchmark.csv,same
+analysis_rerun/MCD/halves/benchmark_per_key.csv,same
+analysis_rerun/MCD/halves/benchmark_recordings.csv,same
+analysis_rerun/MCD/halves/common_windows.csv,same
+analysis_rerun/MCD/halves/confirmatory.csv,same
+analysis_rerun/MCD/halves/constants.csv,same
+analysis_rerun/MCD/halves/ge120.csv,same
+analysis_rerun/MCD/halves/grade_changes.csv,same
+analysis_rerun/MCD/halves/label_bins.csv,same
+analysis_rerun/MCD/halves/line.csv,same
+analysis_rerun/MCD/halves/m4_bins.csv,same
+analysis_rerun/MCD/halves/m7.csv,same
+analysis_rerun/MCD/halves/per_subject.csv,same
+analysis_rerun/MCD/halves/run.json,different
+analysis_rerun/MCD/halves/secondary.csv,same
+analysis_rerun/MCD/halves/sensitivity.csv,same
+analysis_rerun/MMPD/automatic/analysis_hashes.txt,run 2 only
+analysis_rerun/MMPD/automatic/arms.csv,same
+analysis_rerun/MMPD/automatic/attraction.csv,run 2 only
+analysis_rerun/MMPD/automatic/benchmark.csv,run 2 only
+analysis_rerun/MMPD/automatic/benchmark_per_key.csv,run 2 only
+analysis_rerun/MMPD/automatic/benchmark_recordings.csv,run 2 only
+analysis_rerun/MMPD/automatic/confirmatory.csv,same
+analysis_rerun/MMPD/automatic/constants.csv,run 2 only
+analysis_rerun/MMPD/automatic/ge120.csv,same
+analysis_rerun/MMPD/automatic/grade_changes.csv,same
+analysis_rerun/MMPD/automatic/label_bins.csv,same
+analysis_rerun/MMPD/automatic/line.csv,same
+analysis_rerun/MMPD/automatic/m4_bins.csv,same
+analysis_rerun/MMPD/automatic/per_subject.csv,same
+analysis_rerun/MMPD/automatic/run.json,run 2 only
+analysis_rerun/MMPD/automatic/secondary.csv,same
+analysis_rerun/MMPD/automatic/sensitivity.csv,same
+analysis_rerun/MMPD/automatic/subgroup_contrasts.csv,run 2 only
+analysis_rerun/MMPD/automatic/subgroup_metrics.csv,run 2 only
+analysis_rerun/MMPD/automatic/subgroup_seed_metrics.csv,run 2 only
+driver_test_c.log,different
+rerun_compare_MCD_halves.csv,same
+rerun_compare_MMPD_automatic.csv,run 2 only
+row_check_MCD_halves.csv,same
+row_check_MMPD_automatic.csv,different
