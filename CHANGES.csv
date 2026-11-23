@@ -107,3 +107,4 @@ eval5/,OPS2 (brief 02 7.06a-7.07),"added: VIPL-HR evaluation code (A7 items 7 an
 docs/A7_VIPL_ZIPS_SHA256.txt,OPS2 (brief 02 7.07),added: SHA-256 of the 14 original VIPL-HR zips (A7 item 1),1
 docs/A7_SECONDARY_MANIFEST.csv,OPS2 (brief 02 7.07),added: SHA-256 of the secondary checkpoints that exist at the A7 commit (A7 item 8),1
 docs/A7_CODE_SHA256.txt,OPS2 (brief 02 7.07),added: SHA-256 of every code file the VIPL-HR stages run (A7 items 7 and 11),1
+docs/A7_STAGE_A_SHA256.txt,"OPS2 (A7 item 11, stage (a))",added: SHA-256 and relative names of the output files of VIPL-HR stage (a) (the files themselves are not committed),1
