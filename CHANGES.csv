@@ -109,3 +109,4 @@ docs/A7_SECONDARY_MANIFEST.csv,OPS2 (brief 02 7.07),added: SHA-256 of the second
 docs/A7_CODE_SHA256.txt,OPS2 (brief 02 7.07),added: SHA-256 of every code file the VIPL-HR stages run (A7 items 7 and 11),1
 docs/A7_STAGE_A_SHA256.txt,"OPS2 (A7 item 11, stage (a))",added: SHA-256 and relative names of the output files of VIPL-HR stage (a) (the files themselves are not committed),1
 docs/PREREGISTRATION_STAGE5_AMENDMENTS.md,direction (brief 02 7.07e),"added: entry A8 of 7.07e as received, with the date filled in (SHA-256 ee23f71e)",1
+docs/A7_STAGE_B1_SHA256.txt,"OPS2 (A7 item 11, stage (b1))",added: SHA-256 and relative names of the output files of VIPL-HR stage (b1) (the files themselves are not committed),1
