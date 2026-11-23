@@ -102,3 +102,8 @@ docs/TEST_NOTES.md,direction (brief 02 6.89),appended: corrections to the note o
 docs/TEST_NOTES.md,direction (brief 02 6.91),appended: section on the unregistered blur15 analysis of the RhythmFormer confirmatory checkpoints in test stages (b) and (c) (appended text SHA-256 a59d681d; earlier text unchanged),1
 docs/TEST_NOTES.md,direction (brief 02 6.92),appended: correction and addition to the note on the unregistered blur15 analysis (when the filtered predictions entered the rehearsal and the stage commands; the 9 filtered runs in the re-run of 74 recordings) (appended text SHA-256 418971b5; earlier text unchanged),1
 docs/PREREGISTRATION_STAGE5_AMENDMENTS.md,direction (brief 02 7.04b),added: entry A6 of 7.04b as received (SHA-256 b44ab125),1
+docs/PREREGISTRATION_STAGE5_AMENDMENTS.md,direction (brief 02 7.07),"added: entry A7 of 7.07 as received, with the date and the zip hash file filled in (SHA-256 2f35ecb1)",1
+eval5/,OPS2 (brief 02 7.06a-7.07),"added: VIPL-HR evaluation code (A7 items 7 and 11), driver and five step-name links",8
+docs/A7_VIPL_ZIPS_SHA256.txt,OPS2 (brief 02 7.07),added: SHA-256 of the 14 original VIPL-HR zips (A7 item 1),1
+docs/A7_SECONDARY_MANIFEST.csv,OPS2 (brief 02 7.07),added: SHA-256 of the secondary checkpoints that exist at the A7 commit (A7 item 8),1
+docs/A7_CODE_SHA256.txt,OPS2 (brief 02 7.07),added: SHA-256 of every code file the VIPL-HR stages run (A7 items 7 and 11),1
