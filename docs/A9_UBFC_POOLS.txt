@@ -1,0 +1,15 @@
+A9 item 1 (E1, UBFC-rPPG): random keys of the pools and SHA-256 of the pool manifests (the manifests are not committed).
+
+Target HR of item k (k = 0, 1, 2, 3) of chunk c:
+  numpy.random.default_rng([20261159, v, c, k]).uniform(70, 140)
+  v = 0 for PhysNet; v = 2 for RhythmFormer and FactorizePhys, which share the targets; c = chunk order (from 0).
+Rounding generator of item k of chunk c (arms (ii), (ii-pc) and (ii-lag); a new generator for each arm):
+  numpy.random.default_rng([20261159, j, h])
+  j = 1 for PhysNet and RhythmFormer, j = 2 for FactorizePhys;
+  h = int(first 8 hexadecimal digits of SHA-256 of the string 'OPS2-709b|UBFC|<model>|<chunk>|<k>', 16), where <model> is
+  PhysNet, RhythmFormer or FPm (FactorizePhys) and <chunk> is '<recording>|<chunk index>', for example 'subject1|0'.
+
+SHA-256 of the pool manifests (one row per item, with its chunk, k, target HR and keys):
+d79de31329216971cdda750db43ffc0912cef70ff0835ec82b59d0ec9d038462  PhysNet_items.csv  (2220 items)
+f37aa9e3d2ef76a5d1a3d5f757c3f1a15bc69a943d5b2c75786a6c288a1c11ac  RhythmFormer_items.csv  (1744 items)
+8133417e1434f253f8fda16523a256fc0af0a1694fc55192962987feaf84954b  FPm_items.csv  (1744 items)

@@ -150,3 +150,12 @@ Stage-5 test run and later analyses (the shell runners of the operations workspa
 
 The archived scripts check the SHA-256 of their committed settings and sources; files changed for
 this package (see `CHANGES.csv`) therefore differ from the hashes recorded in the archived settings.
+
+## Licence and terms
+
+Code: MIT (`LICENSE`), except third-party code (everything under `vendor/` and the files listed in `LICENSE`), which keeps
+the licences of its sources. Results and documents (`results/`, `docs/`, this README): CC BY 4.0.
+
+Terms. "The operator" (`docs/DEVIATIONS.md`, `docs/TEST_NOTES.md`) and "OPS2" (file names, `docs/`, `results/MANIFEST.csv`)
+denote the role that ran the post hoc experiments and the test run under the authors' written instructions; "OPS2 report
+7.07c" and similar cite the operator's dated internal reports to the authors, which are not part of this repository.

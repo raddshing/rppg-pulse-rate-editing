@@ -120,3 +120,5 @@ for pool regeneration, two inference lanes side by side) are recorded in the ope
 
 No model of this study was trained on any test set, and every inference on a test set after 16 Nov used the guarded
 evaluation path of the test run (commit 19ecf5d).
+
+Erratum (A9 commit): the `dataset` column of `results/test_run/MCD-test/m7.csv` reads `MCD-dev`; the rows are those of the MCD-rPPG test half (149 subjects). The file is kept byte for byte as the stage output listed in `docs/TEST_STAGE_C_OUTPUTS_SHA256.txt`.
