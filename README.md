@@ -1,13 +1,21 @@
-# Pulse-rate editing — code and lists for reproduction (draft)
+# Pulse-rate editing — code, registration and aggregate results
 
-Draft public package for the manuscript "pulse-rate editing" (IEEE Access submission). It contains
-the generation, training and evaluation code that produced the reported models, as archived at the
-project's commit `6ebbc9cd`, plus the evaluation bootstrap and the MMPD subject / validation-window
-lists. It is a local draft: it has not been published.
+This repository accompanies a manuscript in preparation on pulse–label alignment in heart-rate range augmentation for remote photoplethysmography. It contains the
+generation, training and evaluation code that produced the reported models, as archived at the
+project's commit `6ebbc9cd`; the stage-5 pre-registration, its amendments and the hash lists of every
+stage of the test run; the code of the post hoc experiments and of the evaluation on VIPL-HR; the
+aggregate results behind the tables and figures (`results/`); the evaluation bootstrap; and the MMPD
+subject / validation-window lists.
 
-Not included: MMPD-B and MCD-rPPG window lists, predictions or reference signals; any face-pixel
-derivative (crops, frames, edited video); model checkpoints; server paths and credentials. Data must
-be obtained from the dataset providers under their licences.
+Not included: MMPD-B and MCD-rPPG window lists, predictions or reference signals; values per window,
+recording or subject; any face-pixel derivative (crops, frames, edited video, augmentation pools,
+masks); model checkpoints (their SHA-256 are listed, see below); server paths and credentials. Data
+must be obtained from the dataset providers under their licences.
+
+Data notice. The identification codes that appear in this repository (the MMPD subjects in `lists/`,
+the recording codes in the file names of the stage hash lists, the PURE recording codes in
+`results/figures/fig1_PURE_audit.csv`) are the codes of the datasets themselves. The repository
+contains no video, no physiological signal and no personal information.
 
 ## Layout
 
@@ -27,6 +35,37 @@ be obtained from the dataset providers under their licences.
 | `settings/` | Pool and training settings of the archived runs (server paths replaced by placeholders) |
 | `lists/` | MMPD A/B subject lists; MMPD-A validation windows (`in_Qstar`, `high` flags; reference HR is recomputed by the code, not distributed) |
 | `CHANGES.csv` | Every change relative to the archived sources |
+
+## Results, deviations and the map to the manuscript (2026-11-25)
+
+| Path | Contents |
+|---|---|
+| `results/` | Aggregate results: test run (`test_run/`), development diagnostics (`dev_diagnostics/`), audits (`audit/`), post hoc experiments of the amendment of 2026-11-20 (`posthoc_704/`, `posthoc_P/`, `posthoc_R/`), VIPL-HR (`vipl/`) and the data of the figures (`figures/`). `results/README.md` describes the folders and columns; `results/MANIFEST.csv` gives the size, SHA-256 and source of every file |
+| `docs/DEVIATIONS.md` | Deviations from the registration, every technical failure and re-run of the post hoc block, the reading of its item 8(b), the deviations on VIPL-HR and the history of the test data, with the commits and reports that record them |
+| `docs/PAPER_MAP.md` | Map from the tables, figures and numbers of the manuscript to the files of `results/` and `docs/` |
+| `docs/A6_CHECKPOINTS_SHA256.csv` | SHA-256 of the 159 checkpoints of the post hoc block (amendment of 2026-11-20): settings of items 1 and 2 and rule 5 (84), new seeds of item 3 (54), RhythmFormer with the MCC loss of item 9 (21) |
+| `docs/A6_PREDICTION_DIGESTS.csv` | One summary hash per checkpoint and data set of the predictions of these checkpoints (see below) |
+| `tools/`, `train/` (OPS2 files listed in `docs/CODE_708_SHA256.csv`) | Code of the post hoc block (training wrappers, the MCC loss and its unit tests, pool generator of the second pool, checks, inference index, analyses), of the saved-output analyses, the development diagnostics, the audits and the figure data |
+| `docs/CODE_708_SHA256.csv`, `docs/CODE_708_DIFF.txt` | For each of these files, the SHA-256 of the file as run and of the published file, and the lines that differ (machine paths only) |
+| `config/paths.example.json` | Example of `config/paths.json`, which these tools read for paths outside the repository (October project, raw datasets, Python environments, ffmpeg) |
+
+Checkpoint SHA-256: confirmatory checkpoints in `docs/PREREGISTRATION_STAGE5_MANIFEST.csv` and
+`docs/PREREGISTRATION_STAGE5_MANIFEST_A1.csv`; exploratory checkpoints in
+`docs/PREREGISTRATION_STAGE5_MANIFEST_A4.csv`; checkpoints existing at the VIPL-HR registration in
+`docs/A7_SECONDARY_MANIFEST.csv`; post hoc checkpoints in `docs/A6_CHECKPOINTS_SHA256.csv`. The
+checkpoint files themselves are not distributed.
+
+Summary hash of the predictions (`docs/A6_PREDICTION_DIGESTS.csv`). For each checkpoint and data set
+(and for the repeated inference of the determinism check, marked "repeat pass"), the prediction folder
+holds one file per recording. For every file, a line `<path relative to the folder>  <SHA-256 of the
+file>` (two spaces, lowercase hexadecimal) is written followed by a newline; the lines are sorted by
+the relative path (byte order) and joined; the summary hash is the SHA-256 of the result (UTF-8).
+Columns: `checkpoint_sha256`, `dataset`, `files`, `digest_sha256`. No recording code is listed.
+
+The machine paths of the published OPS2 tools are read from `config/paths.json` (copy
+`config/paths.example.json` and set the paths); paths inside the OPS2 work folder are taken relative to
+the repository root, where these tools were run. The tools were not run again in this form; the
+differences from the files as run are listed in `docs/CODE_708_DIFF.txt`.
 
 Third-party code (rPPG-Toolbox at commit `b7500b8`, model definitions, the RhythmFormer author loss)
 is not redistributed; obtain it from its authors at the stated commit.
@@ -89,6 +128,25 @@ reproduces the bytes of the (ii-pc) pools.
    PhysNet 5,580, RhythmFormer 4,470, matched FactorizePhys 1,490; last epoch used).
 6. Evaluate on the MMPD-A validation windows in `lists/` with the HR readout of `src/eval/grid.py`
    and the bootstrap in `evaluation/`.
+
+Stage-5 test run and later analyses (the shell runners of the operations workspace are not included):
+
+7. Test run (amendment A4): `eval5/drive/step.sh` called as `test_a.sh`, `test_b.sh` (via
+   `run_test_b_locks.sh`), `test_check.sh`, `test_c.sh`; outputs are checked against
+   `docs/TEST_STAGE_{A,B,C}_OUTPUTS_SHA256.txt`.
+8. Post hoc block (amendment of 2026-11-20): pools of the second set (`train/gen_p2.py`), training
+   (`train/train_704.py`, `train/train_704r.py`, `train/train_pc_pearson.py`, with `train/mcc_loss.py`
+   and `train/rhythm_mcc.py`; checks in `tools/*_704.py`, `tools/p2_label_check.py`,
+   `tools/mcc_unit_test*.py`), guarded inference with the evaluation code of commit `19ecf5d` on the
+   checkpoint index built by `tools/infer_index_704*.py`, then `tools/analysis_704.py` (settings of
+   items 1–2) and `tools/analysis_704b.py p|r` (items 3 and 9).
+9. VIPL-HR (amendments A7, A8): `eval5/drive/step.sh` called as `vipl_a.sh`, `vipl_b1.sh`,
+   `vipl_c1.sh`, `vipl_b2.sh`, `vipl_c2.sh`; then `eval5/vipl_a8.py`.
+10. Saved-output analyses (`tools/posthoc701/`, `tools/posthoc702/`, `tools/posthoc703/`), development
+    diagnostics (`tools/rule*.py`, `tools/blur_*.py`, `tools/frame_spectra.py`, `tools/keyframe_*.py`,
+    `tools/replicate_*.py`, `tools/label_dist_0b.py`, `tools/mcd_dev_bpp.py`), audits
+    (`tools/audit_cross*.py`, `tools/export_697.py`) and figure data (`tools/vipl_fig4.py`,
+    `tools/report_*_tables.py`) read the stored outputs of these steps.
 
 The archived scripts check the SHA-256 of their committed settings and sources; files changed for
 this package (see `CHANGES.csv`) therefore differ from the hashes recorded in the archived settings.

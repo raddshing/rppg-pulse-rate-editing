@@ -1,0 +1,6 @@
+item,value,source
+B9 window predictions and results,b9_results.csv 2026-11-12 21:40; re-inference windows 2026-11-12 21:39,"development outputs (B9, 11-12)"
+per-recording inference check,2026-11-12 21:38,"development outputs (B9, 11-12)"
+"guarded MCD-dev re-inference (log, finished)",2026-11-14T15:29:28+0900 to 2026-11-14T22:27:06+0900 (404 recordings),"development outputs (B9, 11-12)"
+predictions guarded,no: B9 and its standard comparison were read from the stored development inference as read on 11-12; the guarded re-inference ran on 11-14,"development outputs (B9, 11-12)"
+largest |change| of a high-HR contrast (C2-C4),0.1313 bpm (C3),"development outputs (B9, 11-12)"

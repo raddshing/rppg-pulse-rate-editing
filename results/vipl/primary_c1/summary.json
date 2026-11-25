@@ -1,0 +1,18 @@
+{
+ "k": 3,
+ "backbones": {
+  "FactorizePhys (matched)": {
+   "C1_high": "T1",
+   "C1_low": "T4"
+  },
+  "PhysNet": {
+   "C1_high": "T1",
+   "C1_low": "T2"
+  },
+  "RhythmFormer": {
+   "C1_high": "T1",
+   "C1_low": "T2"
+  }
+ },
+ "bvp_rate": "gt_HR mean (BVP verifies only, per-record rate)"
+}

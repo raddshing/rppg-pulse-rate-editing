@@ -1,0 +1,194 @@
+Unified diff (no context lines) from each executed OPS2 file to its published form (7.08 item 11).
+In removed lines the machine path is shown as <key> (<work folder> = the OPS2 work folder, which is the
+repository root here; other keys are those of config/paths.example.json). SHA-256 of both forms:
+docs/CODE_708_SHA256.csv.
+
+--- tools/infer_index_704.py (executed)
++++ tools/infer_index_704.py (published)
+@@ -17 +17 @@
+-WORK = Path('<work folder>')
++WORK = Path(__file__).resolve().parents[1]
+
+--- tools/infer_index_704p.py (executed)
++++ tools/infer_index_704p.py (published)
+@@ -22 +22 @@
+-C = Path('<work folder>/cache/train704')
++C = Path(__file__).resolve().parents[1] / 'cache' / 'train704'
+
+--- tools/batch_prep_704.py (executed)
++++ tools/batch_prep_704.py (published)
+@@ -23 +23 @@
+-WORK = Path('<work folder>')
++WORK = Path(__file__).resolve().parents[1]
+
+--- tools/trainer_check_704.py (executed)
++++ tools/trainer_check_704.py (published)
+@@ -20,2 +20,3 @@
+-OPS1 = Path('<october_project>/reports')  # read-only
+-BULK = Path('<october_bulk>')  # read-only October checkpoints
++CFG = json.loads((Path(__file__).resolve().parents[1] / 'config' / 'paths.json').read_text())  # 7.08: machine paths, see config/paths.example.json
++OPS1 = Path(CFG['october_project']) / 'reports'  # read-only
++BULK = Path(CFG['october_bulk'])  # read-only October checkpoints
+
+--- tools/pool_tensor_check_704.py (executed)
++++ tools/pool_tensor_check_704.py (published)
+@@ -18 +18 @@
+-WORK = Path('<work folder>')
++WORK = Path(__file__).resolve().parents[1]
+
+--- tools/pool_check_704.py (executed)
++++ tools/pool_check_704.py (published)
+@@ -16 +16 @@
+-WORK = Path('<work folder>')
++WORK = Path(__file__).resolve().parents[1]
+@@ -18 +18,2 @@
+-MAIN_OUT = Path('<october_project>/outputs')  # read only
++CFG = json.loads((Path(__file__).resolve().parents[1] / 'config' / 'paths.json').read_text())  # 7.08: machine paths, see config/paths.example.json
++MAIN_OUT = Path(CFG['october_project']) / 'outputs'  # read only
+
+--- tools/p2_label_check.py (executed)
++++ tools/p2_label_check.py (published)
+@@ -35 +35 @@
+-W = '<work folder>'
++W = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+--- tools/mcc_unit_test_rf.py (executed)
++++ tools/mcc_unit_test_rf.py (published)
+@@ -30 +30 @@
+-WORK = Path('<work folder>')
++WORK = Path(__file__).resolve().parents[1]
+
+--- tools/rf_check_707.py (executed)
++++ tools/rf_check_707.py (published)
+@@ -9 +9 @@
+-W = Path('<work folder>')
++W = Path(__file__).resolve().parents[1]
+
+--- tools/rf_epoch1_707.py (executed)
++++ tools/rf_epoch1_707.py (published)
+@@ -20 +20 @@
+-W = Path('<work folder>')
++W = Path(__file__).resolve().parents[1]
+
+--- tools/analysis_704.py (executed)
++++ tools/analysis_704.py (published)
+@@ -57 +57 @@
+-W = Path('<work folder>')
++W = Path(__file__).resolve().parents[1]
+@@ -60 +60,2 @@
+-PY_MAIN = '<python_main>'
++CFG = json.loads((Path(__file__).resolve().parents[1] / 'config' / 'paths.json').read_text())  # 7.08: machine paths, see config/paths.example.json
++PY_MAIN = CFG['python_main']
+
+--- tools/analysis_704b.py (executed)
++++ tools/analysis_704b.py (published)
+@@ -41 +41 @@
+-sys.path.insert(0, '<work folder>/tools')
++sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+--- tools/posthoc701/p701_ra2.py (executed)
++++ tools/posthoc701/p701_ra2.py (published)
+@@ -32,2 +32,3 @@
+-BULK = Path('<october_bulk>/st30e')
+-OCT_RESULTS = Path('<october_project>/reports/st30t')
++CFG = json.loads((Path(__file__).resolve().parents[2] / 'config' / 'paths.json').read_text())  # 7.08: machine paths, see config/paths.example.json
++BULK = Path(CFG['october_bulk']) / 'st30e'
++OCT_RESULTS = Path(CFG['october_project']) / 'reports' / 'st30t'
+
+--- tools/frame_spectra.py (executed)
++++ tools/frame_spectra.py (published)
+@@ -29 +29,3 @@
+-MMPD = Path('<mmpd_raw>')  # read-only, MMPD-A recordings only
++import json  # 7.08
++CFG = json.loads((Path(__file__).resolve().parents[1] / 'config' / 'paths.json').read_text())  # 7.08: machine paths, see config/paths.example.json
++MMPD = Path(CFG['mmpd_raw'])  # read-only, MMPD-A recordings only
+
+--- tools/label_dist_0b.py (executed)
++++ tools/label_dist_0b.py (published)
+@@ -20 +20,3 @@
+-MAIN_OUT = Path('<october_project>/outputs')  # read-only
++import json  # 7.08
++CFG = json.loads((Path(__file__).resolve().parents[1] / 'config' / 'paths.json').read_text())  # 7.08: machine paths, see config/paths.example.json
++MAIN_OUT = Path(CFG['october_project']) / 'outputs'  # read-only
+
+--- tools/rule1_one_step_check.py (executed)
++++ tools/rule1_one_step_check.py (published)
+@@ -20 +20,2 @@
+-REPRO = '<python_repro>'
++CFG = json.loads((Path(__file__).resolve().parents[1] / 'config' / 'paths.json').read_text())  # 7.08: machine paths, see config/paths.example.json
++REPRO = CFG['python_repro']
+
+--- tools/rule4_analysis.py (executed)
++++ tools/rule4_analysis.py (published)
+@@ -61 +61 @@
+-    w = pd.read_csv('<october_project>/outputs/st15u_windows.csv', dtype={'subject_id': str})
++    w = pd.read_csv(Path(json.loads((WORK / 'config' / 'paths.json').read_text())['october_project']) / 'outputs' / 'st15u_windows.csv', dtype={'subject_id': str})  # 7.08: machine path, see config/paths.example.json
+
+--- tools/rule4_encode.py (executed)
++++ tools/rule4_encode.py (published)
+@@ -29,4 +29,5 @@
+-FFMPEG = '<ffmpeg>'
+-UBFC = Path('<ubfc2_raw>')
+-PURE = Path('<pure_raw>')
+-LIST = Path('<october_project>/outputs/st15u_recordings.csv')
++CFG = json.loads((Path(__file__).resolve().parents[1] / 'config' / 'paths.json').read_text())  # 7.08: machine paths, see config/paths.example.json
++FFMPEG = CFG['ffmpeg']
++UBFC = Path(CFG['ubfc2_raw'])
++PURE = Path(CFG['pure_raw'])
++LIST = Path(CFG['october_project']) / 'outputs' / 'st15u_recordings.csv'
+
+--- tools/rule4_infer.py (executed)
++++ tools/rule4_infer.py (published)
+@@ -36,3 +36,5 @@
+-UBFC = Path('<ubfc2_raw>')
+-PURE = Path('<pure_raw>')
+-LIST = Path('<october_project>/outputs/st15u_recordings.csv')
++import json  # 7.08
++CFG = json.loads((Path(__file__).resolve().parents[1] / 'config' / 'paths.json').read_text())  # 7.08: machine paths, see config/paths.example.json
++UBFC = Path(CFG['ubfc2_raw'])
++PURE = Path(CFG['pure_raw'])
++LIST = Path(CFG['october_project']) / 'outputs' / 'st15u_recordings.csv'
+
+--- tools/rule4_windows.py (executed)
++++ tools/rule4_windows.py (published)
+@@ -25 +25,2 @@
+-WINDOWS = Path('<october_project>/outputs/st15u_windows.csv')
++CFG = json.loads((Path(__file__).resolve().parents[1] / 'config' / 'paths.json').read_text())  # 7.08: machine paths, see config/paths.example.json
++WINDOWS = Path(CFG['october_project']) / 'outputs' / 'st15u_windows.csv'
+
+--- tools/audit_cross.py (executed)
++++ tools/audit_cross.py (published)
+@@ -34,3 +34,4 @@
+-UBFC = Path('<ubfc2_raw>')  # read-only
+-MMPD = Path('<mmpd_raw>')  # read-only, A recordings only
+-MCD = Path('<mcd_raw>')  # read-only, dev rows only
++CFG = json.loads((Path(__file__).resolve().parents[1] / 'config' / 'paths.json').read_text())  # 7.08: machine paths, see config/paths.example.json
++UBFC = Path(CFG['ubfc2_raw'])  # read-only
++MMPD = Path(CFG['mmpd_raw'])  # read-only, A recordings only
++MCD = Path(CFG['mcd_raw'])  # read-only, dev rows only
+@@ -89 +90 @@
+-REPRO = Path('<python_repro>')  # read-only, run only
++REPRO = Path(CFG['python_repro'])  # read-only, run only
+
+--- tools/vipl_fig4.py (executed)
++++ tools/vipl_fig4.py (published)
+@@ -21 +21 @@
+-W = Path('<work folder>')
++W = Path(__file__).resolve().parents[1]
+
+--- tools/report_704_tables.py (executed)
++++ tools/report_704_tables.py (published)
+@@ -11 +11 @@
+-root = Path(sys.argv[2]) if len(sys.argv) > 2 else Path('<work folder>/outputs/704/analysis')
++root = Path(sys.argv[2]) if len(sys.argv) > 2 else Path(__file__).resolve().parents[1] / 'outputs' / '704' / 'analysis'
+@@ -33 +33 @@
+-    base = Path('<work folder>/cache') / ('test' if part == 'test' else 'rehearsal/part2') / 'analysis' / ds / tag
++    base = Path(__file__).resolve().parents[1] / 'cache' / ('test' if part == 'test' else 'rehearsal/part2') / 'analysis' / ds / tag
+
+--- tools/report_c2_tables.py (executed)
++++ tools/report_c2_tables.py (published)
+@@ -7,0 +8 @@
++from pathlib import Path  # 7.08
+@@ -12 +13 @@
+-p = sys.argv[1] if len(sys.argv) > 1 else '<work folder>/cache/vipl707/stage_c2/VIPL/secondary_checkpoints.csv'
++p = sys.argv[1] if len(sys.argv) > 1 else str(Path(__file__).resolve().parents[1] / 'cache' / 'vipl707' / 'stage_c2' / 'VIPL' / 'secondary_checkpoints.csv')

@@ -1,0 +1,421 @@
+dimension,category,group,backbone,name,contrast,windows,subjects,MAE_difference,ci_lo,ci_hi,interval_reported,no_hypothesis_test
+skin_group,3-4,H,FactorizePhys (matched),C1,(ii-pc)-(0),129,11,-3.5428779069767433,-5.989606097027972,-1.4385254449388212,True,True
+skin_group,3-4,H,FactorizePhys (matched),C2,(ii-pc)-(ii),129,11,-7.68531976744186,-11.766827448708018,-3.5927112314774967,True,True
+skin_group,3-4,H,FactorizePhys (matched),C3,(i-pc)-(i),129,11,-2.770712209302328,-5.257096571750416,0.10151367187499719,True,True
+skin_group,3-4,H,FactorizePhys (matched),C4,(ii-pc)-(i-pc),129,11,-2.716206395348836,-5.064207859302994,-0.6343697644246472,True,True
+skin_group,3-4,H,FactorizePhys (matched),,(ii)-(0),129,11,4.142441860465117,0.7196568080357139,7.401999507189238,True,True
+skin_group,3-4,H,FactorizePhys (matched),,(i)-(0),129,11,1.9440406976744207,-0.4673897879464299,5.252549271597092,True,True
+skin_group,3-4,H,FactorizePhys (matched),,(ii)-(i),129,11,2.1984011627906965,-1.4256061603541015,4.921994579081631,True,True
+skin_group,3-4,H,PhysNet,C1,(ii-pc)-(0),129,11,-15.561409883720932,-21.504236031577225,-10.362390942258884,True,True
+skin_group,3-4,H,PhysNet,C2,(ii-pc)-(ii),129,11,-6.56795058139535,-9.510236467633927,-2.9009981638824955,True,True
+skin_group,3-4,H,PhysNet,C3,(i-pc)-(i),129,11,-6.0228924418604635,-10.653450065559442,-2.414737567506751,True,True
+skin_group,3-4,H,PhysNet,C4,(ii-pc)-(i-pc),129,11,3.561046511627907,-0.17376159519464612,7.210406135110292,True,True
+skin_group,3-4,H,PhysNet,,(ii)-(0),129,11,-8.993459302325581,-13.916231043198529,-5.075162252275677,True,True
+skin_group,3-4,H,PhysNet,,(i)-(0),129,11,-13.099563953488376,-17.75539698638076,-7.980775365812161,True,True
+skin_group,3-4,H,PhysNet,,(ii)-(i),129,11,4.106104651162792,-0.1836963324201784,8.693107528443841,True,True
+skin_group,3-4,H,RhythmFormer,C1,(ii-pc)-(0),129,11,-17.287427325581394,-22.17818583572626,-11.654777028649168,True,True
+skin_group,3-4,H,RhythmFormer,C2,(ii-pc)-(ii),129,11,-1.9531249999999993,-6.070080674381424,0.860676792689731,True,True
+skin_group,3-4,H,RhythmFormer,C3,(i-pc)-(i),129,11,-2.6980377906976756,-9.813331713516748,2.576527090291028,True,True
+skin_group,3-4,H,RhythmFormer,C4,(ii-pc)-(i-pc),129,11,-2.389171511627906,-5.161657711654038,0.48830247961956486,True,True
+skin_group,3-4,H,RhythmFormer,,(ii)-(0),129,11,-15.334302325581396,-20.16763272849462,-10.642242969300561,True,True
+skin_group,3-4,H,RhythmFormer,,(i)-(0),129,11,-12.200218023255813,-15.892423930921051,-7.489486853184328,True,True
+skin_group,3-4,H,RhythmFormer,,(ii)-(i),129,11,-3.1340843023255824,-5.4595614953830385,-0.8609126907767423,True,True
+skin_group,3-4,L,FactorizePhys (matched),C1,(ii-pc)-(0),941,14,1.0660201912858664,0.49274418262645997,1.719709584297027,True,True
+skin_group,3-4,L,FactorizePhys (matched),C2,(ii-pc)-(ii),941,14,1.1457226354941554,0.32150907855731264,2.0380636512025374,True,True
+skin_group,3-4,L,FactorizePhys (matched),C3,(i-pc)-(i),941,14,0.06973963868225279,-0.7685007111948378,0.9281695976720638,True,True
+skin_group,3-4,L,FactorizePhys (matched),C4,(ii-pc)-(i-pc),941,14,0.6936603347502664,-0.028524312166390165,1.5580818764052877,True,True
+skin_group,3-4,L,FactorizePhys (matched),,(ii)-(0),941,14,-0.07970244420828898,-0.7003953940710388,0.5853925298178196,True,True
+skin_group,3-4,L,FactorizePhys (matched),,(i)-(0),941,14,0.3026202178533473,-0.31207749348834757,0.9634534635672464,True,True
+skin_group,3-4,L,FactorizePhys (matched),,(ii)-(i),941,14,-0.3823226620616363,-0.9603921002927678,0.2555631739396305,True,True
+skin_group,3-4,L,PhysNet,C1,(ii-pc)-(0),941,14,-2.7721506376195535,-4.869430001354922,-0.9633337660267385,True,True
+skin_group,3-4,L,PhysNet,C2,(ii-pc)-(ii),941,14,0.7086045430393201,-0.17193679919672575,1.90787249806449,True,True
+skin_group,3-4,L,PhysNet,C3,(i-pc)-(i),941,14,0.871745483528161,-0.014554898221450145,2.116511755014172,True,True
+skin_group,3-4,L,PhysNet,C4,(ii-pc)-(i-pc),941,14,-2.378619819341126,-4.014057908984008,-1.0013163963393168,True,True
+skin_group,3-4,L,PhysNet,,(ii)-(0),941,14,-3.4807551806588735,-5.23446140778541,-1.865730718685502,True,True
+skin_group,3-4,L,PhysNet,,(i)-(0),941,14,-1.265276301806588,-3.1030561326850044,0.49862828631104306,True,True
+skin_group,3-4,L,PhysNet,,(ii)-(i),941,14,-2.2154788788522852,-3.238156510207728,-1.1526736504468977,True,True
+skin_group,3-4,L,RhythmFormer,C1,(ii-pc)-(0),941,14,-3.2727816153028684,-5.496113359840835,-0.6301943112966402,True,True
+skin_group,3-4,L,RhythmFormer,C2,(ii-pc)-(ii),941,14,-1.945237778958554,-4.392552188582563,0.15433443026354107,True,True
+skin_group,3-4,L,RhythmFormer,C3,(i-pc)-(i),941,14,-2.321333687566419,-4.428797039053035,-0.31232262785063775,True,True
+skin_group,3-4,L,RhythmFormer,C4,(ii-pc)-(i-pc),941,14,0.12204436769394356,-1.3076724623204803,1.6251477200922466,True,True
+skin_group,3-4,L,RhythmFormer,,(ii)-(0),941,14,-1.3275438363443144,-4.455669638881439,2.092466028492284,True,True
+skin_group,3-4,L,RhythmFormer,,(i)-(0),941,14,-1.073492295430393,-2.4842267723505915,0.5517242911004262,True,True
+skin_group,3-4,L,RhythmFormer,,(ii)-(i),941,14,-0.2540515409139215,-2.882221414122456,2.580679340644818,True,True
+skin_group,5-6,H,FactorizePhys (matched),C1,(ii-pc)-(0),153,6,-2.39736519607843,-4.508587786259543,-0.4261363636363633,True,True
+skin_group,5-6,H,FactorizePhys (matched),C2,(ii-pc)-(ii),153,6,-7.575061274509803,-9.113762834380376,-4.53903662161363,True,True
+skin_group,5-6,H,FactorizePhys (matched),C3,(i-pc)-(i),153,6,-2.711397058823529,-4.754849137931036,0.5938495836759783,True,True
+skin_group,5-6,H,FactorizePhys (matched),C4,(ii-pc)-(i-pc),153,6,-1.8688725490196074,-6.079826732673265,0.8705357142857141,True,True
+skin_group,5-6,H,FactorizePhys (matched),,(ii)-(0),153,6,5.1776960784313735,1.8511193539915969,7.147907239819005,True,True
+skin_group,5-6,H,FactorizePhys (matched),,(i)-(0),153,6,2.1829044117647065,-1.1718749999999953,5.814873417721521,True,True
+skin_group,5-6,H,FactorizePhys (matched),,(ii)-(i),153,6,2.9947916666666665,-2.2396712039877302,6.272756986317254,True,True
+skin_group,5-6,H,PhysNet,C1,(ii-pc)-(0),153,6,-12.798713235294116,-17.578125,-6.669642857142854,True,True
+skin_group,5-6,H,PhysNet,C2,(ii-pc)-(ii),153,6,-3.3318014705882355,-8.267513736263739,0.34132281553398275,True,True
+skin_group,5-6,H,PhysNet,C3,(i-pc)-(i),153,6,-5.44577205882353,-9.711371527777775,-1.5922448394495443,True,True
+skin_group,5-6,H,PhysNet,C4,(ii-pc)-(i-pc),153,6,1.631433823529413,-3.0005151098901095,7.0439578576625825,True,True
+skin_group,5-6,H,PhysNet,,(ii)-(0),153,6,-9.466911764705882,-13.085537282536817,-3.5555752840909087,True,True
+skin_group,5-6,H,PhysNet,,(i)-(0),153,6,-8.984375,-14.09599839632455,-5.100927089585837,True,True
+skin_group,5-6,H,PhysNet,,(ii)-(i),153,6,-0.48253676470588164,-3.2354531144946184,4.4363839285714315,True,True
+skin_group,5-6,H,RhythmFormer,C1,(ii-pc)-(0),153,6,-20.78737745098039,-27.090992647058826,-14.383322879638465,True,True
+skin_group,5-6,H,RhythmFormer,C2,(ii-pc)-(ii),153,6,-2.74203431372549,-4.980468750000002,0.41640228426395726,True,True
+skin_group,5-6,H,RhythmFormer,C3,(i-pc)-(i),153,6,0.681678921568628,-5.248973757721657,7.653061224489796,True,True
+skin_group,5-6,H,RhythmFormer,C4,(ii-pc)-(i-pc),153,6,-5.882352941176471,-8.109153891509436,-3.902666284403672,True,True
+skin_group,5-6,H,RhythmFormer,,(ii)-(0),153,6,-18.0453431372549,-22.796972049689444,-14.085036057692307,True,True
+skin_group,5-6,H,RhythmFormer,,(i)-(0),153,6,-15.586703431372547,-20.661389802631575,-11.586950298585352,True,True
+skin_group,5-6,H,RhythmFormer,,(ii)-(i),153,6,-2.4586397058823537,-6.587357954545454,4.083059210526314,True,True
+skin_group,5-6,L,FactorizePhys (matched),C1,(ii-pc)-(0),461,8,1.883642895878527,-0.3657288645591643,4.23056067966229,True,True
+skin_group,5-6,L,FactorizePhys (matched),C2,(ii-pc)-(ii),461,8,3.7749118763557488,0.036053967443831346,7.612913756566378,True,True
+skin_group,5-6,L,FactorizePhys (matched),C3,(i-pc)-(i),461,8,1.1210344360086772,-0.7524764503588518,3.146445795291271,True,True
+skin_group,5-6,L,FactorizePhys (matched),C4,(ii-pc)-(i-pc),461,8,0.9405504338394799,-0.841129081572123,3.042091836734695,True,True
+skin_group,5-6,L,FactorizePhys (matched),,(ii)-(0),461,8,-1.891268980477222,-3.644387514184157,0.04778635513671377,True,True
+skin_group,5-6,L,FactorizePhys (matched),,(i)-(0),461,8,-0.17794197396963027,-2.012781625061007,1.6021863151999078,True,True
+skin_group,5-6,L,FactorizePhys (matched),,(ii)-(i),461,8,-1.7133270065075916,-3.6086522352075847,0.11803265823605938,True,True
+skin_group,5-6,L,PhysNet,C1,(ii-pc)-(0),461,8,-0.5236578091106286,-5.013786764705883,3.931883406771799,True,True
+skin_group,5-6,L,PhysNet,C2,(ii-pc)-(ii),461,8,2.7530165401301523,0.6490995049008083,5.319601470754289,True,True
+skin_group,5-6,L,PhysNet,C3,(i-pc)-(i),461,8,0.24911876355748439,-2.0611655891677207,2.2522745253164564,True,True
+skin_group,5-6,L,PhysNet,C4,(ii-pc)-(i-pc),461,8,0.5567041757049888,-1.6327261837448102,2.7494378937334205,True,True
+skin_group,5-6,L,PhysNet,,(ii)-(0),461,8,-3.2766743492407806,-6.436913951570624,-0.2764519771919455,True,True
+skin_group,5-6,L,PhysNet,,(i)-(0),461,8,-1.3294807483731017,-5.54796780176198,2.9227262663583016,True,True
+skin_group,5-6,L,PhysNet,,(ii)-(i),461,8,-1.947193600867679,-4.531990372667754,0.11676420601994751,True,True
+skin_group,5-6,L,RhythmFormer,C1,(ii-pc)-(0),461,8,-2.605578904555314,-9.984611493363035,4.814696762242263,True,True
+skin_group,5-6,L,RhythmFormer,C2,(ii-pc)-(ii),461,8,0.6761795010845972,-2.162496734897416,3.2267449403217396,True,True
+skin_group,5-6,L,RhythmFormer,C3,(i-pc)-(i),461,8,-1.9421095444685463,-5.938987275086156,1.6395383987583412,True,True
+skin_group,5-6,L,RhythmFormer,C4,(ii-pc)-(i-pc),461,8,1.1134083514099782,-1.0889892578125,3.234906877790178,True,True
+skin_group,5-6,L,RhythmFormer,,(ii)-(0),461,8,-3.2817584056399114,-10.662619965218138,4.025483050345576,True,True
+skin_group,5-6,L,RhythmFormer,,(i)-(0),461,8,-1.776877711496746,-7.427211850649352,4.495994060036734,True,True
+skin_group,5-6,L,RhythmFormer,,(ii)-(i),461,8,-1.5048806941431654,-4.634421673077976,2.17675691672432,True,True
+lighting,Incandescent,H,FactorizePhys (matched),C1,(ii-pc)-(0),59,10,-4.210805084745762,-9.4482421875,-1.3085561899038467,True,True
+lighting,Incandescent,H,FactorizePhys (matched),C2,(ii-pc)-(ii),59,10,-9.712658898305085,-13.74295321377841,-4.474202218847967,True,True
+lighting,Incandescent,H,FactorizePhys (matched),C3,(i-pc)-(i),59,10,-6.236758474576271,-9.976900903414576,-1.2575341984916564,True,True
+lighting,Incandescent,H,FactorizePhys (matched),C4,(ii-pc)-(i-pc),59,10,-1.747881355932203,-8.08612060546875,1.4598324424342077,True,True
+lighting,Incandescent,H,FactorizePhys (matched),,(ii)-(0),59,10,5.501853813559322,-1.6927083333333333,10.818265517734554,True,True
+lighting,Incandescent,H,FactorizePhys (matched),,(i)-(0),59,10,3.7738347457627115,-1.0956356897378527,8.134224317731901,True,True
+lighting,Incandescent,H,FactorizePhys (matched),,(ii)-(i),59,10,1.72801906779661,-4.434947620738633,6.414547109962403,True,True
+lighting,Incandescent,H,PhysNet,C1,(ii-pc)-(0),59,10,-17.955508474576266,-25.550748535504276,-10.67666330645162,True,True
+lighting,Incandescent,H,PhysNet,C2,(ii-pc)-(ii),59,10,-11.798199152542372,-20.03692317444219,-4.849056019920785,True,True
+lighting,Incandescent,H,PhysNet,C3,(i-pc)-(i),59,10,-6.018273305084745,-13.578502137947572,0.18535865687545888,True,True
+lighting,Incandescent,H,PhysNet,C4,(ii-pc)-(i-pc),59,10,-0.973252118644068,-7.031249999999999,6.51430937275825,True,True
+lighting,Incandescent,H,PhysNet,,(ii)-(0),59,10,-6.157309322033896,-11.029411764705884,0.52094558189655,True,True
+lighting,Incandescent,H,PhysNet,,(i)-(0),59,10,-10.963983050847455,-17.61168561662946,-5.143176663306453,True,True
+lighting,Incandescent,H,PhysNet,,(ii)-(i),59,10,4.80667372881356,0.36221590909091,11.614602481617647,True,True
+lighting,Incandescent,H,RhythmFormer,C1,(ii-pc)-(0),59,10,-22.106726694915256,-28.474857159514922,-16.059960217675062,True,True
+lighting,Incandescent,H,RhythmFormer,C2,(ii-pc)-(ii),59,10,-2.919756355932204,-6.5625,0.3750322534403665,True,True
+lighting,Incandescent,H,RhythmFormer,C3,(i-pc)-(i),59,10,-1.747881355932203,-8.68973823857994,4.462193080357143,True,True
+lighting,Incandescent,H,RhythmFormer,C4,(ii-pc)-(i-pc),59,10,-6.514830508474577,-10.675304551766624,-2.00337787527493,True,True
+lighting,Incandescent,H,RhythmFormer,,(ii)-(0),59,10,-19.186970338983055,-24.678343290441173,-12.961595504679144,True,True
+lighting,Incandescent,H,RhythmFormer,,(i)-(0),59,10,-13.844014830508476,-19.276147959183675,-10.243361120160094,True,True
+lighting,Incandescent,H,RhythmFormer,,(ii)-(i),59,10,-5.342955508474575,-10.394062828716688,0.3140377688717504,True,True
+lighting,Incandescent,L,FactorizePhys (matched),C1,(ii-pc)-(0),378,21,1.4880952380952384,0.44736633862799213,2.8040534575179916,True,True
+lighting,Incandescent,L,FactorizePhys (matched),C2,(ii-pc)-(ii),378,21,2.498759920634921,0.7315286748669306,4.646778058982167,True,True
+lighting,Incandescent,L,FactorizePhys (matched),C3,(i-pc)-(i),378,21,0.7192460317460316,-0.5556009280534802,2.091249037133446,True,True
+lighting,Incandescent,L,FactorizePhys (matched),C4,(ii-pc)-(i-pc),378,21,0.7254464285714294,-0.6527685676392565,2.6845374382756737,True,True
+lighting,Incandescent,L,FactorizePhys (matched),,(ii)-(0),378,21,-1.0106646825396826,-2.3672755801867145,0.2524530866584133,True,True
+lighting,Incandescent,L,FactorizePhys (matched),,(i)-(0),378,21,0.04340277777777738,-1.4623981545961005,1.3299203049252017,True,True
+lighting,Incandescent,L,FactorizePhys (matched),,(ii)-(i),378,21,-1.0540674603174598,-2.189719717897421,0.10747451987870466,True,True
+lighting,Incandescent,L,PhysNet,C1,(ii-pc)-(0),378,21,-2.1546378968253967,-4.454550277681859,0.2743577987791803,True,True
+lighting,Incandescent,L,PhysNet,C2,(ii-pc)-(ii),378,21,0.6355406746031745,-0.5906016053519741,1.9992805556997506,True,True
+lighting,Incandescent,L,PhysNet,C3,(i-pc)-(i),378,21,1.243179563492064,-0.29217500960406734,2.847241523938302,True,True
+lighting,Incandescent,L,PhysNet,C4,(ii-pc)-(i-pc),378,21,-2.182539682539682,-3.462978023240546,-0.9212365731600586,True,True
+lighting,Incandescent,L,PhysNet,,(ii)-(0),378,21,-2.790178571428571,-4.847627952793162,-0.855535824610491,True,True
+lighting,Incandescent,L,PhysNet,,(i)-(0),378,21,-1.2152777777777786,-3.5188420015014463,1.3608939294246485,True,True
+lighting,Incandescent,L,PhysNet,,(ii)-(i),378,21,-1.5749007936507926,-3.1704087575618796,-0.22861006155012928,True,True
+lighting,Incandescent,L,RhythmFormer,C1,(ii-pc)-(0),378,21,-2.535962301587301,-5.4895041600414105,0.8950047015607432,True,True
+lighting,Incandescent,L,RhythmFormer,C2,(ii-pc)-(ii),378,21,-1.826016865079365,-4.302175593248663,0.38661215786702163,True,True
+lighting,Incandescent,L,RhythmFormer,C3,(i-pc)-(i),378,21,-2.721974206349206,-5.723404180039775,-0.12101737081005662,True,True
+lighting,Incandescent,L,RhythmFormer,C4,(ii-pc)-(i-pc),378,21,0.7285466269841271,-1.0040495060692156,2.5473020084238787,True,True
+lighting,Incandescent,L,RhythmFormer,,(ii)-(0),378,21,-0.7099454365079362,-3.923284792730784,2.7699000218531467,True,True
+lighting,Incandescent,L,RhythmFormer,,(i)-(0),378,21,-0.542534722222222,-3.0112066192243354,2.4430639936712972,True,True
+lighting,Incandescent,L,RhythmFormer,,(ii)-(i),378,21,-0.1674107142857141,-2.417531033915766,2.433689880990842,True,True
+lighting,LED-high,H,FactorizePhys (matched),C1,(ii-pc)-(0),70,14,-1.2053571428571435,-5.127158861481742,2.4126838235294117,True,True
+lighting,LED-high,H,FactorizePhys (matched),C2,(ii-pc)-(ii),70,14,-8.002232142857144,-12.6629638671875,-3.860252084827833,True,True
+lighting,LED-high,H,FactorizePhys (matched),C3,(i-pc)-(i),70,14,-2.4441964285714284,-6.4453125,0.35665760869565,True,True
+lighting,LED-high,H,FactorizePhys (matched),C4,(ii-pc)-(i-pc),70,14,-0.45200892857142944,-3.2227385445926964,2.5470792809311202,True,True
+lighting,LED-high,H,FactorizePhys (matched),,(ii)-(0),70,14,6.796875,2.829977753382571,10.567325824767902,True,True
+lighting,LED-high,H,FactorizePhys (matched),,(i)-(0),70,14,1.6908482142857142,-0.7953171502976185,6.594391977527237,True,True
+lighting,LED-high,H,FactorizePhys (matched),,(ii)-(i),70,14,5.106026785714286,1.679074663967096,7.933549174720539,True,True
+lighting,LED-high,H,PhysNet,C1,(ii-pc)-(0),70,14,-13.409598214285717,-19.756836661415864,-7.723687445367133,True,True
+lighting,LED-high,H,PhysNet,C2,(ii-pc)-(ii),70,14,-4.503348214285714,-10.58740104857427,1.3941808911867186,True,True
+lighting,LED-high,H,PhysNet,C3,(i-pc)-(i),70,14,-4.536830357142857,-9.683791434716598,-0.6404899240654226,True,True
+lighting,LED-high,H,PhysNet,C4,(ii-pc)-(i-pc),70,14,2.8962053571428577,-1.218332513463131,7.442494678792568,True,True
+lighting,LED-high,H,PhysNet,,(ii)-(0),70,14,-8.906250000000002,-12.784120834397344,-3.8503554444875796,True,True
+lighting,LED-high,H,PhysNet,,(i)-(0),70,14,-11.768973214285717,-17.228769070440112,-6.908774143985952,True,True
+lighting,LED-high,H,PhysNet,,(ii)-(i),70,14,2.8627232142857153,-2.1548974588919134,9.560057369987469,True,True
+lighting,LED-high,H,RhythmFormer,C1,(ii-pc)-(0),70,14,-15.66964285714286,-22.119547526041668,-9.267260066483788,True,True
+lighting,LED-high,H,RhythmFormer,C2,(ii-pc)-(ii),70,14,-0.7868303571428571,-5.771040482954545,4.178129245923913,True,True
+lighting,LED-high,H,RhythmFormer,C3,(i-pc)-(i),70,14,-0.40178571428571414,-7.380807976973685,4.409324468568312,True,True
+lighting,LED-high,H,RhythmFormer,C4,(ii-pc)-(i-pc),70,14,-1.5401785714285718,-4.421246303919295,0.7195847534876356,True,True
+lighting,LED-high,H,RhythmFormer,,(ii)-(0),70,14,-14.8828125,-19.791706364329272,-9.895779969262295,True,True
+lighting,LED-high,H,RhythmFormer,,(i)-(0),70,14,-13.727678571428575,-18.129643458946077,-9.674483151009795,True,True
+lighting,LED-high,H,RhythmFormer,,(ii)-(i),70,14,-1.1551339285714288,-6.27805342585404,3.27323698324843,True,True
+lighting,LED-high,L,FactorizePhys (matched),C1,(ii-pc)-(0),359,21,1.2273676880222844,0.11159063292476705,2.506963788300835,True,True
+lighting,LED-high,L,FactorizePhys (matched),C2,(ii-pc)-(ii),359,21,1.4950383008356543,-0.032469220328066074,3.471969777361239,True,True
+lighting,LED-high,L,FactorizePhys (matched),C3,(i-pc)-(i),359,21,0.13709958217270213,-0.9951747009301628,1.3421179366438352,True,True
+lighting,LED-high,L,FactorizePhys (matched),C4,(ii-pc)-(i-pc),359,21,0.6528551532033428,-0.35272073023958883,1.7528636436386908,True,True
+lighting,LED-high,L,FactorizePhys (matched),,(ii)-(0),359,21,-0.26767061281336996,-1.4364443824404771,0.790238063744097,True,True
+lighting,LED-high,L,FactorizePhys (matched),,(i)-(0),359,21,0.43741295264623936,-0.561142878817994,1.3855317679558017,True,True
+lighting,LED-high,L,FactorizePhys (matched),,(ii)-(i),359,21,-0.7050835654596094,-1.7977801035782326,0.4338271101756559,True,True
+lighting,LED-high,L,PhysNet,C1,(ii-pc)-(0),359,21,-1.6811020194986075,-4.032357283464567,0.9821149036342158,True,True
+lighting,LED-high,L,PhysNet,C2,(ii-pc)-(ii),359,21,1.5766451949860727,-0.16027113970588264,3.723629815730978,True,True
+lighting,LED-high,L,PhysNet,C3,(i-pc)-(i),359,21,-0.5418697771587748,-1.921764375466469,1.1348362885640093,True,True
+lighting,LED-high,L,PhysNet,C4,(ii-pc)-(i-pc),359,21,-1.2730675487465177,-3.304261577335466,0.5720829463505241,True,True
+lighting,LED-high,L,PhysNet,,(ii)-(0),359,21,-3.2577472144846804,-5.020335795661717,-1.514242132229531,True,True
+lighting,LED-high,L,PhysNet,,(i)-(0),359,21,0.13383530640668498,-1.7497460863536118,2.1632886218081353,True,True
+lighting,LED-high,L,PhysNet,,(ii)-(i),359,21,-3.3915825208913652,-5.228178025923599,-1.9531004632537692,True,True
+lighting,LED-high,L,RhythmFormer,C1,(ii-pc)-(0),359,21,-1.3318245125348191,-4.993000394801471,2.8125673491379297,True,True
+lighting,LED-high,L,RhythmFormer,C2,(ii-pc)-(ii),359,21,-0.920525766016714,-3.188169588109988,1.5244141919488987,True,True
+lighting,LED-high,L,RhythmFormer,C3,(i-pc)-(i),359,21,-2.836655640668523,-5.840681117957747,-0.16517911400097718,True,True
+lighting,LED-high,L,RhythmFormer,C4,(ii-pc)-(i-pc),359,21,1.3220316852367684,-0.44331060683585793,3.026530569614211,True,True
+lighting,LED-high,L,RhythmFormer,,(ii)-(0),359,21,-0.4112987465181052,-4.042048273716362,3.42546611812943,True,True
+lighting,LED-high,L,RhythmFormer,,(i)-(0),359,21,0.1827994428969356,-2.8875842862776033,4.1048040401516515,True,True
+lighting,LED-high,L,RhythmFormer,,(ii)-(i),359,21,-0.5940981894150408,-3.3518877680997674,2.052400781903036,True,True
+lighting,LED-low,H,FactorizePhys (matched),C1,(ii-pc)-(0),60,16,-4.7265625,-8.005339387175326,-1.46473106971154,True,True
+lighting,LED-low,H,FactorizePhys (matched),C2,(ii-pc)-(ii),60,16,-7.3828125,-10.030581904853621,-3.8436848958333343,True,True
+lighting,LED-low,H,FactorizePhys (matched),C3,(i-pc)-(i),60,16,-0.83984375,-3.728747535946197,2.7549603636629727,True,True
+lighting,LED-low,H,FactorizePhys (matched),C4,(ii-pc)-(i-pc),60,16,-4.23828125,-7.355395228109655,0.24420487253289386,True,True
+lighting,LED-low,H,FactorizePhys (matched),,(ii)-(0),60,16,2.65625,-0.8663310881128574,6.142907464259532,True,True
+lighting,LED-low,H,FactorizePhys (matched),,(i)-(0),60,16,0.3515625,-3.5468342820830485,4.291510783450703,True,True
+lighting,LED-low,H,FactorizePhys (matched),,(ii)-(i),60,16,2.3046875,-0.9142299107142856,5.966117981283419,True,True
+lighting,LED-low,H,PhysNet,C1,(ii-pc)-(0),60,16,-13.28125,-20.67036185449033,-5.5419921875,True,True
+lighting,LED-low,H,PhysNet,C2,(ii-pc)-(ii),60,16,-4.98046875,-9.750884433962263,0.49602640086206407,True,True
+lighting,LED-low,H,PhysNet,C3,(i-pc)-(i),60,16,-4.8828125,-9.339753082688588,-1.1967379440987562,True,True
+lighting,LED-low,H,PhysNet,C4,(ii-pc)-(i-pc),60,16,2.4609375,-2.2643339512711855,6.515625,True,True
+lighting,LED-low,H,PhysNet,,(ii)-(0),60,16,-8.30078125,-15.254237288135592,-2.0390625,True,True
+lighting,LED-low,H,PhysNet,,(i)-(0),60,16,-10.859375,-17.42097479712159,-4.457205636160715,True,True
+lighting,LED-low,H,PhysNet,,(ii)-(i),60,16,2.55859375,-1.292093211206898,6.20118559076545,True,True
+lighting,LED-low,H,RhythmFormer,C1,(ii-pc)-(0),60,16,-17.01171875,-23.021309988839285,-11.079335189892348,True,True
+lighting,LED-low,H,RhythmFormer,C2,(ii-pc)-(ii),60,16,-1.09375,-3.6563217474489798,1.6619318181818166,True,True
+lighting,LED-low,H,RhythmFormer,C3,(i-pc)-(i),60,16,-0.95703125,-8.5546875,7.053833007812501,True,True
+lighting,LED-low,H,RhythmFormer,C4,(ii-pc)-(i-pc),60,16,-3.75,-7.7792553191489375,0.0470348011363613,True,True
+lighting,LED-low,H,RhythmFormer,,(ii)-(0),60,16,-15.91796875,-21.65800548735119,-10.759943181818182,True,True
+lighting,LED-low,H,RhythmFormer,,(i)-(0),60,16,-12.3046875,-18.708165677866543,-6.3136015769944365,True,True
+lighting,LED-low,H,RhythmFormer,,(ii)-(i),60,16,-3.61328125,-8.659014634683098,1.8976314484126935,True,True
+lighting,LED-low,L,FactorizePhys (matched),C1,(ii-pc)-(0),355,21,1.7528609154929569,0.5624966325431034,3.0966720868846385,True,True
+lighting,LED-low,L,FactorizePhys (matched),C2,(ii-pc)-(ii),355,21,2.8422095070422526,1.1172762891714156,4.60163493264616,True,True
+lighting,LED-low,L,FactorizePhys (matched),C3,(i-pc)-(i),355,21,0.8285651408450706,-0.4626228142313011,2.104917705182556,True,True
+lighting,LED-low,L,FactorizePhys (matched),C4,(ii-pc)-(i-pc),355,21,0.9540052816901401,-0.2912785456730764,2.271005649489995,True,True
+lighting,LED-low,L,FactorizePhys (matched),,(ii)-(0),355,21,-1.089348591549296,-2.279497961593593,0.10780417567200705,True,True
+lighting,LED-low,L,FactorizePhys (matched),,(i)-(0),355,21,-0.029709507042253946,-1.2211358264896865,1.1822575782018188,True,True
+lighting,LED-low,L,FactorizePhys (matched),,(ii)-(i),355,21,-1.059639084507042,-2.56610146155096,0.35438169282058163,True,True
+lighting,LED-low,L,PhysNet,C1,(ii-pc)-(0),355,21,-1.5184859154929573,-3.6826789242097706,0.484903524819305,True,True
+lighting,LED-low,L,PhysNet,C2,(ii-pc)-(ii),355,21,1.7297535211267612,0.19067953914005178,3.37685447394949,True,True
+lighting,LED-low,L,PhysNet,C3,(i-pc)-(i),355,21,1.2081866197183107,-0.5008019814944125,3.254455013124739,True,True
+lighting,LED-low,L,PhysNet,C4,(ii-pc)-(i-pc),355,21,-1.525088028169014,-3.594329326721682,0.4874354771205356,True,True
+lighting,LED-low,L,PhysNet,,(ii)-(0),355,21,-3.2482394366197185,-5.1310413888944595,-1.3635973197287008,True,True
+lighting,LED-low,L,PhysNet,,(i)-(0),355,21,-1.201584507042254,-3.2840782668062296,0.8584892805232557,True,True
+lighting,LED-low,L,PhysNet,,(ii)-(i),355,21,-2.0466549295774645,-3.4940360915492947,-0.5637166980331582,True,True
+lighting,LED-low,L,RhythmFormer,C1,(ii-pc)-(0),355,21,-3.06338028169014,-6.176052840645452,0.46879613681102306,True,True
+lighting,LED-low,L,RhythmFormer,C2,(ii-pc)-(ii),355,21,-0.6470070422535213,-4.331155665473178,2.2338607035747327,True,True
+lighting,LED-low,L,RhythmFormer,C3,(i-pc)-(i),355,21,-2.00044014084507,-5.427882724060167,1.079319588635535,True,True
+lighting,LED-low,L,RhythmFormer,C4,(ii-pc)-(i-pc),355,21,0.20796654929577466,-1.7726870892454125,2.5741362235915486,True,True
+lighting,LED-low,L,RhythmFormer,,(ii)-(0),355,21,-2.4163732394366186,-6.16916701727705,1.5386945983379494,True,True
+lighting,LED-low,L,RhythmFormer,,(i)-(0),355,21,-1.2709066901408448,-3.9482760067776783,1.9410291284667438,True,True
+lighting,LED-low,L,RhythmFormer,,(ii)-(i),355,21,-1.145466549295774,-4.615735091256368,2.430125995031181,True,True
+lighting,Nature,H,FactorizePhys (matched),C1,(ii-pc)-(0),93,15,-2.2303427419354853,-4.471165707236842,-0.3062577681107962,True,True
+lighting,Nature,H,FactorizePhys (matched),C2,(ii-pc)-(ii),93,15,-6.174395161290324,-9.306783737291628,-3.2000628972457648,True,True
+lighting,Nature,H,FactorizePhys (matched),C3,(i-pc)-(i),93,15,-1.9657258064516132,-4.7478511089880024,2.278645833333331,True,True
+lighting,Nature,H,FactorizePhys (matched),C4,(ii-pc)-(i-pc),93,15,-2.6587701612903225,-6.925802176339285,0.40723563273993557,True,True
+lighting,Nature,H,FactorizePhys (matched),,(ii)-(0),93,15,3.9440524193548385,1.0850284984276726,6.839001742276278,True,True
+lighting,Nature,H,FactorizePhys (matched),,(i)-(0),93,15,2.3941532258064506,-1.2992642971837947,6.451247685776303,True,True
+lighting,Nature,H,FactorizePhys (matched),,(ii)-(i),93,15,1.549899193548388,-3.270773816464554,5.544573703883749,True,True
+lighting,Nature,H,PhysNet,C1,(ii-pc)-(0),93,15,-12.58820564516129,-17.45928158967391,-8.174180772569445,True,True
+lighting,Nature,H,PhysNet,C2,(ii-pc)-(ii),93,15,-0.504032258064516,-3.8744995992484834,2.096417327425372,True,True
+lighting,Nature,H,PhysNet,C3,(i-pc)-(i),93,15,-6.930443548387096,-12.22256059239323,-1.8244380048717534,True,True
+lighting,Nature,H,PhysNet,C4,(ii-pc)-(i-pc),93,15,4.473286290322581,0.4759856193296372,8.315753237993784,True,True
+lighting,Nature,H,PhysNet,,(ii)-(0),93,15,-12.084173387096774,-15.329476512533526,-8.58000656654095,True,True
+lighting,Nature,H,PhysNet,,(i)-(0),93,15,-10.131048387096776,-15.439453125,-4.846066334208506,True,True
+lighting,Nature,H,PhysNet,,(ii)-(i),93,15,-1.953124999999999,-5.589044744318181,2.2156132878483947,True,True
+lighting,Nature,H,RhythmFormer,C1,(ii-pc)-(0),93,15,-21.383568548387093,-28.865196731375093,-14.17711830380699,True,True
+lighting,Nature,H,RhythmFormer,C2,(ii-pc)-(ii),93,15,-4.070060483870967,-7.085177416871922,-0.6916645998677294,True,True
+lighting,Nature,H,RhythmFormer,C3,(i-pc)-(i),93,15,-0.5922379032258066,-8.04542541503906,6.608123779296874,True,True
+lighting,Nature,H,RhythmFormer,C4,(ii-pc)-(i-pc),93,15,-5.279737903225806,-8.122306034482758,-2.473893873762376,True,True
+lighting,Nature,H,RhythmFormer,,(ii)-(0),93,15,-17.313508064516128,-22.882081738945576,-11.815236853191912,True,True
+lighting,Nature,H,RhythmFormer,,(i)-(0),93,15,-15.511592741935482,-19.647743631661136,-10.665751328163164,True,True
+lighting,Nature,H,RhythmFormer,,(ii)-(i),93,15,-1.8019153225806452,-6.383759218484722,4.377427635223607,True,True
+lighting,Nature,L,FactorizePhys (matched),C1,(ii-pc)-(0),310,20,0.7938508064516127,-0.3244605048859934,1.9058934739376165,True,True
+lighting,Nature,L,FactorizePhys (matched),C2,(ii-pc)-(ii),310,20,1.058467741935484,-0.5199667591012513,2.6801002455797867,True,True
+lighting,Nature,L,FactorizePhys (matched),C3,(i-pc)-(i),310,20,-0.10584677419354922,-1.4439428067571078,1.3078140329639731,True,True
+lighting,Nature,L,FactorizePhys (matched),C4,(ii-pc)-(i-pc),310,20,0.77116935483871,-0.4606748383620689,2.0755607455031995,True,True
+lighting,Nature,L,FactorizePhys (matched),,(ii)-(0),310,20,-0.2646169354838713,-1.3405015977980044,0.7726429692864066,True,True
+lighting,Nature,L,FactorizePhys (matched),,(i)-(0),310,20,0.12852822580645196,-0.9471061862244894,1.1345773207856935,True,True
+lighting,Nature,L,FactorizePhys (matched),,(ii)-(i),310,20,-0.39314516129032323,-1.4128590275539794,0.679706401209676,True,True
+lighting,Nature,L,PhysNet,C1,(ii-pc)-(0),310,20,-2.88054435483871,-6.225292050352663,0.17842173182345605,True,True
+lighting,Nature,L,PhysNet,C2,(ii-pc)-(ii),310,20,1.6633064516129028,0.0940435417293518,3.2314104126349994,True,True
+lighting,Nature,L,PhysNet,C3,(i-pc)-(i),310,20,0.7447076612903226,-0.9070304231306504,2.394199140111053,True,True
+lighting,Nature,L,PhysNet,C4,(ii-pc)-(i-pc),310,20,-0.5103326612903226,-2.5679167324747296,1.5148804794557436,True,True
+lighting,Nature,L,PhysNet,,(ii)-(0),310,20,-4.543850806451613,-6.833943979317412,-2.3513583505707993,True,True
+lighting,Nature,L,PhysNet,,(i)-(0),310,20,-3.11491935483871,-6.076345847596697,-0.3892362950211872,True,True
+lighting,Nature,L,PhysNet,,(ii)-(i),310,20,-1.4289314516129028,-2.8805896324826605,0.004157524604300648,True,True
+lighting,Nature,L,RhythmFormer,C1,(ii-pc)-(0),310,20,-5.666582661290323,-9.426575937918013,-2.0296171114042236,True,True
+lighting,Nature,L,RhythmFormer,C2,(ii-pc)-(ii),310,20,-0.865675403225806,-2.439298529821627,0.7144905958191851,True,True
+lighting,Nature,L,RhythmFormer,C3,(i-pc)-(i),310,20,-1.039566532258064,-3.0771344564027485,1.087434393098457,True,True
+lighting,Nature,L,RhythmFormer,C4,(ii-pc)-(i-pc),310,20,-0.631300403225806,-2.382152323820152,1.0039961675857187,True,True
+lighting,Nature,L,RhythmFormer,,(ii)-(0),310,20,-4.800907258064517,-8.726505897286888,-1.0686829001993927,True,True
+lighting,Nature,L,RhythmFormer,,(i)-(0),310,20,-3.9957157258064533,-6.346754354966223,-1.8917754987490603,True,True
+lighting,Nature,L,RhythmFormer,,(ii)-(i),310,20,-0.8051915322580641,-3.4067332987882653,1.7828782473167069,True,True
+activity,Rotation,H,FactorizePhys (matched),C1,(ii-pc)-(0),20,2,-2.63671875,-8.203125,0.234375,True,True
+activity,Rotation,H,FactorizePhys (matched),C2,(ii-pc)-(ii),20,2,-9.609375,-12.8125,-0.46875,True,True
+activity,Rotation,H,FactorizePhys (matched),C3,(i-pc)-(i),20,2,-4.21875,-7.34375,5.859375,True,True
+activity,Rotation,H,FactorizePhys (matched),C4,(ii-pc)-(i-pc),20,2,-1.9921875,-8.90625,1.58203125,True,True
+activity,Rotation,H,FactorizePhys (matched),,(ii)-(0),20,2,6.97265625,-5.390625,11.875,True,True
+activity,Rotation,H,FactorizePhys (matched),,(i)-(0),20,2,3.57421875,-6.796875,5.859375,True,True
+activity,Rotation,H,FactorizePhys (matched),,(ii)-(i),20,2,3.3984375,-5.15625,6.5625,True,True
+activity,Rotation,H,PhysNet,C1,(ii-pc)-(0),20,2,-16.7578125,-22.8125,-4.6875,True,True
+activity,Rotation,H,PhysNet,C2,(ii-pc)-(ii),20,2,-5.09765625,-11.953125,0.78125,True,True
+activity,Rotation,H,PhysNet,C3,(i-pc)-(i),20,2,-6.2109375,-12.96875,3.046875,True,True
+activity,Rotation,H,PhysNet,C4,(ii-pc)-(i-pc),20,2,0.52734375,-10.3125,4.609375,True,True
+activity,Rotation,H,PhysNet,,(ii)-(0),20,2,-11.66015625,-15.78125,6.328125,True,True
+activity,Rotation,H,PhysNet,,(i)-(0),20,2,-11.07421875,-14.453125,1.171875,True,True
+activity,Rotation,H,PhysNet,,(ii)-(i),20,2,-0.5859375,-3.984375,8.671875,True,True
+activity,Rotation,H,RhythmFormer,C1,(ii-pc)-(0),20,2,-25.3125,-31.09375,-12.421875,True,True
+activity,Rotation,H,RhythmFormer,C2,(ii-pc)-(ii),20,2,-3.3984375,-6.796875,-2.109375,True,True
+activity,Rotation,H,RhythmFormer,C3,(i-pc)-(i),20,2,-0.3515625,-17.34375,16.171875,True,True
+activity,Rotation,H,RhythmFormer,C4,(ii-pc)-(i-pc),20,2,-8.61328125,-13.7109375,-1.93359375,True,True
+activity,Rotation,H,RhythmFormer,,(ii)-(0),20,2,-21.9140625,-27.109375,-5.625,True,True
+activity,Rotation,H,RhythmFormer,,(i)-(0),20,2,-16.34765625,-23.046875,1.171875,True,True
+activity,Rotation,H,RhythmFormer,,(ii)-(i),20,2,-5.56640625,-19.921875,6.328125,True,True
+activity,Rotation,L,FactorizePhys (matched),C1,(ii-pc)-(0),356,22,1.7512289325842694,0.42578742747126624,2.951756072836423,True,True
+activity,Rotation,L,FactorizePhys (matched),C2,(ii-pc)-(ii),356,22,2.7848490168539315,0.9964396243849512,4.393638793693549,True,True
+activity,Rotation,L,FactorizePhys (matched),C3,(i-pc)-(i),356,22,0.12508778089887565,-1.1997092221830081,1.7200753585393687,True,True
+activity,Rotation,L,FactorizePhys (matched),C4,(ii-pc)-(i-pc),356,22,0.8558637640449435,-1.0498937716432624,2.6976717794342506,True,True
+activity,Rotation,L,FactorizePhys (matched),,(ii)-(0),356,22,-1.0336200842696623,-2.085387768166955,0.031868513198009533,True,True
+activity,Rotation,L,FactorizePhys (matched),,(i)-(0),356,22,0.7702773876404502,-0.4365303663102076,1.987950257827255,True,True
+activity,Rotation,L,FactorizePhys (matched),,(ii)-(i),356,22,-1.8038974719101126,-3.2942045936288746,-0.483803212066405,True,True
+activity,Rotation,L,PhysNet,C1,(ii-pc)-(0),356,22,-0.27650983146067354,-3.8461606137387374,3.337836136125252,True,True
+activity,Rotation,L,PhysNet,C2,(ii-pc)-(ii),356,22,1.6755179073033712,-0.17176511968681563,3.6146992539045155,True,True
+activity,Rotation,L,PhysNet,C3,(i-pc)-(i),356,22,1.171875000000001,-0.8570231243606059,3.444374022763962,True,True
+activity,Rotation,L,PhysNet,C4,(ii-pc)-(i-pc),356,22,-2.2186622191011236,-5.407162665470672,0.46955416342275663,True,True
+activity,Rotation,L,PhysNet,,(ii)-(0),356,22,-1.9520277387640448,-5.432751885775862,1.1960991499238511,True,True
+activity,Rotation,L,PhysNet,,(i)-(0),356,22,0.7702773876404491,-2.9710198737584483,4.140257871240599,True,True
+activity,Rotation,L,PhysNet,,(ii)-(i),356,22,-2.722305126404494,-4.684508957787957,-0.9204989501329016,True,True
+activity,Rotation,L,RhythmFormer,C1,(ii-pc)-(0),356,22,-1.9289852528089895,-6.058253294557007,2.3405584409916176,True,True
+activity,Rotation,L,RhythmFormer,C2,(ii-pc)-(ii),356,22,-1.3792573735955056,-4.177788356131518,1.3526443393778818,True,True
+activity,Rotation,L,RhythmFormer,C3,(i-pc)-(i),356,22,-1.4813026685393258,-5.639668558980082,2.640018136160714,True,True
+activity,Rotation,L,RhythmFormer,C4,(ii-pc)-(i-pc),356,22,0.11850421348314615,-2.073829356779714,2.209488657069969,True,True
+activity,Rotation,L,RhythmFormer,,(ii)-(0),356,22,-0.5497278792134838,-4.571335960185392,3.2972012068624887,True,True
+activity,Rotation,L,RhythmFormer,,(i)-(0),356,22,-0.5661867977528097,-3.9726494261937093,2.7053250841808647,True,True
+activity,Rotation,L,RhythmFormer,,(ii)-(i),356,22,0.016458918539325868,-2.8221495549204287,2.8938866440130724,True,True
+activity,Stationary,H,FactorizePhys (matched),C1,(ii-pc)-(0),144,15,-2.8564453125,-5.2451051426114805,-0.521798902942289,True,True
+activity,Stationary,H,FactorizePhys (matched),C2,(ii-pc)-(ii),144,15,-8.463541666666666,-11.606902801666505,-5.227565346790892,True,True
+activity,Stationary,H,FactorizePhys (matched),C3,(i-pc)-(i),144,15,-4.248046875,-7.929324428465447,0.12057938664596309,True,True
+activity,Stationary,H,FactorizePhys (matched),C4,(ii-pc)-(i-pc),144,15,-1.2044270833333333,-2.8588815131929644,0.5927867120967082,True,True
+activity,Stationary,H,FactorizePhys (matched),,(ii)-(0),144,15,5.607096354166667,2.2181758671016483,9.421720573309518,True,True
+activity,Stationary,H,FactorizePhys (matched),,(i)-(0),144,15,2.5960286458333335,-0.9801568258599511,5.576059482896418,True,True
+activity,Stationary,H,FactorizePhys (matched),,(ii)-(i),144,15,3.0110677083333335,-0.2185994322308848,7.3638656792953645,True,True
+activity,Stationary,H,PhysNet,C1,(ii-pc)-(0),144,15,-13.802083333333334,-18.0706288197097,-9.519815382909517,True,True
+activity,Stationary,H,PhysNet,C2,(ii-pc)-(ii),144,15,-6.941731770833333,-11.407117783948685,-2.8124651227678577,True,True
+activity,Stationary,H,PhysNet,C3,(i-pc)-(i),144,15,-3.4261067708333335,-7.686590379284272,0.216753974521726,True,True
+activity,Stationary,H,PhysNet,C4,(ii-pc)-(i-pc),144,15,1.2369791666666667,-2.8735353209983807,6.204068913986457,True,True
+activity,Stationary,H,PhysNet,,(ii)-(0),144,15,-6.8603515625,-10.59009830711012,-2.8645833333333335,True,True
+activity,Stationary,H,PhysNet,,(i)-(0),144,15,-11.612955729166666,-16.54414685630608,-7.217879417501165,True,True
+activity,Stationary,H,PhysNet,,(ii)-(i),144,15,4.752604166666667,0.27471055458644916,10.296997868157682,True,True
+activity,Stationary,H,RhythmFormer,C1,(ii-pc)-(0),144,15,-16.145833333333332,-22.426205621625336,-10.010114679220923,True,True
+activity,Stationary,H,RhythmFormer,C2,(ii-pc)-(ii),144,15,-2.3844401041666665,-6.733896248879971,2.0890445172634258,True,True
+activity,Stationary,H,RhythmFormer,C3,(i-pc)-(i),144,15,-0.8138020833333334,-6.342072940911975,3.7384803898116945,True,True
+activity,Stationary,H,RhythmFormer,C4,(ii-pc)-(i-pc),144,15,-4.345703125,-7.143499369646312,-1.3371276855468754,True,True
+activity,Stationary,H,RhythmFormer,,(ii)-(0),144,15,-13.761393229166666,-18.928125939755407,-8.603452329282408,True,True
+activity,Stationary,H,RhythmFormer,,(i)-(0),144,15,-10.986328125,-15.717013997071287,-6.159089740953952,True,True
+activity,Stationary,H,RhythmFormer,,(ii)-(i),144,15,-2.7750651041666665,-5.834311042965574,0.1465099841564693,True,True
+activity,Stationary,L,FactorizePhys (matched),C1,(ii-pc)-(0),559,22,1.1655858676207516,0.283402515892901,2.3958863694893737,True,True
+activity,Stationary,L,FactorizePhys (matched),C2,(ii-pc)-(ii),559,22,1.6854874776386408,0.422930639638924,3.259712232284937,True,True
+activity,Stationary,L,FactorizePhys (matched),C3,(i-pc)-(i),559,22,0.42556462432915926,-0.5572069938073857,1.5075074907331139,True,True
+activity,Stationary,L,FactorizePhys (matched),C4,(ii-pc)-(i-pc),559,22,0.9685263864042936,0.10331786541895759,2.1801783457523634,True,True
+activity,Stationary,L,FactorizePhys (matched),,(ii)-(0),559,22,-0.5199016100178891,-1.5269411262657575,0.4221804375887827,True,True
+activity,Stationary,L,FactorizePhys (matched),,(i)-(0),559,22,-0.22850514311270112,-1.3683820510021614,0.6897345174772037,True,True
+activity,Stationary,L,FactorizePhys (matched),,(ii)-(i),559,22,-0.29139646690518806,-1.1767205958599927,0.570170477949253,True,True
+activity,Stationary,L,PhysNet,C1,(ii-pc)-(0),559,22,-2.337460867620751,-4.130356602077572,-0.6442228550150539,True,True
+activity,Stationary,L,PhysNet,C2,(ii-pc)-(ii),559,22,1.142525715563507,0.0605948791727811,2.38610176821371,True,True
+activity,Stationary,L,PhysNet,C3,(i-pc)-(i),559,22,0.6310096153846155,-0.3461250967097202,1.6593809504812376,True,True
+activity,Stationary,L,PhysNet,C4,(ii-pc)-(i-pc),559,22,-1.379416368515205,-2.80266531264765,-0.004570312500001013,True,True
+activity,Stationary,L,PhysNet,,(ii)-(0),559,22,-3.479986583184258,-4.8492977819064675,-2.2523614098346827,True,True
+activity,Stationary,L,PhysNet,,(i)-(0),559,22,-1.5890541144901615,-3.0438637004839952,-0.11308577086037028,True,True
+activity,Stationary,L,PhysNet,,(ii)-(i),559,22,-1.8909324686940963,-3.065903095416196,-0.8163016183035715,True,True
+activity,Stationary,L,RhythmFormer,C1,(ii-pc)-(0),559,22,-1.9852694543828264,-4.912708010835914,1.148934397977941,True,True
+activity,Stationary,L,RhythmFormer,C2,(ii-pc)-(ii),559,22,-1.36054897137746,-3.6836069408413756,0.5095992995420193,True,True
+activity,Stationary,L,RhythmFormer,C3,(i-pc)-(i),559,22,-2.939121198568873,-4.8942385253832725,-0.9665132256602912,True,True
+activity,Stationary,L,RhythmFormer,C4,(ii-pc)-(i-pc),559,22,1.3898982558139537,0.0714393203618781,2.832447874528878,True,True
+activity,Stationary,L,RhythmFormer,,(ii)-(0),559,22,-0.6247204830053666,-3.7796466812314717,2.3539956932694235,True,True
+activity,Stationary,L,RhythmFormer,,(i)-(0),559,22,-0.4360465116279073,-2.343804455157992,1.719819040197901,True,True
+activity,Stationary,L,RhythmFormer,,(ii)-(i),559,22,-0.1886739713774593,-2.4932848773141347,2.2524587033501406,True,True
+activity,Talking,H,FactorizePhys (matched),C1,(ii-pc)-(0),25,2,-1.03125,-8.203125,1.96875,True,True
+activity,Talking,H,FactorizePhys (matched),C2,(ii-pc)-(ii),25,2,-7.875,-11.109375,-4.21875,True,True
+activity,Talking,H,FactorizePhys (matched),C3,(i-pc)-(i),25,2,-0.703125,-3.8671875,3.515625,True,True
+activity,Talking,H,FactorizePhys (matched),C4,(ii-pc)-(i-pc),25,2,0.65625,-7.265625,3.515625,True,True
+activity,Talking,H,FactorizePhys (matched),,(ii)-(0),25,2,6.84375,1.640625,13.078125,True,True
+activity,Talking,H,FactorizePhys (matched),,(i)-(0),25,2,-0.984375,-2.63671875,2.578125,True,True
+activity,Talking,H,FactorizePhys (matched),,(ii)-(i),25,2,7.828125,2.109375,13.359375,True,True
+activity,Talking,H,PhysNet,C1,(ii-pc)-(0),25,2,-10.5,-18.515625,-4.078125,True,True
+activity,Talking,H,PhysNet,C2,(ii-pc)-(ii),25,2,2.859375,-4.21875,10.96875,True,True
+activity,Talking,H,PhysNet,C3,(i-pc)-(i),25,2,-2.4375,-4.453125,-0.703125,True,True
+activity,Talking,H,PhysNet,C4,(ii-pc)-(i-pc),25,2,4.125,-2.109375,12.421875,True,True
+activity,Talking,H,PhysNet,,(ii)-(0),25,2,-13.359375,-21.328125,-9.28125,True,True
+activity,Talking,H,PhysNet,,(i)-(0),25,2,-12.1875,-26.015625,-7.03125,True,True
+activity,Talking,H,PhysNet,,(ii)-(i),25,2,-1.171875,-5.80078125,11.71875,True,True
+activity,Talking,H,RhythmFormer,C1,(ii-pc)-(0),25,2,-22.828125,-26.77734375,-17.71875,True,True
+activity,Talking,H,RhythmFormer,C2,(ii-pc)-(ii),25,2,-0.75,-6.796875,1.34765625,True,True
+activity,Talking,H,RhythmFormer,C3,(i-pc)-(i),25,2,-0.75,-8.296875,10.78125,True,True
+activity,Talking,H,RhythmFormer,C4,(ii-pc)-(i-pc),25,2,-6.234375,-16.40625,-1.546875,True,True
+activity,Talking,H,RhythmFormer,,(ii)-(0),25,2,-22.078125,-26.953125,-14.296875,True,True
+activity,Talking,H,RhythmFormer,,(i)-(0),25,2,-15.84375,-20.9765625,-10.546875,True,True
+activity,Talking,H,RhythmFormer,,(ii)-(i),25,2,-6.234375,-9.78515625,-0.234375,True,True
+activity,Talking,L,FactorizePhys (matched),C1,(ii-pc)-(0),335,21,1.7525652985074636,0.7470668009484003,2.8030459744236307,True,True
+activity,Talking,L,FactorizePhys (matched),C2,(ii-pc)-(ii),335,21,2.77402052238806,0.8423741184653215,5.054074965714093,True,True
+activity,Talking,L,FactorizePhys (matched),C3,(i-pc)-(i),335,21,0.8255597014925371,-0.6012690654809224,2.434153960595951,True,True
+activity,Talking,L,FactorizePhys (matched),C4,(ii-pc)-(i-pc),335,21,1.4552238805970152,0.4496302522269033,2.506009615384615,True,True
+activity,Talking,L,FactorizePhys (matched),,(ii)-(0),335,21,-1.0214552238805963,-2.695687574548979,0.2884398471626109,True,True
+activity,Talking,L,FactorizePhys (matched),,(i)-(0),335,21,-0.5282182835820889,-1.8988934313535195,0.8742375320844054,True,True
+activity,Talking,L,FactorizePhys (matched),,(ii)-(i),335,21,-0.49323694029850734,-1.8124689231808375,0.7399533829599056,True,True
+activity,Talking,L,PhysNet,C1,(ii-pc)-(0),335,21,-1.1124067164179106,-3.6791771199606598,1.797848371119278,True,True
+activity,Talking,L,PhysNet,C2,(ii-pc)-(ii),335,21,2.354244402985074,0.5512710805294818,4.450964128008541,True,True
+activity,Talking,L,PhysNet,C3,(i-pc)-(i),335,21,1.50419776119403,-0.04063251201923077,3.216005106688488,True,True
+activity,Talking,L,PhysNet,C4,(ii-pc)-(i-pc),335,21,-1.8085354477611943,-3.739740039936542,-0.003390439540061588,True,True
+activity,Talking,L,PhysNet,,(ii)-(0),335,21,-3.4666511194029845,-4.907739233259303,-2.057740810530889,True,True
+activity,Talking,L,PhysNet,,(i)-(0),335,21,-0.8080690298507461,-2.938445250335468,1.6355697080004201,True,True
+activity,Talking,L,PhysNet,,(ii)-(i),335,21,-2.6585820895522385,-4.3685349817498365,-1.069932643841723,True,True
+activity,Talking,L,RhythmFormer,C1,(ii-pc)-(0),335,21,-1.556669776119404,-5.080230538418344,2.2042512451534404,True,True
+activity,Talking,L,RhythmFormer,C2,(ii-pc)-(ii),335,21,-1.1963619402985077,-4.081248823926343,1.8046701395086289,True,True
+activity,Talking,L,RhythmFormer,C3,(i-pc)-(i),335,21,-2.7005597014925375,-5.293794081140665,-0.6182054822421101,True,True
+activity,Talking,L,RhythmFormer,C4,(ii-pc)-(i-pc),335,21,0.48624067164179036,-1.631112905740171,2.823153409090908,True,True
+activity,Talking,L,RhythmFormer,,(ii)-(0),335,21,-0.36030783582089637,-4.815739423888405,4.272702624634393,True,True
+activity,Talking,L,RhythmFormer,,(i)-(0),335,21,0.6576492537313433,-2.6246019605394597,4.678113737431349,True,True
+activity,Talking,L,RhythmFormer,,(ii)-(i),335,21,-1.0179570895522396,-4.554879644947214,2.52922837511241,True,True
+activity,Walking,H,FactorizePhys (matched),C1,(ii-pc)-(0),93,14,-3.5912298387096784,-6.0595444227200455,-1.0426010098102452,True,True
+activity,Walking,H,FactorizePhys (matched),C2,(ii-pc)-(ii),93,14,-5.834173387096775,-9.69365235416889,-2.081322253131664,True,True
+activity,Walking,H,FactorizePhys (matched),C3,(i-pc)-(i),93,14,-0.6300403225806441,-3.630972338943636,1.965327196782176,True,True
+activity,Walking,H,FactorizePhys (matched),C4,(ii-pc)-(i-pc),93,14,-4.72530241935484,-9.32256600827385,-1.2385942944250896,True,True
+activity,Walking,H,FactorizePhys (matched),,(ii)-(0),93,14,2.242943548387096,-0.8184988839285723,4.845930769636821,True,True
+activity,Walking,H,FactorizePhys (matched),,(i)-(0),93,14,1.7641129032258054,-2.8826161709092424,8.217489715970231,True,True
+activity,Walking,H,FactorizePhys (matched),,(ii)-(i),93,14,0.47883064516129065,-6.197871921534938,4.603849233307452,True,True
+activity,Walking,H,PhysNet,C1,(ii-pc)-(0),93,14,-14.843750000000002,-22.58114246839888,-7.320880765819042,True,True
+activity,Walking,H,PhysNet,C2,(ii-pc)-(ii),93,14,-3.515625,-7.910305723852041,1.9691869703389766,True,True
+activity,Walking,H,PhysNet,C3,(i-pc)-(i),93,14,-10.017641129032258,-15.369958212209303,-5.615788405673275,True,True
+activity,Walking,H,PhysNet,C4,(ii-pc)-(i-pc),93,14,4.485887096774193,-0.6775339697576632,9.456542968749998,True,True
+activity,Walking,H,PhysNet,,(ii)-(0),93,14,-11.328125000000002,-16.856021866794823,-6.595118323037789,True,True
+activity,Walking,H,PhysNet,,(i)-(0),93,14,-9.311995967741938,-15.906579129711751,-3.457967789446721,True,True
+activity,Walking,H,PhysNet,,(ii)-(i),93,14,-2.016129032258064,-5.834550846864503,0.9878197973901072,True,True
+activity,Walking,H,RhythmFormer,C1,(ii-pc)-(0),93,14,-21.597782258064512,-28.700210108901512,-13.699742924323857,True,True
+activity,Walking,H,RhythmFormer,C2,(ii-pc)-(ii),93,14,-2.5957661290322567,-7.01894384398496,0.8962105283037866,True,True
+activity,Walking,H,RhythmFormer,C3,(i-pc)-(i),93,14,-1.0836693548387093,-8.504023135859072,6.508924101947563,True,True
+activity,Walking,H,RhythmFormer,C4,(ii-pc)-(i-pc),93,14,-2.7343749999999996,-6.730823863636363,0.654638671874995,True,True
+activity,Walking,H,RhythmFormer,,(ii)-(0),93,14,-19.002016129032256,-25.572364483584128,-11.17166940789474,True,True
+activity,Walking,H,RhythmFormer,,(i)-(0),93,14,-17.779737903225804,-20.996143574617342,-14.102769449897577,True,True
+activity,Walking,H,RhythmFormer,,(ii)-(i),93,14,-1.222278225806452,-6.534964767156864,5.8474447721797045,True,True
+activity,Walking,L,FactorizePhys (matched),C1,(ii-pc)-(0),152,19,0.0616776315789469,-2.6228156341731905,2.66338875700498,True,True
+activity,Walking,L,FactorizePhys (matched),C2,(ii-pc)-(ii),152,19,-0.29296875,-3.533439021915585,2.7681256317385396,True,True
+activity,Walking,L,FactorizePhys (matched),C3,(i-pc)-(i),152,19,0.15419407894736992,-2.4051716003657684,2.4297165329391888,True,True
+activity,Walking,L,FactorizePhys (matched),C4,(ii-pc)-(i-pc),152,19,-1.626747532894738,-3.832578896195177,0.3798545986719482,True,True
+activity,Walking,L,FactorizePhys (matched),,(ii)-(0),152,19,0.3546463815789469,-1.753580729166667,2.8997115583609268,True,True
+activity,Walking,L,FactorizePhys (matched),,(i)-(0),152,19,1.534231085526315,-0.9465144230769228,4.347315142231602,True,True
+activity,Walking,L,FactorizePhys (matched),,(ii)-(i),152,19,-1.1795847039473681,-3.96929616871276,1.640625,True,True
+activity,Walking,L,PhysNet,C1,(ii-pc)-(0),152,19,-7.054379111842105,-11.100270346553529,-3.200489480648029,True,True
+activity,Walking,L,PhysNet,C2,(ii-pc)-(ii),152,19,-0.5782277960526313,-2.8680364536070786,1.5625,True,True
+activity,Walking,L,PhysNet,C3,(i-pc)-(i),152,19,-2.228104440789473,-5.580778896584184,1.2371712441770164,True,True
+activity,Walking,L,PhysNet,C4,(ii-pc)-(i-pc),152,19,1.2181332236842106,-1.3897220441432354,4.687499999999999,True,True
+activity,Walking,L,PhysNet,,(ii)-(0),152,19,-6.4761513157894735,-10.46349158653846,-2.9755238816889626,True,True
+activity,Walking,L,PhysNet,,(i)-(0),152,19,-6.0444078947368425,-9.864738150818708,-2.885189100874471,True,True
+activity,Walking,L,PhysNet,,(ii)-(i),152,19,-0.43174342105263125,-2.661835524140212,1.9428900886727678,True,True
+activity,Walking,L,RhythmFormer,C1,(ii-pc)-(0),152,19,-12.913754111842104,-17.55471362460191,-7.258276162027316,True,True
+activity,Walking,L,RhythmFormer,C2,(ii-pc)-(ii),152,19,0.87890625,-1.3291427037139698,3.148244810665726,True,True
+activity,Walking,L,RhythmFormer,C3,(i-pc)-(i),152,19,-0.030838815789473156,-4.2428586520283265,4.289257812499997,True,True
+activity,Walking,L,RhythmFormer,C4,(ii-pc)-(i-pc),152,19,-2.3283305921052637,-5.1837517582877135,0.600858277912378,True,True
+activity,Walking,L,RhythmFormer,,(ii)-(0),152,19,-13.792660361842104,-18.017721335981147,-8.805085101655973,True,True
+activity,Walking,L,RhythmFormer,,(i)-(0),152,19,-10.554584703947368,-15.172815155564694,-5.424939287023461,True,True
+activity,Walking,L,RhythmFormer,,(ii)-(i),152,19,-3.2380756578947367,-6.463997977493266,0.3773994925505737,True,True

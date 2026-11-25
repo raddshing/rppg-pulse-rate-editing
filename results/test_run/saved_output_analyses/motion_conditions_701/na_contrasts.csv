@@ -1,0 +1,73 @@
+backbone,activity,contrast,metric,windows,subjects,point,ci_lo,ci_hi,nan_replicates,selected_by_rule,source
+FactorizePhys (matched),Stationary,(ii-pc)-(i-simple),MAE_high,144,15,0.008138020833333334,-1.4296974311440678,2.0434027777777763,0,True,test (c) outputs
+FactorizePhys (matched),Stationary,(ii-pc)-(i-simple),MAE_all,703,22,0.5884379445234705,-0.21056215815392185,1.4421980034597643,0,False,test (c) outputs
+FactorizePhys (matched),Stationary,(ii-pc)-(i-pc),MAE_high,144,15,-1.2044270833333333,-2.8588815131929644,0.5927867120967082,0,True,test (c) outputs
+FactorizePhys (matched),Stationary,(ii-pc)-(i-pc),MAE_all,703,22,0.5234263869132292,-0.14729071309830075,1.430146391422895,0,False,test (c) outputs
+FactorizePhys (matched),Stationary,(ii-pc)-(0),MAE_high,144,15,-2.8564453125,-5.2451051426114805,-0.521798902942289,0,True,test (c) outputs
+FactorizePhys (matched),Stationary,(ii-pc)-(0),MAE_all,703,22,0.3417274182076812,-0.5684534393415968,1.418297225481521,0,False,test (c) outputs
+FactorizePhys (matched),Rotation,(ii-pc)-(i-simple),MAE_high,20,2,-0.76171875,-2.8125,1.23046875,0,True,test (c) outputs
+FactorizePhys (matched),Rotation,(ii-pc)-(i-simple),MAE_all,376,22,0.30855219414893575,-1.2358081397039304,1.5547214402359868,0,False,test (c) outputs
+FactorizePhys (matched),Rotation,(ii-pc)-(i-pc),MAE_high,20,2,-1.9921875,-8.90625,1.58203125,0,True,test (c) outputs
+FactorizePhys (matched),Rotation,(ii-pc)-(i-pc),MAE_all,376,22,0.7043716755319144,-1.1132885377798507,2.3953849061008996,0,False,test (c) outputs
+FactorizePhys (matched),Rotation,(ii-pc)-(0),MAE_high,20,2,-2.63671875,-8.203125,0.234375,0,True,test (c) outputs
+FactorizePhys (matched),Rotation,(ii-pc)-(0),MAE_all,376,22,1.5178274601063826,0.18799905311150394,2.7026800134056743,0,False,test (c) outputs
+FactorizePhys (matched),Talking,(ii-pc)-(i-simple),MAE_high,25,2,0.75,-3.984375,2.953125,0,True,test (c) outputs
+FactorizePhys (matched),Talking,(ii-pc)-(i-simple),MAE_all,360,22,0.8984375,0.06117135047556926,1.6462871204440557,0,False,test (c) outputs
+FactorizePhys (matched),Talking,(ii-pc)-(i-pc),MAE_high,25,2,0.65625,-7.265625,3.515625,0,True,test (c) outputs
+FactorizePhys (matched),Talking,(ii-pc)-(i-pc),MAE_all,360,22,1.3997395833333333,0.3446450485745972,2.457447638286607,0,False,test (c) outputs
+FactorizePhys (matched),Talking,(ii-pc)-(0),MAE_high,25,2,-1.03125,-8.203125,1.96875,0,True,test (c) outputs
+FactorizePhys (matched),Talking,(ii-pc)-(0),MAE_all,360,22,1.5592447916666667,0.47300579364483175,2.6423816215701206,0,False,test (c) outputs
+FactorizePhys (matched),Walking,(ii-pc)-(i-simple),MAE_high,93,14,-2.4823588709677424,-5.263881866084734,0.2152423469387763,0,True,test (c) outputs
+FactorizePhys (matched),Walking,(ii-pc)-(i-simple),MAE_all,245,22,-1.9132653061224498,-3.365741259741465,-0.4191672585227276,0,False,test (c) outputs
+FactorizePhys (matched),Walking,(ii-pc)-(i-pc),MAE_high,93,14,-4.72530241935484,-9.32256600827385,-1.2385942944250896,0,True,test (c) outputs
+FactorizePhys (matched),Walking,(ii-pc)-(i-pc),MAE_all,245,22,-2.8029336734693877,-4.894610777328446,-0.9366541924436609,0,False,test (c) outputs
+FactorizePhys (matched),Walking,(ii-pc)-(0),MAE_high,93,14,-3.5912298387096784,-6.0595444227200455,-1.0426010098102452,0,True,test (c) outputs
+FactorizePhys (matched),Walking,(ii-pc)-(0),MAE_all,245,22,-1.3249362244897966,-3.308561199644392,0.762428076540612,0,False,test (c) outputs
+PhysNet,Stationary,(ii-pc)-(i-simple),MAE_high,144,15,0.7080078125,-4.701933941916743,6.841077302631578,0,True,test (c) outputs
+PhysNet,Stationary,(ii-pc)-(i-simple),MAE_all,703,22,-0.268381045519203,-1.7760807033004014,1.2352027391584501,0,False,test (c) outputs
+PhysNet,Stationary,(ii-pc)-(i-pc),MAE_high,144,15,1.2369791666666667,-2.8735353209983807,6.204068913986457,0,True,test (c) outputs
+PhysNet,Stationary,(ii-pc)-(i-pc),MAE_all,703,22,-0.8434832859174956,-2.2522598977968347,0.8162414854597848,0,False,test (c) outputs
+PhysNet,Stationary,(ii-pc)-(0),MAE_high,144,15,-13.802083333333334,-18.0706288197097,-9.519815382909517,0,True,test (c) outputs
+PhysNet,Stationary,(ii-pc)-(0),MAE_all,703,22,-4.685833036984353,-6.905769413001504,-2.6882131156330016,0,False,test (c) outputs
+PhysNet,Rotation,(ii-pc)-(i-simple),MAE_high,20,2,-5.7421875,-13.0078125,3.046875,0,True,test (c) outputs
+PhysNet,Rotation,(ii-pc)-(i-simple),MAE_all,376,22,-0.34283577127659665,-2.664213489397044,2.083071598667875,0,False,test (c) outputs
+PhysNet,Rotation,(ii-pc)-(i-pc),MAE_high,20,2,0.52734375,-10.3125,4.609375,0,True,test (c) outputs
+PhysNet,Rotation,(ii-pc)-(i-pc),MAE_all,376,22,-2.072598071808511,-5.074729265227677,0.38515316774356234,0,False,test (c) outputs
+PhysNet,Rotation,(ii-pc)-(0),MAE_high,20,2,-16.7578125,-22.8125,-4.6875,0,True,test (c) outputs
+PhysNet,Rotation,(ii-pc)-(0),MAE_all,376,22,-1.1531748670212767,-5.03839412330346,2.583966961461028,0,False,test (c) outputs
+PhysNet,Talking,(ii-pc)-(i-simple),MAE_high,25,2,-0.84375,-10.265625,7.3125,0,True,test (c) outputs
+PhysNet,Talking,(ii-pc)-(i-simple),MAE_all,360,22,-0.517578125,-1.9318695943607387,1.0420806930246362,0,False,test (c) outputs
+PhysNet,Talking,(ii-pc)-(i-pc),MAE_high,25,2,4.125,-2.109375,12.421875,0,True,test (c) outputs
+PhysNet,Talking,(ii-pc)-(i-pc),MAE_all,360,22,-1.396484375,-3.3208959131537354,0.49122681625693637,0,False,test (c) outputs
+PhysNet,Talking,(ii-pc)-(0),MAE_high,25,2,-10.5,-18.515625,-4.078125,0,True,test (c) outputs
+PhysNet,Talking,(ii-pc)-(0),MAE_all,360,22,-1.7643229166666667,-4.499600264212828,1.1045093181098915,0,False,test (c) outputs
+PhysNet,Walking,(ii-pc)-(i-simple),MAE_high,93,14,-0.23941532258064532,-5.907270922481897,5.55700410980149,0,True,test (c) outputs
+PhysNet,Walking,(ii-pc)-(i-simple),MAE_all,245,22,-0.04783163265305982,-3.500465056319858,3.3670252254353223,0,False,test (c) outputs
+PhysNet,Walking,(ii-pc)-(i-pc),MAE_high,93,14,4.485887096774193,-0.6775339697576632,9.456542968749998,0,True,test (c) outputs
+PhysNet,Walking,(ii-pc)-(i-pc),MAE_all,245,22,2.458545918367347,-0.4640157000050004,5.779432009084121,0,False,test (c) outputs
+PhysNet,Walking,(ii-pc)-(0),MAE_high,93,14,-14.843750000000002,-22.58114246839888,-7.320880765819042,0,True,test (c) outputs
+PhysNet,Walking,(ii-pc)-(0),MAE_all,245,22,-10.011160714285715,-15.111412939867451,-5.17312984363893,0,False,test (c) outputs
+RhythmFormer,Stationary,(ii-pc)-(i-simple),MAE_high,144,15,-2.7018229166666665,-6.7248341951438855,1.1651539522058791,0,True,test (c) outputs
+RhythmFormer,Stationary,(ii-pc)-(i-simple),MAE_all,703,22,0.5317612019914654,-0.6183426558560314,1.9851173386121852,0,False,test (c) outputs
+RhythmFormer,Stationary,(ii-pc)-(i-pc),MAE_high,144,15,-4.345703125,-7.143499369646312,-1.3371276855468754,0,True,test (c) outputs
+RhythmFormer,Stationary,(ii-pc)-(i-pc),MAE_all,703,22,0.21503822901849232,-1.0456580882946425,1.59256754221578,0,False,test (c) outputs
+RhythmFormer,Stationary,(ii-pc)-(0),MAE_high,144,15,-16.145833333333332,-22.426205621625336,-10.010114679220923,0,True,test (c) outputs
+RhythmFormer,Stationary,(ii-pc)-(0),MAE_all,703,22,-4.885868598862019,-8.142322749995756,-1.626710285133048,0,False,test (c) outputs
+RhythmFormer,Rotation,(ii-pc)-(i-simple),MAE_high,20,2,-5.09765625,-16.875,-2.34375,0,True,test (c) outputs
+RhythmFormer,Rotation,(ii-pc)-(i-simple),MAE_all,376,22,-1.0627908909574462,-2.7432634097673163,0.511669400416925,0,False,test (c) outputs
+RhythmFormer,Rotation,(ii-pc)-(i-pc),MAE_high,20,2,-8.61328125,-13.7109375,-1.93359375,0,True,test (c) outputs
+RhythmFormer,Rotation,(ii-pc)-(i-pc),MAE_all,376,22,-0.34595246010638253,-2.337952922952586,1.7860337997892497,0,False,test (c) outputs
+RhythmFormer,Rotation,(ii-pc)-(0),MAE_high,20,2,-25.3125,-31.09375,-12.421875,0,True,test (c) outputs
+RhythmFormer,Rotation,(ii-pc)-(0),MAE_all,376,22,-3.1727892287234045,-7.664975547254344,1.434086347114804,0,False,test (c) outputs
+RhythmFormer,Talking,(ii-pc)-(i-simple),MAE_high,25,2,-4.546875,-17.34375,0.140625,0,True,test (c) outputs
+RhythmFormer,Talking,(ii-pc)-(i-simple),MAE_all,360,22,0.3059895833333333,-1.7631377585645251,3.0301390701781292,0,False,test (c) outputs
+RhythmFormer,Talking,(ii-pc)-(i-pc),MAE_high,25,2,-6.234375,-16.40625,-1.546875,0,True,test (c) outputs
+RhythmFormer,Talking,(ii-pc)-(i-pc),MAE_all,360,22,0.01953125,-2.2824219210324745,2.3950508181788335,0,False,test (c) outputs
+RhythmFormer,Talking,(ii-pc)-(0),MAE_high,25,2,-22.828125,-26.77734375,-17.71875,0,True,test (c) outputs
+RhythmFormer,Talking,(ii-pc)-(0),MAE_all,360,22,-3.0338541666666665,-7.305863154674842,1.0184682315005442,0,False,test (c) outputs
+RhythmFormer,Walking,(ii-pc)-(i-simple),MAE_high,93,14,1.8271169354838719,-2.4306145267210137,5.660834878177966,0,True,test (c) outputs
+RhythmFormer,Walking,(ii-pc)-(i-simple),MAE_all,245,22,-0.607461734693878,-3.232017299107142,1.9268369003080998,0,False,test (c) outputs
+RhythmFormer,Walking,(ii-pc)-(i-pc),MAE_high,93,14,-2.7343749999999996,-6.730823863636363,0.654638671874995,0,True,test (c) outputs
+RhythmFormer,Walking,(ii-pc)-(i-pc),MAE_all,245,22,-2.482461734693878,-4.801747802608464,-0.1626083919410306,0,False,test (c) outputs
+RhythmFormer,Walking,(ii-pc)-(0),MAE_high,93,14,-21.597782258064512,-28.700210108901512,-13.699742924323857,0,True,test (c) outputs
+RhythmFormer,Walking,(ii-pc)-(0),MAE_all,245,22,-16.21014030612245,-19.98726905234177,-12.140836126436747,0,False,test (c) outputs

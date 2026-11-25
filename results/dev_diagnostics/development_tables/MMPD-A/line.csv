@@ -1,0 +1,373 @@
+layer,backbone,strategy,set,seed,in_line
+HAR,FactorizePhys (matched),(0),high,20261131,0.0
+HAR,FactorizePhys (matched),(0),high,20261132,0.0
+HAR,FactorizePhys (matched),(0),high,20261133,0.0
+HAR,FactorizePhys (matched),(0),low,20261131,0.0
+HAR,FactorizePhys (matched),(0),low,20261132,0.0
+HAR,FactorizePhys (matched),(0),low,20261133,0.0
+HAR,FactorizePhys (matched),(i),high,20261131,0.0
+HAR,FactorizePhys (matched),(i),high,20261132,0.0
+HAR,FactorizePhys (matched),(i),high,20261133,0.0
+HAR,FactorizePhys (matched),(i),low,20261131,0.0
+HAR,FactorizePhys (matched),(i),low,20261132,0.0
+HAR,FactorizePhys (matched),(i),low,20261133,0.0
+HAR,FactorizePhys (matched),(i-pc),high,20261131,0.0
+HAR,FactorizePhys (matched),(i-pc),high,20261132,0.0
+HAR,FactorizePhys (matched),(i-pc),high,20261133,0.0
+HAR,FactorizePhys (matched),(i-pc),low,20261131,0.0
+HAR,FactorizePhys (matched),(i-pc),low,20261132,0.0
+HAR,FactorizePhys (matched),(i-pc),low,20261133,0.0
+HAR,FactorizePhys (matched),(i-simple),high,20261131,0.0
+HAR,FactorizePhys (matched),(i-simple),high,20261132,0.0
+HAR,FactorizePhys (matched),(i-simple),high,20261133,0.0
+HAR,FactorizePhys (matched),(i-simple),low,20261131,0.0
+HAR,FactorizePhys (matched),(i-simple),low,20261132,0.0
+HAR,FactorizePhys (matched),(i-simple),low,20261133,0.0
+HAR,FactorizePhys (matched),(ii),high,20261131,0.0
+HAR,FactorizePhys (matched),(ii),high,20261132,0.0
+HAR,FactorizePhys (matched),(ii),high,20261133,0.0
+HAR,FactorizePhys (matched),(ii),low,20261131,0.0
+HAR,FactorizePhys (matched),(ii),low,20261132,0.0
+HAR,FactorizePhys (matched),(ii),low,20261133,0.0
+HAR,FactorizePhys (matched),(ii-lag),high,20261131,0.0
+HAR,FactorizePhys (matched),(ii-lag),high,20261132,0.0
+HAR,FactorizePhys (matched),(ii-lag),high,20261133,0.0
+HAR,FactorizePhys (matched),(ii-lag),low,20261131,0.0
+HAR,FactorizePhys (matched),(ii-lag),low,20261132,0.0
+HAR,FactorizePhys (matched),(ii-lag),low,20261133,0.0
+HAR,FactorizePhys (matched),(ii-pc),high,20261131,0.0
+HAR,FactorizePhys (matched),(ii-pc),high,20261132,0.0
+HAR,FactorizePhys (matched),(ii-pc),high,20261133,0.0
+HAR,FactorizePhys (matched),(ii-pc),low,20261131,0.0
+HAR,FactorizePhys (matched),(ii-pc),low,20261132,0.0
+HAR,FactorizePhys (matched),(ii-pc),low,20261133,0.0
+HAR,FactorizePhys (matched),(ii-pc-g),high,20261131,0.0
+HAR,FactorizePhys (matched),(ii-pc-g),high,20261132,0.0
+HAR,FactorizePhys (matched),(ii-pc-g),high,20261133,0.0
+HAR,FactorizePhys (matched),(ii-pc-g),low,20261131,0.0
+HAR,FactorizePhys (matched),(ii-pc-g),low,20261132,0.0
+HAR,FactorizePhys (matched),(ii-pc-g),low,20261133,0.0
+HAR,FactorizePhys (matched),(ii-pc-g2),high,20261131,0.0
+HAR,FactorizePhys (matched),(ii-pc-g2),high,20261132,0.0
+HAR,FactorizePhys (matched),(ii-pc-g2),high,20261133,0.0
+HAR,FactorizePhys (matched),(ii-pc-g2),low,20261131,0.0
+HAR,FactorizePhys (matched),(ii-pc-g2),low,20261132,0.0
+HAR,FactorizePhys (matched),(ii-pc-g2),low,20261133,0.0
+HAR,FactorizePhys (matched),(ii-pc-g80),high,20261131,0.0
+HAR,FactorizePhys (matched),(ii-pc-g80),high,20261132,0.0
+HAR,FactorizePhys (matched),(ii-pc-g80),high,20261133,0.0
+HAR,FactorizePhys (matched),(ii-pc-g80),low,20261131,0.0
+HAR,FactorizePhys (matched),(ii-pc-g80),low,20261132,0.0
+HAR,FactorizePhys (matched),(ii-pc-g80),low,20261133,0.0
+HAR,FactorizePhys (matched),(sham-pc),high,20261131,0.0
+HAR,FactorizePhys (matched),(sham-pc),high,20261132,0.0
+HAR,FactorizePhys (matched),(sham-pc),high,20261133,0.0
+HAR,FactorizePhys (matched),(sham-pc),low,20261131,0.0
+HAR,FactorizePhys (matched),(sham-pc),low,20261132,0.0
+HAR,FactorizePhys (matched),(sham-pc),low,20261133,0.0
+HAR,PhysNet,(0),high,20261131,0.0
+HAR,PhysNet,(0),high,20261132,0.0
+HAR,PhysNet,(0),high,20261133,0.0
+HAR,PhysNet,(0),low,20261131,0.0
+HAR,PhysNet,(0),low,20261132,0.0
+HAR,PhysNet,(0),low,20261133,0.0
+HAR,PhysNet,(i),high,20261131,0.0
+HAR,PhysNet,(i),high,20261132,0.0
+HAR,PhysNet,(i),high,20261133,0.0
+HAR,PhysNet,(i),low,20261131,0.0
+HAR,PhysNet,(i),low,20261132,0.0
+HAR,PhysNet,(i),low,20261133,0.0
+HAR,PhysNet,(i-pc),high,20261131,0.0
+HAR,PhysNet,(i-pc),high,20261132,0.0
+HAR,PhysNet,(i-pc),high,20261133,0.0
+HAR,PhysNet,(i-pc),low,20261131,0.0
+HAR,PhysNet,(i-pc),low,20261132,0.0
+HAR,PhysNet,(i-pc),low,20261133,0.0
+HAR,PhysNet,(i-pc-g80),high,20261131,0.0
+HAR,PhysNet,(i-pc-g80),high,20261132,0.0
+HAR,PhysNet,(i-pc-g80),high,20261133,0.007352941176470588
+HAR,PhysNet,(i-pc-g80),low,20261131,0.0
+HAR,PhysNet,(i-pc-g80),low,20261132,0.0017035775127768314
+HAR,PhysNet,(i-pc-g80),low,20261133,0.0017035775127768314
+HAR,PhysNet,(i-simple),high,20261131,0.0
+HAR,PhysNet,(i-simple),high,20261132,0.0
+HAR,PhysNet,(i-simple),high,20261133,0.0
+HAR,PhysNet,(i-simple),low,20261131,0.0
+HAR,PhysNet,(i-simple),low,20261132,0.0
+HAR,PhysNet,(i-simple),low,20261133,0.0
+HAR,PhysNet,(ii),high,20261131,0.0
+HAR,PhysNet,(ii),high,20261132,0.0
+HAR,PhysNet,(ii),high,20261133,0.0
+HAR,PhysNet,(ii),low,20261131,0.0
+HAR,PhysNet,(ii),low,20261132,0.0
+HAR,PhysNet,(ii),low,20261133,0.0
+HAR,PhysNet,(ii-lag),high,20261131,0.0
+HAR,PhysNet,(ii-lag),high,20261132,0.0
+HAR,PhysNet,(ii-lag),high,20261133,0.0
+HAR,PhysNet,(ii-lag),low,20261131,0.0
+HAR,PhysNet,(ii-lag),low,20261132,0.0
+HAR,PhysNet,(ii-lag),low,20261133,0.0
+HAR,PhysNet,(ii-pc),high,20261131,0.0
+HAR,PhysNet,(ii-pc),high,20261132,0.0
+HAR,PhysNet,(ii-pc),high,20261133,0.0
+HAR,PhysNet,(ii-pc),low,20261131,0.0
+HAR,PhysNet,(ii-pc),low,20261132,0.0
+HAR,PhysNet,(ii-pc),low,20261133,0.0
+HAR,PhysNet,(ii-pc-g),high,20261131,0.0
+HAR,PhysNet,(ii-pc-g),high,20261132,0.0
+HAR,PhysNet,(ii-pc-g),high,20261133,0.0
+HAR,PhysNet,(ii-pc-g),low,20261131,0.0
+HAR,PhysNet,(ii-pc-g),low,20261132,0.0
+HAR,PhysNet,(ii-pc-g),low,20261133,0.0
+HAR,PhysNet,(ii-pc-g2),high,20261131,0.0
+HAR,PhysNet,(ii-pc-g2),high,20261132,0.0
+HAR,PhysNet,(ii-pc-g2),high,20261133,0.0
+HAR,PhysNet,(ii-pc-g2),low,20261131,0.0
+HAR,PhysNet,(ii-pc-g2),low,20261132,0.0034071550255536627
+HAR,PhysNet,(ii-pc-g2),low,20261133,0.0
+HAR,PhysNet,(ii-pc-g80),high,20261131,0.0
+HAR,PhysNet,(ii-pc-g80),high,20261132,0.0
+HAR,PhysNet,(ii-pc-g80),high,20261133,0.0
+HAR,PhysNet,(ii-pc-g80),low,20261131,0.0034071550255536627
+HAR,PhysNet,(ii-pc-g80),low,20261132,0.0
+HAR,PhysNet,(ii-pc-g80),low,20261133,0.0
+HAR,PhysNet,(roi-pc),high,20261131,0.0
+HAR,PhysNet,(roi-pc),high,20261132,0.0
+HAR,PhysNet,(roi-pc),high,20261133,0.0
+HAR,PhysNet,(roi-pc),low,20261131,0.0
+HAR,PhysNet,(roi-pc),low,20261132,0.0
+HAR,PhysNet,(roi-pc),low,20261133,0.0
+HAR,PhysNet,(sham-pc),high,20261131,0.0
+HAR,PhysNet,(sham-pc),high,20261132,0.0
+HAR,PhysNet,(sham-pc),high,20261133,0.0
+HAR,PhysNet,(sham-pc),low,20261131,0.0
+HAR,PhysNet,(sham-pc),low,20261132,0.0
+HAR,PhysNet,(sham-pc),low,20261133,0.0
+HAR,RhythmFormer,(0),high,20261131,0.014705882352941176
+HAR,RhythmFormer,(0),high,20261132,0.0
+HAR,RhythmFormer,(0),high,20261133,0.007352941176470588
+HAR,RhythmFormer,(0),low,20261131,0.008517887563884156
+HAR,RhythmFormer,(0),low,20261132,0.013628620102214651
+HAR,RhythmFormer,(0),low,20261133,0.0034071550255536627
+HAR,RhythmFormer,(i),high,20261131,0.0
+HAR,RhythmFormer,(i),high,20261132,0.0
+HAR,RhythmFormer,(i),high,20261133,0.0
+HAR,RhythmFormer,(i),low,20261131,0.0017035775127768314
+HAR,RhythmFormer,(i),low,20261132,0.0
+HAR,RhythmFormer,(i),low,20261133,0.0
+HAR,RhythmFormer,(i-pc),high,20261131,0.0
+HAR,RhythmFormer,(i-pc),high,20261132,0.0
+HAR,RhythmFormer,(i-pc),high,20261133,0.0
+HAR,RhythmFormer,(i-pc),low,20261131,0.0
+HAR,RhythmFormer,(i-pc),low,20261132,0.0
+HAR,RhythmFormer,(i-pc),low,20261133,0.0017035775127768314
+HAR,RhythmFormer,(i-simple),high,20261131,0.0
+HAR,RhythmFormer,(i-simple),high,20261132,0.0
+HAR,RhythmFormer,(i-simple),high,20261133,0.0
+HAR,RhythmFormer,(i-simple),low,20261131,0.0
+HAR,RhythmFormer,(i-simple),low,20261132,0.0034071550255536627
+HAR,RhythmFormer,(i-simple),low,20261133,0.0
+HAR,RhythmFormer,(ii),high,20261131,0.0
+HAR,RhythmFormer,(ii),high,20261132,0.0
+HAR,RhythmFormer,(ii),high,20261133,0.0
+HAR,RhythmFormer,(ii),low,20261131,0.0
+HAR,RhythmFormer,(ii),low,20261132,0.0
+HAR,RhythmFormer,(ii),low,20261133,0.0
+HAR,RhythmFormer,(ii-lag),high,20261131,0.0
+HAR,RhythmFormer,(ii-lag),high,20261132,0.0
+HAR,RhythmFormer,(ii-lag),high,20261133,0.0
+HAR,RhythmFormer,(ii-lag),low,20261131,0.0
+HAR,RhythmFormer,(ii-lag),low,20261132,0.0
+HAR,RhythmFormer,(ii-lag),low,20261133,0.0
+HAR,RhythmFormer,(ii-pc),high,20261131,0.0
+HAR,RhythmFormer,(ii-pc),high,20261132,0.0
+HAR,RhythmFormer,(ii-pc),high,20261133,0.0
+HAR,RhythmFormer,(ii-pc),low,20261131,0.0
+HAR,RhythmFormer,(ii-pc),low,20261132,0.0
+HAR,RhythmFormer,(ii-pc),low,20261133,0.0
+L0,FactorizePhys (matched),(0),high,20261131,0.0
+L0,FactorizePhys (matched),(0),high,20261132,0.0
+L0,FactorizePhys (matched),(0),high,20261133,0.0
+L0,FactorizePhys (matched),(0),low,20261131,0.0
+L0,FactorizePhys (matched),(0),low,20261132,0.0
+L0,FactorizePhys (matched),(0),low,20261133,0.0
+L0,FactorizePhys (matched),(i),high,20261131,0.0
+L0,FactorizePhys (matched),(i),high,20261132,0.0
+L0,FactorizePhys (matched),(i),high,20261133,0.0
+L0,FactorizePhys (matched),(i),low,20261131,0.0
+L0,FactorizePhys (matched),(i),low,20261132,0.0
+L0,FactorizePhys (matched),(i),low,20261133,0.0
+L0,FactorizePhys (matched),(i-pc),high,20261131,0.0
+L0,FactorizePhys (matched),(i-pc),high,20261132,0.0
+L0,FactorizePhys (matched),(i-pc),high,20261133,0.0
+L0,FactorizePhys (matched),(i-pc),low,20261131,0.0
+L0,FactorizePhys (matched),(i-pc),low,20261132,0.0
+L0,FactorizePhys (matched),(i-pc),low,20261133,0.0
+L0,FactorizePhys (matched),(i-simple),high,20261131,0.0
+L0,FactorizePhys (matched),(i-simple),high,20261132,0.0
+L0,FactorizePhys (matched),(i-simple),high,20261133,0.0
+L0,FactorizePhys (matched),(i-simple),low,20261131,0.0
+L0,FactorizePhys (matched),(i-simple),low,20261132,0.0
+L0,FactorizePhys (matched),(i-simple),low,20261133,0.0
+L0,FactorizePhys (matched),(ii),high,20261131,0.0
+L0,FactorizePhys (matched),(ii),high,20261132,0.0
+L0,FactorizePhys (matched),(ii),high,20261133,0.0
+L0,FactorizePhys (matched),(ii),low,20261131,0.0
+L0,FactorizePhys (matched),(ii),low,20261132,0.0
+L0,FactorizePhys (matched),(ii),low,20261133,0.0
+L0,FactorizePhys (matched),(ii-lag),high,20261131,0.0
+L0,FactorizePhys (matched),(ii-lag),high,20261132,0.0
+L0,FactorizePhys (matched),(ii-lag),high,20261133,0.0
+L0,FactorizePhys (matched),(ii-lag),low,20261131,0.0
+L0,FactorizePhys (matched),(ii-lag),low,20261132,0.0
+L0,FactorizePhys (matched),(ii-lag),low,20261133,0.0
+L0,FactorizePhys (matched),(ii-pc),high,20261131,0.0
+L0,FactorizePhys (matched),(ii-pc),high,20261132,0.0
+L0,FactorizePhys (matched),(ii-pc),high,20261133,0.0
+L0,FactorizePhys (matched),(ii-pc),low,20261131,0.0
+L0,FactorizePhys (matched),(ii-pc),low,20261132,0.0
+L0,FactorizePhys (matched),(ii-pc),low,20261133,0.0
+L0,FactorizePhys (matched),(ii-pc-g),high,20261131,0.0
+L0,FactorizePhys (matched),(ii-pc-g),high,20261132,0.0
+L0,FactorizePhys (matched),(ii-pc-g),high,20261133,0.0
+L0,FactorizePhys (matched),(ii-pc-g),low,20261131,0.0
+L0,FactorizePhys (matched),(ii-pc-g),low,20261132,0.0
+L0,FactorizePhys (matched),(ii-pc-g),low,20261133,0.0
+L0,FactorizePhys (matched),(ii-pc-g2),high,20261131,0.0
+L0,FactorizePhys (matched),(ii-pc-g2),high,20261132,0.0
+L0,FactorizePhys (matched),(ii-pc-g2),high,20261133,0.0
+L0,FactorizePhys (matched),(ii-pc-g2),low,20261131,0.0
+L0,FactorizePhys (matched),(ii-pc-g2),low,20261132,0.0
+L0,FactorizePhys (matched),(ii-pc-g2),low,20261133,0.0
+L0,FactorizePhys (matched),(ii-pc-g80),high,20261131,0.0
+L0,FactorizePhys (matched),(ii-pc-g80),high,20261132,0.0
+L0,FactorizePhys (matched),(ii-pc-g80),high,20261133,0.0
+L0,FactorizePhys (matched),(ii-pc-g80),low,20261131,0.0
+L0,FactorizePhys (matched),(ii-pc-g80),low,20261132,0.0
+L0,FactorizePhys (matched),(ii-pc-g80),low,20261133,0.0
+L0,FactorizePhys (matched),(sham-pc),high,20261131,0.0
+L0,FactorizePhys (matched),(sham-pc),high,20261132,0.0
+L0,FactorizePhys (matched),(sham-pc),high,20261133,0.0
+L0,FactorizePhys (matched),(sham-pc),low,20261131,0.0
+L0,FactorizePhys (matched),(sham-pc),low,20261132,0.0
+L0,FactorizePhys (matched),(sham-pc),low,20261133,0.0
+L0,PhysNet,(0),high,20261131,0.0
+L0,PhysNet,(0),high,20261132,0.0
+L0,PhysNet,(0),high,20261133,0.0
+L0,PhysNet,(0),low,20261131,0.0
+L0,PhysNet,(0),low,20261132,0.0
+L0,PhysNet,(0),low,20261133,0.0
+L0,PhysNet,(i),high,20261131,0.0
+L0,PhysNet,(i),high,20261132,0.0
+L0,PhysNet,(i),high,20261133,0.0
+L0,PhysNet,(i),low,20261131,0.0
+L0,PhysNet,(i),low,20261132,0.0
+L0,PhysNet,(i),low,20261133,0.0
+L0,PhysNet,(i-pc),high,20261131,0.0
+L0,PhysNet,(i-pc),high,20261132,0.0
+L0,PhysNet,(i-pc),high,20261133,0.0
+L0,PhysNet,(i-pc),low,20261131,0.0
+L0,PhysNet,(i-pc),low,20261132,0.0
+L0,PhysNet,(i-pc),low,20261133,0.0
+L0,PhysNet,(i-pc-g80),high,20261131,0.0
+L0,PhysNet,(i-pc-g80),high,20261132,0.0
+L0,PhysNet,(i-pc-g80),high,20261133,0.0
+L0,PhysNet,(i-pc-g80),low,20261131,0.0
+L0,PhysNet,(i-pc-g80),low,20261132,0.0
+L0,PhysNet,(i-pc-g80),low,20261133,0.0
+L0,PhysNet,(i-simple),high,20261131,0.0
+L0,PhysNet,(i-simple),high,20261132,0.0
+L0,PhysNet,(i-simple),high,20261133,0.0
+L0,PhysNet,(i-simple),low,20261131,0.0
+L0,PhysNet,(i-simple),low,20261132,0.0
+L0,PhysNet,(i-simple),low,20261133,0.0
+L0,PhysNet,(ii),high,20261131,0.0
+L0,PhysNet,(ii),high,20261132,0.0
+L0,PhysNet,(ii),high,20261133,0.0
+L0,PhysNet,(ii),low,20261131,0.0
+L0,PhysNet,(ii),low,20261132,0.0
+L0,PhysNet,(ii),low,20261133,0.0
+L0,PhysNet,(ii-lag),high,20261131,0.0
+L0,PhysNet,(ii-lag),high,20261132,0.0
+L0,PhysNet,(ii-lag),high,20261133,0.0
+L0,PhysNet,(ii-lag),low,20261131,0.0
+L0,PhysNet,(ii-lag),low,20261132,0.0
+L0,PhysNet,(ii-lag),low,20261133,0.0
+L0,PhysNet,(ii-pc),high,20261131,0.0
+L0,PhysNet,(ii-pc),high,20261132,0.0
+L0,PhysNet,(ii-pc),high,20261133,0.0
+L0,PhysNet,(ii-pc),low,20261131,0.0
+L0,PhysNet,(ii-pc),low,20261132,0.0
+L0,PhysNet,(ii-pc),low,20261133,0.0
+L0,PhysNet,(ii-pc-g),high,20261131,0.0
+L0,PhysNet,(ii-pc-g),high,20261132,0.0
+L0,PhysNet,(ii-pc-g),high,20261133,0.0
+L0,PhysNet,(ii-pc-g),low,20261131,0.0
+L0,PhysNet,(ii-pc-g),low,20261132,0.0
+L0,PhysNet,(ii-pc-g),low,20261133,0.0
+L0,PhysNet,(ii-pc-g2),high,20261131,0.0
+L0,PhysNet,(ii-pc-g2),high,20261132,0.0
+L0,PhysNet,(ii-pc-g2),high,20261133,0.0
+L0,PhysNet,(ii-pc-g2),low,20261131,0.0
+L0,PhysNet,(ii-pc-g2),low,20261132,0.0
+L0,PhysNet,(ii-pc-g2),low,20261133,0.0
+L0,PhysNet,(ii-pc-g80),high,20261131,0.0
+L0,PhysNet,(ii-pc-g80),high,20261132,0.0
+L0,PhysNet,(ii-pc-g80),high,20261133,0.0
+L0,PhysNet,(ii-pc-g80),low,20261131,0.0
+L0,PhysNet,(ii-pc-g80),low,20261132,0.0
+L0,PhysNet,(ii-pc-g80),low,20261133,0.0
+L0,PhysNet,(roi-pc),high,20261131,0.0
+L0,PhysNet,(roi-pc),high,20261132,0.0
+L0,PhysNet,(roi-pc),high,20261133,0.0
+L0,PhysNet,(roi-pc),low,20261131,0.0
+L0,PhysNet,(roi-pc),low,20261132,0.0
+L0,PhysNet,(roi-pc),low,20261133,0.0
+L0,PhysNet,(sham-pc),high,20261131,0.0
+L0,PhysNet,(sham-pc),high,20261132,0.0
+L0,PhysNet,(sham-pc),high,20261133,0.0
+L0,PhysNet,(sham-pc),low,20261131,0.0
+L0,PhysNet,(sham-pc),low,20261132,0.0
+L0,PhysNet,(sham-pc),low,20261133,0.0
+L0,RhythmFormer,(0),high,20261131,0.0
+L0,RhythmFormer,(0),high,20261132,0.0
+L0,RhythmFormer,(0),high,20261133,0.0
+L0,RhythmFormer,(0),low,20261131,0.0017035775127768314
+L0,RhythmFormer,(0),low,20261132,0.0034071550255536627
+L0,RhythmFormer,(0),low,20261133,0.0
+L0,RhythmFormer,(i),high,20261131,0.0
+L0,RhythmFormer,(i),high,20261132,0.0
+L0,RhythmFormer,(i),high,20261133,0.0
+L0,RhythmFormer,(i),low,20261131,0.0017035775127768314
+L0,RhythmFormer,(i),low,20261132,0.0
+L0,RhythmFormer,(i),low,20261133,0.0
+L0,RhythmFormer,(i-pc),high,20261131,0.0
+L0,RhythmFormer,(i-pc),high,20261132,0.0
+L0,RhythmFormer,(i-pc),high,20261133,0.0
+L0,RhythmFormer,(i-pc),low,20261131,0.0
+L0,RhythmFormer,(i-pc),low,20261132,0.0
+L0,RhythmFormer,(i-pc),low,20261133,0.0
+L0,RhythmFormer,(i-simple),high,20261131,0.0
+L0,RhythmFormer,(i-simple),high,20261132,0.0
+L0,RhythmFormer,(i-simple),high,20261133,0.0
+L0,RhythmFormer,(i-simple),low,20261131,0.0
+L0,RhythmFormer,(i-simple),low,20261132,0.0
+L0,RhythmFormer,(i-simple),low,20261133,0.0
+L0,RhythmFormer,(ii),high,20261131,0.0
+L0,RhythmFormer,(ii),high,20261132,0.0
+L0,RhythmFormer,(ii),high,20261133,0.0
+L0,RhythmFormer,(ii),low,20261131,0.0
+L0,RhythmFormer,(ii),low,20261132,0.0
+L0,RhythmFormer,(ii),low,20261133,0.0
+L0,RhythmFormer,(ii-lag),high,20261131,0.0
+L0,RhythmFormer,(ii-lag),high,20261132,0.0
+L0,RhythmFormer,(ii-lag),high,20261133,0.0
+L0,RhythmFormer,(ii-lag),low,20261131,0.0
+L0,RhythmFormer,(ii-lag),low,20261132,0.0
+L0,RhythmFormer,(ii-lag),low,20261133,0.0
+L0,RhythmFormer,(ii-pc),high,20261131,0.0
+L0,RhythmFormer,(ii-pc),high,20261132,0.0
+L0,RhythmFormer,(ii-pc),high,20261133,0.0
+L0,RhythmFormer,(ii-pc),low,20261131,0.0
+L0,RhythmFormer,(ii-pc),low,20261132,0.0
+L0,RhythmFormer,(ii-pc),low,20261133,0.0

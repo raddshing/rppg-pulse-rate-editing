@@ -1,0 +1,4 @@
+dataset,windows,high_windows,low_windows,subjects,recordings,runs_in_common_support,reference_HR_max_difference_vs_760_file
+MMPD-A 723,723,136,587,11,191,154,0.0
+MMPD-A 760,760,141,619,11,195,154,
+MCD-dev,1446,580,866,73,89,154,

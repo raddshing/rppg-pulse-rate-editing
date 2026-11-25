@@ -1,0 +1,37 @@
+{
+ "items": 120,
+ "r_bin_counts": {
+  "<1.0": 20,
+  "1.0-1.2": 20,
+  "1.2-1.4": 20,
+  "1.4-1.6": 20,
+  "1.6-1.8": 20,
+  ">=1.8": 20
+ },
+ "V3_stored_item_sha_match": 120,
+ "V3_source_start_match": 120,
+ "V4_achieved_HR_match": 120,
+ "V5_original_matches_1a": {
+  "PhysNet_view": {
+   "items": 120,
+   "L_abs_equal": 120,
+   "c_abs_max_abs_diff": 0.0
+  },
+  "FactorizePhys_view": {
+   "items": 120,
+   "L_abs_equal": 120,
+   "c_abs_max_abs_diff": 0.0
+  }
+ },
+ "positive_controls": {
+  "total": 48,
+  "passed": 43,
+  "failed_items": [
+   "04-05|10",
+   "06-04|11"
+  ]
+ },
+ "mask_failure_fraction_i_max": 0.0,
+ "mask_failure_fraction_original_max": 0.0,
+ "item_seconds_median": 55.268728613853455
+}

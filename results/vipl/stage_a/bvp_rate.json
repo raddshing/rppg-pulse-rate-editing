@@ -1,0 +1,19 @@
+{
+ "choice": "gt_HR mean (BVP verifies only, per-record rate)",
+ "comparisons": [
+  {
+   "rate": "60 Hz",
+   "median_ratio": 0.9790348101265823,
+   "windows": 5705
+  },
+  {
+   "rate": "per record (BVP samples / gt_HR rows)",
+   "median_ratio": 0.9329764776839565,
+   "windows": 6024
+  }
+ ],
+ "band": [
+  0.98,
+  1.02
+ ]
+}

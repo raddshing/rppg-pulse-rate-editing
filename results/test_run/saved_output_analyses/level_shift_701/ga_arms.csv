@@ -1,0 +1,433 @@
+analysis,dataset,population,layer,backbone,strategy,windows,subjects,metric,point,ci_lo,ci_hi,source
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0),1684,22,MAE_high,23.85721409574468,18.613115026595747,27.537096889043607,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0),1684,22,MAE_low,9.921652104136948,7.716043949676253,12.485264651503574,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0),1684,22,MAE_all,12.255279468527315,9.508271314504963,15.152342303537013,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0),1684,22,signed_error_high,-21.995511968085108,-26.409718183510204,-17.204346327525577,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0),1684,22,signed_error_low,1.7870675820256776,-0.6830226781962416,4.660824886184178,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0),1684,22,signed_error_all,-2.1955259055819476,-6.038158597993182,1.6514935545391207,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0),1684,22,slope_high,-0.1884753515923716,-0.42579591770085695,0.20201130788624663,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0),1684,22,spearman_high,-0.0862730049996208,-0.19684670928181514,0.09561504421918934,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0),1684,22,kendall_high,-0.05529359249307167,-0.1385866922967487,0.08722279433761776,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0),1684,22,pearson_high,-0.08915756932923909,-0.2069408659335758,0.08365789727676992,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0),1684,22,AUROC,0.6441237273331243,0.5752260690461659,0.7111105094266779,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0),1684,22,MAE_verified,12.255279468527315,9.508271314504963,15.152342303537013,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0)+affine,1684,22,MAE_high,23.676613340195882,20.19206356939757,26.258995511353532,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0)+affine,1684,22,MAE_low,9.980929393054181,8.248664026326768,12.153807201358813,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0)+affine,1684,22,MAE_all,12.27438715617411,10.354453660084063,14.52346977168347,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0)+affine,1684,22,signed_error_high,-23.676613340195882,-26.258995511353532,-20.19206356939757,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0)+affine,1684,22,signed_error_low,5.968752963505602,2.993800894273532,9.018676121139077,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0)+affine,1684,22,signed_error_all,1.0043863972087974,-3.6625631500441145,5.475824589737493,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0)+affine,1684,22,slope_high,-0.0697564312981563,-0.1575541234570445,0.07786555546245402,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0)+affine,1684,22,spearman_high,-0.0862730049996208,-0.19684670928181514,0.09561504421918934,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0)+affine,1684,22,kendall_high,-0.05529359249307167,-0.1385866922967487,0.08722279433761776,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0)+affine,1684,22,pearson_high,-0.08915756932926515,-0.20694086593358368,0.08365789727678861,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0)+affine,1684,22,AUROC,0.6441237273331243,0.5752260690461659,0.7111105094266779,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0)+affine,1684,22,MAE_verified,12.27438715617411,10.354453660084063,14.52346977168347,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0)+offset,1684,22,MAE_high,23.21070161450517,18.31250575425529,26.513536341582142,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0)+offset,1684,22,MAE_low,10.589155848047549,8.503469711857694,13.040161302568976,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0)+offset,1684,22,MAE_all,12.702740115352206,10.126542441640996,15.409811456952571,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0)+offset,1684,22,signed_error_high,-20.376282196300874,-24.507302665168943,-15.775148168918362,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0)+offset,1684,22,signed_error_low,3.4062973538099066,1.0264489501315386,6.107115559980672,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0)+offset,1684,22,signed_error_all,-0.5762961337977174,-4.375620221009374,3.161952605107507,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0)+offset,1684,22,slope_high,-0.18847535159233061,-0.4257959177008724,0.20201130788621077,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0)+offset,1684,22,spearman_high,-0.0862730049996208,-0.19684670928181514,0.09561504421918934,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0)+offset,1684,22,kendall_high,-0.05529359249307167,-0.1385866922967487,0.08722279433761776,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0)+offset,1684,22,pearson_high,-0.08915756932921896,-0.20694086593360173,0.0836578972767467,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0)+offset,1684,22,AUROC,0.6441237273331243,0.5752260690461659,0.7111105094266779,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(0)+offset,1684,22,MAE_verified,12.702740115352206,10.126542441640996,15.409811456952571,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(i-pc),1684,22,MAE_high,23.192320478723403,18.11265452109267,27.07123241816351,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(i-pc),1684,22,MAE_low,10.481677960057063,8.122622865682796,13.318577505485774,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(i-pc),1684,22,MAE_all,12.610182229809977,9.853827366440731,15.51523365891965,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(i-pc),1684,22,signed_error_high,-20.73221409574468,-25.592052640145738,-16.02577739087909,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(i-pc),1684,22,signed_error_low,3.2498216833095577,0.7346880543166379,6.307333217091695,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(i-pc),1684,22,signed_error_all,-0.7661724317102139,-4.52423752562355,3.1221841895664006,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(i-pc),1684,22,slope_high,-0.19392584363770315,-0.4929200253699604,0.3035773897933552,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(i-pc),1684,22,spearman_high,-0.07524936369254633,-0.221719100941896,0.16235367637538353,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(i-pc),1684,22,kendall_high,-0.04707727704403347,-0.1596452678621849,0.1397633040422017,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(i-pc),1684,22,pearson_high,-0.08905217139861259,-0.24707481941818396,0.11910293347456717,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(i-pc),1684,22,AUROC,0.6379825511005892,0.5552290646512731,0.7096768791079324,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(i-pc),1684,22,MAE_verified,12.610182229809977,9.853827366440731,15.51523365891965,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(i-simple),1684,22,MAE_high,21.73786569148936,16.837654798761612,25.043789128261782,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(i-simple),1684,22,MAE_low,10.821036911554922,8.376592802075992,13.737715655262319,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(i-simple),1684,22,MAE_all,12.649151944774346,9.943999866732266,15.512784603726507,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(i-simple),1684,22,signed_error_high,-19.02842420212766,-22.913621689176683,-14.607995856136188,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(i-simple),1684,22,signed_error_low,3.6861403352353777,1.221840677122041,6.777280547935692,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(i-simple),1684,22,signed_error_all,-0.11760503266033255,-3.7144593537194543,3.6832688103108686,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(i-simple),1684,22,slope_high,-0.101748748203275,-0.40160503012533116,0.3968937910568942,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(i-simple),1684,22,spearman_high,-0.022476418708148333,-0.16202475852845696,0.19173184928947987,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(i-simple),1684,22,kendall_high,-0.008223908062368071,-0.11505361622919626,0.16162885256674409,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(i-simple),1684,22,pearson_high,-0.04737468407705261,-0.1979893200764322,0.1489036517349165,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(i-simple),1684,22,AUROC,0.6554116375458228,0.5917253056994418,0.717995696369056,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(i-simple),1684,22,MAE_verified,12.649151944774346,9.943999866732266,15.512784603726507,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(ii-pc),1684,22,MAE_high,20.935837765957444,15.719572731255044,24.620370023206622,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(ii-pc),1684,22,MAE_low,11.256519703994293,8.625526045523866,14.504280807356887,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(ii-pc),1684,22,MAE_all,12.8774031324228,10.081850735321341,15.910268829214639,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(ii-pc),1684,22,signed_error_high,-18.34275265957447,-22.776095051498828,-13.413118897355911,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(ii-pc),1684,22,signed_error_low,5.015992778174037,2.241904868002742,8.46786657780622,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(ii-pc),1684,22,signed_error_all,1.1043738865795725,-2.7408727379325764,5.138268048972927,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(ii-pc),1684,22,slope_high,-0.09823910325038195,-0.35945586255511025,0.3168029394535125,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(ii-pc),1684,22,spearman_high,-0.04810236683253183,-0.18067137354747723,0.16697641152833034,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(ii-pc),1684,22,kendall_high,-0.023771767427689952,-0.12171430617284315,0.14483867282362653,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(ii-pc),1684,22,pearson_high,-0.04662237790277801,-0.18297770645075365,0.13303739314389607,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(ii-pc),1684,22,AUROC,0.6546052076904658,0.5765770248500319,0.7277591089933441,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,FactorizePhys (matched),(ii-pc),1684,22,MAE_verified,12.8774031324228,10.081850735321341,15.910268829214639,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0),1684,22,MAE_high,38.69265292553192,31.83692685891571,42.81532322015977,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0),1684,22,MAE_low,13.266761768901569,10.895037170410856,15.788634711556941,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0),1684,22,MAE_all,17.524541641923992,13.820970481277048,21.805294191559778,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0),1684,22,signed_error_high,-38.21060505319149,-42.32197847565334,-31.257220082938392,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0),1684,22,signed_error_low,-6.544779778887303,-10.214611199823102,-3.1170805568540643,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0),1684,22,signed_error_all,-11.847489236935866,-17.491779353216288,-6.82400595908221,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0),1684,22,slope_high,-0.15459258856903232,-0.4566800702675662,0.03711742382312175,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0),1684,22,spearman_high,-0.06256446099010009,-0.15533173016891044,0.02709587016061839,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0),1684,22,kendall_high,-0.04371025079972021,-0.11002693749742022,0.021512094350143562,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0),1684,22,pearson_high,-0.07558059189232574,-0.17389217163691534,0.015169076366543768,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0),1684,22,AUROC,0.49576339778027334,0.45060469896475874,0.5613157298104579,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0),1684,22,MAE_verified,17.524541641923992,13.820970481277048,21.805294191559778,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0)+affine,1684,22,MAE_high,25.509298226713753,21.778541723537067,27.914445492803093,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0)+affine,1684,22,MAE_low,11.185782603513603,9.039639343750196,13.528970286971761,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0)+affine,1684,22,MAE_all,13.584376074857095,11.477131438322507,16.036609370497683,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0)+affine,1684,22,signed_error_high,-25.509298226713753,-27.914445492803093,-21.778541723537067,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0)+affine,1684,22,signed_error_low,7.439325423833684,4.024384968702174,10.779740600462645,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0)+affine,1684,22,signed_error_all,1.9218005607372624,-3.320901389659575,6.862478589607782,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0)+affine,1684,22,slope_high,-0.025765383656842302,-0.07547818227907634,0.006461052825648217,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0)+affine,1684,22,spearman_high,-0.06256446099010009,-0.15533173016891044,0.02709587016061839,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0)+affine,1684,22,kendall_high,-0.04371025079972021,-0.11002693749742022,0.021512094350143562,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0)+affine,1684,22,pearson_high,-0.07558059189234727,-0.1738921716369448,0.015169076366521162,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0)+affine,1684,22,AUROC,0.49576339778027334,0.45060469896475874,0.5613157298104579,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0)+affine,1684,22,MAE_verified,13.584376074857095,11.477131438322507,16.036609370497683,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0)+offset,1684,22,MAE_high,28.886012358008884,24.719858658151516,31.587797785323296,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0)+offset,1684,22,MAE_low,15.460926447694755,14.253695592667416,16.77874844021642,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0)+offset,1684,22,MAE_all,17.709070287782993,16.004743699373005,19.73787603256338,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0)+offset,1684,22,signed_error_high,-24.56952621501722,-28.33036108184489,-17.61765974528039,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0)+offset,1684,22,signed_error_low,7.096299059286977,3.7494071554667237,10.222208484989999,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0)+offset,1684,22,signed_error_all,1.7935896012384067,-3.568139286991596,6.586592533446686,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0)+offset,1684,22,slope_high,-0.15459258856902205,-0.4566800702675035,0.037117423823133745,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0)+offset,1684,22,spearman_high,-0.06256446099010009,-0.15533173016891044,0.02709587016061839,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0)+offset,1684,22,kendall_high,-0.04371025079972021,-0.11002693749742022,0.021512094350143562,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0)+offset,1684,22,pearson_high,-0.07558059189232287,-0.1738921716368901,0.015169076366537743,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0)+offset,1684,22,AUROC,0.49576339778027334,0.45060469896475874,0.5613157298104579,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(0)+offset,1684,22,MAE_verified,17.709070287782993,16.004743699373005,19.73787603256338,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(i-pc),1684,22,MAE_high,22.116023936170212,15.113626553867405,26.407739707475617,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(i-pc),1684,22,MAE_low,12.647389889443652,10.431705980523976,15.283775368050133,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(i-pc),1684,22,MAE_all,14.23299250296912,11.699355455249805,16.973710002907534,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(i-pc),1684,22,signed_error_high,-19.606050531914892,-24.160466148209395,-12.470941682367465,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(i-pc),1684,22,signed_error_low,6.288170916547789,3.0376187478280166,9.780604332140609,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(i-pc),1684,22,signed_error_all,1.9519651870546317,-2.7959178500633617,6.584008947165216,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(i-pc),1684,22,slope_high,-0.19161236324854616,-0.399359862096279,0.23456714675485138,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(i-pc),1684,22,spearman_high,-0.08468663244922181,-0.18645774630385414,0.12301742610656508,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(i-pc),1684,22,kendall_high,-0.05718645329073987,-0.13335087464592194,0.10635839655863169,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(i-pc),1684,22,pearson_high,-0.09334612609643507,-0.188918510595461,0.09401395520986794,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(i-pc),1684,22,AUROC,0.6162426692027262,0.5571216727896587,0.7034797931268457,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(i-pc),1684,22,MAE_verified,14.23299250296912,11.699355455249805,16.973710002907534,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(i-simple),1684,22,MAE_high,24.829621010638295,17.220335872704386,30.03639954000966,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(i-simple),1684,22,MAE_low,11.56160841654779,9.466639248349468,13.939786057560825,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(i-simple),1684,22,MAE_all,13.783449005344417,11.030380500791926,16.92384156109806,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(i-simple),1684,22,signed_error_high,-23.46658909574468,-29.019856855296446,-15.605895652556283,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(i-simple),1684,22,signed_error_low,3.209700427960057,0.1916328745199025,6.547502703917224,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(i-simple),1684,22,signed_error_all,-1.257469195368171,-6.316685320953406,3.4107375040297128,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(i-simple),1684,22,slope_high,-0.041462755068372555,-0.23202327555689747,0.3973939988814882,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(i-simple),1684,22,spearman_high,-0.0056137306595674405,-0.09268801089951127,0.17045917465850183,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(i-simple),1684,22,kendall_high,0.003639473168342072,-0.05710807027332331,0.14160367009162317,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(i-simple),1684,22,pearson_high,-0.01913735645666091,-0.10866865707817591,0.14411113000276937,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(i-simple),1684,22,AUROC,0.5973082189239958,0.5268013893873944,0.6965930902913611,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(i-simple),1684,22,MAE_verified,13.783449005344417,11.030380500791926,16.92384156109806,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(ii-pc),1684,22,MAE_high,24.630152925531917,17.499909156976745,29.65622104252912,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(ii-pc),1684,22,MAE_low,11.233951497860199,8.73622944011064,14.090101326146273,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(ii-pc),1684,22,MAE_all,13.47725838776722,10.452318105880515,16.69891202636025,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(ii-pc),1684,22,signed_error_high,-22.618849734042556,-28.022949538619798,-15.611546051478836,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(ii-pc),1684,22,signed_error_low,2.6078815977175465,-0.5007241656309538,6.11115807945551,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(ii-pc),1684,22,signed_error_all,-1.6165472832541568,-6.358593870874162,2.9241544340193686,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(ii-pc),1684,22,slope_high,-0.23781363545833326,-0.5319706189773724,0.1754983953834832,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(ii-pc),1684,22,spearman_high,-0.09265835667413985,-0.2195984841315323,0.13233367369440555,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(ii-pc),1684,22,kendall_high,-0.06092538674851212,-0.15007985531772453,0.1082346578772666,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(ii-pc),1684,22,pearson_high,-0.11094414219870478,-0.23313079114700905,0.061124104623644746,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(ii-pc),1684,22,AUROC,0.6179676618677136,0.555186670730303,0.696639102781496,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,PhysNet,(ii-pc),1684,22,MAE_verified,13.47725838776722,10.452318105880515,16.69891202636025,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0),1684,22,MAE_high,35.02327127659574,29.04573937124499,39.75933139502119,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0),1684,22,MAE_low,15.135743580599145,12.355518557572696,18.140930510581278,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0),1684,22,MAE_all,18.46607779097387,14.74126434041275,22.47803047871998,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0),1684,22,signed_error_high,-29.986702127659573,-36.31763572147504,-22.524879862715817,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0),1684,22,signed_error_low,-4.403307774607703,-8.058647143370214,-0.48073398919753146,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0),1684,22,signed_error_all,-8.687462885985747,-13.955231588893378,-3.634994296119714,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0),1684,22,slope_high,0.27006160130690904,-0.572644718083671,0.6648518617711023,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0),1684,22,spearman_high,0.0072945494972577185,-0.15026158891935687,0.12903148434532524,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0),1684,22,kendall_high,0.007191298178177323,-0.11255055852907633,0.10030968829563477,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0),1684,22,pearson_high,0.0935295489573164,-0.1558525039865446,0.22840490868184013,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0),1684,22,AUROC,0.5380421586183871,0.4787989680314586,0.6050416079367961,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0),1684,22,MAE_verified,18.46607779097387,14.74126434041275,22.47803047871998,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0)+affine,1684,22,MAE_high,24.795847395288877,21.196970930835434,27.121618199858883,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0)+affine,1684,22,MAE_low,11.199473870213401,9.138114973248737,13.489898009720045,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0)+affine,1684,22,MAE_all,13.476301265742672,11.445340834682623,15.818454858324552,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0)+affine,1684,22,signed_error_high,-24.795847395288877,-27.121618199858883,-21.196970930835434,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0)+affine,1684,22,signed_error_low,7.29164885920089,3.8636187538449445,10.628396898170918,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0)+affine,1684,22,signed_error_all,1.9183270398623444,-3.2428316155508874,6.826777545471417,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0)+affine,1684,22,slope_high,0.04364923074109236,-0.08494416747713561,0.11654663633182508,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0)+affine,1684,22,spearman_high,0.0072945494972577185,-0.15026158891935687,0.12903148434532524,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0)+affine,1684,22,kendall_high,0.007191298178177323,-0.11255055852907633,0.10030968829563477,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0)+affine,1684,22,pearson_high,0.09352954895733567,-0.15585250398650327,0.22840490868187682,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0)+affine,1684,22,AUROC,0.5380421586183871,0.4787989680314586,0.6050416079367961,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0)+affine,1684,22,MAE_verified,13.476301265742672,11.445340834682623,15.818454858324552,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0)+offset,1684,22,MAE_high,30.363544149671867,26.62029852469318,32.84177586766086,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0)+offset,1684,22,MAE_low,16.10239484494586,14.362547952920783,18.135918870971672,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0)+offset,1684,22,MAE_all,18.4905445503691,16.159796898198078,21.033535020479192,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0)+offset,1684,22,signed_error_high,-19.550044969983215,-24.443349347355735,-13.04800360833469,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0)+offset,1684,22,signed_error_low,6.033349383068651,2.6082168700428316,9.174500531668135,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0)+offset,1684,22,signed_error_all,1.7491942716906,-3.0132222124151706,6.229022221937302,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0)+offset,1684,22,slope_high,0.27006160130701157,-0.572644718083579,0.664851861771165,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0)+offset,1684,22,spearman_high,0.0072945494972577185,-0.15026158891935687,0.12903148434532524,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0)+offset,1684,22,kendall_high,0.007191298178177323,-0.11255055852907633,0.10030968829563477,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0)+offset,1684,22,pearson_high,0.0935295489573497,-0.15585250398656741,0.22840490868180302,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0)+offset,1684,22,AUROC,0.5380421586183871,0.4787989680314586,0.6050416079367961,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(0)+offset,1684,22,MAE_verified,18.4905445503691,16.159796898198078,21.033535020479192,test (c) outputs; calibration from development guarded predictions
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(i-pc),1684,22,MAE_high,20.121343085106385,14.29654615752551,24.58318906603705,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(i-pc),1684,22,MAE_low,11.634328191868759,8.847752658119909,14.879909694645134,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(i-pc),1684,22,MAE_all,13.055550400831356,10.354484518810255,15.909894513424996,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(i-pc),1684,22,signed_error_high,-16.996343085106385,-22.739249630586613,-10.280033633751309,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(i-pc),1684,22,signed_error_low,4.001259361626248,0.06704183748667684,8.483762964456556,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(i-pc),1684,22,signed_error_all,0.48503377375296913,-4.510877140060129,5.626299502642182,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(i-pc),1684,22,slope_high,0.04240601960472631,-0.30419778803971786,0.32121867720694836,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(i-pc),1684,22,spearman_high,0.03350134852757027,-0.08172074300969806,0.17029075300669708,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(i-pc),1684,22,kendall_high,0.0362974944733302,-0.0499029757171051,0.14571340181884868,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(i-pc),1684,22,pearson_high,0.02130829472950736,-0.11777753215066794,0.15952520755485142,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(i-pc),1684,22,AUROC,0.6819652269807065,0.6225467586518081,0.7513680785534445,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(i-pc),1684,22,MAE_verified,13.055550400831356,10.354484518810255,15.909894513424996,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(i-simple),1684,22,MAE_high,17.378656914893615,13.026281659558977,20.67614340854118,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(i-simple),1684,22,MAE_low,11.818217278887303,9.004323228346566,15.047019721082115,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(i-simple),1684,22,MAE_all,12.749359783254157,10.029475693872389,15.666159612824153,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(i-simple),1684,22,signed_error_high,-13.555518617021278,-16.90332474336434,-9.550904346113446,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(i-simple),1684,22,signed_error_low,5.950483684022824,2.8758372667419536,9.449422390980562,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(i-simple),1684,22,signed_error_all,2.6840391181710213,-1.0300338968876463,6.596213439243954,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(i-simple),1684,22,slope_high,0.09196507993803292,-0.2980525765231748,0.27433550558093933,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(i-simple),1684,22,spearman_high,0.09205537107062806,-0.013885197794853926,0.18397927078653006,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(i-simple),1684,22,kendall_high,0.08312811447402463,0.0017236487333987583,0.15837412051435337,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(i-simple),1684,22,pearson_high,0.045898249285966856,-0.10373133711931543,0.13445707085022876,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(i-simple),1684,22,AUROC,0.704320153917234,0.6403532247031797,0.7716940665217921,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(i-simple),1684,22,MAE_verified,12.749359783254157,10.029475693872389,15.666159612824153,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(ii-pc),1684,22,MAE_high,15.836934840425533,11.581305803571428,19.046732584635414,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(ii-pc),1684,22,MAE_low,12.082348876604849,9.042167983079604,15.66561168197912,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(ii-pc),1684,22,MAE_all,12.711085956057007,9.992718175820068,15.782259340312027,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(ii-pc),1684,22,signed_error_high,-11.62317154255319,-16.04618886082906,-6.382872472648695,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(ii-pc),1684,22,signed_error_low,7.979950517118401,4.5077027410470825,12.10314722430319,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(ii-pc),1684,22,signed_error_all,4.6972424287410925,0.5912636517945519,9.26543983560959,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(ii-pc),1684,22,slope_high,0.03702152687370718,-0.2072373827055733,0.26486513375431286,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(ii-pc),1684,22,spearman_high,0.04206795915081991,-0.0713338715874168,0.15444976367790175,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(ii-pc),1684,22,kendall_high,0.044869060494258116,-0.03861889877990514,0.13477717910904188,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(ii-pc),1684,22,pearson_high,0.02262260662254791,-0.1077718817073372,0.1349486175093998,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(ii-pc),1684,22,AUROC,0.7200853728041331,0.6496276327998537,0.7862633487087797,test (c) outputs
+posthoc,MMPD-B,Qstar,HAR,RhythmFormer,(ii-pc),1684,22,MAE_verified,12.711085956057007,9.992718175820068,15.782259340312027,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0),1474,75,MAE_high,8.38765726461039,5.657456364189433,11.46503479725887,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0),1474,75,MAE_low,2.7534965034965033,2.0673238687343893,3.506228074395992,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0),1474,75,MAE_all,5.108071149932157,3.6824412358740175,6.7058336415082,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0),1474,75,signed_error_high,-7.4326552353896105,-10.49321597005642,-4.82575371281353,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0),1474,75,signed_error_low,-0.942416958041958,-1.413621492678449,-0.45968963871401597,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0),1474,75,signed_error_all,-3.654755342605156,-5.179831624588602,-2.345393497187958,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0),1474,75,slope_high,0.427494781881501,0.002701780118733332,0.8297332685509792,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0),1474,75,spearman_high,0.41479782471174786,0.17680411406184846,0.6305272809111993,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0),1474,75,kendall_high,0.3932680000812961,0.2017308990789102,0.5746180861906839,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0),1474,75,pearson_high,0.22672480542038168,0.0014849966108223865,0.4487681558222351,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0),1474,75,AUROC,0.8235896048396049,0.7648186204575335,0.8780610760236178,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0),1360,75,MAE_verified,5.047679227941177,3.541696127305275,6.761253468870655,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0)+affine,1474,75,MAE_high,8.386381502288403,6.294973604071856,10.713813578363373,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0)+affine,1474,75,MAE_low,4.869756235500635,4.188924487630908,5.606900055230014,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0)+affine,1474,75,MAE_all,6.339390675352241,5.254331472551511,7.573040801545862,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0)+affine,1474,75,signed_error_high,-8.110581259456055,-10.422292192454282,-6.031465026721713,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0)+affine,1474,75,signed_error_low,3.5983017714880443,2.8352029195016457,4.457426406718207,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0)+affine,1474,75,signed_error_all,-1.2949627787572522,-2.9016467736447678,0.28612244904255757,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0)+affine,1474,75,slope_high,0.2587865175883508,0.0006054424066372487,0.5033582976988056,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0)+affine,1474,75,spearman_high,0.41479782471174786,0.17680411406184846,0.6305272809111993,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0)+affine,1474,75,kendall_high,0.3932680000812961,0.2017308990789102,0.5746180861906839,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0)+affine,1474,75,pearson_high,0.2267248054203824,0.0014849966108707448,0.4487681558222412,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0)+affine,1474,75,AUROC,0.8235896048396049,0.7648186204575335,0.8780610760236178,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0)+affine,1360,75,MAE_verified,6.246395613662398,5.070522711192923,7.580593795048721,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0)+offset,1474,75,MAE_high,8.656810561715256,6.1781006710208475,11.457940158155864,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0)+offset,1474,75,MAE_low,3.9107309530027385,3.2907950518867324,4.586724942845993,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0)+offset,1474,75,MAE_all,5.894167207390061,4.626166154930149,7.335781728404407,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0)+offset,1474,75,signed_error_high,-5.456838326675917,-8.518276354080566,-2.8379109923320947,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0)+offset,1474,75,signed_error_low,1.0333999506717337,0.5482914111928684,1.532428997269988,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0)+offset,1474,75,signed_error_all,-1.678938433891463,-3.21365362569549,-0.36070407291576306,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0)+offset,1474,75,slope_high,0.4274947818815642,0.0027017801186842365,0.8297332685510372,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0)+offset,1474,75,spearman_high,0.41479782471174786,0.17680411406184846,0.6305272809111993,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0)+offset,1474,75,kendall_high,0.3932680000812961,0.2017308990789102,0.5746180861906839,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0)+offset,1474,75,pearson_high,0.22672480542041287,0.0014849966108147982,0.44876815582229834,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0)+offset,1474,75,AUROC,0.8235896048396049,0.7648186204575335,0.8780610760236178,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(0)+offset,1360,75,MAE_verified,5.823392116182575,4.477923430849936,7.363827883989124,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(i-pc),1474,75,MAE_high,6.374923904220779,4.280925005799153,8.868836817811923,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(i-pc),1474,75,MAE_low,2.3369208916083917,1.8134434480689685,2.9096960586318494,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(i-pc),1474,75,MAE_all,4.024444538670285,2.9368981750610117,5.31256105286144,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(i-pc),1474,75,signed_error_high,-5.343826095779221,-7.959791215559951,-3.2261762789683255,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(i-pc),1474,75,signed_error_low,-0.539499562937063,-0.957860589048514,-0.08574420291979365,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(i-pc),1474,75,signed_error_all,-2.547277815468114,-3.8017571143393325,-1.5024376253692484,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(i-pc),1474,75,slope_high,0.594682316111833,0.21085970690319125,0.9333228289041119,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(i-pc),1474,75,spearman_high,0.5507147066893289,0.3299252024721993,0.732550999526093,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(i-pc),1474,75,kendall_high,0.5097657800637672,0.3241222873012942,0.6689424887135003,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(i-pc),1474,75,pearson_high,0.3496500723381388,0.12230411536220002,0.5640079297756491,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(i-pc),1474,75,AUROC,0.8688284568966388,0.8198286071747817,0.9130516039375899,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(i-pc),1360,75,MAE_verified,3.899069393382353,2.7540133713828845,5.259857054102603,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(i-simple),1474,75,MAE_high,6.15424614448052,3.938061101844584,8.795428766123552,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(i-simple),1474,75,MAE_low,2.3997486888111887,1.7593322154215851,3.13035102739726,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(i-simple),1474,75,MAE_all,3.9687924016282223,2.8079856707250634,5.307907766752872,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(i-simple),1474,75,signed_error_high,-4.986175933441558,-7.583946951552267,-2.8739553492877947,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(i-simple),1474,75,signed_error_low,-0.42750218531468526,-0.86771942168237,0.07574760801682343,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(i-simple),1474,75,signed_error_all,-2.3326195725915877,-3.6045427006800543,-1.3095989599085565,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(i-simple),1474,75,slope_high,0.6085655707673414,0.18690704790595178,0.9701413485355522,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(i-simple),1474,75,spearman_high,0.5611729573044613,0.32092653233908575,0.7535473043799265,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(i-simple),1474,75,kendall_high,0.5186950941101481,0.3206789411955623,0.6881974484797349,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(i-simple),1474,75,pearson_high,0.36388189614984645,0.10934338710404069,0.6021543383130012,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(i-simple),1474,75,AUROC,0.87374777999778,0.8235010842566479,0.9185219827808448,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(i-simple),1360,75,MAE_verified,3.8361672794117645,2.6094242850498666,5.2516744684187096,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(ii-pc),1474,75,MAE_high,6.675502232142857,4.502199126663078,9.210413129822385,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(ii-pc),1474,75,MAE_low,2.6893028846153846,2.0221222925892377,3.4010489304848597,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(ii-pc),1474,75,MAE_all,4.35517723880597,3.1726608413976582,5.686627954063468,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(ii-pc),1474,75,signed_error_high,-4.9138849431818175,-7.550088344266567,-2.7231886914295704,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(ii-pc),1474,75,signed_error_low,-0.49306162587412583,-1.0118538839894402,0.12738329714112742,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(ii-pc),1474,75,signed_error_all,-2.340569877883311,-3.5910864279214443,-1.2900386476428585,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(ii-pc),1474,75,slope_high,0.6049312069547432,0.24744730003699575,0.9412120406296266,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(ii-pc),1474,75,spearman_high,0.5290257203114598,0.31257432889103703,0.708007906959451,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(ii-pc),1474,75,kendall_high,0.4864424771165212,0.30847199847516665,0.6418698448631687,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(ii-pc),1474,75,pearson_high,0.34910205518580534,0.13993867337082325,0.5521930060198394,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(ii-pc),1474,75,AUROC,0.8665677756586847,0.8146270062675115,0.912115064885917,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,FactorizePhys (matched),(ii-pc),1360,75,MAE_verified,4.228228400735294,3.0068505639988254,5.617944334811961,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0),1474,75,MAE_high,29.437652191558442,23.580916397159697,35.24674980871702,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0),1474,75,MAE_low,16.98535839160839,14.726204406110451,19.435768776223693,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0),1474,75,MAE_all,22.189302069199456,18.988139846516763,25.43355042716114,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0),1474,75,signed_error_high,-26.656351461038962,-32.92483504494998,-20.05294720851872,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0),1474,75,signed_error_low,-12.595607517482518,-16.344303526449824,-9.147166428435503,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0),1474,75,signed_error_all,-18.471739314789687,-22.718566326470043,-14.017831474572288,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0),1474,75,slope_high,0.2030945350076618,-0.2545530586874348,0.7670484875222048,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0),1474,75,spearman_high,0.08339297752391683,-0.06597074171168757,0.2723503694714767,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0),1474,75,kendall_high,0.07281118014891923,-0.043007564848032746,0.2247733682791477,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0),1474,75,pearson_high,0.058091069582045095,-0.08111287268960687,0.22527564014050808,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0),1474,75,AUROC,0.5616927264654538,0.4815797106131356,0.6446760214798625,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0),1360,75,MAE_verified,22.651654411764707,19.137961187672417,26.180951071337105,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0)+affine,1474,75,MAE_high,12.062916491153237,10.052150918200873,13.964053203788001,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0)+affine,1474,75,MAE_low,7.83753252308169,6.382333611035007,9.393911538815527,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0)+affine,1474,75,MAE_all,9.60336462914144,8.24866917876275,10.999432218503761,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0)+affine,1474,75,signed_error_high,-12.062916491153237,-13.964053203788001,-10.052150918200873,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0)+affine,1474,75,signed_error_low,7.428829472465369,5.873776951912127,9.06908283121957,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0)+affine,1474,75,signed_error_all,-0.71697481083793,-3.077025031291846,1.7222249271619965,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0)+affine,1474,75,slope_high,0.00495294247570369,-0.012069797045468447,0.02420086590356172,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0)+affine,1474,75,spearman_high,0.08339297752391683,-0.06597074171168757,0.2723503694714767,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0)+affine,1474,75,kendall_high,0.07281118014891923,-0.043007564848032746,0.2247733682791477,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0)+affine,1474,75,pearson_high,0.0580910695817928,-0.0811128726898251,0.22527564014027557,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0)+affine,1474,75,AUROC,0.5616927264654538,0.4815797106131356,0.6446760214798625,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0)+affine,1360,75,MAE_verified,9.410548619791927,7.985473147625204,10.881419199505455,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0)+offset,1474,75,MAE_high,23.266308178012338,21.38214716084877,25.1489230772056,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0)+offset,1474,75,MAE_low,17.567156866301058,16.61921502502979,18.65306671397831,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0)+offset,1474,75,MAE_all,19.94889174283712,18.79531330539905,21.157398682624354,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0)+offset,1474,75,signed_error_high,-9.040946896723604,-14.402092550123198,-3.6265692420659073,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0)+offset,1474,75,signed_error_low,5.019797046832838,2.121766160905728,7.420963892960947,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0)+offset,1474,75,signed_error_all,-0.8563347504743329,-4.129235261326828,2.3116371654491363,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0)+offset,1474,75,slope_high,0.2030945350076618,-0.2545530586876377,0.7670484875224991,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0)+offset,1474,75,spearman_high,0.08339297752391683,-0.06597074171168757,0.2723503694714767,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0)+offset,1474,75,kendall_high,0.07281118014891923,-0.043007564848032746,0.2247733682791477,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0)+offset,1474,75,pearson_high,0.058091069582046094,-0.08111287268962157,0.2252756401405589,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0)+offset,1474,75,AUROC,0.5616927264654538,0.4815797106131356,0.6446760214798625,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(0)+offset,1360,75,MAE_verified,20.08270151940445,18.871608430933975,21.321772425887982,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(i-pc),1474,75,MAE_high,7.718014407467532,5.296030326096812,10.412472604049418,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(i-pc),1474,75,MAE_low,5.33899694055944,3.8835262958880232,7.168371169211847,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(i-pc),1474,75,MAE_all,6.333213195386702,4.829808889226232,7.913576598065884,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(i-pc),1474,75,signed_error_high,-4.8073508522727275,-6.932507841497835,-2.8044973813462497,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(i-pc),1474,75,signed_error_low,0.4684768356643357,-1.5666887568822323,2.6552922085752875,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(i-pc),1474,75,signed_error_all,-1.7363466757123476,-3.4063342361561078,0.09463314951215912,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(i-pc),1474,75,slope_high,0.6794919444941768,0.3716976175090099,0.9326936568599647,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(i-pc),1474,75,spearman_high,0.5086014569097316,0.32484613660680534,0.6818994127759076,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(i-pc),1474,75,kendall_high,0.4595236168336883,0.2993599797725267,0.6206470727633684,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(i-pc),1474,75,pearson_high,0.3447843889134627,0.16860116220443452,0.5171800790449657,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(i-pc),1474,75,AUROC,0.8281002457138822,0.779965675738698,0.8717811444545652,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(i-pc),1360,75,MAE_verified,5.985179227941177,4.491350881035825,7.5470180437361645,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(i-simple),1474,75,MAE_high,9.437779017857144,6.25060037841919,13.099175764978067,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(i-simple),1474,75,MAE_low,4.0305397727272725,3.1887020950461213,4.940068725970098,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(i-simple),1474,75,MAE_all,6.290281546811397,4.659304854425039,8.175420325251913,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(i-simple),1474,75,signed_error_high,-7.455483969155844,-10.862407127708659,-4.4834214758240805,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(i-simple),1474,75,signed_error_low,-0.5422312062937064,-1.3724349227219927,0.3193203989853167,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(i-simple),1474,75,signed_error_all,-3.431351763907734,-5.264030178319473,-1.8735578554416568,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(i-simple),1474,75,slope_high,0.5880655227976558,0.20765754399166028,0.904844602405525,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(i-simple),1474,75,spearman_high,0.435012817502277,0.21639119671813442,0.6459871803151072,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(i-simple),1474,75,kendall_high,0.39534530219770714,0.20805806719418665,0.5870897770493502,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(i-simple),1474,75,pearson_high,0.27467263933955544,0.08479145521916442,0.46691156737214234,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(i-simple),1474,75,AUROC,0.8018083557856285,0.7338311738574438,0.8641880032263899,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(i-simple),1360,75,MAE_verified,6.125631893382352,4.408425184623993,8.139933670183082,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(ii-pc),1474,75,MAE_high,7.636211444805195,5.266701286679206,10.40420813190004,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(ii-pc),1474,75,MAE_low,4.24770541958042,2.6027776184702103,6.631182282979776,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(ii-pc),1474,75,MAE_all,5.663797489823609,3.9781092143288306,7.697765038985612,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(ii-pc),1474,75,signed_error_high,-5.889813311688312,-8.442058631297126,-3.6892973911260722,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(ii-pc),1474,75,signed_error_low,0.49169580419580416,-0.6398442488825032,2.325829205450157,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(ii-pc),1474,75,signed_error_all,-2.175203527815468,-3.817117789559459,-0.4477366019626574,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(ii-pc),1474,75,slope_high,0.5387644069550618,0.186546977599245,0.8721119197713725,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(ii-pc),1474,75,spearman_high,0.49301894696530474,0.2940454004229165,0.6685109425801427,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(ii-pc),1474,75,kendall_high,0.4539386856337659,0.28604864973029603,0.6088504554049164,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(ii-pc),1474,75,pearson_high,0.28836049077535325,0.09737614329213772,0.481384819286021,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(ii-pc),1474,75,AUROC,0.8272847733075005,0.7750835481084318,0.8765661220976306,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,PhysNet,(ii-pc),1360,75,MAE_verified,5.381146599264706,3.703523569623584,7.398556008396876,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0),1474,75,MAE_high,33.01605620941559,30.177938431051764,35.857370476973685,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0),1474,75,MAE_low,47.46640078671328,44.27530723966082,50.64899359540089,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0),1474,75,MAE_all,41.42745081411127,38.85049499743429,44.12147706829085,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0),1474,75,signed_error_high,12.405514407467534,5.668435122092873,19.074378176016324,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0),1474,75,signed_error_low,37.85921110139861,32.0547155431799,43.729474449631624,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0),1474,75,signed_error_all,27.221845318860247,21.38227507362352,32.97407517727871,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0),1474,75,slope_high,0.023676244737524815,-0.4917530542553688,0.5046872251173414,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0),1474,75,spearman_high,-0.022739089077448597,-0.15709154661593566,0.10745196101839645,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0),1474,75,kendall_high,-0.013686432111818954,-0.1144617317158945,0.08442552049798327,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0),1474,75,pearson_high,0.006687117399295568,-0.10885007135803221,0.11007924686289432,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0),1474,75,AUROC,0.4259780623416987,0.36336947346930076,0.48504095465314606,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0),1360,75,MAE_verified,40.7278262867647,38.20798881969638,43.366910007604396,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0)+affine,1474,75,MAE_high,12.132010893619167,10.110961085063874,14.027887747522524,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0)+affine,1474,75,MAE_low,7.809765959715321,6.32323830303207,9.415213563642876,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0)+affine,1474,75,MAE_all,9.61607727537663,8.226590615114329,11.028702561113796,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0)+affine,1474,75,signed_error_high,-12.132010893619167,-14.027887747522524,-10.110961085063874,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0)+affine,1474,75,signed_error_low,7.479488969207549,5.918763056462816,9.136048444878645,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0)+affine,1474,75,signed_error_all,-0.7163617197349583,-3.089059816636059,1.7281794472916983,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0)+affine,1474,75,slope_high,-0.00027640818595259725,-0.007162425271009136,0.006455343617941205,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0)+affine,1474,75,spearman_high,-0.011901028299388031,-0.11663150357208522,0.08588693688117288,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0)+affine,1474,75,kendall_high,-0.007342035622998189,-0.08306638890538398,0.06617595481057183,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0)+affine,1474,75,pearson_high,0.0041735207655362976,-0.086398633309553,0.08907577484908458,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0)+affine,1474,75,AUROC,0.4961503143321326,0.407076670542673,0.5940704569100156,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0)+affine,1360,75,MAE_verified,9.420854388310063,7.970364996192389,10.908728098126467,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0)+offset,1474,75,MAE_high,28.575567529267932,24.362271242468577,32.824623556424434,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0)+offset,1474,75,MAE_low,34.4345823177514,32.036121418702955,36.81695480746656,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0)+offset,1474,75,MAE_all,31.98603882405682,29.32461586471041,34.74097613673646,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0)+offset,1474,75,signed_error_high,-13.597792127802178,-19.048171694187534,-8.249248431616977,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0)+offset,1474,75,signed_error_low,11.855904566128894,7.026244816821772,16.532360292404277,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0)+offset,1474,75,signed_error_all,1.2185387835905355,-3.157376406107584,5.7350425800939755,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0)+offset,1474,75,slope_high,0.023676244737556446,-0.4917530542554514,0.5046872251173736,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0)+offset,1474,75,spearman_high,-0.022739089077448597,-0.15709154661593566,0.10745196101839645,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0)+offset,1474,75,kendall_high,-0.013686432111818954,-0.1144617317158945,0.08442552049798327,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0)+offset,1474,75,pearson_high,0.006687117399301311,-0.10885007135804059,0.11007924686286638,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0)+offset,1474,75,AUROC,0.4259780623416987,0.36336947346930076,0.48504095465314606,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(0)+offset,1360,75,MAE_verified,31.68237978055589,28.887688963136483,34.584834290522075,test (c) outputs; calibration from development guarded predictions
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(i-pc),1474,75,MAE_high,23.542131696428573,19.50537841952442,27.79328417298129,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(i-pc),1474,75,MAE_low,37.785456730769226,32.02544499902339,43.34711157199099,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(i-pc),1474,75,MAE_all,31.833022388059703,27.373911220820634,36.33385055945039,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(i-pc),1474,75,signed_error_high,4.282289975649351,-2.4400720073981,11.728110175490885,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(i-pc),1474,75,signed_error_low,32.02988417832168,25.14409960181851,38.887060127940714,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(i-pc),1474,75,signed_error_all,20.433874660786973,14.092220739845498,27.093200877082623,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(i-pc),1474,75,slope_high,-0.16773333091594936,-0.7312651927941257,0.4410618060706922,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(i-pc),1474,75,spearman_high,-0.022576449575117966,-0.19331704553568926,0.15241074327232274,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(i-pc),1474,75,kendall_high,-0.009406986006200201,-0.13824782006105002,0.12285974791038072,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(i-pc),1474,75,pearson_high,-0.045592540978126705,-0.19842083909394662,0.10709736430346375,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(i-pc),1474,75,AUROC,0.42736083361083366,0.34716551935593637,0.5094609807955282,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(i-pc),1360,75,MAE_verified,31.270967371323533,26.79865954401214,35.80782960551645,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(i-simple),1474,75,MAE_high,19.91426542207792,15.344715099259595,24.768200050390554,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(i-simple),1474,75,MAE_low,34.23841783216783,28.46384502258989,39.45558856355042,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(i-simple),1474,75,MAE_all,28.252204884667574,23.625453699817086,32.8788492762101,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(i-simple),1474,75,signed_error_high,7.377485795454544,2.8723232227113638,12.38773351232744,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(i-simple),1474,75,signed_error_low,30.21470716783217,24.679314072681354,35.30426482029335,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(i-simple),1474,75,signed_error_all,20.670793758480325,15.772697580714134,25.64470699519634,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(i-simple),1474,75,slope_high,0.09746078007001724,-0.33382617596051634,0.5213105095105519,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(i-simple),1474,75,spearman_high,0.08055613561533449,-0.08014732777850792,0.23136864291503562,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(i-simple),1474,75,kendall_high,0.075486620933426,-0.04765910566844571,0.19606779896932258,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(i-simple),1474,75,pearson_high,0.02871192462456289,-0.10458896210490662,0.15081588861546047,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(i-simple),1474,75,AUROC,0.4806049379913016,0.41955416147164587,0.5459651276193824,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(i-simple),1360,75,MAE_verified,27.570082720588236,22.895691473889002,32.30378830110992,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(ii-pc),1474,75,MAE_high,15.45505275974026,11.501173440048397,20.128253763179803,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(ii-pc),1474,75,MAE_low,29.36926354895105,22.723236380151587,36.30600243513976,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(ii-pc),1474,75,MAE_all,23.554369487788332,18.654250034718142,29.03817710715871,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(ii-pc),1474,75,signed_error_high,5.497920048701299,-0.5462925367260165,12.68227583250848,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(ii-pc),1474,75,signed_error_low,27.577305506993003,20.412138339105574,35.03699413386872,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(ii-pc),1474,75,signed_error_all,18.350099643826322,12.151555118192826,25.263472979189146,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(ii-pc),1474,75,slope_high,0.08713559100526841,-0.3225195935905896,0.5285791330404506,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(ii-pc),1474,75,spearman_high,0.12345983033070791,-0.057644082653406065,0.2956973354796456,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(ii-pc),1474,75,kendall_high,0.118704030709184,-0.023054427625164676,0.25497395989206295,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(ii-pc),1474,75,pearson_high,0.03133878381839319,-0.11668359302703246,0.17791989535755354,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(ii-pc),1474,75,AUROC,0.5146523299932391,0.43023615771190127,0.5974113634599043,test (c) outputs
+posthoc,MCD-rPPG test,draft_rule,HAR,RhythmFormer,(ii-pc),1360,75,MAE_verified,22.94979319852941,18.009916817334673,28.50024499672537,test (c) outputs

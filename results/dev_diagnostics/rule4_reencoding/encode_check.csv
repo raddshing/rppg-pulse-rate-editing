@@ -1,0 +1,5 @@
+condition,videos,codec,with_B,S,gop_min,gop_max,constant,first_I,frames_equal,empty,bpp_median,bpp_min,bpp_max,ratio_min,ratio_max
+gop10,54,FMP4,0,0,10,10,54,54,54,0,0.2223,0.2214,0.2241,1.009,1.021
+gop12,54,FMP4,0,0,12,12,54,54,54,0,0.222,0.2213,0.2234,1.008,1.018
+gop15,54,FMP4,0,0,15,15,54,54,54,0,0.2218,0.2212,0.2232,1.008,1.017
+nokey,54,FMP4,0,0,600,600,54,54,54,0,0.2208,0.2204,0.2215,1.004,1.009

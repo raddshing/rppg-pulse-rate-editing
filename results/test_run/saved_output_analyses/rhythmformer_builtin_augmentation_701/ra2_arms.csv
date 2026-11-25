@@ -1,0 +1,97 @@
+analysis,dataset,population,layer,backbone,strategy,windows,subjects,metric,point,ci_lo,ci_hi,source
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(0),1684,22,MAE_high,35.02327127659574,29.04573937124499,39.75933139502119,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(0),1684,22,MAE_low,15.135743580599145,12.355518557572696,18.140930510581278,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(0),1684,22,MAE_all,18.46607779097387,14.74126434041275,22.47803047871998,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(0),1684,22,signed_error_high,-29.986702127659573,-36.31763572147504,-22.524879862715817,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(0),1684,22,signed_error_low,-4.403307774607703,-8.058647143370214,-0.48073398919753146,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(0),1684,22,signed_error_all,-8.687462885985747,-13.955231588893378,-3.634994296119714,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(0),1684,22,slope_high,0.27006160130690904,-0.572644718083671,0.6648518617711023,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(0),1684,22,spearman_high,0.0072945494972577185,-0.15026158891935687,0.12903148434532524,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(0),1684,22,kendall_high,0.007191298178177323,-0.11255055852907633,0.10030968829563477,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(0),1684,22,pearson_high,0.0935295489573164,-0.1558525039865446,0.22840490868184013,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(0),1684,22,AUROC,0.5380421586183871,0.4787989680314586,0.6050416079367961,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(0),1684,22,MAE_verified,18.46607779097387,14.74126434041275,22.47803047871998,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(0B),1684,22,MAE_high,31.26662234042553,23.911932228979282,35.63384567481883,October stored predictions (before guards)
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(0B),1684,22,MAE_low,10.408122325249645,7.937127685546875,13.169089474643702,October stored predictions (before guards)
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(0B),1684,22,MAE_all,13.90105403800475,10.240720219705722,17.980961049087387,October stored predictions (before guards)
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(0B),1684,22,signed_error_high,-28.24966755319149,-32.59519360643575,-21.739313978432282,October stored predictions (before guards)
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(0B),1684,22,signed_error_low,-3.0291547788873037,-5.449788027116256,-0.6450941859254804,October stored predictions (before guards)
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(0B),1684,22,signed_error_all,-7.2525423099762465,-11.563571616565044,-3.4875538722522776,October stored predictions (before guards)
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(0B),1684,22,slope_high,-0.04465116442064642,-0.4115378063982394,0.48466964146412844,October stored predictions (before guards)
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(0B),1684,22,spearman_high,-0.02238729063646096,-0.12132329439915958,0.13436283859446235,October stored predictions (before guards)
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(0B),1684,22,kendall_high,-0.00842140328230583,-0.08273178377200013,0.10994275191890772,October stored predictions (before guards)
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(0B),1684,22,pearson_high,-0.019796960558299565,-0.16589013171939632,0.17723621728600297,October stored predictions (before guards)
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(0B),1684,22,AUROC,0.5805253723994429,0.531024561541701,0.6599934846084392,October stored predictions (before guards)
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(0B),1684,22,MAE_verified,13.90105403800475,10.240720219705722,17.980961049087387,October stored predictions (before guards)
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(i-simple),1684,22,MAE_high,17.378656914893615,13.026281659558977,20.67614340854118,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(i-simple),1684,22,MAE_low,11.818217278887303,9.004323228346566,15.047019721082115,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(i-simple),1684,22,MAE_all,12.749359783254157,10.029475693872389,15.666159612824153,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(i-simple),1684,22,signed_error_high,-13.555518617021278,-16.90332474336434,-9.550904346113446,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(i-simple),1684,22,signed_error_low,5.950483684022824,2.8758372667419536,9.449422390980562,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(i-simple),1684,22,signed_error_all,2.6840391181710213,-1.0300338968876463,6.596213439243954,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(i-simple),1684,22,slope_high,0.09196507993803292,-0.2980525765231748,0.27433550558093933,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(i-simple),1684,22,spearman_high,0.09205537107062806,-0.013885197794853926,0.18397927078653006,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(i-simple),1684,22,kendall_high,0.08312811447402463,0.0017236487333987583,0.15837412051435337,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(i-simple),1684,22,pearson_high,0.045898249285966856,-0.10373133711931543,0.13445707085022876,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(i-simple),1684,22,AUROC,0.704320153917234,0.6403532247031797,0.7716940665217921,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(i-simple),1684,22,MAE_verified,12.749359783254157,10.029475693872389,15.666159612824153,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(ii-pc),1684,22,MAE_high,15.836934840425533,11.581305803571428,19.046732584635414,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(ii-pc),1684,22,MAE_low,12.082348876604849,9.042167983079604,15.66561168197912,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(ii-pc),1684,22,MAE_all,12.711085956057007,9.992718175820068,15.782259340312027,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(ii-pc),1684,22,signed_error_high,-11.62317154255319,-16.04618886082906,-6.382872472648695,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(ii-pc),1684,22,signed_error_low,7.979950517118401,4.5077027410470825,12.10314722430319,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(ii-pc),1684,22,signed_error_all,4.6972424287410925,0.5912636517945519,9.26543983560959,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(ii-pc),1684,22,slope_high,0.03702152687370718,-0.2072373827055733,0.26486513375431286,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(ii-pc),1684,22,spearman_high,0.04206795915081991,-0.0713338715874168,0.15444976367790175,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(ii-pc),1684,22,kendall_high,0.044869060494258116,-0.03861889877990514,0.13477717910904188,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(ii-pc),1684,22,pearson_high,0.02262260662254791,-0.1077718817073372,0.1349486175093998,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(ii-pc),1684,22,AUROC,0.7200853728041331,0.6496276327998537,0.7862633487087797,test (c) outputs
+posthoc,MMPD,Qstar,HAR,RhythmFormer,(ii-pc),1684,22,MAE_verified,12.711085956057007,9.992718175820068,15.782259340312027,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(0),1474,75,MAE_high,33.01605620941559,30.177938431051764,35.857370476973685,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(0),1474,75,MAE_low,47.46640078671328,44.27530723966082,50.64899359540089,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(0),1474,75,MAE_all,41.42745081411127,38.85049499743429,44.12147706829085,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(0),1474,75,signed_error_high,12.405514407467534,5.668435122092873,19.074378176016324,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(0),1474,75,signed_error_low,37.85921110139861,32.0547155431799,43.729474449631624,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(0),1474,75,signed_error_all,27.221845318860247,21.38227507362352,32.97407517727871,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(0),1474,75,slope_high,0.023676244737524815,-0.4917530542553688,0.5046872251173414,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(0),1474,75,spearman_high,-0.022739089077448597,-0.15709154661593566,0.10745196101839645,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(0),1474,75,kendall_high,-0.013686432111818954,-0.1144617317158945,0.08442552049798327,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(0),1474,75,pearson_high,0.006687117399295568,-0.10885007135803221,0.11007924686289432,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(0),1474,75,AUROC,0.4259780623416987,0.36336947346930076,0.48504095465314606,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(0),1360,75,MAE_verified,40.7278262867647,38.20798881969638,43.366910007604396,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(0B),1474,75,MAE_high,25.904905641233768,21.751412570936484,30.039494394963143,October stored predictions (before guards)
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(0B),1474,75,MAE_low,26.477819055944057,22.338004039637582,30.46622659756755,October stored predictions (before guards)
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(0B),1474,75,MAE_all,26.238392554274082,22.607268526979098,29.56732013457557,October stored predictions (before guards)
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(0B),1474,75,signed_error_high,-6.078150365259741,-11.147764006412183,-0.9913137018218954,October stored predictions (before guards)
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(0B),1474,75,signed_error_low,10.279173951048952,5.4703410770330105,15.651168903075405,October stored predictions (before guards)
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(0B),1474,75,signed_error_all,3.443277221845319,-0.9941792076637295,8.408704567388561,October stored predictions (before guards)
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(0B),1474,75,slope_high,0.2631272601459648,-0.33100540121800454,0.7835156048753096,October stored predictions (before guards)
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(0B),1474,75,spearman_high,0.054157710089573464,-0.07388230380990672,0.18121381819053106,October stored predictions (before guards)
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(0B),1474,75,kendall_high,0.04661647190526721,-0.051233769423731784,0.1473755158949963,October stored predictions (before guards)
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(0B),1474,75,pearson_high,0.06757246167300769,-0.07761764352958621,0.20069828098642203,October stored predictions (before guards)
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(0B),1474,75,AUROC,0.5403160602024238,0.49436029830866696,0.587592007212477,October stored predictions (before guards)
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(0B),1360,75,MAE_verified,26.186236213235293,22.48876089944397,29.558142822530563,October stored predictions (before guards)
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(i-simple),1474,75,MAE_high,19.91426542207792,15.344715099259595,24.768200050390554,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(i-simple),1474,75,MAE_low,34.23841783216783,28.46384502258989,39.45558856355042,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(i-simple),1474,75,MAE_all,28.252204884667574,23.625453699817086,32.8788492762101,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(i-simple),1474,75,signed_error_high,7.377485795454544,2.8723232227113638,12.38773351232744,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(i-simple),1474,75,signed_error_low,30.21470716783217,24.679314072681354,35.30426482029335,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(i-simple),1474,75,signed_error_all,20.670793758480325,15.772697580714134,25.64470699519634,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(i-simple),1474,75,slope_high,0.09746078007001724,-0.33382617596051634,0.5213105095105519,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(i-simple),1474,75,spearman_high,0.08055613561533449,-0.08014732777850792,0.23136864291503562,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(i-simple),1474,75,kendall_high,0.075486620933426,-0.04765910566844571,0.19606779896932258,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(i-simple),1474,75,pearson_high,0.02871192462456289,-0.10458896210490662,0.15081588861546047,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(i-simple),1474,75,AUROC,0.4806049379913016,0.41955416147164587,0.5459651276193824,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(i-simple),1360,75,MAE_verified,27.570082720588236,22.895691473889002,32.30378830110992,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(ii-pc),1474,75,MAE_high,15.45505275974026,11.501173440048397,20.128253763179803,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(ii-pc),1474,75,MAE_low,29.36926354895105,22.723236380151587,36.30600243513976,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(ii-pc),1474,75,MAE_all,23.554369487788332,18.654250034718142,29.03817710715871,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(ii-pc),1474,75,signed_error_high,5.497920048701299,-0.5462925367260165,12.68227583250848,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(ii-pc),1474,75,signed_error_low,27.577305506993003,20.412138339105574,35.03699413386872,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(ii-pc),1474,75,signed_error_all,18.350099643826322,12.151555118192826,25.263472979189146,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(ii-pc),1474,75,slope_high,0.08713559100526841,-0.3225195935905896,0.5285791330404506,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(ii-pc),1474,75,spearman_high,0.12345983033070791,-0.057644082653406065,0.2956973354796456,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(ii-pc),1474,75,kendall_high,0.118704030709184,-0.023054427625164676,0.25497395989206295,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(ii-pc),1474,75,pearson_high,0.03133878381839319,-0.11668359302703246,0.17791989535755354,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(ii-pc),1474,75,AUROC,0.5146523299932391,0.43023615771190127,0.5974113634599043,test (c) outputs
+posthoc,MCD,draft_rule,HAR,RhythmFormer,(ii-pc),1360,75,MAE_verified,22.94979319852941,18.009916817334673,28.50024499672537,test (c) outputs

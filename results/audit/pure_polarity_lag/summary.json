@@ -1,0 +1,147 @@
+{
+  "V1": {
+    "contexts": 378,
+    "L_full_matches": 378,
+    "max_corr_absdiff": 0.0
+  },
+  "tau_PURE_recomputed": -10,
+  "recording_classes": {
+    "positive_aligned": 5,
+    "inverted_absorbed": 37,
+    "other": 17
+  },
+  "close_margin_recordings": 34,
+  "other_breakdown": {
+    "positive_sign_far_from_tau": 5,
+    "negative_sign_not_half_period_from_tau": 12,
+    "L_abs_at_search_edge_30": 1,
+    "abs_distance_minus_half_period_median": 5.173333333333333
+  },
+  "class_by_signal_view": {
+    "PhysNet_view": {
+      "positive_aligned": 9,
+      "inverted_absorbed": 32,
+      "other": 18
+    },
+    "FactorizePhys_view": {
+      "positive_aligned": 7,
+      "inverted_absorbed": 30,
+      "other": 22
+    }
+  },
+  "tau_rec_recomputed_matches_file": 59,
+  "face_sign_counts": {
+    "+": 10,
+    "-": 49
+  },
+  "face_margin_quantiles": {
+    "min": 0.0002951299557001352,
+    "p25": 0.02588962778851865,
+    "median": 0.04062845137964666,
+    "p75": 0.06892307399949477,
+    "max": 0.14846405618499459
+  },
+  "face_Labs_minus_tau": {
+    "min": -19.0,
+    "p25": 7.0,
+    "median": 12.0,
+    "p75": 14.0,
+    "max": 40.0
+  },
+  "half_period_frames": {
+    "min": 6.7368421052631575,
+    "median": 13.473684210526315,
+    "max": 19.692307692307693
+  },
+  "between_recordings": {
+    "tau_rec_vs_half_period": {
+      "n": 59,
+      "pearson_r": -0.6478143269616795,
+      "spearman_rho": -0.6565502136790272,
+      "ols_slope": -0.3867900067775657,
+      "slope_ci_low": -0.5074302716097849,
+      "slope_ci_high": -0.26614974194534646,
+      "intercept": -4.946898206167541
+    },
+    "face_Labs_vs_half_period": {
+      "n": 59,
+      "pearson_r": 0.07096516386193778,
+      "spearman_rho": 0.273769326848627,
+      "ols_slope": 0.23806327950015047,
+      "slope_ci_low": -0.6494573972241368,
+      "slope_ci_high": 1.1255839562244376,
+      "intercept": -4.153168206728727
+    },
+    "face_Lsig15_vs_half_period": {
+      "n": 59,
+      "pearson_r": -0.39263437900807474,
+      "spearman_rho": -0.7200845863293528,
+      "ols_slope": -1.0211254852416924,
+      "slope_ci_low": -1.655523852327939,
+      "slope_ci_high": -0.386727118155446,
+      "intercept": 8.07035636638188
+    }
+  },
+  "between_contexts_face": {
+    "Lsig15_vs_half_period": {
+      "n": 378,
+      "pearson_r": -0.41097738059307887,
+      "spearman_rho": -0.5440184902314422,
+      "ols_slope": -1.1820568114672736,
+      "slope_ci_low": -1.4479460765037895,
+      "slope_ci_high": -0.9161675464307576,
+      "intercept": 11.949845780924813
+    },
+    "Labs_vs_half_period": {
+      "n": 378,
+      "pearson_r": 0.018666094612114787,
+      "spearman_rho": 0.08507286704422884,
+      "ols_slope": 0.07685352607884462,
+      "slope_ci_low": -0.3405816318415388,
+      "slope_ci_high": 0.494288683999228,
+      "intercept": -1.4366349588073437
+    },
+    "negative_sign_fraction": 0.7195767195767195
+  },
+  "V2": {
+    "items": 120,
+    "sha_matches": 120,
+    "max_abs_diff": 0.0
+  },
+  "edited_injected_by_view": {
+    "PhysNet_view": {
+      "items": 120,
+      "positive_sign": 114,
+      "L_abs_equals_tau_pm1": 110
+    },
+    "FactorizePhys_view": {
+      "items": 120,
+      "positive_sign": 112,
+      "L_abs_equals_tau_pm1": 109
+    },
+    "face_mask_native": {
+      "items": 120,
+      "positive_sign": 113,
+      "L_abs_equals_tau_pm1": 110
+    }
+  },
+  "pool_beta_sign_PhysNet_ii": {
+    "items": 2972,
+    "positive": 2756,
+    "negative": 216,
+    "zero": 0,
+    "median": 0.0006866822694192364
+  },
+  "positive_controls": {
+    "cases": 48,
+    "passed": 45,
+    "signed_estimator_on_inverted": {
+      "cases": 24,
+      "Lsig15_minus_known_lag_median": 8.0
+    }
+  },
+  "flag": {
+    "polarity_absorbed_in_tau": "판정 불가",
+    "rule": "positive controls below 46/48"
+  }
+}

@@ -1,0 +1,11 @@
+{
+ "rule": "docs/STAGE5_DEV_DIAGNOSTICS.md rule 2",
+ "judged": "RhythmFormer (0), sigma 1.5, seed mean",
+ "line_fraction_without": 0.5580459770114943,
+ "line_fraction_with": 0.46724137931034476,
+ "relative_fall": 0.16271884654994861,
+ "MAE_outside_change": -1.4696662766191093,
+ "first_condition": false,
+ "outcome": "rejected",
+ "line_removal_procedure_fixed": false
+}

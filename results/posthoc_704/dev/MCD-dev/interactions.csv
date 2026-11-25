@@ -1,0 +1,313 @@
+dataset,interaction,setting,reference_setting,backbone,name,base_contrast,windows,subjects,metric,point,ci_lo,ci_hi
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C1,(ii-pc)-(0),1446,73,MAE_high,6.002828663793104,1.6727352956115382,9.58065765542686
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C1,(ii-pc)-(0),1446,73,MAE_low,6.16249278290993,3.288559404400163,8.40789646316636
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C1,(ii-pc)-(0),1446,73,MAE_all,6.098450466804979,2.9673879285439146,8.493073613941768
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C1,(ii-pc)-(0),1446,73,signed_error_high,-7.013065732758622,-12.353657024506939,-1.925297790658468
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C1,(ii-pc)-(0),1446,73,signed_error_low,-5.274790704387991,-9.965211842513552,-1.283993585515018
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C1,(ii-pc)-(0),1446,73,signed_error_all,-5.972024118257262,-10.639483784745646,-1.8951393272149333
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C1,(ii-pc)-(0),1446,73,slope_high,0.10139983054345066,-0.5217250984919987,0.6159232701146956
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C1,(ii-pc)-(0),1446,73,spearman_high,0.08166743397599206,-0.07747520362957497,0.22612789652614643
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C1,(ii-pc)-(0),1446,73,kendall_high,0.07071739463159882,-0.05951714619950817,0.18877784174761006
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C1,(ii-pc)-(0),1446,73,pearson_high,0.12559078289272116,-0.06178004416826169,0.2830746462518273
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C1,(ii-pc)-(0),1446,73,AUROC,-0.027074540097156968,-0.08833766937447361,0.035217807242387274
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C1,(ii-pc)-(0),1446,73,hit_high,-0.03448275862068959,-0.1369875697615424,0.08362473451143164
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C1,(ii-pc)-(0),1328,73,MAE_verified,6.2405873493975905,3.05251171235777,8.738225177620045
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C2,(ii-pc)-(ii),1446,73,MAE_high,-2.0507812500000004,-5.828449240934906,0.6371561189464009
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C2,(ii-pc)-(ii),1446,73,MAE_low,-1.376208862586605,-3.890979002360581,1.346337898582214
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C2,(ii-pc)-(ii),1446,73,MAE_all,-1.6467842323651454,-4.439483949867886,0.746289747426014
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C2,(ii-pc)-(ii),1446,73,signed_error_high,-0.0181842672413793,-2.2840042296523597,2.4436230962358683
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C2,(ii-pc)-(ii),1446,73,signed_error_low,-0.1123159642032332,-1.8328605325170522,1.5576654758723496
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C2,(ii-pc)-(ii),1446,73,signed_error_all,-0.07455912863070553,-1.6498488467052221,1.5923652282977039
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C2,(ii-pc)-(ii),1446,73,slope_high,-0.21475095102068445,-0.619677964882471,0.3708809957816427
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C2,(ii-pc)-(ii),1446,73,spearman_high,0.0337802011597421,-0.15697312190547053,0.21765295409733756
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C2,(ii-pc)-(ii),1446,73,kendall_high,0.04620714333214104,-0.10790373531575821,0.19444958575270369
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C2,(ii-pc)-(ii),1446,73,pearson_high,0.004988748132878765,-0.19365261601100384,0.2276292361780139
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C2,(ii-pc)-(ii),1446,73,AUROC,0.03206810278463538,-0.022907360869000547,0.0857400226103993
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C2,(ii-pc)-(ii),1446,73,hit_high,0.07643678160919547,0.013232161093366375,0.14955230740945022
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C2,(ii-pc)-(ii),1328,73,MAE_verified,-1.6881000564759032,-4.535660516648066,0.6530856456423664
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C3,(i-pc)-(i),1446,73,MAE_high,-1.1153017241379304,-5.471160085442503,3.5048069690429826
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C3,(i-pc)-(i),1446,73,MAE_low,-2.9337471131639723,-6.564813552234981,0.5321474754712141
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C3,(i-pc)-(i),1446,73,MAE_all,-2.204356846473029,-5.937407116665882,1.3391664599015245
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C3,(i-pc)-(i),1446,73,signed_error_high,-5.1360452586206895,-12.997105218195154,1.1764028567656937
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C3,(i-pc)-(i),1446,73,signed_error_low,-4.863416570438799,-10.567076412667422,-0.5879785527956426
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C3,(i-pc)-(i),1446,73,signed_error_all,-4.9727697095435675,-11.204203302179305,-0.31934776665545167
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C3,(i-pc)-(i),1446,73,slope_high,0.06656367562761951,-0.4045366956411928,0.5927246828039912
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C3,(i-pc)-(i),1446,73,spearman_high,0.10951446762016133,-0.13363344394443732,0.3407372678753331
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C3,(i-pc)-(i),1446,73,kendall_high,0.09058840798269839,-0.11214447820102237,0.28457098205577724
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C3,(i-pc)-(i),1446,73,pearson_high,0.10916165868309839,-0.09081104194289566,0.31144085732011767
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C3,(i-pc)-(i),1446,73,AUROC,0.025399179740383786,-0.06214584854678012,0.11576906701601591
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C3,(i-pc)-(i),1446,73,hit_high,0.05689655172413788,-0.05235139125101946,0.17565689403004908
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C3,(i-pc)-(i),1328,73,MAE_verified,-2.244034732680722,-5.833299039979569,1.3207388555210704
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C4,(ii-pc)-(i-pc),1446,73,MAE_high,-1.157731681034483,-2.7134049332483583,0.3859975178354104
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C4,(ii-pc)-(i-pc),1446,73,MAE_low,-2.458772372979215,-4.760346526494321,-0.1354375972288256
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C4,(ii-pc)-(i-pc),1446,73,MAE_all,-1.936916493775934,-3.6482567022490233,-0.14203084081556372
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C4,(ii-pc)-(i-pc),1446,73,signed_error_high,-2.7134967672413794,-5.877665955539138,-0.22526311249137373
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C4,(ii-pc)-(i-pc),1446,73,signed_error_low,-3.4926205254041576,-5.821101548891197,-1.0611375861931642
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C4,(ii-pc)-(i-pc),1446,73,signed_error_all,-3.180108921161826,-5.417497551049372,-0.9756949329641053
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C4,(ii-pc)-(i-pc),1446,73,slope_high,-0.17632474434411663,-0.7001540216462719,0.18771384830790738
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C4,(ii-pc)-(i-pc),1446,73,spearman_high,-0.013806581537342285,-0.18183430790161081,0.1551709785463148
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C4,(ii-pc)-(i-pc),1446,73,kendall_high,0.005919632638939909,-0.13019823492054608,0.1396110909955478
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C4,(ii-pc)-(i-pc),1446,73,pearson_high,-0.027869421095934016,-0.24832173462639656,0.14436392227456804
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C4,(ii-pc)-(i-pc),1446,73,AUROC,0.0448455044994824,-0.0025568104894453736,0.09273127728420884
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C4,(ii-pc)-(i-pc),1446,73,hit_high,0.049425287356321936,3.700743415417188e-17,0.1067128790852634
+MCD,label,PhysNet-Std,PhysNet,PhysNet,C4,(ii-pc)-(i-pc),1328,73,MAE_verified,-1.7675192959337347,-3.3473097239407914,-0.06227213648714466
+MCD,label,PhysNet-Std,PhysNet,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,MAE_high,-0.9819504310344822,-4.408620142415544,1.678185786254131
+MCD,label,PhysNet-Std,PhysNet,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,MAE_low,-1.7185695727482677,-3.814273126136994,0.23494667131436375
+MCD,label,PhysNet-Std,PhysNet,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,MAE_all,-1.4231068464730292,-3.8088843071875607,0.5433703507670651
+MCD,label,PhysNet-Std,PhysNet,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,signed_error_high,-2.618534482758621,-4.833703675329495,-0.4759941059237222
+MCD,label,PhysNet-Std,PhysNet,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,signed_error_low,-2.1191180715935336,-4.365775623133474,0.025951205299506317
+MCD,label,PhysNet-Std,PhysNet,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,signed_error_all,-2.3194372406639006,-4.064856882012061,-0.604805339786917
+MCD,label,PhysNet-Std,PhysNet,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,slope_high,-0.11279134680147844,-0.483923543374147,0.2680159197843953
+MCD,label,PhysNet-Std,PhysNet,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,spearman_high,0.014222026293106945,-0.16162702265455015,0.1837847992104383
+MCD,label,PhysNet-Std,PhysNet,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,kendall_high,0.023879374065411203,-0.13275905016474016,0.18029302955433868
+MCD,label,PhysNet-Std,PhysNet,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,pearson_high,0.009592419267494332,-0.1811113055430166,0.21429620712861955
+MCD,label,PhysNet-Std,PhysNet,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,AUROC,0.014484948634227853,-0.054095539208593175,0.07758667861511537
+MCD,label,PhysNet-Std,PhysNet,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,hit_high,0.03333333333333344,-0.0605085508550855,0.12647821632121584
+MCD,label,PhysNet-Std,PhysNet,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1328,73,MAE_verified,-1.3933664344879515,-3.7338838237725707,0.5588179659152303
+MCD,label,PhysNet-Std,PhysNet,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,MAE_high,-2.1821120689655173,-4.5337292365626745,0.1185249966389389
+MCD,label,PhysNet-Std,PhysNet,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,MAE_low,-0.38701645496535786,-1.3562539067123327,0.8496108214460681
+MCD,label,PhysNet-Std,PhysNet,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,MAE_all,-1.1070409751037344,-2.51188702718772,0.41674194436164397
+MCD,label,PhysNet-Std,PhysNet,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,signed_error_high,4.170258620689656,2.2455946491835648,6.318150111607142
+MCD,label,PhysNet-Std,PhysNet,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,signed_error_low,1.5832491339491916,0.32488122830209765,3.0384202089685237
+MCD,label,PhysNet-Std,PhysNet,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,signed_error_all,2.6209154564315353,1.2543110820533188,4.125859292595656
+MCD,label,PhysNet-Std,PhysNet,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,slope_high,0.3826632360711176,0.06756434438724482,0.6574901338323982
+MCD,label,PhysNet-Std,PhysNet,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,spearman_high,0.1258335975252442,-0.0025608718204708464,0.25455146397432254
+MCD,label,PhysNet-Std,PhysNet,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,kendall_high,0.09273365424187985,-0.012189082979171761,0.19707874747561185
+MCD,label,PhysNet-Std,PhysNet,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,pearson_high,0.12825222540498984,-0.029330237443681597,0.28736972730264293
+MCD,label,PhysNet-Std,PhysNet,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,AUROC,0.05657402245759339,0.016167932390418825,0.10167334062882828
+MCD,label,PhysNet-Std,PhysNet,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,hit_high,0.051149425287356255,-0.0005648293255232633,0.10509125931539721
+MCD,label,PhysNet-Std,PhysNet,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1328,73,MAE_verified,-1.261001035391567,-2.693514040040785,0.3232865762738475
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C1,(ii-pc)-(0),1446,73,MAE_high,-6.259428879310345,-14.69234095982143,1.2052503613043544
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C1,(ii-pc)-(0),1446,73,MAE_low,-10.686255051963046,-13.768323888222636,-7.143575174825178
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C1,(ii-pc)-(0),1446,73,MAE_all,-8.910626296680498,-13.227652952610143,-4.929436361076987
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C1,(ii-pc)-(0),1446,73,signed_error_high,-2.8125,-19.758652586680906,12.721681479357791
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C1,(ii-pc)-(0),1446,73,signed_error_low,1.0757974884526547,-12.966684263096063,12.360466818372595
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C1,(ii-pc)-(0),1446,73,signed_error_all,-0.483823910788382,-15.259335568346726,11.993792957109648
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C1,(ii-pc)-(0),1446,73,slope_high,-0.43016838638530935,-1.4361067176798847,0.5889399043047343
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C1,(ii-pc)-(0),1446,73,spearman_high,-0.22071770759620948,-0.5283072392394167,0.09495337802649177
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C1,(ii-pc)-(0),1446,73,kendall_high,-0.19590478100065634,-0.44618604920507754,0.06305697577304245
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C1,(ii-pc)-(0),1446,73,pearson_high,-0.2163603605645351,-0.467739270022561,0.051939186918005614
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C1,(ii-pc)-(0),1446,73,AUROC,-0.08365984444267473,-0.18789201812562847,0.025089935076974528
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C1,(ii-pc)-(0),1446,73,hit_high,0.040804597701149435,-0.08571558915537018,0.16264394829612214
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C1,(ii-pc)-(0),1328,73,MAE_verified,-8.712290568524098,-13.435338864919602,-4.329067647927176
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C2,(ii-pc)-(ii),1446,73,MAE_high,9.300242456896552,4.587881050857844,15.272848516882545
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C2,(ii-pc)-(ii),1446,73,MAE_low,4.147571449191687,2.46293450192577,6.235641407424055
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C2,(ii-pc)-(ii),1446,73,MAE_all,6.214341286307054,3.550824313737479,9.662591032793
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C2,(ii-pc)-(ii),1446,73,signed_error_high,-10.395339439655173,-19.1050890678056,-4.036123658225981
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C2,(ii-pc)-(ii),1446,73,signed_error_low,-4.004131784064665,-7.892974970197362,-0.8427687913983677
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C2,(ii-pc)-(ii),1446,73,signed_error_all,-6.567686721991701,-12.262841828387776,-2.380883594992911
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C2,(ii-pc)-(ii),1446,73,slope_high,-0.8286251062152469,-1.5323986853601321,-0.08194984987229173
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C2,(ii-pc)-(ii),1446,73,spearman_high,-0.4653298302335214,-0.7661264845744314,-0.20094699874611094
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C2,(ii-pc)-(ii),1446,73,kendall_high,-0.4223880569839176,-0.6708228790595779,-0.2023335158603861
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C2,(ii-pc)-(ii),1446,73,pearson_high,-0.3930537813238211,-0.6633838757784927,-0.09294764578932978
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C2,(ii-pc)-(ii),1446,73,AUROC,-0.198805115340713,-0.30220889210098245,-0.11158225461446754
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C2,(ii-pc)-(ii),1446,73,hit_high,-0.2873563218390804,-0.4159552292912815,-0.17842056942109916
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C2,(ii-pc)-(ii),1328,73,MAE_verified,6.60679828689759,3.760090980106405,10.296986393976972
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C3,(i-pc)-(i),1446,73,MAE_high,7.291891163793103,3.1867512121304635,11.574872758433793
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C3,(i-pc)-(i),1446,73,MAE_low,1.801115040415705,0.386323858609668,3.5287220087287885
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C3,(i-pc)-(i),1446,73,MAE_all,4.003501037344399,1.8743343596859228,6.385805492742687
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C3,(i-pc)-(i),1446,73,signed_error_high,-8.924434267241379,-14.00619892953374,-3.8355321887234632
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C3,(i-pc)-(i),1446,73,signed_error_low,-7.265354359122402,-11.594490470024274,-3.376827374646027
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C3,(i-pc)-(i),1446,73,signed_error_all,-7.930822095435684,-11.897920941019224,-3.871705761614318
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C3,(i-pc)-(i),1446,73,slope_high,-0.43869456876238067,-0.9232577488079612,0.06366560774779809
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C3,(i-pc)-(i),1446,73,spearman_high,-0.2732630634212667,-0.4740977460817606,-0.0678984713990291
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C3,(i-pc)-(i),1446,73,kendall_high,-0.24363272640299968,-0.4186050412578464,-0.06709144598873319
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C3,(i-pc)-(i),1446,73,pearson_high,-0.18762061223875315,-0.35588783241080474,-0.019403821719916448
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C3,(i-pc)-(i),1446,73,AUROC,-0.09420177324732555,-0.1752852524957924,-0.022243345839243044
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C3,(i-pc)-(i),1446,73,hit_high,-0.18908045977011492,-0.28093918726911055,-0.10534384309831188
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C3,(i-pc)-(i),1328,73,MAE_verified,4.499541133283133,2.1606120110688947,7.08996683393134
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C4,(ii-pc)-(i-pc),1446,73,MAE_high,3.226697198275861,-1.0538526961149288,8.011027747844825
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C4,(ii-pc)-(i-pc),1446,73,MAE_low,2.3058602771362584,-0.4594082482247115,5.388890271174291
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C4,(ii-pc)-(i-pc),1446,73,MAE_all,2.675213952282158,-0.46566878545212204,6.315057268531553
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C4,(ii-pc)-(i-pc),1446,73,signed_error_high,-4.972386853448276,-9.995950866183328,-0.8313247896316185
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C4,(ii-pc)-(i-pc),1446,73,signed_error_low,-2.0243937644341803,-5.192411363639953,0.08774101284342861
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C4,(ii-pc)-(i-pc),1446,73,signed_error_all,-3.206852956431536,-6.685968949834262,-0.5434905460783079
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C4,(ii-pc)-(i-pc),1446,73,slope_high,-0.37609992021090255,-1.0505289239520181,0.12133234140615587
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C4,(ii-pc)-(i-pc),1446,73,spearman_high,-0.16229936444285534,-0.3720255079448808,0.04009309156157402
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C4,(ii-pc)-(i-pc),1446,73,kendall_high,-0.14640876240304457,-0.3384345376255695,0.0362159014455145
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C4,(ii-pc)-(i-pc),1446,73,pearson_high,-0.15964785546437496,-0.40755538576179184,0.07030968011424231
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C4,(ii-pc)-(i-pc),1446,73,AUROC,-0.06960858485306998,-0.15476210965459858,0.010890784933452509
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C4,(ii-pc)-(i-pc),1446,73,hit_high,-0.0862068965517241,-0.195374230799925,0.01615048408726649
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,C4,(ii-pc)-(i-pc),1328,73,MAE_verified,2.7593773531626504,-0.4509509885095203,6.382630872710699
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,MAE_high,4.602640086206897,-0.8054066412311801,9.831510328554508
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,MAE_low,1.8674220554272523,-0.5979354620578443,4.34924358409279
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,MAE_all,2.9645357883817423,0.43325323256985504,5.873881094608125
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,signed_error_high,-7.508081896551725,-16.408695427624668,1.1599362705875957
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,signed_error_low,-4.8796550230946885,-10.09689526525669,0.32807452919307045
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,signed_error_all,-5.933934128630706,-12.362268230117671,0.5258409720772972
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,slope_high,-0.37701305864178963,-1.1287503285311749,0.5029616162575178
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,spearman_high,-0.2110471744019786,-0.44262835111452675,0.03541794007794204
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,kendall_high,-0.18654780961272252,-0.3654091566679207,0.0015137063850833136
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,pearson_high,-0.15908330586270814,-0.4353972525997814,0.15459059899598293
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,AUROC,-0.08443729924875902,-0.15680862984735378,-0.018347176624928397
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,hit_high,-0.11264367816091952,-0.1787099611426171,-0.05090780971479499
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1328,73,MAE_verified,3.28089702560241,0.5816485265605842,6.4445444767397975
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,MAE_high,-11.07219827586207,-15.601324671057624,-7.391221068064633
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,MAE_low,-3.148906610854503,-4.846258522614413,-1.4765139736557487
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,MAE_all,-6.326990404564316,-8.73335520736431,-4.4357292100344585
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,signed_error_high,14.915140086206895,7.954106899123118,24.21490973232814
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,signed_error_low,7.58200418591224,3.03957168561364,14.311964498461549
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,signed_error_all,10.523372665975105,5.077273370235924,18.225286619840677
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,slope_high,1.1220041361054853,0.5209829556117794,1.6749180933609713
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,spearman_high,0.581380671089306,0.3603958182594873,0.7987346150608002
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,kendall_high,0.5064934279276853,0.32341811098948425,0.6848343300551133
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,pearson_high,0.51478344620833,0.2724095301433311,0.7028402949379414
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,AUROC,0.21481809614823075,0.15645639724828797,0.27724168483267353
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,hit_high,0.3063218390804597,0.22338198552153404,0.3951612903225807
+MCD,loss,PhysNet-MCC,PhysNet,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1328,73,MAE_verified,-6.861822289156627,-9.45674984983398,-4.8481200010902645
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C1,(ii-pc)-(0),1446,73,MAE_high,4.117726293103449,-6.910725909968372,13.001235895750323
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C1,(ii-pc)-(0),1446,73,MAE_low,-5.055571593533487,-20.6357977732366,4.87780917927099
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C1,(ii-pc)-(0),1446,73,MAE_all,-1.3761021784232355,-15.149197562758344,8.056530680076477
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C1,(ii-pc)-(0),1446,73,signed_error_high,-16.511314655172413,-26.72965131861063,-8.499289181113731
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C1,(ii-pc)-(0),1446,73,signed_error_low,-13.36695294457275,-27.464841538080407,-4.139223595764798
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C1,(ii-pc)-(0),1446,73,signed_error_all,-14.628176867219919,-27.284072250690343,-6.04280680798425
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C1,(ii-pc)-(0),1446,73,slope_high,-0.43294286375457264,-0.9118946976231194,0.14255253950410565
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C1,(ii-pc)-(0),1446,73,spearman_high,-0.21561333755227838,-0.41350765501004555,-0.0035494850415247717
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C1,(ii-pc)-(0),1446,73,kendall_high,-0.18605237717497616,-0.3482104836845547,-0.016127116759442936
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C1,(ii-pc)-(0),1446,73,pearson_high,-0.14852713052510583,-0.3046815884583813,0.03286067061880829
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C1,(ii-pc)-(0),1446,73,AUROC,-0.07333658517161738,-0.18259081807113384,0.06327841306776257
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C1,(ii-pc)-(0),1446,73,hit_high,-0.1229885057471265,-0.30443012512831896,0.08191540752682638
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C1,(ii-pc)-(0),1328,73,MAE_verified,-1.0077419051204821,-14.791031193502798,8.576800271739128
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C2,(ii-pc)-(ii),1446,73,MAE_high,4.463227370689656,2.868519718657085,6.326057142247267
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C2,(ii-pc)-(ii),1446,73,MAE_low,2.599505629330254,0.9072852118732386,4.511918215211002
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C2,(ii-pc)-(ii),1446,73,MAE_all,3.3470565352697097,1.9702043603486659,4.805469781782391
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C2,(ii-pc)-(ii),1446,73,signed_error_high,-3.800511853448276,-6.273633079701255,-1.4870538782246636
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C2,(ii-pc)-(ii),1446,73,signed_error_low,0.11502237297921465,-1.957867061237198,2.3856646233332195
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C2,(ii-pc)-(ii),1446,73,signed_error_all,-1.4555238589211619,-3.3746182692585536,0.5915338293615112
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C2,(ii-pc)-(ii),1446,73,slope_high,-0.16495914353411611,-0.5897175619220749,0.16468915187639266
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C2,(ii-pc)-(ii),1446,73,spearman_high,-0.2570407250690473,-0.4148197632271587,-0.10081153671300065
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C2,(ii-pc)-(ii),1446,73,kendall_high,-0.24757709987621268,-0.3818176870208207,-0.11378284357667202
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C2,(ii-pc)-(ii),1446,73,pearson_high,-0.20181829471812718,-0.3810065135066721,-0.017256301046502383
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C2,(ii-pc)-(ii),1446,73,AUROC,-0.1268608478670595,-0.17770269487863136,-0.07504821497166601
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C2,(ii-pc)-(ii),1446,73,hit_high,-0.19827586206896555,-0.2690699818520862,-0.13182529727304254
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C2,(ii-pc)-(ii),1328,73,MAE_verified,3.363846009036145,2.0491494792774265,4.800855935642747
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C3,(i-pc)-(i),1446,73,MAE_high,6.578663793103448,3.7345816296728964,9.821766373158377
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C3,(i-pc)-(i),1446,73,MAE_low,4.044727915704389,1.189811415848979,6.596433512944047
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C3,(i-pc)-(i),1446,73,MAE_all,5.06110606846473,3.4817189434287577,6.488843734737689
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C3,(i-pc)-(i),1446,73,signed_error_high,-1.875,-8.45184195714081,4.17006915715333
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C3,(i-pc)-(i),1446,73,signed_error_low,0.6725425808314088,-4.7091997832815435,5.1157271861346505
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C3,(i-pc)-(i),1446,73,signed_error_all,-0.3492933091286308,-6.031872166389266,4.423495828662294
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C3,(i-pc)-(i),1446,73,slope_high,-0.5422462961489402,-1.149127515415944,-0.06416250413696058
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C3,(i-pc)-(i),1446,73,spearman_high,-0.3422783240533341,-0.6225554117426086,-0.08865456320070174
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C3,(i-pc)-(i),1446,73,kendall_high,-0.2986991140627862,-0.538961459579121,-0.07950996366630401
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C3,(i-pc)-(i),1446,73,pearson_high,-0.3241666376440078,-0.6016569915631301,-0.07745905841712077
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C3,(i-pc)-(i),1446,73,AUROC,-0.11556668259403784,-0.17863772342028883,-0.04984913607551984
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C3,(i-pc)-(i),1446,73,hit_high,-0.2051724137931034,-0.324209661228777,-0.0890580884659626
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C3,(i-pc)-(i),1328,73,MAE_verified,5.440217902861445,3.909156494251177,6.866044692231146
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C4,(ii-pc)-(i-pc),1446,73,MAE_high,-0.2444773706896551,-2.437223123863032,1.9011872015083353
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C4,(ii-pc)-(i-pc),1446,73,MAE_low,1.3342595265588904,-1.3307854837452533,4.015010699704581
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C4,(ii-pc)-(i-pc),1446,73,MAE_all,0.7010178941908715,-1.3853068824675268,2.6247407853170386
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C4,(ii-pc)-(i-pc),1446,73,signed_error_high,1.3840247844827587,-0.9279595588235293,4.0108297985436785
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C4,(ii-pc)-(i-pc),1446,73,signed_error_low,1.5507722286374135,-1.137382384848828,4.660891106320428
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C4,(ii-pc)-(i-pc),1446,73,signed_error_all,1.483888744813278,-0.6145974927790818,3.9870181909677243
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C4,(ii-pc)-(i-pc),1446,73,slope_high,0.35104913355509887,-0.06550330358644955,0.8343137027313637
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C4,(ii-pc)-(i-pc),1446,73,spearman_high,0.08765332279598283,-0.11718239982385474,0.3041225208017204
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C4,(ii-pc)-(i-pc),1446,73,kendall_high,0.05360420381701506,-0.12555126129283856,0.24099092932051183
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C4,(ii-pc)-(i-pc),1446,73,pearson_high,0.15265875016480604,-0.0936754596940435,0.4152616176161719
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C4,(ii-pc)-(i-pc),1446,73,AUROC,-0.010254904303044729,-0.07860159842566608,0.0676851323421246
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C4,(ii-pc)-(i-pc),1446,73,hit_high,-0.014942528735632251,-0.0985002649708533,0.06974193295739346
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,C4,(ii-pc)-(i-pc),1328,73,MAE_verified,0.5065182605421689,-1.548999035505384,2.3580243502662195
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,MAE_high,1.551724137931034,0.17261489255756976,2.969032029244356
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,MAE_low,-0.4276125866050811,-2.0197391316907303,0.844435412680946
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,MAE_all,0.3663122406639007,-0.8933935159991079,1.4444548662885939
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,signed_error_high,-2.477101293103448,-4.35079109643387,-0.7923031713011273
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,signed_error_low,-2.0812283487297925,-3.4245334345447205,-0.8684290886098315
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,signed_error_all,-2.240015560165975,-3.370700198220829,-1.2239502458592133
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,slope_high,-0.07528102254428548,-0.3157719904286871,0.12429209233448592
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,spearman_high,-0.11076043271211132,-0.23927438322272104,0.03275603359386781
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,kendall_high,-0.11160814537171167,-0.22648249128708461,0.016960284619324525
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,pearson_high,-0.07785539027781206,-0.19659697351381553,0.05657044027752759
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,AUROC,-0.01703664622654022,-0.06654750485949598,0.03815535687142909
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,hit_high,-0.058620689655172496,-0.12220604355692911,0.0019651238032869474
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,ii-pc_vs_i-simple,(ii-pc)-(i-simple),1328,73,MAE_verified,0.5135777484939757,-0.6303931983319322,1.5399664116565739
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,MAE_high,-0.4606681034482758,-2.3224310594692477,1.6419497879322675
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,MAE_low,2.5386114318706703,-1.1763679531153293,7.248114865486274
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,MAE_all,1.335580912863071,-1.5098000477677085,4.863404212269873
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,signed_error_high,2.2750538793103448,0.6029706158513096,3.909158807466535
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,signed_error_low,4.281538683602771,-0.25752740959480763,11.123998038212218
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,signed_error_all,3.476724585062241,0.5821950961349179,7.484410559899416
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,slope_high,-0.18098312233583283,-0.6039718467651367,0.19266880661120012
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,spearman_high,-0.0808022609843277,-0.3785774572287258,0.1758667457249273
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,kendall_high,-0.057222777367165766,-0.3236265633680234,0.17208273056336332
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,pearson_high,-0.08765381882643038,-0.33950360761596093,0.15350253348105505
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,AUROC,-0.06248407262881265,-0.254926726642703,0.08079701913459118
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,hit_high,-0.04425287356321833,-0.26807260958728535,0.12087912087912078
+MCD,loss,PhysNet-Std-MCC,PhysNet-Std,PhysNet,ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1328,73,MAE_verified,1.313947195030121,-1.3472622814663597,4.638291619086789
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C1,(ii-pc)-(0),1446,73,MAE_high,-0.3394396551724137,-1.559692639397497,0.7542477720255687
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C1,(ii-pc)-(0),1446,73,MAE_low,-0.18809540993071586,-0.6641533286755936,0.29064025517751463
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C1,(ii-pc)-(0),1446,73,MAE_all,-0.24880057053941926,-0.9298087056907535,0.3574859429590452
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C1,(ii-pc)-(0),1446,73,signed_error_high,0.3434806034482758,-0.8764501785484984,1.6173295577924771
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C1,(ii-pc)-(0),1446,73,signed_error_low,-0.0717198325635104,-0.6629958768334528,0.45881421536953965
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C1,(ii-pc)-(0),1446,73,signed_error_all,0.0948197614107884,-0.336926927929257,0.5268925908636112
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C1,(ii-pc)-(0),1446,73,slope_high,0.00800939785609639,-0.2180723327609413,0.1829181584926097
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C1,(ii-pc)-(0),1446,73,spearman_high,0.00632588735245269,-0.07547430865146242,0.0826304584025818
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C1,(ii-pc)-(0),1446,73,kendall_high,0.009923462002864111,-0.061353435661089216,0.07821202333635854
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C1,(ii-pc)-(0),1446,73,pearson_high,-0.0016720063254911932,-0.14538271337451622,0.12178636647110068
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C1,(ii-pc)-(0),1446,73,AUROC,0.006796673833983709,-0.02589247495108392,0.04305256183120569
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C1,(ii-pc)-(0),1446,73,hit_high,0.007471264367816126,-0.021368501529051946,0.04075717591865371
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C1,(ii-pc)-(0),1328,73,MAE_verified,-0.25237669427710846,-0.8457777981721127,0.2843213409680796
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C2,(ii-pc)-(ii),1446,73,MAE_high,3.444908405172414,2.207816539811102,4.9384645986123825
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C2,(ii-pc)-(ii),1446,73,MAE_low,0.6035291570438801,0.14395668035288262,1.0956756971656798
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C2,(ii-pc)-(ii),1446,73,MAE_all,1.74322484439834,1.0762012600020736,2.5028605819876506
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C2,(ii-pc)-(ii),1446,73,signed_error_high,-3.416621767241379,-5.243846825948332,-1.8973625905672507
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C2,(ii-pc)-(ii),1446,73,signed_error_low,-1.309901847575058,-2.046182987461752,-0.653517014391007
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C2,(ii-pc)-(ii),1446,73,signed_error_all,-2.1549209024896263,-3.181374231993249,-1.2823308559538875
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C2,(ii-pc)-(ii),1446,73,slope_high,-0.34049819247371715,-0.6859742993692579,-0.08401270234029955
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C2,(ii-pc)-(ii),1446,73,spearman_high,-0.2736035472347568,-0.3999152513275168,-0.15265483134756083
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C2,(ii-pc)-(ii),1446,73,kendall_high,-0.24936344318888123,-0.3569900040088076,-0.14520790612218182
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C2,(ii-pc)-(ii),1446,73,pearson_high,-0.29344242386448055,-0.4820956126923677,-0.11495027588341353
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C2,(ii-pc)-(ii),1446,73,AUROC,-0.07250404820684346,-0.10861877885016291,-0.03995782523251638
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C2,(ii-pc)-(ii),1446,73,hit_high,-0.10919540229885054,-0.15559661602475408,-0.0628107199509698
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C2,(ii-pc)-(ii),1328,73,MAE_verified,1.8981198230421683,1.2526829418859353,2.652796379399979
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C3,(i-pc)-(i),1446,73,MAE_high,1.5436422413793098,0.4638264050231772,2.745387304285287
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C3,(i-pc)-(i),1446,73,MAE_low,0.527749711316397,-0.12367812919506697,1.404756357908227
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C3,(i-pc)-(i),1446,73,MAE_all,0.9352308091286305,0.24557842189365323,1.8229189023866759
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C3,(i-pc)-(i),1446,73,signed_error_high,-1.2446120689655173,-2.244407904279897,-0.30607495696539777
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C3,(i-pc)-(i),1446,73,signed_error_low,-0.7469688221709007,-1.355861552945144,-0.16498670384218678
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C3,(i-pc)-(i),1446,73,signed_error_all,-0.946576763485477,-1.5681313844550397,-0.34859482484283505
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C3,(i-pc)-(i),1446,73,slope_high,-0.1873851526435467,-0.4224501778249782,0.0031189622387455093
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C3,(i-pc)-(i),1446,73,spearman_high,-0.11123268177370559,-0.20064815350218482,-0.02335941556428183
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C3,(i-pc)-(i),1446,73,kendall_high,-0.10115991066468864,-0.18489782263489746,-0.020984505885559935
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C3,(i-pc)-(i),1446,73,pearson_high,-0.16690640638390572,-0.306011308915963,-0.04243988608524511
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C3,(i-pc)-(i),1446,73,AUROC,-0.026763956359002933,-0.05222658969243669,-0.003045558313757257
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C3,(i-pc)-(i),1446,73,hit_high,-0.043103448275862134,-0.08651460657662959,-0.007673945133043521
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C3,(i-pc)-(i),1328,73,MAE_verified,1.015683829066265,0.29617497335989623,1.9183971252300958
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C4,(ii-pc)-(i-pc),1446,73,MAE_high,-0.0505118534482755,-0.7393572854510354,0.7068345751720702
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C4,(ii-pc)-(i-pc),1446,73,MAE_low,-0.08795828521939934,-0.3594407535400206,0.17707860890091995
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C4,(ii-pc)-(i-pc),1446,73,MAE_all,-0.07293827800829877,-0.3906316342561144,0.27396354184431765
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C4,(ii-pc)-(i-pc),1446,73,signed_error_high,-0.5111799568965516,-1.5746087627351095,0.3728823738302139
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C4,(ii-pc)-(i-pc),1446,73,signed_error_low,-0.22057231524249424,-0.6174151697487295,0.1483885141811033
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C4,(ii-pc)-(i-pc),1446,73,signed_error_all,-0.337136929460581,-0.758183123238495,0.03125014432580194
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C4,(ii-pc)-(i-pc),1446,73,slope_high,-0.18147429629647407,-0.43685984167410996,-0.01482073498294744
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C4,(ii-pc)-(i-pc),1446,73,spearman_high,-0.042264208901966326,-0.1438091752770755,0.03595365816983137
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C4,(ii-pc)-(i-pc),1446,73,kendall_high,-0.027837126092345083,-0.11211528263284845,0.0439680598530492
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C4,(ii-pc)-(i-pc),1446,73,pearson_high,-0.0772999122634746,-0.2202657851056457,0.04515133498688936
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C4,(ii-pc)-(i-pc),1446,73,AUROC,-3.5504764938483944e-05,-0.021229613283741844,0.020227189645013955
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C4,(ii-pc)-(i-pc),1446,73,hit_high,0.0017241379310345417,-0.020912609657297656,0.023327348066298353
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),C4,(ii-pc)-(i-pc),1328,73,MAE_verified,-0.07235975150602399,-0.37115447814371727,0.27728219987055636
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,MAE_high,0.076778017241379,-0.5311929450884784,0.6792957295828763
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,MAE_low,-0.08660508083140857,-0.4031276175749604,0.21536294873997733
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,MAE_all,-0.02107105809128651,-0.3601826944409228,0.32324834862923835
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,signed_error_high,-0.5778556034482758,-1.6853724860858923,0.3263230944303651
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,signed_error_low,-0.2110998845265589,-0.6808684309952637,0.3025090620224383
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,signed_error_all,-0.3582079875518673,-0.8525101263249166,0.09150517779600528
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,slope_high,-0.17207674509288406,-0.4230170410823895,0.01305326422387713
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,spearman_high,-0.048164683907975715,-0.13201450175316223,0.014819088449144573
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,kendall_high,-0.03799155874495617,-0.10702251200364703,0.017353403340773493
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,pearson_high,-0.06802285367624188,-0.20057862054731473,0.04214627283061883
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,AUROC,-0.006826869475193065,-0.0283443433462944,0.013207990147270757
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),ii-pc_vs_i-simple,(ii-pc)-(i-simple),1446,73,hit_high,-0.007471264367816051,-0.02978768701144067,0.013382694297620075
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),ii-pc_vs_i-simple,(ii-pc)-(i-simple),1328,73,MAE_verified,-0.02912038780120474,-0.3322082362544454,0.279423192860971
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,MAE_high,-3.3762122844827593,-4.903627040519294,-1.827197638454045
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,MAE_low,-0.6766021939953811,-1.5201843003820126,-0.02348475498519834
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,MAE_all,-1.7594333506224065,-2.7778517469243753,-0.8023184614858558
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,signed_error_high,3.509563577586207,2.129484844431856,4.953130602183833
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,signed_error_low,1.0663250577367205,0.5088983957855578,1.6990389006355717
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,signed_error_all,2.0463239107883813,1.2671939787591222,2.889383257991121
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,slope_high,0.39543711281177313,0.16505608221596405,0.5973197708610917
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,spearman_high,0.2837429087541883,0.17049936428231763,0.3882327139083078
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,kendall_high,0.25729703191731923,0.15966115451934004,0.3470980040468458
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,pearson_high,0.2690496147420382,0.1418025498349734,0.39378812669901025
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,AUROC,0.07712796315468125,0.04353015360881192,0.10929256982042788
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1446,73,hit_high,0.11494252873563211,0.05894619069430131,0.1750918151271626
+MCD,loss,FactorizePhys-MCC,FactorizePhys,FactorizePhys (matched),ii-lag_vs_ii-pc,(ii-lag)-(ii-pc),1328,73,MAE_verified,-1.8831184111445782,-2.9983742353144516,-0.8528489059951125

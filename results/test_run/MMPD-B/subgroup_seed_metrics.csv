@@ -1,0 +1,1861 @@
+dimension,category,group,backbone,strategy,seed,windows,subjects,MAE
+skin_group,3-4,H,FactorizePhys (matched),(0),20261131,129,11,17.578125
+skin_group,3-4,H,FactorizePhys (matched),(0),20261132,129,11,21.066497093023255
+skin_group,3-4,H,FactorizePhys (matched),(0),20261133,129,11,18.286700581395348
+skin_group,3-4,H,FactorizePhys (matched),(i),20261131,129,11,21.448037790697676
+skin_group,3-4,H,FactorizePhys (matched),(i),20261132,129,11,22.211119186046513
+skin_group,3-4,H,FactorizePhys (matched),(i),20261133,129,11,19.104287790697676
+skin_group,3-4,H,FactorizePhys (matched),(i-pc),20261131,129,11,19.458575581395348
+skin_group,3-4,H,FactorizePhys (matched),(i-pc),20261132,129,11,17.25109011627907
+skin_group,3-4,H,FactorizePhys (matched),(i-pc),20261133,129,11,17.741642441860463
+skin_group,3-4,H,FactorizePhys (matched),(i-simple),20261131,129,11,18.123183139534884
+skin_group,3-4,H,FactorizePhys (matched),(i-simple),20261132,129,11,17.523619186046513
+skin_group,3-4,H,FactorizePhys (matched),(i-simple),20261133,129,11,16.242732558139537
+skin_group,3-4,H,FactorizePhys (matched),(ii),20261131,129,11,22.156613372093023
+skin_group,3-4,H,FactorizePhys (matched),(ii),20261132,129,11,25.317950581395348
+skin_group,3-4,H,FactorizePhys (matched),(ii),20261133,129,11,21.884084302325583
+skin_group,3-4,H,FactorizePhys (matched),(ii-lag),20261131,129,11,19.540334302325583
+skin_group,3-4,H,FactorizePhys (matched),(ii-lag),20261132,129,11,21.99309593023256
+skin_group,3-4,H,FactorizePhys (matched),(ii-lag),20261133,129,11,23.24672965116279
+skin_group,3-4,H,FactorizePhys (matched),(ii-pc),20261131,129,11,15.316133720930232
+skin_group,3-4,H,FactorizePhys (matched),(ii-pc),20261132,129,11,15.94295058139535
+skin_group,3-4,H,FactorizePhys (matched),(ii-pc),20261133,129,11,15.043604651162791
+skin_group,3-4,H,FactorizePhys (matched),(ii-pc-g),20261131,129,11,15.56140988372093
+skin_group,3-4,H,FactorizePhys (matched),(ii-pc-g),20261132,129,11,16.13372093023256
+skin_group,3-4,H,FactorizePhys (matched),(ii-pc-g),20261133,129,11,14.961845930232558
+skin_group,3-4,H,FactorizePhys (matched),(ii-pc-g2),20261131,129,11,14.662063953488373
+skin_group,3-4,H,FactorizePhys (matched),(ii-pc-g2),20261132,129,11,15.615915697674419
+skin_group,3-4,H,FactorizePhys (matched),(ii-pc-g2),20261133,129,11,16.297238372093023
+skin_group,3-4,H,FactorizePhys (matched),(ii-pc-g80),20261131,129,11,14.90734011627907
+skin_group,3-4,H,FactorizePhys (matched),(ii-pc-g80),20261132,129,11,17.169331395348838
+skin_group,3-4,H,FactorizePhys (matched),(ii-pc-g80),20261133,129,11,17.00581395348837
+skin_group,3-4,H,FactorizePhys (matched),(sham-pc),20261131,129,11,19.34956395348837
+skin_group,3-4,H,FactorizePhys (matched),(sham-pc),20261132,129,11,20.24890988372093
+skin_group,3-4,H,FactorizePhys (matched),(sham-pc),20261133,129,11,23.95530523255814
+skin_group,3-4,H,PhysNet,(0),20261131,129,11,35.89207848837209
+skin_group,3-4,H,PhysNet,(0),20261132,129,11,35.374273255813954
+skin_group,3-4,H,PhysNet,(0),20261133,129,11,32.70348837209303
+skin_group,3-4,H,PhysNet,(i),20261131,129,11,19.785610465116278
+skin_group,3-4,H,PhysNet,(i),20261132,129,11,24.772892441860463
+skin_group,3-4,H,PhysNet,(i),20261133,129,11,20.11264534883721
+skin_group,3-4,H,PhysNet,(i-pc),20261131,129,11,16.515261627906977
+skin_group,3-4,H,PhysNet,(i-pc),20261132,129,11,14.335029069767442
+skin_group,3-4,H,PhysNet,(i-pc),20261133,129,11,15.752180232558139
+skin_group,3-4,H,PhysNet,(i-pc-g80),20261131,129,11,20.058139534883722
+skin_group,3-4,H,PhysNet,(i-pc-g80),20261132,129,11,18.640988372093023
+skin_group,3-4,H,PhysNet,(i-pc-g80),20261133,129,11,17.632630813953487
+skin_group,3-4,H,PhysNet,(i-simple),20261131,129,11,20.466933139534884
+skin_group,3-4,H,PhysNet,(i-simple),20261132,129,11,20.303415697674417
+skin_group,3-4,H,PhysNet,(i-simple),20261133,129,11,15.752180232558139
+skin_group,3-4,H,PhysNet,(ii),20261131,129,11,24.309593023255815
+skin_group,3-4,H,PhysNet,(ii),20261132,129,11,26.953125
+skin_group,3-4,H,PhysNet,(ii),20261133,129,11,25.726744186046513
+skin_group,3-4,H,PhysNet,(ii-lag),20261131,129,11,27.416424418604652
+skin_group,3-4,H,PhysNet,(ii-lag),20261132,129,11,29.324127906976745
+skin_group,3-4,H,PhysNet,(ii-lag),20261133,129,11,31.613372093023255
+skin_group,3-4,H,PhysNet,(ii-pc),20261131,129,11,16.92405523255814
+skin_group,3-4,H,PhysNet,(ii-pc),20261132,129,11,18.886264534883722
+skin_group,3-4,H,PhysNet,(ii-pc),20261133,129,11,21.475290697674417
+skin_group,3-4,H,PhysNet,(ii-pc-g),20261131,129,11,18.968023255813954
+skin_group,3-4,H,PhysNet,(ii-pc-g),20261132,129,11,16.59702034883721
+skin_group,3-4,H,PhysNet,(ii-pc-g),20261133,129,11,19.59484011627907
+skin_group,3-4,H,PhysNet,(ii-pc-g2),20261131,129,11,30.005450581395348
+skin_group,3-4,H,PhysNet,(ii-pc-g2),20261132,129,11,22.946947674418606
+skin_group,3-4,H,PhysNet,(ii-pc-g2),20261133,129,11,20.466933139534884
+skin_group,3-4,H,PhysNet,(ii-pc-g80),20261131,129,11,21.884084302325583
+skin_group,3-4,H,PhysNet,(ii-pc-g80),20261132,129,11,19.894622093023255
+skin_group,3-4,H,PhysNet,(ii-pc-g80),20261133,129,11,25.290697674418606
+skin_group,3-4,H,PhysNet,(roi-pc),20261131,129,11,19.64934593023256
+skin_group,3-4,H,PhysNet,(roi-pc),20261132,129,11,20.303415697674417
+skin_group,3-4,H,PhysNet,(roi-pc),20261133,129,11,20.221656976744185
+skin_group,3-4,H,PhysNet,(sham-pc),20261131,129,11,30.38699127906977
+skin_group,3-4,H,PhysNet,(sham-pc),20261132,129,11,32.29469476744186
+skin_group,3-4,H,PhysNet,(sham-pc),20261133,129,11,32.15843023255814
+skin_group,3-4,H,RhythmFormer,(0),20261131,129,11,28.860828488372093
+skin_group,3-4,H,RhythmFormer,(0),20261132,129,11,28.533793604651162
+skin_group,3-4,H,RhythmFormer,(0),20261133,129,11,33.13953488372093
+skin_group,3-4,H,RhythmFormer,(i),20261131,129,11,17.38735465116279
+skin_group,3-4,H,RhythmFormer,(i),20261132,129,11,15.615915697674419
+skin_group,3-4,H,RhythmFormer,(i),20261133,129,11,20.930232558139537
+skin_group,3-4,H,RhythmFormer,(i-pc),20261131,129,11,17.360101744186046
+skin_group,3-4,H,RhythmFormer,(i-pc),20261132,129,11,18.09593023255814
+skin_group,3-4,H,RhythmFormer,(i-pc),20261133,129,11,10.383357558139535
+skin_group,3-4,H,RhythmFormer,(i-simple),20261131,129,11,14.90734011627907
+skin_group,3-4,H,RhythmFormer,(i-simple),20261132,129,11,14.77107558139535
+skin_group,3-4,H,RhythmFormer,(i-simple),20261133,129,11,13.653706395348838
+skin_group,3-4,H,RhythmFormer,(ii),20261131,129,11,14.38953488372093
+skin_group,3-4,H,RhythmFormer,(ii),20261132,129,11,13.871729651162791
+skin_group,3-4,H,RhythmFormer,(ii),20261133,129,11,16.269985465116278
+skin_group,3-4,H,RhythmFormer,(ii-lag),20261131,129,11,16.351744186046513
+skin_group,3-4,H,RhythmFormer,(ii-lag),20261132,129,11,14.743822674418604
+skin_group,3-4,H,RhythmFormer,(ii-lag),20261133,129,11,16.433502906976745
+skin_group,3-4,H,RhythmFormer,(ii-pc),20261131,129,11,13.59920058139535
+skin_group,3-4,H,RhythmFormer,(ii-pc),20261132,129,11,13.871729651162791
+skin_group,3-4,H,RhythmFormer,(ii-pc),20261133,129,11,11.200944767441861
+skin_group,3-4,L,FactorizePhys (matched),(0),20261131,941,14,7.132123405951116
+skin_group,3-4,L,FactorizePhys (matched),(0),20261132,941,14,6.717421625929862
+skin_group,3-4,L,FactorizePhys (matched),(0),20261133,941,14,6.709949521785335
+skin_group,3-4,L,FactorizePhys (matched),(i),20261131,941,14,7.434743623804463
+skin_group,3-4,L,FactorizePhys (matched),(i),20261132,941,14,6.881807917109458
+skin_group,3-4,L,FactorizePhys (matched),(i),20261133,941,14,7.1508036663124335
+skin_group,3-4,L,FactorizePhys (matched),(i-pc),20261131,941,14,7.124651301806589
+skin_group,3-4,L,FactorizePhys (matched),(i-pc),20261132,941,14,7.307717853347502
+skin_group,3-4,L,FactorizePhys (matched),(i-pc),20261133,941,14,7.244204968119022
+skin_group,3-4,L,FactorizePhys (matched),(i-simple),20261131,941,14,7.901750132837407
+skin_group,3-4,L,FactorizePhys (matched),(i-simple),20261132,941,14,7.479576248671626
+skin_group,3-4,L,FactorizePhys (matched),(i-simple),20261133,941,14,7.3002457492029755
+skin_group,3-4,L,FactorizePhys (matched),(ii),20261131,941,14,7.356286530286929
+skin_group,3-4,L,FactorizePhys (matched),(ii),20261132,941,14,6.306455897980872
+skin_group,3-4,L,FactorizePhys (matched),(ii),20261133,941,14,6.657644792773645
+skin_group,3-4,L,FactorizePhys (matched),(ii-lag),20261131,941,14,6.642700584484591
+skin_group,3-4,L,FactorizePhys (matched),(ii-lag),20261132,941,14,7.25167707226355
+skin_group,3-4,L,FactorizePhys (matched),(ii-lag),20261133,941,14,6.971473166843783
+skin_group,3-4,L,FactorizePhys (matched),(ii-pc),20261131,941,14,8.443477683315622
+skin_group,3-4,L,FactorizePhys (matched),(ii-pc),20261132,941,14,7.468368092454836
+skin_group,3-4,L,FactorizePhys (matched),(ii-pc),20261133,941,14,7.845709351753454
+skin_group,3-4,L,FactorizePhys (matched),(ii-pc-g),20261131,941,14,8.2305227151966
+skin_group,3-4,L,FactorizePhys (matched),(ii-pc-g),20261132,941,14,7.707475425079703
+skin_group,3-4,L,FactorizePhys (matched),(ii-pc-g),20261133,941,14,8.013831695005313
+skin_group,3-4,L,FactorizePhys (matched),(ii-pc-g2),20261131,941,14,7.965263018065888
+skin_group,3-4,L,FactorizePhys (matched),(ii-pc-g2),20261132,941,14,7.303981801275239
+skin_group,3-4,L,FactorizePhys (matched),(ii-pc-g2),20261133,941,14,6.848183448459086
+skin_group,3-4,L,FactorizePhys (matched),(ii-pc-g80),20261131,941,14,7.617810175345377
+skin_group,3-4,L,FactorizePhys (matched),(ii-pc-g80),20261132,941,14,6.91543238575983
+skin_group,3-4,L,FactorizePhys (matched),(ii-pc-g80),20261133,941,14,7.016305791710946
+skin_group,3-4,L,FactorizePhys (matched),(sham-pc),20261131,941,14,6.5679795430393195
+skin_group,3-4,L,FactorizePhys (matched),(sham-pc),20261132,941,14,6.814558979808714
+skin_group,3-4,L,FactorizePhys (matched),(sham-pc),20261133,941,14,6.280303533475027
+skin_group,3-4,L,PhysNet,(0),20261131,941,14,10.632804197662061
+skin_group,3-4,L,PhysNet,(0),20261132,941,14,11.869437433581297
+skin_group,3-4,L,PhysNet,(0),20261133,941,14,9.52693278427205
+skin_group,3-4,L,PhysNet,(i),20261131,941,14,9.396170961742827
+skin_group,3-4,L,PhysNet,(i),20261132,941,14,9.639014346439957
+skin_group,3-4,L,PhysNet,(i),20261133,941,14,9.19816020191286
+skin_group,3-4,L,PhysNet,(i-pc),20261131,941,14,10.124701115834219
+skin_group,3-4,L,PhysNet,(i-pc),20261132,941,14,11.11475491498406
+skin_group,3-4,L,PhysNet,(i-pc),20261133,941,14,9.609125929861849
+skin_group,3-4,L,PhysNet,(i-pc-g80),20261131,941,14,9.91548219978746
+skin_group,3-4,L,PhysNet,(i-pc-g80),20261132,941,14,8.249202975557917
+skin_group,3-4,L,PhysNet,(i-pc-g80),20261133,941,14,10.879383634431456
+skin_group,3-4,L,PhysNet,(i-simple),20261131,941,14,9.037509962805526
+skin_group,3-4,L,PhysNet,(i-simple),20261132,941,14,8.753570005313497
+skin_group,3-4,L,PhysNet,(i-simple),20261133,941,14,8.914220244420829
+skin_group,3-4,L,PhysNet,(ii),20261131,941,14,7.027513947927736
+skin_group,3-4,L,PhysNet,(ii),20261132,941,14,6.993889479277365
+skin_group,3-4,L,PhysNet,(ii),20261133,941,14,7.565505446333687
+skin_group,3-4,L,PhysNet,(ii-lag),20261131,941,14,7.2778294367693945
+skin_group,3-4,L,PhysNet,(ii-lag),20261132,941,14,7.498256509032943
+skin_group,3-4,L,PhysNet,(ii-lag),20261133,941,14,8.286563496280552
+skin_group,3-4,L,PhysNet,(ii-pc),20261131,941,14,8.518198724760893
+skin_group,3-4,L,PhysNet,(ii-pc),20261132,941,14,7.543089133900106
+skin_group,3-4,L,PhysNet,(ii-pc),20261133,941,14,7.651434643995749
+skin_group,3-4,L,PhysNet,(ii-pc-g),20261131,941,14,7.61033807120085
+skin_group,3-4,L,PhysNet,(ii-pc-g),20261132,941,14,8.944108660998937
+skin_group,3-4,L,PhysNet,(ii-pc-g),20261133,941,14,7.8195569872476085
+skin_group,3-4,L,PhysNet,(ii-pc-g2),20261131,941,14,8.76851421360255
+skin_group,3-4,L,PhysNet,(ii-pc-g2),20261132,941,14,8.87312367162593
+skin_group,3-4,L,PhysNet,(ii-pc-g2),20261133,941,14,9.403643065887353
+skin_group,3-4,L,PhysNet,(ii-pc-g80),20261131,941,14,7.995151434643995
+skin_group,3-4,L,PhysNet,(ii-pc-g80),20261132,941,14,7.416063363443145
+skin_group,3-4,L,PhysNet,(ii-pc-g80),20261133,941,14,9.22057651434644
+skin_group,3-4,L,PhysNet,(roi-pc),20261131,941,14,10.99893730074389
+skin_group,3-4,L,PhysNet,(roi-pc),20261132,941,14,11.51451248671626
+skin_group,3-4,L,PhysNet,(roi-pc),20261133,941,14,12.048767933049946
+skin_group,3-4,L,PhysNet,(sham-pc),20261131,941,14,9.941634564293304
+skin_group,3-4,L,PhysNet,(sham-pc),20261132,941,14,9.911746147715197
+skin_group,3-4,L,PhysNet,(sham-pc),20261133,941,14,12.059976089266737
+skin_group,3-4,L,RhythmFormer,(0),20261131,941,14,12.108544766206164
+skin_group,3-4,L,RhythmFormer,(0),20261132,941,14,11.790980340063761
+skin_group,3-4,L,RhythmFormer,(0),20261133,941,14,11.92547821466525
+skin_group,3-4,L,RhythmFormer,(i),20261131,941,14,12.048767933049946
+skin_group,3-4,L,RhythmFormer,(i),20261132,941,14,10.326447927736451
+skin_group,3-4,L,RhythmFormer,(i),20261133,941,14,10.229310573857598
+skin_group,3-4,L,RhythmFormer,(i-pc),20261131,941,14,7.505728613177471
+skin_group,3-4,L,RhythmFormer,(i-pc),20261132,941,14,8.637752391073326
+skin_group,3-4,L,RhythmFormer,(i-pc),20261133,941,14,9.497044367693942
+skin_group,3-4,L,RhythmFormer,(i-simple),20261131,941,14,7.6252822794899044
+skin_group,3-4,L,RhythmFormer,(i-simple),20261132,941,14,8.208106402763018
+skin_group,3-4,L,RhythmFormer,(i-simple),20261133,941,14,9.46341989904357
+skin_group,3-4,L,RhythmFormer,(ii),20261131,941,14,9.844497210414453
+skin_group,3-4,L,RhythmFormer,(ii),20261132,941,14,11.7461477151966
+skin_group,3-4,L,RhythmFormer,(ii),20261133,941,14,10.251726886291179
+skin_group,3-4,L,RhythmFormer,(ii-lag),20261131,941,14,8.962788921360255
+skin_group,3-4,L,RhythmFormer,(ii-lag),20261132,941,14,10.330183979808714
+skin_group,3-4,L,RhythmFormer,(ii-lag),20261133,941,14,11.645274309245483
+skin_group,3-4,L,RhythmFormer,(ii-pc),20261131,941,14,8.331396121147716
+skin_group,3-4,L,RhythmFormer,(ii-pc),20261132,941,14,7.505728613177471
+skin_group,3-4,L,RhythmFormer,(ii-pc),20261133,941,14,10.169533740701382
+skin_group,5-6,H,FactorizePhys (matched),(0),20261131,153,6,26.5625
+skin_group,5-6,H,FactorizePhys (matched),(0),20261132,153,6,29.204963235294116
+skin_group,5-6,H,FactorizePhys (matched),(0),20261133,153,6,28.14797794117647
+skin_group,5-6,H,FactorizePhys (matched),(i),20261131,153,6,31.548713235294116
+skin_group,5-6,H,FactorizePhys (matched),(i),20261132,153,6,30.307904411764707
+skin_group,5-6,H,FactorizePhys (matched),(i),20261133,153,6,28.607536764705884
+skin_group,5-6,H,FactorizePhys (matched),(i-pc),20261131,153,6,27.435661764705884
+skin_group,5-6,H,FactorizePhys (matched),(i-pc),20261132,153,6,27.596507352941178
+skin_group,5-6,H,FactorizePhys (matched),(i-pc),20261133,153,6,27.297794117647058
+skin_group,5-6,H,FactorizePhys (matched),(i-simple),20261131,153,6,23.000919117647058
+skin_group,5-6,H,FactorizePhys (matched),(i-simple),20261132,153,6,26.309742647058822
+skin_group,5-6,H,FactorizePhys (matched),(i-simple),20261133,153,6,27.136948529411764
+skin_group,5-6,H,FactorizePhys (matched),(ii),20261131,153,6,30.307904411764707
+skin_group,5-6,H,FactorizePhys (matched),(ii),20261132,153,6,34.466911764705884
+skin_group,5-6,H,FactorizePhys (matched),(ii),20261133,153,6,34.673713235294116
+skin_group,5-6,H,FactorizePhys (matched),(ii-lag),20261131,153,6,31.801470588235293
+skin_group,5-6,H,FactorizePhys (matched),(ii-lag),20261132,153,6,31.387867647058822
+skin_group,5-6,H,FactorizePhys (matched),(ii-lag),20261133,153,6,32.559742647058826
+skin_group,5-6,H,FactorizePhys (matched),(ii-pc),20261131,153,6,23.06985294117647
+skin_group,5-6,H,FactorizePhys (matched),(ii-pc),20261132,153,6,26.217830882352942
+skin_group,5-6,H,FactorizePhys (matched),(ii-pc),20261133,153,6,27.435661764705884
+skin_group,5-6,H,FactorizePhys (matched),(ii-pc-g),20261131,153,6,22.794117647058822
+skin_group,5-6,H,FactorizePhys (matched),(ii-pc-g),20261132,153,6,25.873161764705884
+skin_group,5-6,H,FactorizePhys (matched),(ii-pc-g),20261133,153,6,24.954044117647058
+skin_group,5-6,H,FactorizePhys (matched),(ii-pc-g2),20261131,153,6,24.19577205882353
+skin_group,5-6,H,FactorizePhys (matched),(ii-pc-g2),20261132,153,6,26.401654411764707
+skin_group,5-6,H,FactorizePhys (matched),(ii-pc-g2),20261133,153,6,28.079044117647058
+skin_group,5-6,H,FactorizePhys (matched),(ii-pc-g80),20261131,153,6,24.21875
+skin_group,5-6,H,FactorizePhys (matched),(ii-pc-g80),20261132,153,6,26.171875
+skin_group,5-6,H,FactorizePhys (matched),(ii-pc-g80),20261133,153,6,27.596507352941178
+skin_group,5-6,H,FactorizePhys (matched),(sham-pc),20261131,153,6,30.97426470588235
+skin_group,5-6,H,FactorizePhys (matched),(sham-pc),20261132,153,6,31.709558823529413
+skin_group,5-6,H,FactorizePhys (matched),(sham-pc),20261133,153,6,34.32904411764706
+skin_group,5-6,H,PhysNet,(0),20261131,153,6,43.841911764705884
+skin_group,5-6,H,PhysNet,(0),20261132,153,6,41.521139705882355
+skin_group,5-6,H,PhysNet,(0),20261133,153,6,40.923713235294116
+skin_group,5-6,H,PhysNet,(i),20261131,153,6,30.767463235294116
+skin_group,5-6,H,PhysNet,(i),20261132,153,6,34.00735294117647
+skin_group,5-6,H,PhysNet,(i),20261133,153,6,34.55882352941177
+skin_group,5-6,H,PhysNet,(i-pc),20261131,153,6,29.31985294117647
+skin_group,5-6,H,PhysNet,(i-pc),20261132,153,6,25.689338235294116
+skin_group,5-6,H,PhysNet,(i-pc),20261133,153,6,27.987132352941178
+skin_group,5-6,H,PhysNet,(i-pc-g80),20261131,153,6,24.97702205882353
+skin_group,5-6,H,PhysNet,(i-pc-g80),20261132,153,6,27.71139705882353
+skin_group,5-6,H,PhysNet,(i-pc-g80),20261133,153,6,27.665441176470587
+skin_group,5-6,H,PhysNet,(i-simple),20261131,153,6,33.13419117647059
+skin_group,5-6,H,PhysNet,(i-simple),20261132,153,6,28.768382352941178
+skin_group,5-6,H,PhysNet,(i-simple),20261133,153,6,27.734375
+skin_group,5-6,H,PhysNet,(ii),20261131,153,6,30.859375
+skin_group,5-6,H,PhysNet,(ii),20261132,153,6,34.9264705882353
+skin_group,5-6,H,PhysNet,(ii),20261133,153,6,32.10018382352941
+skin_group,5-6,H,PhysNet,(ii-lag),20261131,153,6,33.4329044117647
+skin_group,5-6,H,PhysNet,(ii-lag),20261132,153,6,34.05330882352941
+skin_group,5-6,H,PhysNet,(ii-lag),20261133,153,6,36.856617647058826
+skin_group,5-6,H,PhysNet,(ii-pc),20261131,153,6,26.44761029411765
+skin_group,5-6,H,PhysNet,(ii-pc),20261132,153,6,28.952205882352942
+skin_group,5-6,H,PhysNet,(ii-pc),20261133,153,6,32.49080882352941
+skin_group,5-6,H,PhysNet,(ii-pc-g),20261131,153,6,28.745404411764707
+skin_group,5-6,H,PhysNet,(ii-pc-g),20261132,153,6,25.689338235294116
+skin_group,5-6,H,PhysNet,(ii-pc-g),20261133,153,6,27.596507352941178
+skin_group,5-6,H,PhysNet,(ii-pc-g2),20261131,153,6,35.86856617647059
+skin_group,5-6,H,PhysNet,(ii-pc-g2),20261132,153,6,35.86856617647059
+skin_group,5-6,H,PhysNet,(ii-pc-g2),20261133,153,6,28.90625
+skin_group,5-6,H,PhysNet,(ii-pc-g80),20261131,153,6,37.408088235294116
+skin_group,5-6,H,PhysNet,(ii-pc-g80),20261132,153,6,31.410845588235293
+skin_group,5-6,H,PhysNet,(ii-pc-g80),20261133,153,6,31.91636029411765
+skin_group,5-6,H,PhysNet,(roi-pc),20261131,153,6,27.734375
+skin_group,5-6,H,PhysNet,(roi-pc),20261132,153,6,23.874080882352942
+skin_group,5-6,H,PhysNet,(roi-pc),20261133,153,6,25.78125
+skin_group,5-6,H,PhysNet,(sham-pc),20261131,153,6,43.01470588235294
+skin_group,5-6,H,PhysNet,(sham-pc),20261132,153,6,43.29044117647059
+skin_group,5-6,H,PhysNet,(sham-pc),20261133,153,6,44.646139705882355
+skin_group,5-6,H,RhythmFormer,(0),20261131,153,6,39.6829044117647
+skin_group,5-6,H,RhythmFormer,(0),20261132,153,6,34.9954044117647
+skin_group,5-6,H,RhythmFormer,(0),20261133,153,6,42.64705882352941
+skin_group,5-6,H,RhythmFormer,(i),20261131,153,6,23.115808823529413
+skin_group,5-6,H,RhythmFormer,(i),20261132,153,6,21.415441176470587
+skin_group,5-6,H,RhythmFormer,(i),20261133,153,6,26.034007352941178
+skin_group,5-6,H,RhythmFormer,(i-pc),20261131,153,6,27.573529411764707
+skin_group,5-6,H,RhythmFormer,(i-pc),20261132,153,6,24.701286764705884
+skin_group,5-6,H,RhythmFormer,(i-pc),20261133,153,6,20.33547794117647
+skin_group,5-6,H,RhythmFormer,(i-simple),20261131,153,6,22.702205882352942
+skin_group,5-6,H,RhythmFormer,(i-simple),20261132,153,6,18.129595588235293
+skin_group,5-6,H,RhythmFormer,(i-simple),20261133,153,6,18.72702205882353
+skin_group,5-6,H,RhythmFormer,(ii),20261131,153,6,23.80514705882353
+skin_group,5-6,H,RhythmFormer,(ii),20261132,153,6,20.059742647058822
+skin_group,5-6,H,RhythmFormer,(ii),20261133,153,6,19.324448529411764
+skin_group,5-6,H,RhythmFormer,(ii-lag),20261131,153,6,22.65625
+skin_group,5-6,H,RhythmFormer,(ii-lag),20261132,153,6,21.415441176470587
+skin_group,5-6,H,RhythmFormer,(ii-lag),20261133,153,6,18.405330882352942
+skin_group,5-6,H,RhythmFormer,(ii-pc),20261131,153,6,19.921875
+skin_group,5-6,H,RhythmFormer,(ii-pc),20261132,153,6,20.28952205882353
+skin_group,5-6,H,RhythmFormer,(ii-pc),20261133,153,6,14.751838235294118
+skin_group,5-6,L,FactorizePhys (matched),(0),20261131,461,8,16.929907809110627
+skin_group,5-6,L,FactorizePhys (matched),(0),20261132,461,8,15.107273590021691
+skin_group,5-6,L,FactorizePhys (matched),(0),20261133,461,8,16.51809924078091
+skin_group,5-6,L,FactorizePhys (matched),(i),20261131,461,8,15.862255965292842
+skin_group,5-6,L,FactorizePhys (matched),(i),20261132,461,8,16.35795146420824
+skin_group,5-6,L,FactorizePhys (matched),(i),20261133,461,8,15.801247288503253
+skin_group,5-6,L,FactorizePhys (matched),(i-pc),20261131,461,8,17.189194685466376
+skin_group,5-6,L,FactorizePhys (matched),(i-pc),20261132,461,8,17.349342462039047
+skin_group,5-6,L,FactorizePhys (matched),(i-pc),20261133,461,8,16.846020878524946
+skin_group,5-6,L,FactorizePhys (matched),(i-simple),20261131,461,8,17.68489018438178
+skin_group,5-6,L,FactorizePhys (matched),(i-simple),20261132,461,8,17.47135981561822
+skin_group,5-6,L,FactorizePhys (matched),(i-simple),20261133,461,8,17.27308161605206
+skin_group,5-6,L,FactorizePhys (matched),(ii),20261131,461,8,14.596325921908894
+skin_group,5-6,L,FactorizePhys (matched),(ii),20261132,461,8,14.054873915401302
+skin_group,5-6,L,FactorizePhys (matched),(ii),20261133,461,8,14.230273861171366
+skin_group,5-6,L,FactorizePhys (matched),(ii-lag),20261131,461,8,15.229290943600867
+skin_group,5-6,L,FactorizePhys (matched),(ii-lag),20261132,461,8,14.61157809110629
+skin_group,5-6,L,FactorizePhys (matched),(ii-lag),20261133,461,8,13.696447939262473
+skin_group,5-6,L,FactorizePhys (matched),(ii-pc),20261131,461,8,19.33975054229935
+skin_group,5-6,L,FactorizePhys (matched),(ii-pc),20261132,461,8,17.151064262472886
+skin_group,5-6,L,FactorizePhys (matched),(ii-pc),20261133,461,8,17.715394522776574
+skin_group,5-6,L,FactorizePhys (matched),(ii-pc-g),20261131,461,8,18.607646420824295
+skin_group,5-6,L,FactorizePhys (matched),(ii-pc-g),20261132,461,8,17.364594631236443
+skin_group,5-6,L,FactorizePhys (matched),(ii-pc-g),20261133,461,8,17.967055314533624
+skin_group,5-6,L,FactorizePhys (matched),(ii-pc-g2),20261131,461,8,18.226342190889373
+skin_group,5-6,L,FactorizePhys (matched),(ii-pc-g2),20261132,461,8,17.166316431670282
+skin_group,5-6,L,FactorizePhys (matched),(ii-pc-g2),20261133,461,8,17.02142082429501
+skin_group,5-6,L,FactorizePhys (matched),(ii-pc-g80),20261131,461,8,18.050942245119305
+skin_group,5-6,L,FactorizePhys (matched),(ii-pc-g80),20261132,461,8,16.82314262472885
+skin_group,5-6,L,FactorizePhys (matched),(ii-pc-g80),20261133,461,8,16.76213394793926
+skin_group,5-6,L,FactorizePhys (matched),(sham-pc),20261131,461,8,14.855612798264643
+skin_group,5-6,L,FactorizePhys (matched),(sham-pc),20261132,461,8,14.870864967462039
+skin_group,5-6,L,FactorizePhys (matched),(sham-pc),20261133,461,8,14.222647776572668
+skin_group,5-6,L,PhysNet,(0),20261131,461,8,19.18722885032538
+skin_group,5-6,L,PhysNet,(0),20261132,461,8,18.561889913232104
+skin_group,5-6,L,PhysNet,(0),20261133,461,8,17.91367272234273
+skin_group,5-6,L,PhysNet,(i),20261131,461,8,16.502847071583513
+skin_group,5-6,L,PhysNet,(i),20261132,461,8,17.334090292841648
+skin_group,5-6,L,PhysNet,(i),20261133,461,8,17.83741187635575
+skin_group,5-6,L,PhysNet,(i-pc),20261131,461,8,17.03667299349241
+skin_group,5-6,L,PhysNet,(i-pc),20261132,461,8,18.150081344902386
+skin_group,5-6,L,PhysNet,(i-pc),20261133,461,8,17.234951193058567
+skin_group,5-6,L,PhysNet,(i-pc-g80),20261131,461,8,17.555246746203906
+skin_group,5-6,L,PhysNet,(i-pc-g80),20261132,461,8,17.0748034164859
+skin_group,5-6,L,PhysNet,(i-pc-g80),20261133,461,8,20.0794807483731
+skin_group,5-6,L,PhysNet,(i-simple),20261131,461,8,16.594360086767896
+skin_group,5-6,L,PhysNet,(i-simple),20261132,461,8,16.487594902386117
+skin_group,5-6,L,PhysNet,(i-simple),20261133,461,8,17.890794468546638
+skin_group,5-6,L,PhysNet,(ii),20261131,461,8,15.488577819956616
+skin_group,5-6,L,PhysNet,(ii),20261132,461,8,15.053890997830802
+skin_group,5-6,L,PhysNet,(ii),20261133,461,8,15.290299620390455
+skin_group,5-6,L,PhysNet,(ii-lag),20261131,461,8,14.268404284164859
+skin_group,5-6,L,PhysNet,(ii-lag),20261132,461,8,15.206412689804772
+skin_group,5-6,L,PhysNet,(ii-lag),20261133,461,8,15.602969088937094
+skin_group,5-6,L,PhysNet,(ii-pc),20261131,461,8,17.88316838394794
+skin_group,5-6,L,PhysNet,(ii-pc),20261132,461,8,17.791655368763557
+skin_group,5-6,L,PhysNet,(ii-pc),20261133,461,8,18.416994305856832
+skin_group,5-6,L,PhysNet,(ii-pc-g),20261131,461,8,16.81551654013015
+skin_group,5-6,L,PhysNet,(ii-pc-g),20261132,461,8,18.714411605206074
+skin_group,5-6,L,PhysNet,(ii-pc-g),20261133,461,8,16.167299349240782
+skin_group,5-6,L,PhysNet,(ii-pc-g2),20261131,461,8,17.21969902386117
+skin_group,5-6,L,PhysNet,(ii-pc-g2),20261132,461,8,17.395098969631235
+skin_group,5-6,L,PhysNet,(ii-pc-g2),20261133,461,8,18.42462039045553
+skin_group,5-6,L,PhysNet,(ii-pc-g80),20261131,461,8,17.82978579175705
+skin_group,5-6,L,PhysNet,(ii-pc-g80),20261132,461,8,16.556229663774403
+skin_group,5-6,L,PhysNet,(ii-pc-g80),20261133,461,8,17.112933839479393
+skin_group,5-6,L,PhysNet,(roi-pc),20261131,461,8,17.295959869848158
+skin_group,5-6,L,PhysNet,(roi-pc),20261132,461,8,17.417977223427332
+skin_group,5-6,L,PhysNet,(roi-pc),20261133,461,8,17.77640319956616
+skin_group,5-6,L,PhysNet,(sham-pc),20261131,461,8,18.62289859002169
+skin_group,5-6,L,PhysNet,(sham-pc),20261132,461,8,17.006168655097614
+skin_group,5-6,L,PhysNet,(sham-pc),20261133,461,8,18.920315889370933
+skin_group,5-6,L,RhythmFormer,(0),20261131,461,8,21.162384761388285
+skin_group,5-6,L,RhythmFormer,(0),20261132,461,8,23.49596664859002
+skin_group,5-6,L,RhythmFormer,(0),20261133,461,8,20.308263286334057
+skin_group,5-6,L,RhythmFormer,(i),20261131,461,8,22.077514913232104
+skin_group,5-6,L,RhythmFormer,(i),20261132,461,8,18.409368221258134
+skin_group,5-6,L,RhythmFormer,(i),20261133,461,8,19.149098427331886
+skin_group,5-6,L,RhythmFormer,(i-pc),20261131,461,8,15.854629880694143
+skin_group,5-6,L,RhythmFormer,(i-pc),20261132,461,8,17.692516268980476
+skin_group,5-6,L,RhythmFormer,(i-pc),20261133,461,8,20.262506778741866
+skin_group,5-6,L,RhythmFormer,(i-simple),20261131,461,8,17.395098969631235
+skin_group,5-6,L,RhythmFormer,(i-simple),20261132,461,8,19.27874186550976
+skin_group,5-6,L,RhythmFormer,(i-simple),20261133,461,8,19.515150488069413
+skin_group,5-6,L,RhythmFormer,(ii),20261131,461,8,17.921298806941433
+skin_group,5-6,L,RhythmFormer,(ii),20261132,461,8,19.126220173535792
+skin_group,5-6,L,RhythmFormer,(ii),20261133,461,8,18.073820498915403
+skin_group,5-6,L,RhythmFormer,(ii-lag),20261131,461,8,16.53335140997831
+skin_group,5-6,L,RhythmFormer,(ii-lag),20261132,461,8,19.042333242950107
+skin_group,5-6,L,RhythmFormer,(ii-lag),20261133,461,8,17.87554229934924
+skin_group,5-6,L,RhythmFormer,(ii-pc),20261131,461,8,18.127203091106292
+skin_group,5-6,L,RhythmFormer,(ii-pc),20261132,461,8,18.52375949023861
+skin_group,5-6,L,RhythmFormer,(ii-pc),20261133,461,8,20.498915401301517
+lighting,Incandescent,H,FactorizePhys (matched),(0),20261131,59,10,20.140360169491526
+lighting,Incandescent,H,FactorizePhys (matched),(0),20261132,59,10,23.536811440677965
+lighting,Incandescent,H,FactorizePhys (matched),(0),20261133,59,10,21.630031779661017
+lighting,Incandescent,H,FactorizePhys (matched),(i),20261131,59,10,25.622351694915253
+lighting,Incandescent,H,FactorizePhys (matched),(i),20261132,59,10,26.218220338983052
+lighting,Incandescent,H,FactorizePhys (matched),(i),20261133,59,10,24.78813559322034
+lighting,Incandescent,H,FactorizePhys (matched),(i-pc),20261131,59,10,20.140360169491526
+lighting,Incandescent,H,FactorizePhys (matched),(i-pc),20261132,59,10,19.12738347457627
+lighting,Incandescent,H,FactorizePhys (matched),(i-pc),20261133,59,10,18.650688559322035
+lighting,Incandescent,H,FactorizePhys (matched),(i-simple),20261131,59,10,18.233580508474578
+lighting,Incandescent,H,FactorizePhys (matched),(i-simple),20261132,59,10,18.471927966101696
+lighting,Incandescent,H,FactorizePhys (matched),(i-simple),20261133,59,10,17.339777542372882
+lighting,Incandescent,H,FactorizePhys (matched),(ii),20261131,59,10,22.76218220338983
+lighting,Incandescent,H,FactorizePhys (matched),(ii),20261132,59,10,30.031779661016948
+lighting,Incandescent,H,FactorizePhys (matched),(ii),20261133,59,10,29.018802966101696
+lighting,Incandescent,H,FactorizePhys (matched),(ii-lag),20261131,59,10,24.66896186440678
+lighting,Incandescent,H,FactorizePhys (matched),(ii-lag),20261132,59,10,25.741525423728813
+lighting,Incandescent,H,FactorizePhys (matched),(ii-lag),20261133,59,10,27.290783898305083
+lighting,Incandescent,H,FactorizePhys (matched),(ii-pc),20261131,59,10,16.267213983050848
+lighting,Incandescent,H,FactorizePhys (matched),(ii-pc),20261132,59,10,18.233580508474578
+lighting,Incandescent,H,FactorizePhys (matched),(ii-pc),20261133,59,10,18.173993644067796
+lighting,Incandescent,H,FactorizePhys (matched),(ii-pc-g),20261131,59,10,15.432997881355933
+lighting,Incandescent,H,FactorizePhys (matched),(ii-pc-g),20261132,59,10,17.2801906779661
+lighting,Incandescent,H,FactorizePhys (matched),(ii-pc-g),20261133,59,10,16.445974576271187
+lighting,Incandescent,H,FactorizePhys (matched),(ii-pc-g2),20261131,59,10,16.267213983050848
+lighting,Incandescent,H,FactorizePhys (matched),(ii-pc-g2),20261132,59,10,16.20762711864407
+lighting,Incandescent,H,FactorizePhys (matched),(ii-pc-g2),20261133,59,10,18.412341101694917
+lighting,Incandescent,H,FactorizePhys (matched),(ii-pc-g80),20261131,59,10,16.267213983050848
+lighting,Incandescent,H,FactorizePhys (matched),(ii-pc-g80),20261132,59,10,18.471927966101696
+lighting,Incandescent,H,FactorizePhys (matched),(ii-pc-g80),20261133,59,10,18.76986228813559
+lighting,Incandescent,H,FactorizePhys (matched),(sham-pc),20261131,59,10,23.775158898305083
+lighting,Incandescent,H,FactorizePhys (matched),(sham-pc),20261132,59,10,25.562764830508474
+lighting,Incandescent,H,FactorizePhys (matched),(sham-pc),20261133,59,10,28.542108050847457
+lighting,Incandescent,H,PhysNet,(0),20261131,59,10,39.68485169491525
+lighting,Incandescent,H,PhysNet,(0),20261132,59,10,38.79104872881356
+lighting,Incandescent,H,PhysNet,(0),20261133,59,10,37.89724576271186
+lighting,Incandescent,H,PhysNet,(i),20261131,59,10,24.609375
+lighting,Incandescent,H,PhysNet,(i),20261132,59,10,30.746822033898304
+lighting,Incandescent,H,PhysNet,(i),20261133,59,10,28.125
+lighting,Incandescent,H,PhysNet,(i-pc),20261131,59,10,25.264830508474578
+lighting,Incandescent,H,PhysNet,(i-pc),20261132,59,10,19.12738347457627
+lighting,Incandescent,H,PhysNet,(i-pc),20261133,59,10,21.03416313559322
+lighting,Incandescent,H,PhysNet,(i-pc-g80),20261131,59,10,19.72325211864407
+lighting,Incandescent,H,PhysNet,(i-pc-g80),20261132,59,10,21.749205508474578
+lighting,Incandescent,H,PhysNet,(i-pc-g80),20261133,59,10,21.749205508474578
+lighting,Incandescent,H,PhysNet,(i-simple),20261131,59,10,23.715572033898304
+lighting,Incandescent,H,PhysNet,(i-simple),20261132,59,10,22.106726694915253
+lighting,Incandescent,H,PhysNet,(i-simple),20261133,59,10,19.36573093220339
+lighting,Incandescent,H,PhysNet,(ii),20261131,59,10,30.210540254237287
+lighting,Incandescent,H,PhysNet,(ii),20261132,59,10,35.69253177966102
+lighting,Incandescent,H,PhysNet,(ii),20261133,59,10,31.998146186440678
+lighting,Incandescent,H,PhysNet,(ii-lag),20261131,59,10,31.104343220338983
+lighting,Incandescent,H,PhysNet,(ii-lag),20261132,59,10,35.57335805084746
+lighting,Incandescent,H,PhysNet,(ii-lag),20261133,59,10,33.36864406779661
+lighting,Incandescent,H,PhysNet,(ii-pc),20261131,59,10,18.650688559322035
+lighting,Incandescent,H,PhysNet,(ii-pc),20261132,59,10,18.471927966101696
+lighting,Incandescent,H,PhysNet,(ii-pc),20261133,59,10,25.384004237288135
+lighting,Incandescent,H,PhysNet,(ii-pc-g),20261131,59,10,22.702595338983052
+lighting,Incandescent,H,PhysNet,(ii-pc-g),20261132,59,10,17.935646186440678
+lighting,Incandescent,H,PhysNet,(ii-pc-g),20261133,59,10,21.09375
+lighting,Incandescent,H,PhysNet,(ii-pc-g2),20261131,59,10,29.79343220338983
+lighting,Incandescent,H,PhysNet,(ii-pc-g2),20261132,59,10,26.57574152542373
+lighting,Incandescent,H,PhysNet,(ii-pc-g2),20261133,59,10,20.91498940677966
+lighting,Incandescent,H,PhysNet,(ii-pc-g80),20261131,59,10,29.555084745762713
+lighting,Incandescent,H,PhysNet,(ii-pc-g80),20261132,59,10,20.497881355932204
+lighting,Incandescent,H,PhysNet,(ii-pc-g80),20261133,59,10,25.920286016949152
+lighting,Incandescent,H,PhysNet,(roi-pc),20261131,59,10,21.03416313559322
+lighting,Incandescent,H,PhysNet,(roi-pc),20261132,59,10,18.591101694915253
+lighting,Incandescent,H,PhysNet,(roi-pc),20261133,59,10,22.46424788135593
+lighting,Incandescent,H,PhysNet,(sham-pc),20261131,59,10,30.806408898305083
+lighting,Incandescent,H,PhysNet,(sham-pc),20261132,59,10,33.36864406779661
+lighting,Incandescent,H,PhysNet,(sham-pc),20261133,59,10,35.69253177966102
+lighting,Incandescent,H,RhythmFormer,(0),20261131,59,10,34.32203389830509
+lighting,Incandescent,H,RhythmFormer,(0),20261132,59,10,34.441207627118644
+lighting,Incandescent,H,RhythmFormer,(0),20261133,59,10,39.982786016949156
+lighting,Incandescent,H,RhythmFormer,(i),20261131,59,10,20.61705508474576
+lighting,Incandescent,H,RhythmFormer,(i),20261132,59,10,21.927966101694917
+lighting,Incandescent,H,RhythmFormer,(i),20261133,59,10,24.66896186440678
+lighting,Incandescent,H,RhythmFormer,(i-pc),20261131,59,10,24.251853813559322
+lighting,Incandescent,H,RhythmFormer,(i-pc),20261132,59,10,22.58342161016949
+lighting,Incandescent,H,RhythmFormer,(i-pc),20261133,59,10,15.135063559322035
+lighting,Incandescent,H,RhythmFormer,(i-simple),20261131,59,10,21.03416313559322
+lighting,Incandescent,H,RhythmFormer,(i-simple),20261132,59,10,14.956302966101696
+lighting,Incandescent,H,RhythmFormer,(i-simple),20261133,59,10,13.645391949152541
+lighting,Incandescent,H,RhythmFormer,(ii),20261131,59,10,18.829449152542374
+lighting,Incandescent,H,RhythmFormer,(ii),20261132,59,10,15.373411016949152
+lighting,Incandescent,H,RhythmFormer,(ii),20261133,59,10,16.982256355932204
+lighting,Incandescent,H,RhythmFormer,(ii-lag),20261131,59,10,16.743908898305083
+lighting,Incandescent,H,RhythmFormer,(ii-lag),20261132,59,10,16.08845338983051
+lighting,Incandescent,H,RhythmFormer,(ii-lag),20261133,59,10,15.73093220338983
+lighting,Incandescent,H,RhythmFormer,(ii-pc),20261131,59,10,16.743908898305083
+lighting,Incandescent,H,RhythmFormer,(ii-pc),20261132,59,10,14.30084745762712
+lighting,Incandescent,H,RhythmFormer,(ii-pc),20261133,59,10,11.381091101694915
+lighting,Incandescent,L,FactorizePhys (matched),(0),20261131,378,21,9.700520833333334
+lighting,Incandescent,L,FactorizePhys (matched),(0),20261132,378,21,8.41703869047619
+lighting,Incandescent,L,FactorizePhys (matched),(0),20261133,378,21,9.216889880952381
+lighting,Incandescent,L,FactorizePhys (matched),(i),20261131,378,21,8.947172619047619
+lighting,Incandescent,L,FactorizePhys (matched),(i),20261132,378,21,8.882068452380953
+lighting,Incandescent,L,FactorizePhys (matched),(i),20261133,378,21,9.635416666666666
+lighting,Incandescent,L,FactorizePhys (matched),(i-pc),20261131,378,21,9.821428571428571
+lighting,Incandescent,L,FactorizePhys (matched),(i-pc),20261132,378,21,10.109747023809524
+lighting,Incandescent,L,FactorizePhys (matched),(i-pc),20261133,378,21,9.691220238095237
+lighting,Incandescent,L,FactorizePhys (matched),(i-simple),20261131,378,21,10.33296130952381
+lighting,Incandescent,L,FactorizePhys (matched),(i-simple),20261132,378,21,9.914434523809524
+lighting,Incandescent,L,FactorizePhys (matched),(i-simple),20261133,378,21,9.756324404761905
+lighting,Incandescent,L,FactorizePhys (matched),(ii),20261131,378,21,8.919270833333334
+lighting,Incandescent,L,FactorizePhys (matched),(ii),20261132,378,21,7.375372023809524
+lighting,Incandescent,L,FactorizePhys (matched),(ii),20261133,378,21,8.0078125
+lighting,Incandescent,L,FactorizePhys (matched),(ii-lag),20261131,378,21,8.110119047619047
+lighting,Incandescent,L,FactorizePhys (matched),(ii-lag),20261132,378,21,8.147321428571429
+lighting,Incandescent,L,FactorizePhys (matched),(ii-lag),20261133,378,21,7.9055059523809526
+lighting,Incandescent,L,FactorizePhys (matched),(ii-pc),20261131,378,21,11.988467261904763
+lighting,Incandescent,L,FactorizePhys (matched),(ii-pc),20261132,378,21,9.663318452380953
+lighting,Incandescent,L,FactorizePhys (matched),(ii-pc),20261133,378,21,10.146949404761905
+lighting,Incandescent,L,FactorizePhys (matched),(ii-pc-g),20261131,378,21,11.002604166666666
+lighting,Incandescent,L,FactorizePhys (matched),(ii-pc-g),20261132,378,21,10.463169642857142
+lighting,Incandescent,L,FactorizePhys (matched),(ii-pc-g),20261133,378,21,10.33296130952381
+lighting,Incandescent,L,FactorizePhys (matched),(ii-pc-g2),20261131,378,21,10.900297619047619
+lighting,Incandescent,L,FactorizePhys (matched),(ii-pc-g2),20261132,378,21,10.100446428571429
+lighting,Incandescent,L,FactorizePhys (matched),(ii-pc-g2),20261133,378,21,9.281994047619047
+lighting,Incandescent,L,FactorizePhys (matched),(ii-pc-g80),20261131,378,21,10.825892857142858
+lighting,Incandescent,L,FactorizePhys (matched),(ii-pc-g80),20261132,378,21,9.328497023809524
+lighting,Incandescent,L,FactorizePhys (matched),(ii-pc-g80),20261133,378,21,9.365699404761905
+lighting,Incandescent,L,FactorizePhys (matched),(sham-pc),20261131,378,21,9.123883928571429
+lighting,Incandescent,L,FactorizePhys (matched),(sham-pc),20261132,378,21,8.779761904761905
+lighting,Incandescent,L,FactorizePhys (matched),(sham-pc),20261133,378,21,8.333333333333334
+lighting,Incandescent,L,PhysNet,(0),20261131,378,21,11.551339285714286
+lighting,Incandescent,L,PhysNet,(0),20261132,378,21,12.686011904761905
+lighting,Incandescent,L,PhysNet,(0),20261133,378,21,10.7421875
+lighting,Incandescent,L,PhysNet,(i),20261131,378,21,10.026041666666666
+lighting,Incandescent,L,PhysNet,(i),20261132,378,21,10.500372023809524
+lighting,Incandescent,L,PhysNet,(i),20261133,378,21,10.807291666666666
+lighting,Incandescent,L,PhysNet,(i-pc),20261131,378,21,11.579241071428571
+lighting,Incandescent,L,PhysNet,(i-pc),20261132,378,21,12.369791666666666
+lighting,Incandescent,L,PhysNet,(i-pc),20261133,378,21,11.11421130952381
+lighting,Incandescent,L,PhysNet,(i-pc-g80),20261131,378,21,11.272321428571429
+lighting,Incandescent,L,PhysNet,(i-pc-g80),20261132,378,21,9.78422619047619
+lighting,Incandescent,L,PhysNet,(i-pc-g80),20261133,378,21,12.406994047619047
+lighting,Incandescent,L,PhysNet,(i-simple),20261131,378,21,10.398065476190476
+lighting,Incandescent,L,PhysNet,(i-simple),20261132,378,21,9.347098214285714
+lighting,Incandescent,L,PhysNet,(i-simple),20261133,378,21,10.621279761904763
+lighting,Incandescent,L,PhysNet,(ii),20261131,378,21,8.863467261904763
+lighting,Incandescent,L,PhysNet,(ii),20261132,378,21,8.677455357142858
+lighting,Incandescent,L,PhysNet,(ii),20261133,378,21,9.068080357142858
+lighting,Incandescent,L,PhysNet,(ii-lag),20261131,378,21,8.175223214285714
+lighting,Incandescent,L,PhysNet,(ii-lag),20261132,378,21,8.872767857142858
+lighting,Incandescent,L,PhysNet,(ii-lag),20261133,378,21,9.402901785714286
+lighting,Incandescent,L,PhysNet,(ii-pc),20261131,378,21,9.700520833333334
+lighting,Incandescent,L,PhysNet,(ii-pc),20261132,378,21,9.55171130952381
+lighting,Incandescent,L,PhysNet,(ii-pc),20261133,378,21,9.263392857142858
+lighting,Incandescent,L,PhysNet,(ii-pc-g),20261131,378,21,8.798363095238095
+lighting,Incandescent,L,PhysNet,(ii-pc-g),20261132,378,21,10.537574404761905
+lighting,Incandescent,L,PhysNet,(ii-pc-g),20261133,378,21,8.61235119047619
+lighting,Incandescent,L,PhysNet,(ii-pc-g2),20261131,378,21,9.793526785714286
+lighting,Incandescent,L,PhysNet,(ii-pc-g2),20261132,378,21,9.802827380952381
+lighting,Incandescent,L,PhysNet,(ii-pc-g2),20261133,378,21,10.686383928571429
+lighting,Incandescent,L,PhysNet,(ii-pc-g80),20261131,378,21,10.611979166666666
+lighting,Incandescent,L,PhysNet,(ii-pc-g80),20261132,378,21,8.59375
+lighting,Incandescent,L,PhysNet,(ii-pc-g80),20261133,378,21,10.258556547619047
+lighting,Incandescent,L,PhysNet,(roi-pc),20261131,378,21,11.830357142857142
+lighting,Incandescent,L,PhysNet,(roi-pc),20261132,378,21,12.472098214285714
+lighting,Incandescent,L,PhysNet,(roi-pc),20261133,378,21,12.220982142857142
+lighting,Incandescent,L,PhysNet,(sham-pc),20261131,378,21,11.049107142857142
+lighting,Incandescent,L,PhysNet,(sham-pc),20261132,378,21,9.74702380952381
+lighting,Incandescent,L,PhysNet,(sham-pc),20261133,378,21,12.32328869047619
+lighting,Incandescent,L,RhythmFormer,(0),20261131,378,21,12.51860119047619
+lighting,Incandescent,L,RhythmFormer,(0),20261132,378,21,13.513764880952381
+lighting,Incandescent,L,RhythmFormer,(0),20261133,378,21,12.081473214285714
+lighting,Incandescent,L,RhythmFormer,(i),20261131,378,21,13.4765625
+lighting,Incandescent,L,RhythmFormer,(i),20261132,378,21,11.095610119047619
+lighting,Incandescent,L,RhythmFormer,(i),20261133,378,21,11.9140625
+lighting,Incandescent,L,RhythmFormer,(i-pc),20261131,378,21,7.756696428571429
+lighting,Incandescent,L,RhythmFormer,(i-pc),20261132,378,21,9.188988095238095
+lighting,Incandescent,L,RhythmFormer,(i-pc),20261133,378,21,11.374627976190476
+lighting,Incandescent,L,RhythmFormer,(i-simple),20261131,378,21,9.412202380952381
+lighting,Incandescent,L,RhythmFormer,(i-simple),20261132,378,21,9.663318452380953
+lighting,Incandescent,L,RhythmFormer,(i-simple),20261133,378,21,10.546875
+lighting,Incandescent,L,RhythmFormer,(ii),20261131,378,21,11.672247023809524
+lighting,Incandescent,L,RhythmFormer,(ii),20261132,378,21,12.955729166666666
+lighting,Incandescent,L,RhythmFormer,(ii),20261133,378,21,11.356026785714286
+lighting,Incandescent,L,RhythmFormer,(ii-lag),20261131,378,21,9.644717261904763
+lighting,Incandescent,L,RhythmFormer,(ii-lag),20261132,378,21,11.73735119047619
+lighting,Incandescent,L,RhythmFormer,(ii-lag),20261133,378,21,12.12797619047619
+lighting,Incandescent,L,RhythmFormer,(ii-pc),20261131,378,21,9.505208333333334
+lighting,Incandescent,L,RhythmFormer,(ii-pc),20261132,378,21,9.802827380952381
+lighting,Incandescent,L,RhythmFormer,(ii-pc),20261133,378,21,11.197916666666666
+lighting,LED-high,H,FactorizePhys (matched),(0),20261131,70,14,20.591517857142858
+lighting,LED-high,H,FactorizePhys (matched),(0),20261132,70,14,22.801339285714285
+lighting,LED-high,H,FactorizePhys (matched),(0),20261133,70,14,21.947544642857142
+lighting,LED-high,H,FactorizePhys (matched),(i),20261131,70,14,25.563616071428573
+lighting,LED-high,H,FactorizePhys (matched),(i),20261132,70,14,23.655133928571427
+lighting,LED-high,H,FactorizePhys (matched),(i),20261133,70,14,21.194196428571427
+lighting,LED-high,H,FactorizePhys (matched),(i-pc),20261131,70,14,20.691964285714285
+lighting,LED-high,H,FactorizePhys (matched),(i-pc),20261132,70,14,21.4453125
+lighting,LED-high,H,FactorizePhys (matched),(i-pc),20261133,70,14,20.943080357142858
+lighting,LED-high,H,FactorizePhys (matched),(i-simple),20261131,70,14,19.285714285714285
+lighting,LED-high,H,FactorizePhys (matched),(i-simple),20261132,70,14,19.587053571428573
+lighting,LED-high,H,FactorizePhys (matched),(i-simple),20261133,70,14,17.979910714285715
+lighting,LED-high,H,FactorizePhys (matched),(ii),20261131,70,14,28.577008928571427
+lighting,LED-high,H,FactorizePhys (matched),(ii),20261132,70,14,29.481026785714285
+lighting,LED-high,H,FactorizePhys (matched),(ii),20261133,70,14,27.672991071428573
+lighting,LED-high,H,FactorizePhys (matched),(ii-lag),20261131,70,14,26.819196428571427
+lighting,LED-high,H,FactorizePhys (matched),(ii-lag),20261132,70,14,24.9609375
+lighting,LED-high,H,FactorizePhys (matched),(ii-lag),20261133,70,14,27.522321428571427
+lighting,LED-high,H,FactorizePhys (matched),(ii-pc),20261131,70,14,18.984375
+lighting,LED-high,H,FactorizePhys (matched),(ii-pc),20261132,70,14,20.491071428571427
+lighting,LED-high,H,FactorizePhys (matched),(ii-pc),20261133,70,14,22.248883928571427
+lighting,LED-high,H,FactorizePhys (matched),(ii-pc-g),20261131,70,14,19.938616071428573
+lighting,LED-high,H,FactorizePhys (matched),(ii-pc-g),20261132,70,14,21.09375
+lighting,LED-high,H,FactorizePhys (matched),(ii-pc-g),20261133,70,14,22.1484375
+lighting,LED-high,H,FactorizePhys (matched),(ii-pc-g2),20261131,70,14,20.993303571428573
+lighting,LED-high,H,FactorizePhys (matched),(ii-pc-g2),20261132,70,14,21.847098214285715
+lighting,LED-high,H,FactorizePhys (matched),(ii-pc-g2),20261133,70,14,22.248883928571427
+lighting,LED-high,H,FactorizePhys (matched),(ii-pc-g80),20261131,70,14,17.979910714285715
+lighting,LED-high,H,FactorizePhys (matched),(ii-pc-g80),20261132,70,14,21.897321428571427
+lighting,LED-high,H,FactorizePhys (matched),(ii-pc-g80),20261133,70,14,22.248883928571427
+lighting,LED-high,H,FactorizePhys (matched),(sham-pc),20261131,70,14,25.965401785714285
+lighting,LED-high,H,FactorizePhys (matched),(sham-pc),20261132,70,14,24.709821428571427
+lighting,LED-high,H,FactorizePhys (matched),(sham-pc),20261133,70,14,27.472098214285715
+lighting,LED-high,H,PhysNet,(0),20261131,70,14,38.3203125
+lighting,LED-high,H,PhysNet,(0),20261132,70,14,38.822544642857146
+lighting,LED-high,H,PhysNet,(0),20261133,70,14,35.658482142857146
+lighting,LED-high,H,PhysNet,(i),20261131,70,14,24.9609375
+lighting,LED-high,H,PhysNet,(i),20261132,70,14,27.220982142857142
+lighting,LED-high,H,PhysNet,(i),20261133,70,14,25.3125
+lighting,LED-high,H,PhysNet,(i-pc),20261131,70,14,21.796875
+lighting,LED-high,H,PhysNet,(i-pc),20261132,70,14,19.587053571428573
+lighting,LED-high,H,PhysNet,(i-pc),20261133,70,14,22.5
+lighting,LED-high,H,PhysNet,(i-pc-g80),20261131,70,14,22.1484375
+lighting,LED-high,H,PhysNet,(i-pc-g80),20261132,70,14,21.746651785714285
+lighting,LED-high,H,PhysNet,(i-pc-g80),20261133,70,14,22.801339285714285
+lighting,LED-high,H,PhysNet,(i-simple),20261131,70,14,26.417410714285715
+lighting,LED-high,H,PhysNet,(i-simple),20261132,70,14,24.358258928571427
+lighting,LED-high,H,PhysNet,(i-simple),20261133,70,14,23.102678571428573
+lighting,LED-high,H,PhysNet,(ii),20261131,70,14,28.275669642857142
+lighting,LED-high,H,PhysNet,(ii),20261132,70,14,30.485491071428573
+lighting,LED-high,H,PhysNet,(ii),20261133,70,14,27.321428571428573
+lighting,LED-high,H,PhysNet,(ii-lag),20261131,70,14,32.293526785714285
+lighting,LED-high,H,PhysNet,(ii-lag),20261132,70,14,29.983258928571427
+lighting,LED-high,H,PhysNet,(ii-lag),20261133,70,14,32.79575892857143
+lighting,LED-high,H,PhysNet,(ii-pc),20261131,70,14,21.344866071428573
+lighting,LED-high,H,PhysNet,(ii-pc),20261132,70,14,23.253348214285715
+lighting,LED-high,H,PhysNet,(ii-pc),20261133,70,14,27.974330357142858
+lighting,LED-high,H,PhysNet,(ii-pc-g),20261131,70,14,22.901785714285715
+lighting,LED-high,H,PhysNet,(ii-pc-g),20261132,70,14,19.587053571428573
+lighting,LED-high,H,PhysNet,(ii-pc-g),20261133,70,14,22.700892857142858
+lighting,LED-high,H,PhysNet,(ii-pc-g2),20261131,70,14,28.4765625
+lighting,LED-high,H,PhysNet,(ii-pc-g2),20261132,70,14,27.170758928571427
+lighting,LED-high,H,PhysNet,(ii-pc-g2),20261133,70,14,22.198660714285715
+lighting,LED-high,H,PhysNet,(ii-pc-g80),20261131,70,14,28.526785714285715
+lighting,LED-high,H,PhysNet,(ii-pc-g80),20261132,70,14,24.659598214285715
+lighting,LED-high,H,PhysNet,(ii-pc-g80),20261133,70,14,25.714285714285715
+lighting,LED-high,H,PhysNet,(roi-pc),20261131,70,14,20.842633928571427
+lighting,LED-high,H,PhysNet,(roi-pc),20261132,70,14,17.678571428571427
+lighting,LED-high,H,PhysNet,(roi-pc),20261133,70,14,18.883928571428573
+lighting,LED-high,H,PhysNet,(sham-pc),20261131,70,14,33.197544642857146
+lighting,LED-high,H,PhysNet,(sham-pc),20261132,70,14,31.9921875
+lighting,LED-high,H,PhysNet,(sham-pc),20261133,70,14,35.05580357142857
+lighting,LED-high,H,RhythmFormer,(0),20261131,70,14,32.44419642857143
+lighting,LED-high,H,RhythmFormer,(0),20261132,70,14,29.229910714285715
+lighting,LED-high,H,RhythmFormer,(0),20261133,70,14,36.261160714285715
+lighting,LED-high,H,RhythmFormer,(i),20261131,70,14,18.783482142857142
+lighting,LED-high,H,RhythmFormer,(i),20261132,70,14,17.327008928571427
+lighting,LED-high,H,RhythmFormer,(i),20261133,70,14,20.641741071428573
+lighting,LED-high,H,RhythmFormer,(i-pc),20261131,70,14,20.440848214285715
+lighting,LED-high,H,RhythmFormer,(i-pc),20261132,70,14,19.135044642857142
+lighting,LED-high,H,RhythmFormer,(i-pc),20261133,70,14,15.970982142857142
+lighting,LED-high,H,RhythmFormer,(i-simple),20261131,70,14,19.737723214285715
+lighting,LED-high,H,RhythmFormer,(i-simple),20261132,70,14,14.815848214285714
+lighting,LED-high,H,RhythmFormer,(i-simple),20261133,70,14,16.121651785714285
+lighting,LED-high,H,RhythmFormer,(ii),20261131,70,14,20.089285714285715
+lighting,LED-high,H,RhythmFormer,(ii),20261132,70,14,15.167410714285714
+lighting,LED-high,H,RhythmFormer,(ii),20261133,70,14,18.030133928571427
+lighting,LED-high,H,RhythmFormer,(ii-lag),20261131,70,14,18.683035714285715
+lighting,LED-high,H,RhythmFormer,(ii-lag),20261132,70,14,17.327008928571427
+lighting,LED-high,H,RhythmFormer,(ii-lag),20261133,70,14,15.870535714285714
+lighting,LED-high,H,RhythmFormer,(ii-pc),20261131,70,14,17.276785714285715
+lighting,LED-high,H,RhythmFormer,(ii-pc),20261132,70,14,19.436383928571427
+lighting,LED-high,H,RhythmFormer,(ii-pc),20261133,70,14,14.213169642857142
+lighting,LED-high,L,FactorizePhys (matched),(0),20261131,359,21,10.233504526462395
+lighting,LED-high,L,FactorizePhys (matched),(0),20261132,359,21,9.596970752089137
+lighting,LED-high,L,FactorizePhys (matched),(0),20261133,359,21,10.086612116991644
+lighting,LED-high,L,FactorizePhys (matched),(i),20261131,359,21,10.860245473537605
+lighting,LED-high,L,FactorizePhys (matched),(i),20261132,359,21,10.419568245125348
+lighting,LED-high,L,FactorizePhys (matched),(i),20261133,359,21,9.949512534818941
+lighting,LED-high,L,FactorizePhys (matched),(i-pc),20261131,359,21,10.830866991643454
+lighting,LED-high,L,FactorizePhys (matched),(i-pc),20261132,359,21,10.674181754874652
+lighting,LED-high,L,FactorizePhys (matched),(i-pc),20261133,359,21,10.135576253481894
+lighting,LED-high,L,FactorizePhys (matched),(i-simple),20261131,359,21,10.664388927576601
+lighting,LED-high,L,FactorizePhys (matched),(i-simple),20261132,359,21,11.075687674094707
+lighting,LED-high,L,FactorizePhys (matched),(i-simple),20261133,359,21,10.635010445682452
+lighting,LED-high,L,FactorizePhys (matched),(ii),20261131,359,21,9.939719707520892
+lighting,LED-high,L,FactorizePhys (matched),(ii),20261132,359,21,9.381528551532034
+lighting,LED-high,L,FactorizePhys (matched),(ii),20261133,359,21,9.79282729805014
+lighting,LED-high,L,FactorizePhys (matched),(ii-lag),20261131,359,21,9.949512534818941
+lighting,LED-high,L,FactorizePhys (matched),(ii-lag),20261132,359,21,10.5077036908078
+lighting,LED-high,L,FactorizePhys (matched),(ii-lag),20261133,359,21,9.85158426183844
+lighting,LED-high,L,FactorizePhys (matched),(ii-pc),20261131,359,21,11.438022284122562
+lighting,LED-high,L,FactorizePhys (matched),(ii-pc),20261132,359,21,10.635010445682452
+lighting,LED-high,L,FactorizePhys (matched),(ii-pc),20261133,359,21,11.526157729805014
+lighting,LED-high,L,FactorizePhys (matched),(ii-pc-g),20261131,359,21,11.692635793871867
+lighting,LED-high,L,FactorizePhys (matched),(ii-pc-g),20261132,359,21,10.987552228412257
+lighting,LED-high,L,FactorizePhys (matched),(ii-pc-g),20261133,359,21,11.770978412256268
+lighting,LED-high,L,FactorizePhys (matched),(ii-pc-g2),20261131,359,21,11.310715529247911
+lighting,LED-high,L,FactorizePhys (matched),(ii-pc-g2),20261132,359,21,10.742731545961004
+lighting,LED-high,L,FactorizePhys (matched),(ii-pc-g2),20261133,359,21,10.870038300835654
+lighting,LED-high,L,FactorizePhys (matched),(ii-pc-g80),20261131,359,21,10.772110027855152
+lighting,LED-high,L,FactorizePhys (matched),(ii-pc-g80),20261132,359,21,10.635010445682452
+lighting,LED-high,L,FactorizePhys (matched),(ii-pc-g80),20261133,359,21,10.977759401114206
+lighting,LED-high,L,FactorizePhys (matched),(sham-pc),20261131,359,21,9.724277506963789
+lighting,LED-high,L,FactorizePhys (matched),(sham-pc),20261132,359,21,10.125783426183844
+lighting,LED-high,L,FactorizePhys (matched),(sham-pc),20261133,359,21,9.195464832869082
+lighting,LED-high,L,PhysNet,(0),20261131,359,21,13.34762360724234
+lighting,LED-high,L,PhysNet,(0),20261132,359,21,13.631615598885794
+lighting,LED-high,L,PhysNet,(0),20261133,359,21,12.485854805013927
+lighting,LED-high,L,PhysNet,(i),20261131,359,21,13.190938370473537
+lighting,LED-high,L,PhysNet,(i),20261132,359,21,13.700165389972145
+lighting,LED-high,L,PhysNet,(i),20261133,359,21,12.975496169916434
+lighting,LED-high,L,PhysNet,(i-pc),20261131,359,21,12.417305013927576
+lighting,LED-high,L,PhysNet,(i-pc),20261132,359,21,13.827472144846796
+lighting,LED-high,L,PhysNet,(i-pc),20261133,359,21,11.99621344011142
+lighting,LED-high,L,PhysNet,(i-pc-g80),20261131,359,21,12.03538474930362
+lighting,LED-high,L,PhysNet,(i-pc-g80),20261132,359,21,11.526157729805014
+lighting,LED-high,L,PhysNet,(i-pc-g80),20261133,359,21,14.1016713091922
+lighting,LED-high,L,PhysNet,(i-simple),20261131,359,21,12.427097841225626
+lighting,LED-high,L,PhysNet,(i-simple),20261132,359,21,11.682842966573816
+lighting,LED-high,L,PhysNet,(i-simple),20261133,359,21,12.857982242339833
+lighting,LED-high,L,PhysNet,(ii),20261131,359,21,10.106197771587743
+lighting,LED-high,L,PhysNet,(ii),20261132,359,21,9.391321378830083
+lighting,LED-high,L,PhysNet,(ii),20261133,359,21,10.194333217270195
+lighting,LED-high,L,PhysNet,(ii-lag),20261131,359,21,9.636142061281337
+lighting,LED-high,L,PhysNet,(ii-lag),20261132,359,21,10.429361072423399
+lighting,LED-high,L,PhysNet,(ii-lag),20261133,359,21,10.566460654596101
+lighting,LED-high,L,PhysNet,(ii-pc),20261131,359,21,11.496779247910863
+lighting,LED-high,L,PhysNet,(ii-pc),20261132,359,21,11.447815111420613
+lighting,LED-high,L,PhysNet,(ii-pc),20261133,359,21,11.477193593314762
+lighting,LED-high,L,PhysNet,(ii-pc-g),20261131,359,21,11.506572075208913
+lighting,LED-high,L,PhysNet,(ii-pc-g),20261132,359,21,13.269280988857938
+lighting,LED-high,L,PhysNet,(ii-pc-g),20261133,359,21,11.075687674094707
+lighting,LED-high,L,PhysNet,(ii-pc-g2),20261131,359,21,11.624086002785516
+lighting,LED-high,L,PhysNet,(ii-pc-g2),20261132,359,21,11.438022284122562
+lighting,LED-high,L,PhysNet,(ii-pc-g2),20261133,359,21,13.856850626740947
+lighting,LED-high,L,PhysNet,(ii-pc-g80),20261131,359,21,10.605631963788301
+lighting,LED-high,L,PhysNet,(ii-pc-g80),20261132,359,21,11.085480501392757
+lighting,LED-high,L,PhysNet,(ii-pc-g80),20261133,359,21,12.201862813370473
+lighting,LED-high,L,PhysNet,(roi-pc),20261131,359,21,13.044045961002785
+lighting,LED-high,L,PhysNet,(roi-pc),20261132,359,21,13.543480153203342
+lighting,LED-high,L,PhysNet,(roi-pc),20261133,359,21,14.160428272980502
+lighting,LED-high,L,PhysNet,(sham-pc),20261131,359,21,13.34762360724234
+lighting,LED-high,L,PhysNet,(sham-pc),20261132,359,21,12.495647632311977
+lighting,LED-high,L,PhysNet,(sham-pc),20261133,359,21,15.227846448467966
+lighting,LED-high,L,RhythmFormer,(0),20261131,359,21,13.847057799442897
+lighting,LED-high,L,RhythmFormer,(0),20261132,359,21,16.451949860724234
+lighting,LED-high,L,RhythmFormer,(0),20261133,359,21,14.395456128133704
+lighting,LED-high,L,RhythmFormer,(i),20261131,359,21,16.549878133704734
+lighting,LED-high,L,RhythmFormer,(i),20261132,359,21,14.297527855153204
+lighting,LED-high,L,RhythmFormer,(i),20261133,359,21,14.395456128133704
+lighting,LED-high,L,RhythmFormer,(i-pc),20261131,359,21,10.527289345403899
+lighting,LED-high,L,RhythmFormer,(i-pc),20261132,359,21,12.368340877437326
+lighting,LED-high,L,RhythmFormer,(i-pc),20261133,359,21,13.837264972144848
+lighting,LED-high,L,RhythmFormer,(i-simple),20261131,359,21,12.515233286908078
+lighting,LED-high,L,RhythmFormer,(i-simple),20261132,359,21,13.141974233983287
+lighting,LED-high,L,RhythmFormer,(i-simple),20261133,359,21,14.581519846796658
+lighting,LED-high,L,RhythmFormer,(ii),20261131,359,21,13.915607590529248
+lighting,LED-high,L,RhythmFormer,(ii),20261132,359,21,15.355153203342619
+lighting,LED-high,L,RhythmFormer,(ii),20261133,359,21,14.189806754874652
+lighting,LED-high,L,RhythmFormer,(ii-lag),20261131,359,21,12.162691504178273
+lighting,LED-high,L,RhythmFormer,(ii-lag),20261132,359,21,14.963440111420613
+lighting,LED-high,L,RhythmFormer,(ii-lag),20261133,359,21,15.629352367688023
+lighting,LED-high,L,RhythmFormer,(ii-pc),20261131,359,21,12.848189415041782
+lighting,LED-high,L,RhythmFormer,(ii-pc),20261132,359,21,12.495647632311977
+lighting,LED-high,L,RhythmFormer,(ii-pc),20261133,359,21,15.355153203342619
+lighting,LED-low,H,FactorizePhys (matched),(0),20261131,60,16,25.6640625
+lighting,LED-low,H,FactorizePhys (matched),(0),20261132,60,16,30.0
+lighting,LED-low,H,FactorizePhys (matched),(0),20261133,60,16,25.48828125
+lighting,LED-low,H,FactorizePhys (matched),(i),20261131,60,16,29.23828125
+lighting,LED-low,H,FactorizePhys (matched),(i),20261132,60,16,28.18359375
+lighting,LED-low,H,FactorizePhys (matched),(i),20261133,60,16,24.78515625
+lighting,LED-low,H,FactorizePhys (matched),(i-pc),20261131,60,16,27.59765625
+lighting,LED-low,H,FactorizePhys (matched),(i-pc),20261132,60,16,25.4296875
+lighting,LED-low,H,FactorizePhys (matched),(i-pc),20261133,60,16,26.66015625
+lighting,LED-low,H,FactorizePhys (matched),(i-simple),20261131,60,16,23.14453125
+lighting,LED-low,H,FactorizePhys (matched),(i-simple),20261132,60,16,26.30859375
+lighting,LED-low,H,FactorizePhys (matched),(i-simple),20261133,60,16,27.59765625
+lighting,LED-low,H,FactorizePhys (matched),(ii),20261131,60,16,29.0625
+lighting,LED-low,H,FactorizePhys (matched),(ii),20261132,60,16,30.17578125
+lighting,LED-low,H,FactorizePhys (matched),(ii),20261133,60,16,29.8828125
+lighting,LED-low,H,FactorizePhys (matched),(ii-lag),20261131,60,16,29.1796875
+lighting,LED-low,H,FactorizePhys (matched),(ii-lag),20261132,60,16,31.0546875
+lighting,LED-low,H,FactorizePhys (matched),(ii-lag),20261133,60,16,30.234375
+lighting,LED-low,H,FactorizePhys (matched),(ii-pc),20261131,60,16,21.62109375
+lighting,LED-low,H,FactorizePhys (matched),(ii-pc),20261132,60,16,22.8515625
+lighting,LED-low,H,FactorizePhys (matched),(ii-pc),20261133,60,16,22.5
+lighting,LED-low,H,FactorizePhys (matched),(ii-pc-g),20261131,60,16,21.328125
+lighting,LED-low,H,FactorizePhys (matched),(ii-pc-g),20261132,60,16,23.96484375
+lighting,LED-low,H,FactorizePhys (matched),(ii-pc-g),20261133,60,16,22.91015625
+lighting,LED-low,H,FactorizePhys (matched),(ii-pc-g2),20261131,60,16,20.9765625
+lighting,LED-low,H,FactorizePhys (matched),(ii-pc-g2),20261132,60,16,24.4921875
+lighting,LED-low,H,FactorizePhys (matched),(ii-pc-g2),20261133,60,16,26.30859375
+lighting,LED-low,H,FactorizePhys (matched),(ii-pc-g80),20261131,60,16,23.4375
+lighting,LED-low,H,FactorizePhys (matched),(ii-pc-g80),20261132,60,16,24.84375
+lighting,LED-low,H,FactorizePhys (matched),(ii-pc-g80),20261133,60,16,25.25390625
+lighting,LED-low,H,FactorizePhys (matched),(sham-pc),20261131,60,16,25.95703125
+lighting,LED-low,H,FactorizePhys (matched),(sham-pc),20261132,60,16,28.9453125
+lighting,LED-low,H,FactorizePhys (matched),(sham-pc),20261133,60,16,30.76171875
+lighting,LED-low,H,PhysNet,(0),20261131,60,16,43.828125
+lighting,LED-low,H,PhysNet,(0),20261132,60,16,36.62109375
+lighting,LED-low,H,PhysNet,(0),20261133,60,16,38.3203125
+lighting,LED-low,H,PhysNet,(i),20261131,60,16,28.06640625
+lighting,LED-low,H,PhysNet,(i),20261132,60,16,30.5859375
+lighting,LED-low,H,PhysNet,(i),20261133,60,16,27.5390625
+lighting,LED-low,H,PhysNet,(i-pc),20261131,60,16,24.19921875
+lighting,LED-low,H,PhysNet,(i-pc),20261132,60,16,23.37890625
+lighting,LED-low,H,PhysNet,(i-pc),20261133,60,16,23.96484375
+lighting,LED-low,H,PhysNet,(i-pc-g80),20261131,60,16,22.3828125
+lighting,LED-low,H,PhysNet,(i-pc-g80),20261132,60,16,24.78515625
+lighting,LED-low,H,PhysNet,(i-pc-g80),20261133,60,16,26.015625
+lighting,LED-low,H,PhysNet,(i-simple),20261131,60,16,29.53125
+lighting,LED-low,H,PhysNet,(i-simple),20261132,60,16,27.65625
+lighting,LED-low,H,PhysNet,(i-simple),20261133,60,16,25.72265625
+lighting,LED-low,H,PhysNet,(ii),20261131,60,16,29.12109375
+lighting,LED-low,H,PhysNet,(ii),20261132,60,16,33.10546875
+lighting,LED-low,H,PhysNet,(ii),20261133,60,16,31.640625
+lighting,LED-low,H,PhysNet,(ii-lag),20261131,60,16,32.109375
+lighting,LED-low,H,PhysNet,(ii-lag),20261132,60,16,34.74609375
+lighting,LED-low,H,PhysNet,(ii-lag),20261133,60,16,36.2109375
+lighting,LED-low,H,PhysNet,(ii-pc),20261131,60,16,22.734375
+lighting,LED-low,H,PhysNet,(ii-pc),20261132,60,16,26.42578125
+lighting,LED-low,H,PhysNet,(ii-pc),20261133,60,16,29.765625
+lighting,LED-low,H,PhysNet,(ii-pc-g),20261131,60,16,25.3125
+lighting,LED-low,H,PhysNet,(ii-pc-g),20261132,60,16,21.38671875
+lighting,LED-low,H,PhysNet,(ii-pc-g),20261133,60,16,25.72265625
+lighting,LED-low,H,PhysNet,(ii-pc-g2),20261131,60,16,36.6796875
+lighting,LED-low,H,PhysNet,(ii-pc-g2),20261132,60,16,29.8828125
+lighting,LED-low,H,PhysNet,(ii-pc-g2),20261133,60,16,26.25
+lighting,LED-low,H,PhysNet,(ii-pc-g80),20261131,60,16,32.4609375
+lighting,LED-low,H,PhysNet,(ii-pc-g80),20261132,60,16,27.59765625
+lighting,LED-low,H,PhysNet,(ii-pc-g80),20261133,60,16,31.171875
+lighting,LED-low,H,PhysNet,(roi-pc),20261131,60,16,23.84765625
+lighting,LED-low,H,PhysNet,(roi-pc),20261132,60,16,26.3671875
+lighting,LED-low,H,PhysNet,(roi-pc),20261133,60,16,23.671875
+lighting,LED-low,H,PhysNet,(sham-pc),20261131,60,16,39.609375
+lighting,LED-low,H,PhysNet,(sham-pc),20261132,60,16,42.890625
+lighting,LED-low,H,PhysNet,(sham-pc),20261133,60,16,38.61328125
+lighting,LED-low,H,RhythmFormer,(0),20261131,60,16,35.5078125
+lighting,LED-low,H,RhythmFormer,(0),20261132,60,16,31.0546875
+lighting,LED-low,H,RhythmFormer,(0),20261133,60,16,34.3359375
+lighting,LED-low,H,RhythmFormer,(i),20261131,60,16,22.3828125
+lighting,LED-low,H,RhythmFormer,(i),20261132,60,16,16.7578125
+lighting,LED-low,H,RhythmFormer,(i),20261133,60,16,24.84375
+lighting,LED-low,H,RhythmFormer,(i-pc),20261131,60,16,22.08984375
+lighting,LED-low,H,RhythmFormer,(i-pc),20261132,60,16,23.02734375
+lighting,LED-low,H,RhythmFormer,(i-pc),20261133,60,16,15.99609375
+lighting,LED-low,H,RhythmFormer,(i-simple),20261131,60,16,19.62890625
+lighting,LED-low,H,RhythmFormer,(i-simple),20261132,60,16,17.6953125
+lighting,LED-low,H,RhythmFormer,(i-simple),20261133,60,16,18.57421875
+lighting,LED-low,H,RhythmFormer,(ii),20261131,60,16,17.2265625
+lighting,LED-low,H,RhythmFormer,(ii),20261132,60,16,17.63671875
+lighting,LED-low,H,RhythmFormer,(ii),20261133,60,16,18.28125
+lighting,LED-low,H,RhythmFormer,(ii-lag),20261131,60,16,20.2734375
+lighting,LED-low,H,RhythmFormer,(ii-lag),20261132,60,16,22.08984375
+lighting,LED-low,H,RhythmFormer,(ii-lag),20261133,60,16,17.63671875
+lighting,LED-low,H,RhythmFormer,(ii-pc),20261131,60,16,16.11328125
+lighting,LED-low,H,RhythmFormer,(ii-pc),20261132,60,16,18.28125
+lighting,LED-low,H,RhythmFormer,(ii-pc),20261133,60,16,15.46875
+lighting,LED-low,L,FactorizePhys (matched),(0),20261131,355,21,11.091549295774648
+lighting,LED-low,L,FactorizePhys (matched),(0),20261132,355,21,10.56668133802817
+lighting,LED-low,L,FactorizePhys (matched),(0),20261133,355,21,10.883582746478874
+lighting,LED-low,L,FactorizePhys (matched),(i),20261131,355,21,10.784551056338028
+lighting,LED-low,L,FactorizePhys (matched),(i),20261132,355,21,10.824163732394366
+lighting,LED-low,L,FactorizePhys (matched),(i),20261133,355,21,10.843970070422536
+lighting,LED-low,L,FactorizePhys (matched),(i-pc),20261131,355,21,11.220290492957746
+lighting,LED-low,L,FactorizePhys (matched),(i-pc),20261132,355,21,11.97293133802817
+lighting,LED-low,L,FactorizePhys (matched),(i-pc),20261133,355,21,11.745158450704226
+lighting,LED-low,L,FactorizePhys (matched),(i-simple),20261131,355,21,12.705765845070422
+lighting,LED-low,L,FactorizePhys (matched),(i-simple),20261132,355,21,12.428477112676056
+lighting,LED-low,L,FactorizePhys (matched),(i-simple),20261133,355,21,11.97293133802817
+lighting,LED-low,L,FactorizePhys (matched),(ii),20261131,355,21,10.140845070422536
+lighting,LED-low,L,FactorizePhys (matched),(ii),20261132,355,21,9.55655809859155
+lighting,LED-low,L,FactorizePhys (matched),(ii),20261133,355,21,9.576364436619718
+lighting,LED-low,L,FactorizePhys (matched),(ii-lag),20261131,355,21,10.180457746478874
+lighting,LED-low,L,FactorizePhys (matched),(ii-lag),20261132,355,21,10.32900528169014
+lighting,LED-low,L,FactorizePhys (matched),(ii-lag),20261133,355,21,9.86355633802817
+lighting,LED-low,L,FactorizePhys (matched),(ii-pc),20261131,355,21,13.091989436619718
+lighting,LED-low,L,FactorizePhys (matched),(ii-pc),20261132,355,21,12.190801056338028
+lighting,LED-low,L,FactorizePhys (matched),(ii-pc),20261133,355,21,12.517605633802816
+lighting,LED-low,L,FactorizePhys (matched),(ii-pc-g),20261131,355,21,13.002860915492958
+lighting,LED-low,L,FactorizePhys (matched),(ii-pc-g),20261132,355,21,11.794674295774648
+lighting,LED-low,L,FactorizePhys (matched),(ii-pc-g),20261133,355,21,13.111795774647888
+lighting,LED-low,L,FactorizePhys (matched),(ii-pc-g2),20261131,355,21,12.56712147887324
+lighting,LED-low,L,FactorizePhys (matched),(ii-pc-g2),20261132,355,21,11.705545774647888
+lighting,LED-low,L,FactorizePhys (matched),(ii-pc-g2),20261133,355,21,11.566901408450704
+lighting,LED-low,L,FactorizePhys (matched),(ii-pc-g80),20261131,355,21,11.438160211267606
+lighting,LED-low,L,FactorizePhys (matched),(ii-pc-g80),20261132,355,21,11.378741197183098
+lighting,LED-low,L,FactorizePhys (matched),(ii-pc-g80),20261133,355,21,11.180677816901408
+lighting,LED-low,L,FactorizePhys (matched),(sham-pc),20261131,355,21,9.348591549295774
+lighting,LED-low,L,FactorizePhys (matched),(sham-pc),20261132,355,21,9.942781690140846
+lighting,LED-low,L,FactorizePhys (matched),(sham-pc),20261133,355,21,9.170334507042254
+lighting,LED-low,L,PhysNet,(0),20261131,355,21,14.36949823943662
+lighting,LED-low,L,PhysNet,(0),20261132,355,21,14.577464788732394
+lighting,LED-low,L,PhysNet,(0),20261133,355,21,12.913732394366198
+lighting,LED-low,L,PhysNet,(i),20261131,355,21,12.775088028169014
+lighting,LED-low,L,PhysNet,(i),20261132,355,21,12.775088028169014
+lighting,LED-low,L,PhysNet,(i),20261133,355,21,12.705765845070422
+lighting,LED-low,L,PhysNet,(i-pc),20261131,355,21,13.398987676056338
+lighting,LED-low,L,PhysNet,(i-pc),20261132,355,21,14.943882042253522
+lighting,LED-low,L,PhysNet,(i-pc),20261133,355,21,13.537632042253522
+lighting,LED-low,L,PhysNet,(i-pc-g80),20261131,355,21,13.725792253521126
+lighting,LED-low,L,PhysNet,(i-pc-g80),20261132,355,21,11.527288732394366
+lighting,LED-low,L,PhysNet,(i-pc-g80),20261133,355,21,15.16175176056338
+lighting,LED-low,L,PhysNet,(i-simple),20261131,355,21,12.626540492957746
+lighting,LED-low,L,PhysNet,(i-simple),20261132,355,21,12.923635563380282
+lighting,LED-low,L,PhysNet,(i-simple),20261133,355,21,12.893926056338028
+lighting,LED-low,L,PhysNet,(ii),20261131,355,21,10.418133802816902
+lighting,LED-low,L,PhysNet,(ii),20261132,355,21,10.754841549295774
+lighting,LED-low,L,PhysNet,(ii),20261133,355,21,10.94300176056338
+lighting,LED-low,L,PhysNet,(ii-lag),20261131,355,21,10.447843309859154
+lighting,LED-low,L,PhysNet,(ii-lag),20261132,355,21,10.626100352112676
+lighting,LED-low,L,PhysNet,(ii-lag),20261133,355,21,11.656029929577464
+lighting,LED-low,L,PhysNet,(ii-pc),20261131,355,21,13.280149647887324
+lighting,LED-low,L,PhysNet,(ii-pc),20261132,355,21,11.97293133802817
+lighting,LED-low,L,PhysNet,(ii-pc),20261133,355,21,12.052156690140846
+lighting,LED-low,L,PhysNet,(ii-pc-g),20261131,355,21,12.081866197183098
+lighting,LED-low,L,PhysNet,(ii-pc-g),20261132,355,21,13.062279929577464
+lighting,LED-low,L,PhysNet,(ii-pc-g),20261133,355,21,12.111575704225352
+lighting,LED-low,L,PhysNet,(ii-pc-g2),20261131,355,21,12.34925176056338
+lighting,LED-low,L,PhysNet,(ii-pc-g2),20261132,355,21,12.983054577464788
+lighting,LED-low,L,PhysNet,(ii-pc-g2),20261133,355,21,13.369278169014084
+lighting,LED-low,L,PhysNet,(ii-pc-g80),20261131,355,21,11.93331866197183
+lighting,LED-low,L,PhysNet,(ii-pc-g80),20261132,355,21,11.656029929577464
+lighting,LED-low,L,PhysNet,(ii-pc-g80),20261133,355,21,13.042473591549296
+lighting,LED-low,L,PhysNet,(roi-pc),20261131,355,21,14.65669014084507
+lighting,LED-low,L,PhysNet,(roi-pc),20261132,355,21,15.795554577464788
+lighting,LED-low,L,PhysNet,(roi-pc),20261133,355,21,15.815360915492958
+lighting,LED-low,L,PhysNet,(sham-pc),20261131,355,21,13.082086267605634
+lighting,LED-low,L,PhysNet,(sham-pc),20261132,355,21,13.260343309859154
+lighting,LED-low,L,PhysNet,(sham-pc),20261133,355,21,14.844850352112676
+lighting,LED-low,L,RhythmFormer,(0),20261131,355,21,16.468970070422536
+lighting,LED-low,L,RhythmFormer,(0),20261132,355,21,16.597711267605632
+lighting,LED-low,L,RhythmFormer,(0),20261133,355,21,16.508582746478872
+lighting,LED-low,L,RhythmFormer,(i),20261131,355,21,16.954225352112676
+lighting,LED-low,L,RhythmFormer,(i),20261132,355,21,14.587367957746478
+lighting,LED-low,L,RhythmFormer,(i),20261133,355,21,14.220950704225352
+lighting,LED-low,L,RhythmFormer,(i-pc),20261131,355,21,11.517385563380282
+lighting,LED-low,L,RhythmFormer,(i-pc),20261132,355,21,13.14150528169014
+lighting,LED-low,L,RhythmFormer,(i-pc),20261133,355,21,15.102332746478874
+lighting,LED-low,L,RhythmFormer,(i-simple),20261131,355,21,11.309419014084508
+lighting,LED-low,L,RhythmFormer,(i-simple),20261132,355,21,13.923855633802816
+lighting,LED-low,L,RhythmFormer,(i-simple),20261133,355,21,13.735695422535212
+lighting,LED-low,L,RhythmFormer,(ii),20261131,355,21,12.735475352112676
+lighting,LED-low,L,RhythmFormer,(ii),20261132,355,21,15.805457746478874
+lighting,LED-low,L,RhythmFormer,(ii),20261133,355,21,13.785211267605634
+lighting,LED-low,L,RhythmFormer,(ii-lag),20261131,355,21,12.626540492957746
+lighting,LED-low,L,RhythmFormer,(ii-lag),20261132,355,21,14.518045774647888
+lighting,LED-low,L,RhythmFormer,(ii-lag),20261133,355,21,15.013204225352112
+lighting,LED-low,L,RhythmFormer,(ii-pc),20261131,355,21,13.349471830985916
+lighting,LED-low,L,RhythmFormer,(ii-pc),20261132,355,21,11.566901408450704
+lighting,LED-low,L,RhythmFormer,(ii-pc),20261133,355,21,15.46875
+lighting,Nature,H,FactorizePhys (matched),(0),20261131,93,15,23.248487903225808
+lighting,Nature,H,FactorizePhys (matched),(0),20261132,93,15,25.81905241935484
+lighting,Nature,H,FactorizePhys (matched),(0),20261133,93,15,24.987399193548388
+lighting,Nature,H,FactorizePhys (matched),(i),20261131,93,15,27.293346774193548
+lighting,Nature,H,FactorizePhys (matched),(i),20261132,93,15,28.049395161290324
+lighting,Nature,H,FactorizePhys (matched),(i),20261133,93,15,25.894657258064516
+lighting,Nature,H,FactorizePhys (matched),(i-pc),20261131,93,15,25.970262096774192
+lighting,Nature,H,FactorizePhys (matched),(i-pc),20261132,93,15,24.64717741935484
+lighting,Nature,H,FactorizePhys (matched),(i-pc),20261133,93,15,24.722782258064516
+lighting,Nature,H,FactorizePhys (matched),(i-simple),20261131,93,15,21.963205645161292
+lighting,Nature,H,FactorizePhys (matched),(i-simple),20261132,93,15,24.155745967741936
+lighting,Nature,H,FactorizePhys (matched),(i-simple),20261133,93,15,24.836189516129032
+lighting,Nature,H,FactorizePhys (matched),(ii),20261131,93,15,25.894657258064516
+lighting,Nature,H,FactorizePhys (matched),(ii),20261132,93,15,31.11139112903226
+lighting,Nature,H,FactorizePhys (matched),(ii),20261133,93,15,28.881048387096776
+lighting,Nature,H,FactorizePhys (matched),(ii-lag),20261131,93,15,24.760584677419356
+lighting,Nature,H,FactorizePhys (matched),(ii-lag),20261132,93,15,26.99092741935484
+lighting,Nature,H,FactorizePhys (matched),(ii-lag),20261133,93,15,28.276209677419356
+lighting,Nature,H,FactorizePhys (matched),(ii-pc),20261131,93,15,20.640120967741936
+lighting,Nature,H,FactorizePhys (matched),(ii-pc),20261132,93,15,23.513104838709676
+lighting,Nature,H,FactorizePhys (matched),(ii-pc),20261133,93,15,23.210685483870968
+lighting,Nature,H,FactorizePhys (matched),(ii-pc-g),20261131,93,15,20.52671370967742
+lighting,Nature,H,FactorizePhys (matched),(ii-pc-g),20261132,93,15,22.643649193548388
+lighting,Nature,H,FactorizePhys (matched),(ii-pc-g),20261133,93,15,19.921875
+lighting,Nature,H,FactorizePhys (matched),(ii-pc-g2),20261131,93,15,20.48891129032258
+lighting,Nature,H,FactorizePhys (matched),(ii-pc-g2),20261132,93,15,22.568044354838708
+lighting,Nature,H,FactorizePhys (matched),(ii-pc-g2),20261133,93,15,23.39969758064516
+lighting,Nature,H,FactorizePhys (matched),(ii-pc-g80),20261131,93,15,21.547379032258064
+lighting,Nature,H,FactorizePhys (matched),(ii-pc-g80),20261132,93,15,22.643649193548388
+lighting,Nature,H,FactorizePhys (matched),(ii-pc-g80),20261133,93,15,24.04233870967742
+lighting,Nature,H,FactorizePhys (matched),(sham-pc),20261131,93,15,26.42389112903226
+lighting,Nature,H,FactorizePhys (matched),(sham-pc),20261132,93,15,26.764112903225808
+lighting,Nature,H,FactorizePhys (matched),(sham-pc),20261133,93,15,31.07358870967742
+lighting,Nature,H,PhysNet,(0),20261131,93,15,39.61693548387097
+lighting,Nature,H,PhysNet,(0),20261132,93,15,39.91935483870968
+lighting,Nature,H,PhysNet,(0),20261133,93,15,37.084173387096776
+lighting,Nature,H,PhysNet,(i),20261131,93,15,25.554435483870968
+lighting,Nature,H,PhysNet,(i),20261132,93,15,30.582157258064516
+lighting,Nature,H,PhysNet,(i),20261133,93,15,30.090725806451612
+lighting,Nature,H,PhysNet,(i-pc),20261131,93,15,23.097278225806452
+lighting,Nature,H,PhysNet,(i-pc),20261132,93,15,20.186491935483872
+lighting,Nature,H,PhysNet,(i-pc),20261133,93,15,22.152217741935484
+lighting,Nature,H,PhysNet,(i-pc-g80),20261131,93,15,25.289818548387096
+lighting,Nature,H,PhysNet,(i-pc-g80),20261132,93,15,25.289818548387096
+lighting,Nature,H,PhysNet,(i-pc-g80),20261133,93,15,22.22782258064516
+lighting,Nature,H,PhysNet,(i-simple),20261131,93,15,28.918850806451612
+lighting,Nature,H,PhysNet,(i-simple),20261132,93,15,25.289818548387096
+lighting,Nature,H,PhysNet,(i-simple),20261133,93,15,21.207157258064516
+lighting,Nature,H,PhysNet,(ii),20261131,93,15,25.25201612903226
+lighting,Nature,H,PhysNet,(ii),20261132,93,15,27.898185483870968
+lighting,Nature,H,PhysNet,(ii),20261133,93,15,27.217741935483872
+lighting,Nature,H,PhysNet,(ii-lag),20261131,93,15,28.276209677419356
+lighting,Nature,H,PhysNet,(ii-lag),20261132,93,15,29.145665322580644
+lighting,Nature,H,PhysNet,(ii-lag),20261133,93,15,35.26965725806452
+lighting,Nature,H,PhysNet,(ii-pc),20261131,93,15,24.420362903225808
+lighting,Nature,H,PhysNet,(ii-pc),20261132,93,15,27.55796370967742
+lighting,Nature,H,PhysNet,(ii-pc),20261133,93,15,26.877520161290324
+lighting,Nature,H,PhysNet,(ii-pc-g),20261131,93,15,25.630040322580644
+lighting,Nature,H,PhysNet,(ii-pc-g),20261132,93,15,25.365423387096776
+lighting,Nature,H,PhysNet,(ii-pc-g),20261133,93,15,25.516633064516128
+lighting,Nature,H,PhysNet,(ii-pc-g2),20261131,93,15,36.63054435483871
+lighting,Nature,H,PhysNet,(ii-pc-g2),20261132,93,15,34.24899193548387
+lighting,Nature,H,PhysNet,(ii-pc-g2),20261133,93,15,29.032258064516128
+lighting,Nature,H,PhysNet,(ii-pc-g80),20261131,93,15,30.733366935483872
+lighting,Nature,H,PhysNet,(ii-pc-g80),20261132,93,15,29.90171370967742
+lighting,Nature,H,PhysNet,(ii-pc-g80),20261133,93,15,31.67842741935484
+lighting,Nature,H,PhysNet,(roi-pc),20261131,93,15,28.465221774193548
+lighting,Nature,H,PhysNet,(roi-pc),20261132,93,15,25.327620967741936
+lighting,Nature,H,PhysNet,(roi-pc),20261133,93,15,26.726310483870968
+lighting,Nature,H,PhysNet,(sham-pc),20261131,93,15,42.830141129032256
+lighting,Nature,H,PhysNet,(sham-pc),20261132,93,15,43.09475806451613
+lighting,Nature,H,PhysNet,(sham-pc),20261133,93,15,44.115423387096776
+lighting,Nature,H,RhythmFormer,(0),20261131,93,15,36.21471774193548
+lighting,Nature,H,RhythmFormer,(0),20261132,93,15,33.266129032258064
+lighting,Nature,H,RhythmFormer,(0),20261133,93,15,41.31804435483871
+lighting,Nature,H,RhythmFormer,(i),20261131,93,15,20.48891129032258
+lighting,Nature,H,RhythmFormer,(i),20261132,93,15,19.128024193548388
+lighting,Nature,H,RhythmFormer,(i),20261133,93,15,24.64717741935484
+lighting,Nature,H,RhythmFormer,(i-pc),20261131,93,15,24.420362903225808
+lighting,Nature,H,RhythmFormer,(i-pc),20261132,93,15,22.152217741935484
+lighting,Nature,H,RhythmFormer,(i-pc),20261133,93,15,15.914818548387096
+lighting,Nature,H,RhythmFormer,(i-simple),20261131,93,15,17.162298387096776
+lighting,Nature,H,RhythmFormer,(i-simple),20261132,93,15,18.258568548387096
+lighting,Nature,H,RhythmFormer,(i-simple),20261133,93,15,16.97328629032258
+lighting,Nature,H,RhythmFormer,(ii),20261131,93,15,20.942540322580644
+lighting,Nature,H,RhythmFormer,(ii),20261132,93,15,19.695060483870968
+lighting,Nature,H,RhythmFormer,(ii),20261133,93,15,18.22076612903226
+lighting,Nature,H,RhythmFormer,(ii-lag),20261131,93,15,22.190020161290324
+lighting,Nature,H,RhythmFormer,(ii-lag),20261132,93,15,18.18296370967742
+lighting,Nature,H,RhythmFormer,(ii-lag),20261133,93,15,19.770665322580644
+lighting,Nature,H,RhythmFormer,(ii-pc),20261131,93,15,17.61592741935484
+lighting,Nature,H,RhythmFormer,(ii-pc),20261132,93,15,17.124495967741936
+lighting,Nature,H,RhythmFormer,(ii-pc),20261133,93,15,11.907762096774194
+lighting,Nature,L,FactorizePhys (matched),(0),20261131,310,20,10.444808467741936
+lighting,Nature,L,FactorizePhys (matched),(0),20261132,310,20,9.378780241935484
+lighting,Nature,L,FactorizePhys (matched),(0),20261133,310,20,9.548891129032258
+lighting,Nature,L,FactorizePhys (matched),(i),20261131,310,20,10.320060483870968
+lighting,Nature,L,FactorizePhys (matched),(i),20261132,310,20,9.923135080645162
+lighting,Nature,L,FactorizePhys (matched),(i),20261133,310,20,9.514868951612904
+lighting,Nature,L,FactorizePhys (matched),(i-pc),20261131,310,20,9.821068548387096
+lighting,Nature,L,FactorizePhys (matched),(i-pc),20261132,310,20,9.582913306451612
+lighting,Nature,L,FactorizePhys (matched),(i-pc),20261133,310,20,10.036542338709678
+lighting,Nature,L,FactorizePhys (matched),(i-simple),20261131,310,20,10.785030241935484
+lighting,Nature,L,FactorizePhys (matched),(i-simple),20261132,310,20,9.537550403225806
+lighting,Nature,L,FactorizePhys (matched),(i-simple),20261133,310,20,9.923135080645162
+lighting,Nature,L,FactorizePhys (matched),(ii),20261131,310,20,10.036542338709678
+lighting,Nature,L,FactorizePhys (matched),(ii),20261132,310,20,9.242691532258064
+lighting,Nature,L,FactorizePhys (matched),(ii),20261133,310,20,9.299395161290322
+lighting,Nature,L,FactorizePhys (matched),(ii-lag),20261131,310,20,9.741683467741936
+lighting,Nature,L,FactorizePhys (matched),(ii-lag),20261132,310,20,9.809727822580646
+lighting,Nature,L,FactorizePhys (matched),(ii-lag),20261133,310,20,9.185987903225806
+lighting,Nature,L,FactorizePhys (matched),(ii-pc),20261131,310,20,11.53351814516129
+lighting,Nature,L,FactorizePhys (matched),(ii-pc),20261132,310,20,10.115927419354838
+lighting,Nature,L,FactorizePhys (matched),(ii-pc),20261133,310,20,10.104586693548388
+lighting,Nature,L,FactorizePhys (matched),(ii-pc-g),20261131,310,20,10.807711693548388
+lighting,Nature,L,FactorizePhys (matched),(ii-pc-g),20261132,310,20,10.229334677419354
+lighting,Nature,L,FactorizePhys (matched),(ii-pc-g),20261133,310,20,9.798387096774194
+lighting,Nature,L,FactorizePhys (matched),(ii-pc-g2),20261131,310,20,10.501512096774194
+lighting,Nature,L,FactorizePhys (matched),(ii-pc-g2),20261132,310,20,9.537550403225806
+lighting,Nature,L,FactorizePhys (matched),(ii-pc-g2),20261133,310,20,8.947832661290322
+lighting,Nature,L,FactorizePhys (matched),(ii-pc-g80),20261131,310,20,11.193296370967742
+lighting,Nature,L,FactorizePhys (matched),(ii-pc-g80),20261132,310,20,9.28805443548387
+lighting,Nature,L,FactorizePhys (matched),(ii-pc-g80),20261133,310,20,9.28805443548387
+lighting,Nature,L,FactorizePhys (matched),(sham-pc),20261131,310,20,8.93649193548387
+lighting,Nature,L,FactorizePhys (matched),(sham-pc),20261132,310,20,8.981854838709678
+lighting,Nature,L,FactorizePhys (matched),(sham-pc),20261133,310,20,8.902469758064516
+lighting,Nature,L,PhysNet,(0),20261131,310,20,14.810987903225806
+lighting,Nature,L,PhysNet,(0),20261132,310,20,15.68422379032258
+lighting,Nature,L,PhysNet,(0),20261133,310,20,13.21194556451613
+lighting,Nature,L,PhysNet,(i),20261131,310,20,10.932459677419354
+lighting,Nature,L,PhysNet,(i),20261132,310,20,11.73765120967742
+lighting,Nature,L,PhysNet,(i),20261133,310,20,11.692288306451612
+lighting,Nature,L,PhysNet,(i-pc),20261131,310,20,12.225302419354838
+lighting,Nature,L,PhysNet,(i-pc),20261132,310,20,12.52016129032258
+lighting,Nature,L,PhysNet,(i-pc),20261133,310,20,11.851058467741936
+lighting,Nature,L,PhysNet,(i-pc-g80),20261131,310,20,12.80367943548387
+lighting,Nature,L,PhysNet,(i-pc-g80),20261132,310,20,11.953125
+lighting,Nature,L,PhysNet,(i-pc-g80),20261133,310,20,14.0625
+lighting,Nature,L,PhysNet,(i-simple),20261131,310,20,10.580897177419354
+lighting,Nature,L,PhysNet,(i-simple),20261132,310,20,11.363407258064516
+lighting,Nature,L,PhysNet,(i-simple),20261133,310,20,11.057207661290322
+lighting,Nature,L,PhysNet,(ii),20261131,310,20,9.923135080645162
+lighting,Nature,L,PhysNet,(ii),20261132,310,20,9.84375
+lighting,Nature,L,PhysNet,(ii),20261133,310,20,10.308719758064516
+lighting,Nature,L,PhysNet,(ii-lag),20261131,310,20,10.217993951612904
+lighting,Nature,L,PhysNet,(ii-lag),20261132,310,20,10.308719758064516
+lighting,Nature,L,PhysNet,(ii-lag),20261133,310,20,11.306703629032258
+lighting,Nature,L,PhysNet,(ii-pc),20261131,310,20,12.10055443548387
+lighting,Nature,L,PhysNet,(ii-pc),20261132,310,20,10.739667338709678
+lighting,Nature,L,PhysNet,(ii-pc),20261133,310,20,12.225302419354838
+lighting,Nature,L,PhysNet,(ii-pc-g),20261131,310,20,10.217993951612904
+lighting,Nature,L,PhysNet,(ii-pc-g),20261132,310,20,11.80569556451613
+lighting,Nature,L,PhysNet,(ii-pc-g),20261133,310,20,10.580897177419354
+lighting,Nature,L,PhysNet,(ii-pc-g2),20261131,310,20,12.678931451612904
+lighting,Nature,L,PhysNet,(ii-pc-g2),20261132,310,20,12.735635080645162
+lighting,Nature,L,PhysNet,(ii-pc-g2),20261133,310,20,11.556199596774194
+lighting,Nature,L,PhysNet,(ii-pc-g80),20261131,310,20,11.896421370967742
+lighting,Nature,L,PhysNet,(ii-pc-g80),20261132,310,20,10.467489919354838
+lighting,Nature,L,PhysNet,(ii-pc-g80),20261133,310,20,11.862399193548388
+lighting,Nature,L,PhysNet,(roi-pc),20261131,310,20,12.79233870967742
+lighting,Nature,L,PhysNet,(roi-pc),20261132,310,20,11.873739919354838
+lighting,Nature,L,PhysNet,(roi-pc),20261133,310,20,13.597530241935484
+lighting,Nature,L,PhysNet,(sham-pc),20261131,310,20,13.960433467741936
+lighting,Nature,L,PhysNet,(sham-pc),20261132,310,20,13.835685483870968
+lighting,Nature,L,PhysNet,(sham-pc),20261133,310,20,15.083165322580646
+lighting,Nature,L,RhythmFormer,(0),20261131,310,20,18.06577620967742
+lighting,Nature,L,RhythmFormer,(0),20261132,310,20,16.194556451612904
+lighting,Nature,L,RhythmFormer,(0),20261133,310,20,16.09248991935484
+lighting,Nature,L,RhythmFormer,(i),20261131,310,20,14.391381048387096
+lighting,Nature,L,RhythmFormer,(i),20261132,310,20,11.930443548387096
+lighting,Nature,L,RhythmFormer,(i),20261133,310,20,12.043850806451612
+lighting,Nature,L,RhythmFormer,(i-pc),20261131,310,20,11.522177419354838
+lighting,Nature,L,RhythmFormer,(i-pc),20261132,310,20,11.953125
+lighting,Nature,L,RhythmFormer,(i-pc),20261133,310,20,11.771673387096774
+lighting,Nature,L,RhythmFormer,(i-simple),20261131,310,20,10.093245967741936
+lighting,Nature,L,RhythmFormer,(i-simple),20261132,310,20,10.637600806451612
+lighting,Nature,L,RhythmFormer,(i-simple),20261133,310,20,12.270665322580646
+lighting,Nature,L,RhythmFormer,(ii),20261131,310,20,11.6015625
+lighting,Nature,L,RhythmFormer,(ii),20261132,310,20,12.418094758064516
+lighting,Nature,L,RhythmFormer,(ii),20261133,310,20,11.930443548387096
+lighting,Nature,L,RhythmFormer,(ii-lag),20261131,310,20,11.488155241935484
+lighting,Nature,L,RhythmFormer,(ii-lag),20261132,310,20,11.408770161290322
+lighting,Nature,L,RhythmFormer,(ii-lag),20261133,310,20,11.851058467741936
+lighting,Nature,L,RhythmFormer,(ii-pc),20261131,310,20,10.490171370967742
+lighting,Nature,L,RhythmFormer,(ii-pc),20261132,310,20,10.660282258064516
+lighting,Nature,L,RhythmFormer,(ii-pc),20261133,310,20,12.202620967741936
+activity,Rotation,H,FactorizePhys (matched),(0),20261131,20,2,13.359375
+activity,Rotation,H,FactorizePhys (matched),(0),20261132,20,2,17.05078125
+activity,Rotation,H,FactorizePhys (matched),(0),20261133,20,2,15.99609375
+activity,Rotation,H,FactorizePhys (matched),(i),20261131,20,2,19.16015625
+activity,Rotation,H,FactorizePhys (matched),(i),20261132,20,2,17.75390625
+activity,Rotation,H,FactorizePhys (matched),(i),20261133,20,2,20.21484375
+activity,Rotation,H,FactorizePhys (matched),(i-pc),20261131,20,2,15.46875
+activity,Rotation,H,FactorizePhys (matched),(i-pc),20261132,20,2,15.8203125
+activity,Rotation,H,FactorizePhys (matched),(i-pc),20261133,20,2,13.18359375
+activity,Rotation,H,FactorizePhys (matched),(i-simple),20261131,20,2,12.48046875
+activity,Rotation,H,FactorizePhys (matched),(i-simple),20261132,20,2,14.765625
+activity,Rotation,H,FactorizePhys (matched),(i-simple),20261133,20,2,13.53515625
+activity,Rotation,H,FactorizePhys (matched),(ii),20261131,20,2,19.51171875
+activity,Rotation,H,FactorizePhys (matched),(ii),20261132,20,2,23.203125
+activity,Rotation,H,FactorizePhys (matched),(ii),20261133,20,2,24.609375
+activity,Rotation,H,FactorizePhys (matched),(ii-lag),20261131,20,2,19.51171875
+activity,Rotation,H,FactorizePhys (matched),(ii-lag),20261132,20,2,21.97265625
+activity,Rotation,H,FactorizePhys (matched),(ii-lag),20261133,20,2,18.10546875
+activity,Rotation,H,FactorizePhys (matched),(ii-pc),20261131,20,2,11.07421875
+activity,Rotation,H,FactorizePhys (matched),(ii-pc),20261132,20,2,12.65625
+activity,Rotation,H,FactorizePhys (matched),(ii-pc),20261133,20,2,14.765625
+activity,Rotation,H,FactorizePhys (matched),(ii-pc-g),20261131,20,2,11.77734375
+activity,Rotation,H,FactorizePhys (matched),(ii-pc-g),20261132,20,2,14.23828125
+activity,Rotation,H,FactorizePhys (matched),(ii-pc-g),20261133,20,2,14.58984375
+activity,Rotation,H,FactorizePhys (matched),(ii-pc-g2),20261131,20,2,13.88671875
+activity,Rotation,H,FactorizePhys (matched),(ii-pc-g2),20261132,20,2,16.171875
+activity,Rotation,H,FactorizePhys (matched),(ii-pc-g2),20261133,20,2,14.94140625
+activity,Rotation,H,FactorizePhys (matched),(ii-pc-g80),20261131,20,2,13.18359375
+activity,Rotation,H,FactorizePhys (matched),(ii-pc-g80),20261132,20,2,13.359375
+activity,Rotation,H,FactorizePhys (matched),(ii-pc-g80),20261133,20,2,14.4140625
+activity,Rotation,H,FactorizePhys (matched),(sham-pc),20261131,20,2,17.9296875
+activity,Rotation,H,FactorizePhys (matched),(sham-pc),20261132,20,2,22.67578125
+activity,Rotation,H,FactorizePhys (matched),(sham-pc),20261133,20,2,19.86328125
+activity,Rotation,H,PhysNet,(0),20261131,20,2,34.98046875
+activity,Rotation,H,PhysNet,(0),20261132,20,2,39.0234375
+activity,Rotation,H,PhysNet,(0),20261133,20,2,30.41015625
+activity,Rotation,H,PhysNet,(i),20261131,20,2,21.26953125
+activity,Rotation,H,PhysNet,(i),20261132,20,2,26.54296875
+activity,Rotation,H,PhysNet,(i),20261133,20,2,23.37890625
+activity,Rotation,H,PhysNet,(i-pc),20261131,20,2,19.51171875
+activity,Rotation,H,PhysNet,(i-pc),20261132,20,2,14.0625
+activity,Rotation,H,PhysNet,(i-pc),20261133,20,2,18.984375
+activity,Rotation,H,PhysNet,(i-pc-g80),20261131,20,2,17.75390625
+activity,Rotation,H,PhysNet,(i-pc-g80),20261132,20,2,18.984375
+activity,Rotation,H,PhysNet,(i-pc-g80),20261133,20,2,12.48046875
+activity,Rotation,H,PhysNet,(i-simple),20261131,20,2,29.35546875
+activity,Rotation,H,PhysNet,(i-simple),20261132,20,2,19.3359375
+activity,Rotation,H,PhysNet,(i-simple),20261133,20,2,22.67578125
+activity,Rotation,H,PhysNet,(ii),20261131,20,2,19.3359375
+activity,Rotation,H,PhysNet,(ii),20261132,20,2,27.421875
+activity,Rotation,H,PhysNet,(ii),20261133,20,2,22.67578125
+activity,Rotation,H,PhysNet,(ii-lag),20261131,20,2,24.609375
+activity,Rotation,H,PhysNet,(ii-lag),20261132,20,2,21.4453125
+activity,Rotation,H,PhysNet,(ii-lag),20261133,20,2,26.89453125
+activity,Rotation,H,PhysNet,(ii-pc),20261131,20,2,16.34765625
+activity,Rotation,H,PhysNet,(ii-pc),20261132,20,2,17.2265625
+activity,Rotation,H,PhysNet,(ii-pc),20261133,20,2,20.56640625
+activity,Rotation,H,PhysNet,(ii-pc-g),20261131,20,2,21.62109375
+activity,Rotation,H,PhysNet,(ii-pc-g),20261132,20,2,20.91796875
+activity,Rotation,H,PhysNet,(ii-pc-g),20261133,20,2,23.203125
+activity,Rotation,H,PhysNet,(ii-pc-g2),20261131,20,2,32.51953125
+activity,Rotation,H,PhysNet,(ii-pc-g2),20261132,20,2,26.015625
+activity,Rotation,H,PhysNet,(ii-pc-g2),20261133,20,2,23.203125
+activity,Rotation,H,PhysNet,(ii-pc-g80),20261131,20,2,29.35546875
+activity,Rotation,H,PhysNet,(ii-pc-g80),20261132,20,2,28.65234375
+activity,Rotation,H,PhysNet,(ii-pc-g80),20261133,20,2,22.1484375
+activity,Rotation,H,PhysNet,(roi-pc),20261131,20,2,23.90625
+activity,Rotation,H,PhysNet,(roi-pc),20261132,20,2,16.875
+activity,Rotation,H,PhysNet,(roi-pc),20261133,20,2,22.8515625
+activity,Rotation,H,PhysNet,(sham-pc),20261131,20,2,38.49609375
+activity,Rotation,H,PhysNet,(sham-pc),20261132,20,2,40.4296875
+activity,Rotation,H,PhysNet,(sham-pc),20261133,20,2,37.96875
+activity,Rotation,H,RhythmFormer,(0),20261131,20,2,34.62890625
+activity,Rotation,H,RhythmFormer,(0),20261132,20,2,36.03515625
+activity,Rotation,H,RhythmFormer,(0),20261133,20,2,39.90234375
+activity,Rotation,H,RhythmFormer,(i),20261131,20,2,11.953125
+activity,Rotation,H,RhythmFormer,(i),20261132,20,2,22.32421875
+activity,Rotation,H,RhythmFormer,(i),20261133,20,2,27.24609375
+activity,Rotation,H,RhythmFormer,(i-pc),20261131,20,2,28.125
+activity,Rotation,H,RhythmFormer,(i-pc),20261132,20,2,20.390625
+activity,Rotation,H,RhythmFormer,(i-pc),20261133,20,2,11.953125
+activity,Rotation,H,RhythmFormer,(i-simple),20261131,20,2,17.40234375
+activity,Rotation,H,RhythmFormer,(i-simple),20261132,20,2,16.875
+activity,Rotation,H,RhythmFormer,(i-simple),20261133,20,2,15.64453125
+activity,Rotation,H,RhythmFormer,(ii),20261131,20,2,18.28125
+activity,Rotation,H,RhythmFormer,(ii),20261132,20,2,12.3046875
+activity,Rotation,H,RhythmFormer,(ii),20261133,20,2,14.23828125
+activity,Rotation,H,RhythmFormer,(ii-lag),20261131,20,2,18.984375
+activity,Rotation,H,RhythmFormer,(ii-lag),20261132,20,2,12.48046875
+activity,Rotation,H,RhythmFormer,(ii-lag),20261133,20,2,11.953125
+activity,Rotation,H,RhythmFormer,(ii-pc),20261131,20,2,14.4140625
+activity,Rotation,H,RhythmFormer,(ii-pc),20261132,20,2,10.1953125
+activity,Rotation,H,RhythmFormer,(ii-pc),20261133,20,2,10.01953125
+activity,Rotation,L,FactorizePhys (matched),(0),20261131,356,22,12.452817766853933
+activity,Rotation,L,FactorizePhys (matched),(0),20261132,356,22,11.080143960674157
+activity,Rotation,L,FactorizePhys (matched),(0),20261133,356,22,11.692415730337078
+activity,Rotation,L,FactorizePhys (matched),(i),20261131,356,22,12.650324789325843
+activity,Rotation,L,FactorizePhys (matched),(i),20261132,356,22,12.038053019662922
+activity,Rotation,L,FactorizePhys (matched),(i),20261133,356,22,12.847831811797754
+activity,Rotation,L,FactorizePhys (matched),(i-pc),20261131,356,22,12.21580933988764
+activity,Rotation,L,FactorizePhys (matched),(i-pc),20261132,356,22,13.124341643258427
+activity,Rotation,L,FactorizePhys (matched),(i-pc),20261133,356,22,12.571321980337078
+activity,Rotation,L,FactorizePhys (matched),(i-simple),20261131,356,22,13.825491573033707
+activity,Rotation,L,FactorizePhys (matched),(i-simple),20261132,356,22,12.808330407303371
+activity,Rotation,L,FactorizePhys (matched),(i-simple),20261133,356,22,12.739202949438202
+activity,Rotation,L,FactorizePhys (matched),(ii),20261131,356,22,11.564036165730338
+activity,Rotation,L,FactorizePhys (matched),(ii),20261132,356,22,9.816099016853933
+activity,Rotation,L,FactorizePhys (matched),(ii),20261133,356,22,10.74438202247191
+activity,Rotation,L,FactorizePhys (matched),(ii-lag),20261131,356,22,11.2085235252809
+activity,Rotation,L,FactorizePhys (matched),(ii-lag),20261132,356,22,10.971515098314606
+activity,Rotation,L,FactorizePhys (matched),(ii-lag),20261133,356,22,10.428370786516854
+activity,Rotation,L,FactorizePhys (matched),(ii-pc),20261131,356,22,14.269882373595506
+activity,Rotation,L,FactorizePhys (matched),(ii-pc),20261132,356,22,12.43306706460674
+activity,Rotation,L,FactorizePhys (matched),(ii-pc),20261133,356,22,13.77611481741573
+activity,Rotation,L,FactorizePhys (matched),(ii-pc-g),20261131,356,22,13.795865519662922
+activity,Rotation,L,FactorizePhys (matched),(ii-pc-g),20261132,356,22,12.462693117977528
+activity,Rotation,L,FactorizePhys (matched),(ii-pc-g),20261133,356,22,13.31197331460674
+activity,Rotation,L,FactorizePhys (matched),(ii-pc-g2),20261131,356,22,13.736613412921349
+activity,Rotation,L,FactorizePhys (matched),(ii-pc-g2),20261132,356,22,11.741792485955056
+activity,Rotation,L,FactorizePhys (matched),(ii-pc-g2),20261133,356,22,11.62328827247191
+activity,Rotation,L,FactorizePhys (matched),(ii-pc-g80),20261131,356,22,13.351474719101123
+activity,Rotation,L,FactorizePhys (matched),(ii-pc-g80),20261132,356,22,11.978800912921349
+activity,Rotation,L,FactorizePhys (matched),(ii-pc-g80),20261133,356,22,12.146681882022472
+activity,Rotation,L,FactorizePhys (matched),(sham-pc),20261131,356,22,10.65550386235955
+activity,Rotation,L,FactorizePhys (matched),(sham-pc),20261132,356,22,10.576501053370787
+activity,Rotation,L,FactorizePhys (matched),(sham-pc),20261133,356,22,10.132110252808989
+activity,Rotation,L,PhysNet,(0),20261131,356,22,13.697112008426966
+activity,Rotation,L,PhysNet,(0),20261132,356,22,15.000658356741573
+activity,Rotation,L,PhysNet,(0),20261133,356,22,12.275061446629213
+activity,Rotation,L,PhysNet,(i),20261131,356,22,14.289633075842696
+activity,Rotation,L,PhysNet,(i),20261132,356,22,14.032873946629213
+activity,Rotation,L,PhysNet,(i),20261133,356,22,14.96115695224719
+activity,Rotation,L,PhysNet,(i-pc),20261131,356,22,15.267292837078651
+activity,Rotation,L,PhysNet,(i-pc),20261132,356,22,16.85722436797753
+activity,Rotation,L,PhysNet,(i-pc),20261133,356,22,14.674771769662922
+activity,Rotation,L,PhysNet,(i-pc-g80),20261131,356,22,15.563553370786517
+activity,Rotation,L,PhysNet,(i-pc-g80),20261132,356,22,14.111876755617978
+activity,Rotation,L,PhysNet,(i-pc-g80),20261133,356,22,18.41752984550562
+activity,Rotation,L,PhysNet,(i-simple),20261131,356,22,12.907083918539326
+activity,Rotation,L,PhysNet,(i-simple),20261132,356,22,12.600948033707866
+activity,Rotation,L,PhysNet,(i-simple),20261133,356,22,14.753774578651685
+activity,Rotation,L,PhysNet,(ii),20261131,356,22,12.512069873595506
+activity,Rotation,L,PhysNet,(ii),20261132,356,22,10.15186095505618
+activity,Rotation,L,PhysNet,(ii),20261133,356,22,12.452817766853933
+activity,Rotation,L,PhysNet,(ii-lag),20261131,356,22,10.477747542134832
+activity,Rotation,L,PhysNet,(ii-lag),20261132,356,22,10.181487008426966
+activity,Rotation,L,PhysNet,(ii-lag),20261133,356,22,10.556750351123595
+activity,Rotation,L,PhysNet,(ii-pc),20261131,356,22,15.020409058988765
+activity,Rotation,L,PhysNet,(ii-pc),20261132,356,22,12.442942415730338
+activity,Rotation,L,PhysNet,(ii-pc),20261133,356,22,12.679950842696629
+activity,Rotation,L,PhysNet,(ii-pc-g),20261131,356,22,13.07496488764045
+activity,Rotation,L,PhysNet,(ii-pc-g),20261132,356,22,15.978318117977528
+activity,Rotation,L,PhysNet,(ii-pc-g),20261133,356,22,12.561446629213483
+activity,Rotation,L,PhysNet,(ii-pc-g2),20261131,356,22,13.93412043539326
+activity,Rotation,L,PhysNet,(ii-pc-g2),20261132,356,22,13.16384304775281
+activity,Rotation,L,PhysNet,(ii-pc-g2),20261133,356,22,14.971032303370787
+activity,Rotation,L,PhysNet,(ii-pc-g80),20261131,356,22,13.390976123595506
+activity,Rotation,L,PhysNet,(ii-pc-g80),20261132,356,22,11.62328827247191
+activity,Rotation,L,PhysNet,(ii-pc-g80),20261133,356,22,13.440352879213483
+activity,Rotation,L,PhysNet,(roi-pc),20261131,356,22,14.704397823033707
+activity,Rotation,L,PhysNet,(roi-pc),20261132,356,22,15.010533707865168
+activity,Rotation,L,PhysNet,(roi-pc),20261133,356,22,15.859813904494382
+activity,Rotation,L,PhysNet,(sham-pc),20261131,356,22,13.420602176966293
+activity,Rotation,L,PhysNet,(sham-pc),20261132,356,22,13.045338834269662
+activity,Rotation,L,PhysNet,(sham-pc),20261133,356,22,14.773525280898877
+activity,Rotation,L,RhythmFormer,(0),20261131,356,22,15.859813904494382
+activity,Rotation,L,RhythmFormer,(0),20261132,356,22,17.242363061797754
+activity,Rotation,L,RhythmFormer,(0),20261133,356,22,14.250131671348315
+activity,Rotation,L,RhythmFormer,(i),20261131,356,22,16.847349016853933
+activity,Rotation,L,RhythmFormer,(i),20261132,356,22,14.289633075842696
+activity,Rotation,L,RhythmFormer,(i),20261133,356,22,14.516766151685394
+activity,Rotation,L,RhythmFormer,(i-pc),20261131,356,22,11.020891853932584
+activity,Rotation,L,RhythmFormer,(i-pc),20261132,356,22,13.144092345505618
+activity,Rotation,L,RhythmFormer,(i-pc),20261133,356,22,17.044856039325843
+activity,Rotation,L,RhythmFormer,(i-simple),20261131,356,22,12.89720856741573
+activity,Rotation,L,RhythmFormer,(i-simple),20261132,356,22,14.111876755617978
+activity,Rotation,L,RhythmFormer,(i-simple),20261133,356,22,17.064606741573034
+activity,Rotation,L,RhythmFormer,(ii),20261131,356,22,14.872278792134832
+activity,Rotation,L,RhythmFormer,(ii),20261132,356,22,15.94869206460674
+activity,Rotation,L,RhythmFormer,(ii),20261133,356,22,14.882154143258427
+activity,Rotation,L,RhythmFormer,(ii-lag),20261131,356,22,11.959050210674157
+activity,Rotation,L,RhythmFormer,(ii-lag),20261132,356,22,14.674771769662922
+activity,Rotation,L,RhythmFormer,(ii-lag),20261133,356,22,16.027694873595507
+activity,Rotation,L,RhythmFormer,(ii-pc),20261131,356,22,13.05521418539326
+activity,Rotation,L,RhythmFormer,(ii-pc),20261132,356,22,12.768829002808989
+activity,Rotation,L,RhythmFormer,(ii-pc),20261133,356,22,15.741309691011235
+activity,Stationary,H,FactorizePhys (matched),(0),20261131,144,15,22.4365234375
+activity,Stationary,H,FactorizePhys (matched),(0),20261132,144,15,24.267578125
+activity,Stationary,H,FactorizePhys (matched),(0),20261133,144,15,20.654296875
+activity,Stationary,H,FactorizePhys (matched),(i),20261131,144,15,26.6845703125
+activity,Stationary,H,FactorizePhys (matched),(i),20261132,144,15,27.24609375
+activity,Stationary,H,FactorizePhys (matched),(i),20261133,144,15,21.2158203125
+activity,Stationary,H,FactorizePhys (matched),(i-pc),20261131,144,15,21.1669921875
+activity,Stationary,H,FactorizePhys (matched),(i-pc),20261132,144,15,20.6787109375
+activity,Stationary,H,FactorizePhys (matched),(i-pc),20261133,144,15,20.556640625
+activity,Stationary,H,FactorizePhys (matched),(i-simple),20261131,144,15,19.23828125
+activity,Stationary,H,FactorizePhys (matched),(i-simple),20261132,144,15,20.654296875
+activity,Stationary,H,FactorizePhys (matched),(i-simple),20261133,144,15,18.8720703125
+activity,Stationary,H,FactorizePhys (matched),(ii),20261131,144,15,27.294921875
+activity,Stationary,H,FactorizePhys (matched),(ii),20261132,144,15,28.41796875
+activity,Stationary,H,FactorizePhys (matched),(ii),20261133,144,15,28.466796875
+activity,Stationary,H,FactorizePhys (matched),(ii-lag),20261131,144,15,25.1220703125
+activity,Stationary,H,FactorizePhys (matched),(ii-lag),20261132,144,15,26.513671875
+activity,Stationary,H,FactorizePhys (matched),(ii-lag),20261133,144,15,28.5400390625
+activity,Stationary,H,FactorizePhys (matched),(ii-pc),20261131,144,15,18.4814453125
+activity,Stationary,H,FactorizePhys (matched),(ii-pc),20261132,144,15,20.3857421875
+activity,Stationary,H,FactorizePhys (matched),(ii-pc),20261133,144,15,19.921875
+activity,Stationary,H,FactorizePhys (matched),(ii-pc-g),20261131,144,15,18.26171875
+activity,Stationary,H,FactorizePhys (matched),(ii-pc-g),20261132,144,15,20.556640625
+activity,Stationary,H,FactorizePhys (matched),(ii-pc-g),20261133,144,15,18.1884765625
+activity,Stationary,H,FactorizePhys (matched),(ii-pc-g2),20261131,144,15,19.140625
+activity,Stationary,H,FactorizePhys (matched),(ii-pc-g2),20261132,144,15,20.2880859375
+activity,Stationary,H,FactorizePhys (matched),(ii-pc-g2),20261133,144,15,21.142578125
+activity,Stationary,H,FactorizePhys (matched),(ii-pc-g80),20261131,144,15,18.2861328125
+activity,Stationary,H,FactorizePhys (matched),(ii-pc-g80),20261132,144,15,20.703125
+activity,Stationary,H,FactorizePhys (matched),(ii-pc-g80),20261133,144,15,21.044921875
+activity,Stationary,H,FactorizePhys (matched),(sham-pc),20261131,144,15,26.2451171875
+activity,Stationary,H,FactorizePhys (matched),(sham-pc),20261132,144,15,26.171875
+activity,Stationary,H,FactorizePhys (matched),(sham-pc),20261133,144,15,28.6376953125
+activity,Stationary,H,PhysNet,(0),20261131,144,15,38.6962890625
+activity,Stationary,H,PhysNet,(0),20261132,144,15,36.083984375
+activity,Stationary,H,PhysNet,(0),20261133,144,15,38.4765625
+activity,Stationary,H,PhysNet,(i),20261131,144,15,24.1455078125
+activity,Stationary,H,PhysNet,(i),20261132,144,15,27.6123046875
+activity,Stationary,H,PhysNet,(i),20261133,144,15,26.66015625
+activity,Stationary,H,PhysNet,(i-pc),20261131,144,15,24.462890625
+activity,Stationary,H,PhysNet,(i-pc),20261132,144,15,20.8984375
+activity,Stationary,H,PhysNet,(i-pc),20261133,144,15,22.7783203125
+activity,Stationary,H,PhysNet,(i-pc-g80),20261131,144,15,22.4609375
+activity,Stationary,H,PhysNet,(i-pc-g80),20261132,144,15,24.4140625
+activity,Stationary,H,PhysNet,(i-pc-g80),20261133,144,15,26.8310546875
+activity,Stationary,H,PhysNet,(i-simple),20261131,144,15,25.48828125
+activity,Stationary,H,PhysNet,(i-simple),20261132,144,15,22.8759765625
+activity,Stationary,H,PhysNet,(i-simple),20261133,144,15,21.3623046875
+activity,Stationary,H,PhysNet,(ii),20261131,144,15,29.541015625
+activity,Stationary,H,PhysNet,(ii),20261132,144,15,31.8359375
+activity,Stationary,H,PhysNet,(ii),20261133,144,15,31.298828125
+activity,Stationary,H,PhysNet,(ii-lag),20261131,144,15,31.640625
+activity,Stationary,H,PhysNet,(ii-lag),20261132,144,15,32.7880859375
+activity,Stationary,H,PhysNet,(ii-lag),20261133,144,15,33.349609375
+activity,Stationary,H,PhysNet,(ii-pc),20261131,144,15,21.9482421875
+activity,Stationary,H,PhysNet,(ii-pc),20261132,144,15,22.9736328125
+activity,Stationary,H,PhysNet,(ii-pc),20261133,144,15,26.9287109375
+activity,Stationary,H,PhysNet,(ii-pc-g),20261131,144,15,23.9990234375
+activity,Stationary,H,PhysNet,(ii-pc-g),20261132,144,15,19.0185546875
+activity,Stationary,H,PhysNet,(ii-pc-g),20261133,144,15,21.5576171875
+activity,Stationary,H,PhysNet,(ii-pc-g2),20261131,144,15,28.564453125
+activity,Stationary,H,PhysNet,(ii-pc-g2),20261132,144,15,26.6357421875
+activity,Stationary,H,PhysNet,(ii-pc-g2),20261133,144,15,20.556640625
+activity,Stationary,H,PhysNet,(ii-pc-g80),20261131,144,15,30.7861328125
+activity,Stationary,H,PhysNet,(ii-pc-g80),20261132,144,15,24.2919921875
+activity,Stationary,H,PhysNet,(ii-pc-g80),20261133,144,15,26.513671875
+activity,Stationary,H,PhysNet,(roi-pc),20261131,144,15,21.142578125
+activity,Stationary,H,PhysNet,(roi-pc),20261132,144,15,20.01953125
+activity,Stationary,H,PhysNet,(roi-pc),20261133,144,15,19.6533203125
+activity,Stationary,H,PhysNet,(sham-pc),20261131,144,15,32.861328125
+activity,Stationary,H,PhysNet,(sham-pc),20261132,144,15,33.30078125
+activity,Stationary,H,PhysNet,(sham-pc),20261133,144,15,33.88671875
+activity,Stationary,H,RhythmFormer,(0),20261131,144,15,31.0302734375
+activity,Stationary,H,RhythmFormer,(0),20261132,144,15,30.9814453125
+activity,Stationary,H,RhythmFormer,(0),20261133,144,15,35.009765625
+activity,Stationary,H,RhythmFormer,(i),20261131,144,15,20.654296875
+activity,Stationary,H,RhythmFormer,(i),20261132,144,15,20.0927734375
+activity,Stationary,H,RhythmFormer,(i),20261133,144,15,23.3154296875
+activity,Stationary,H,RhythmFormer,(i-pc),20261131,144,15,22.1923828125
+activity,Stationary,H,RhythmFormer,(i-pc),20261132,144,15,22.119140625
+activity,Stationary,H,RhythmFormer,(i-pc),20261133,144,15,17.3095703125
+activity,Stationary,H,RhythmFormer,(i-simple),20261131,144,15,21.5087890625
+activity,Stationary,H,RhythmFormer,(i-simple),20261132,144,15,17.2607421875
+activity,Stationary,H,RhythmFormer,(i-simple),20261133,144,15,17.919921875
+activity,Stationary,H,RhythmFormer,(ii),20261131,144,15,20.3125
+activity,Stationary,H,RhythmFormer,(ii),20261132,144,15,16.0888671875
+activity,Stationary,H,RhythmFormer,(ii),20261133,144,15,19.3359375
+activity,Stationary,H,RhythmFormer,(ii-lag),20261131,144,15,19.6044921875
+activity,Stationary,H,RhythmFormer,(ii-lag),20261132,144,15,20.1904296875
+activity,Stationary,H,RhythmFormer,(ii-lag),20261133,144,15,18.1640625
+activity,Stationary,H,RhythmFormer,(ii-pc),20261131,144,15,16.796875
+activity,Stationary,H,RhythmFormer,(ii-pc),20261132,144,15,18.65234375
+activity,Stationary,H,RhythmFormer,(ii-pc),20261133,144,15,13.134765625
+activity,Stationary,L,FactorizePhys (matched),(0),20261131,559,22,7.962041592128801
+activity,Stationary,L,FactorizePhys (matched),(0),20261132,559,22,7.3771522808586765
+activity,Stationary,L,FactorizePhys (matched),(0),20261133,559,22,7.729343694096601
+activity,Stationary,L,FactorizePhys (matched),(i),20261131,559,22,7.603561046511628
+activity,Stationary,L,FactorizePhys (matched),(i),20261132,559,22,7.735632826475849
+activity,Stationary,L,FactorizePhys (matched),(i),20261133,559,22,7.043828264758497
+activity,Stationary,L,FactorizePhys (matched),(i-pc),20261131,559,22,7.918017665474061
+activity,Stationary,L,FactorizePhys (matched),(i-pc),20261132,559,22,8.024932915921289
+activity,Stationary,L,FactorizePhys (matched),(i-pc),20261133,559,22,7.716765429338103
+activity,Stationary,L,FactorizePhys (matched),(i-simple),20261131,559,22,8.01864378354204
+activity,Stationary,L,FactorizePhys (matched),(i-simple),20261132,559,22,8.28907647584973
+activity,Stationary,L,FactorizePhys (matched),(i-simple),20261133,559,22,8.043800313059034
+activity,Stationary,L,FactorizePhys (matched),(ii),20261131,559,22,7.697898032200357
+activity,Stationary,L,FactorizePhys (matched),(ii),20261132,559,22,6.84257602862254
+activity,Stationary,L,FactorizePhys (matched),(ii),20261133,559,22,6.968358676207513
+activity,Stationary,L,FactorizePhys (matched),(ii-lag),20261131,559,22,7.584693649373882
+activity,Stationary,L,FactorizePhys (matched),(ii-lag),20261132,559,22,7.540669722719142
+activity,Stationary,L,FactorizePhys (matched),(ii-lag),20261133,559,22,7.3016826923076925
+activity,Stationary,L,FactorizePhys (matched),(ii-pc),20261131,559,22,9.899094364937389
+activity,Stationary,L,FactorizePhys (matched),(ii-pc),20261132,559,22,8.383413461538462
+activity,Stationary,L,FactorizePhys (matched),(ii-pc),20261133,559,22,8.282787343470483
+activity,Stationary,L,FactorizePhys (matched),(ii-pc-g),20261131,559,22,9.534324686940966
+activity,Stationary,L,FactorizePhys (matched),(ii-pc-g),20261132,559,22,8.72302661001789
+activity,Stationary,L,FactorizePhys (matched),(ii-pc-g),20261133,559,22,8.880254919499105
+activity,Stationary,L,FactorizePhys (matched),(ii-pc-g2),20261131,559,22,9.04377236135957
+activity,Stationary,L,FactorizePhys (matched),(ii-pc-g2),20261132,559,22,8.697870080500895
+activity,Stationary,L,FactorizePhys (matched),(ii-pc-g2),20261133,559,22,8.377124329159212
+activity,Stationary,L,FactorizePhys (matched),(ii-pc-g80),20261131,559,22,8.880254919499105
+activity,Stationary,L,FactorizePhys (matched),(ii-pc-g80),20261132,559,22,8.182161225402504
+activity,Stationary,L,FactorizePhys (matched),(ii-pc-g80),20261133,559,22,8.012354651162791
+activity,Stationary,L,FactorizePhys (matched),(sham-pc),20261131,559,22,7.471489266547406
+activity,Stationary,L,FactorizePhys (matched),(sham-pc),20261132,559,22,7.553247987477639
+activity,Stationary,L,FactorizePhys (matched),(sham-pc),20261133,559,22,6.84257602862254
+activity,Stationary,L,PhysNet,(0),20261131,559,22,11.30157088550984
+activity,Stationary,L,PhysNet,(0),20261132,559,22,11.785834078711986
+activity,Stationary,L,PhysNet,(0),20261133,559,22,10.722970706618963
+activity,Stationary,L,PhysNet,(i),20261131,559,22,9.565770348837209
+activity,Stationary,L,PhysNet,(i),20261132,559,22,9.968274821109123
+activity,Stationary,L,PhysNet,(i),20261133,559,22,9.509168157423971
+activity,Stationary,L,PhysNet,(i-pc),20261131,559,22,9.955696556350626
+activity,Stationary,L,PhysNet,(i-pc),20261132,559,22,11.150631708407872
+activity,Stationary,L,PhysNet,(i-pc),20261133,559,22,9.829913908765652
+activity,Stationary,L,PhysNet,(i-pc-g80),20261131,559,22,9.553192084078711
+activity,Stationary,L,PhysNet,(i-pc-g80),20261132,559,22,8.829941860465116
+activity,Stationary,L,PhysNet,(i-pc-g80),20261133,559,22,10.760705500894455
+activity,Stationary,L,PhysNet,(i-simple),20261131,559,22,9.502879025044722
+activity,Stationary,L,PhysNet,(i-simple),20261132,559,22,9.28275939177102
+activity,Stationary,L,PhysNet,(i-simple),20261133,559,22,9.572059481216458
+activity,Stationary,L,PhysNet,(ii),20261131,559,22,7.754500223613595
+activity,Stationary,L,PhysNet,(ii),20261132,559,22,7.616139311270126
+activity,Stationary,L,PhysNet,(ii),20261133,559,22,7.999776386404293
+activity,Stationary,L,PhysNet,(ii-lag),20261131,559,22,8.056378577817531
+activity,Stationary,L,PhysNet,(ii-lag),20261132,559,22,8.729315742397137
+activity,Stationary,L,PhysNet,(ii-lag),20261133,559,22,8.899122316636852
+activity,Stationary,L,PhysNet,(ii-pc),20261131,559,22,8.773339669051879
+activity,Stationary,L,PhysNet,(ii-pc),20261132,559,22,8.962013640429339
+activity,Stationary,L,PhysNet,(ii-pc),20261133,559,22,9.062639758497317
+activity,Stationary,L,PhysNet,(ii-pc-g),20261131,559,22,8.502906976744185
+activity,Stationary,L,PhysNet,(ii-pc-g),20261132,559,22,8.968302772808586
+activity,Stationary,L,PhysNet,(ii-pc-g),20261133,559,22,8.075245974955278
+activity,Stationary,L,PhysNet,(ii-pc-g2),20261131,559,22,7.949463327370304
+activity,Stationary,L,PhysNet,(ii-pc-g2),20261132,559,22,9.276470259391772
+activity,Stationary,L,PhysNet,(ii-pc-g2),20261133,559,22,9.60979427549195
+activity,Stationary,L,PhysNet,(ii-pc-g80),20261131,559,22,8.779628801431127
+activity,Stationary,L,PhysNet,(ii-pc-g80),20261132,559,22,8.012354651162791
+activity,Stationary,L,PhysNet,(ii-pc-g80),20261133,559,22,9.28275939177102
+activity,Stationary,L,PhysNet,(roi-pc),20261131,559,22,11.125475178890877
+activity,Stationary,L,PhysNet,(roi-pc),20261132,559,22,11.90532759391771
+activity,Stationary,L,PhysNet,(roi-pc),20261133,559,22,12.60971042039356
+activity,Stationary,L,PhysNet,(sham-pc),20261131,559,22,10.49656194096601
+activity,Stationary,L,PhysNet,(sham-pc),20261132,559,22,10.094057468694096
+activity,Stationary,L,PhysNet,(sham-pc),20261133,559,22,11.722942754919499
+activity,Stationary,L,RhythmFormer,(0),20261131,559,22,12.490216905187836
+activity,Stationary,L,RhythmFormer,(0),20261132,559,22,12.28267553667263
+activity,Stationary,L,RhythmFormer,(0),20261133,559,22,12.207205948121645
+activity,Stationary,L,RhythmFormer,(i),20261131,559,22,13.257491055456171
+activity,Stationary,L,RhythmFormer,(i),20261132,559,22,11.34559481216458
+activity,Stationary,L,RhythmFormer,(i),20261133,559,22,11.068872987477638
+activity,Stationary,L,RhythmFormer,(i-pc),20261131,559,22,8.351967799642217
+activity,Stationary,L,RhythmFormer,(i-pc),20261132,559,22,8.779628801431127
+activity,Stationary,L,RhythmFormer,(i-pc),20261133,559,22,9.722998658318426
+activity,Stationary,L,RhythmFormer,(i-simple),20261131,559,22,8.358256932021467
+activity,Stationary,L,RhythmFormer,(i-simple),20261132,559,22,9.408542039355993
+activity,Stationary,L,RhythmFormer,(i-simple),20261133,559,22,9.163265876565296
+activity,Stationary,L,RhythmFormer,(ii),20261131,559,22,10.980825134168157
+activity,Stationary,L,RhythmFormer,(ii),20261132,559,22,12.351855992844365
+activity,Stationary,L,RhythmFormer,(ii),20261133,559,22,11.773255813953488
+activity,Stationary,L,RhythmFormer,(ii-lag),20261131,559,22,10.817307692307692
+activity,Stationary,L,RhythmFormer,(ii-lag),20261132,559,22,11.81099060822898
+activity,Stationary,L,RhythmFormer,(ii-lag),20261133,559,22,12.087712432915922
+activity,Stationary,L,RhythmFormer,(ii-pc),20261131,559,22,10.483983676207513
+activity,Stationary,L,RhythmFormer,(ii-pc),20261132,559,22,9.04377236135957
+activity,Stationary,L,RhythmFormer,(ii-pc),20261133,559,22,11.496533989266547
+activity,Talking,H,FactorizePhys (matched),(0),20261131,25,2,18.984375
+activity,Talking,H,FactorizePhys (matched),(0),20261132,25,2,16.875
+activity,Talking,H,FactorizePhys (matched),(0),20261133,25,2,17.859375
+activity,Talking,H,FactorizePhys (matched),(i),20261131,25,2,16.734375
+activity,Talking,H,FactorizePhys (matched),(i),20261132,25,2,16.59375
+activity,Talking,H,FactorizePhys (matched),(i),20261133,25,2,17.4375
+activity,Talking,H,FactorizePhys (matched),(i-pc),20261131,25,2,14.625
+activity,Talking,H,FactorizePhys (matched),(i-pc),20261132,25,2,20.109375
+activity,Talking,H,FactorizePhys (matched),(i-pc),20261133,25,2,13.921875
+activity,Talking,H,FactorizePhys (matched),(i-simple),20261131,25,2,14.484375
+activity,Talking,H,FactorizePhys (matched),(i-simple),20261132,25,2,18.140625
+activity,Talking,H,FactorizePhys (matched),(i-simple),20261133,25,2,15.75
+activity,Talking,H,FactorizePhys (matched),(ii),20261131,25,2,21.65625
+activity,Talking,H,FactorizePhys (matched),(ii),20261132,25,2,29.953125
+activity,Talking,H,FactorizePhys (matched),(ii),20261133,25,2,22.640625
+activity,Talking,H,FactorizePhys (matched),(ii-lag),20261131,25,2,21.796875
+activity,Talking,H,FactorizePhys (matched),(ii-lag),20261132,25,2,17.015625
+activity,Talking,H,FactorizePhys (matched),(ii-lag),20261133,25,2,24.46875
+activity,Talking,H,FactorizePhys (matched),(ii-pc),20261131,25,2,17.4375
+activity,Talking,H,FactorizePhys (matched),(ii-pc),20261132,25,2,18.84375
+activity,Talking,H,FactorizePhys (matched),(ii-pc),20261133,25,2,14.34375
+activity,Talking,H,FactorizePhys (matched),(ii-pc-g),20261131,25,2,16.171875
+activity,Talking,H,FactorizePhys (matched),(ii-pc-g),20261132,25,2,14.90625
+activity,Talking,H,FactorizePhys (matched),(ii-pc-g),20261133,25,2,14.484375
+activity,Talking,H,FactorizePhys (matched),(ii-pc-g2),20261131,25,2,17.015625
+activity,Talking,H,FactorizePhys (matched),(ii-pc-g2),20261132,25,2,13.921875
+activity,Talking,H,FactorizePhys (matched),(ii-pc-g2),20261133,25,2,16.171875
+activity,Talking,H,FactorizePhys (matched),(ii-pc-g80),20261131,25,2,18.0
+activity,Talking,H,FactorizePhys (matched),(ii-pc-g80),20261132,25,2,16.453125
+activity,Talking,H,FactorizePhys (matched),(ii-pc-g80),20261133,25,2,15.46875
+activity,Talking,H,FactorizePhys (matched),(sham-pc),20261131,25,2,21.09375
+activity,Talking,H,FactorizePhys (matched),(sham-pc),20261132,25,2,20.25
+activity,Talking,H,FactorizePhys (matched),(sham-pc),20261133,25,2,25.171875
+activity,Talking,H,PhysNet,(0),20261131,25,2,34.453125
+activity,Talking,H,PhysNet,(0),20261132,25,2,28.96875
+activity,Talking,H,PhysNet,(0),20261133,25,2,33.328125
+activity,Talking,H,PhysNet,(i),20261131,25,2,18.421875
+activity,Talking,H,PhysNet,(i),20261132,25,2,19.828125
+activity,Talking,H,PhysNet,(i),20261133,25,2,21.9375
+activity,Talking,H,PhysNet,(i-pc),20261131,25,2,17.4375
+activity,Talking,H,PhysNet,(i-pc),20261132,25,2,16.453125
+activity,Talking,H,PhysNet,(i-pc),20261133,25,2,18.984375
+activity,Talking,H,PhysNet,(i-pc-g80),20261131,25,2,16.734375
+activity,Talking,H,PhysNet,(i-pc-g80),20261132,25,2,22.5
+activity,Talking,H,PhysNet,(i-pc-g80),20261133,25,2,21.515625
+activity,Talking,H,PhysNet,(i-simple),20261131,25,2,26.71875
+activity,Talking,H,PhysNet,(i-simple),20261132,25,2,19.125
+activity,Talking,H,PhysNet,(i-simple),20261133,25,2,21.9375
+activity,Talking,H,PhysNet,(ii),20261131,25,2,18.703125
+activity,Talking,H,PhysNet,(ii),20261132,25,2,19.6875
+activity,Talking,H,PhysNet,(ii),20261133,25,2,18.28125
+activity,Talking,H,PhysNet,(ii-lag),20261131,25,2,17.15625
+activity,Talking,H,PhysNet,(ii-lag),20261132,25,2,27.140625
+activity,Talking,H,PhysNet,(ii-lag),20261133,25,2,28.96875
+activity,Talking,H,PhysNet,(ii-pc),20261131,25,2,16.453125
+activity,Talking,H,PhysNet,(ii-pc),20261132,25,2,19.546875
+activity,Talking,H,PhysNet,(ii-pc),20261133,25,2,29.25
+activity,Talking,H,PhysNet,(ii-pc-g),20261131,25,2,19.265625
+activity,Talking,H,PhysNet,(ii-pc-g),20261132,25,2,17.71875
+activity,Talking,H,PhysNet,(ii-pc-g),20261133,25,2,20.953125
+activity,Talking,H,PhysNet,(ii-pc-g2),20261131,25,2,28.546875
+activity,Talking,H,PhysNet,(ii-pc-g2),20261132,25,2,26.859375
+activity,Talking,H,PhysNet,(ii-pc-g2),20261133,25,2,21.515625
+activity,Talking,H,PhysNet,(ii-pc-g80),20261131,25,2,25.59375
+activity,Talking,H,PhysNet,(ii-pc-g80),20261132,25,2,23.203125
+activity,Talking,H,PhysNet,(ii-pc-g80),20261133,25,2,26.4375
+activity,Talking,H,PhysNet,(roi-pc),20261131,25,2,18.84375
+activity,Talking,H,PhysNet,(roi-pc),20261132,25,2,16.171875
+activity,Talking,H,PhysNet,(roi-pc),20261133,25,2,18.140625
+activity,Talking,H,PhysNet,(sham-pc),20261131,25,2,29.390625
+activity,Talking,H,PhysNet,(sham-pc),20261132,25,2,36.421875
+activity,Talking,H,PhysNet,(sham-pc),20261133,25,2,35.859375
+activity,Talking,H,RhythmFormer,(0),20261131,25,2,34.875
+activity,Talking,H,RhythmFormer,(0),20261132,25,2,29.8125
+activity,Talking,H,RhythmFormer,(0),20261133,25,2,39.09375
+activity,Talking,H,RhythmFormer,(i),20261131,25,2,14.765625
+activity,Talking,H,RhythmFormer,(i),20261132,25,2,19.265625
+activity,Talking,H,RhythmFormer,(i),20261133,25,2,22.21875
+activity,Talking,H,RhythmFormer,(i-pc),20261131,25,2,20.953125
+activity,Talking,H,RhythmFormer,(i-pc),20261132,25,2,19.125
+activity,Talking,H,RhythmFormer,(i-pc),20261133,25,2,13.921875
+activity,Talking,H,RhythmFormer,(i-simple),20261131,25,2,16.3125
+activity,Talking,H,RhythmFormer,(i-simple),20261132,25,2,20.390625
+activity,Talking,H,RhythmFormer,(i-simple),20261133,25,2,12.234375
+activity,Talking,H,RhythmFormer,(ii),20261131,25,2,12.515625
+activity,Talking,H,RhythmFormer,(ii),20261132,25,2,11.671875
+activity,Talking,H,RhythmFormer,(ii),20261133,25,2,13.359375
+activity,Talking,H,RhythmFormer,(ii-lag),20261131,25,2,13.359375
+activity,Talking,H,RhythmFormer,(ii-lag),20261132,25,2,14.0625
+activity,Talking,H,RhythmFormer,(ii-lag),20261133,25,2,13.78125
+activity,Talking,H,RhythmFormer,(ii-pc),20261131,25,2,10.828125
+activity,Talking,H,RhythmFormer,(ii-pc),20261132,25,2,12.09375
+activity,Talking,H,RhythmFormer,(ii-pc),20261133,25,2,12.375
+activity,Talking,L,FactorizePhys (matched),(0),20261131,335,21,10.085121268656716
+activity,Talking,L,FactorizePhys (matched),(0),20261132,335,21,8.343050373134329
+activity,Talking,L,FactorizePhys (matched),(0),20261133,335,21,9.54990671641791
+activity,Talking,L,FactorizePhys (matched),(i),20261131,335,21,9.29804104477612
+activity,Talking,L,FactorizePhys (matched),(i),20261132,335,21,8.857276119402986
+activity,Talking,L,FactorizePhys (matched),(i),20261133,335,21,8.238106343283581
+activity,Talking,L,FactorizePhys (matched),(i-pc),20261131,335,21,10.085121268656716
+activity,Talking,L,FactorizePhys (matched),(i-pc),20261132,335,21,9.560401119402986
+activity,Talking,L,FactorizePhys (matched),(i-pc),20261133,335,21,9.224580223880597
+activity,Talking,L,FactorizePhys (matched),(i-simple),20261131,335,21,11.019123134328359
+activity,Talking,L,FactorizePhys (matched),(i-simple),20261132,335,21,9.938199626865671
+activity,Talking,L,FactorizePhys (matched),(i-simple),20261133,335,21,9.54990671641791
+activity,Talking,L,FactorizePhys (matched),(ii),20261131,335,21,9.140625
+activity,Talking,L,FactorizePhys (matched),(ii),20261132,335,21,7.356576492537314
+activity,Talking,L,FactorizePhys (matched),(ii),20261133,335,21,8.416511194029852
+activity,Talking,L,FactorizePhys (matched),(ii-lag),20261131,335,21,8.468983208955224
+activity,Talking,L,FactorizePhys (matched),(ii-lag),20261132,335,21,9.098647388059701
+activity,Talking,L,FactorizePhys (matched),(ii-lag),20261133,335,21,8.290578358208956
+activity,Talking,L,FactorizePhys (matched),(ii-pc),20261131,335,21,11.942630597014926
+activity,Talking,L,FactorizePhys (matched),(ii-pc),20261132,335,21,10.326492537313433
+activity,Talking,L,FactorizePhys (matched),(ii-pc),20261133,335,21,10.966651119402986
+activity,Talking,L,FactorizePhys (matched),(ii-pc-g),20261131,335,21,11.512360074626866
+activity,Talking,L,FactorizePhys (matched),(ii-pc-g),20261132,335,21,10.473414179104477
+activity,Talking,L,FactorizePhys (matched),(ii-pc-g),20261133,335,21,11.082089552238806
+activity,Talking,L,FactorizePhys (matched),(ii-pc-g2),20261131,335,21,11.155550373134329
+activity,Talking,L,FactorizePhys (matched),(ii-pc-g2),20261132,335,21,9.917210820895523
+activity,Talking,L,FactorizePhys (matched),(ii-pc-g2),20261133,335,21,9.235074626865671
+activity,Talking,L,FactorizePhys (matched),(ii-pc-g80),20261131,335,21,10.68330223880597
+activity,Talking,L,FactorizePhys (matched),(ii-pc-g80),20261132,335,21,9.602378731343284
+activity,Talking,L,FactorizePhys (matched),(ii-pc-g80),20261133,335,21,9.57089552238806
+activity,Talking,L,FactorizePhys (matched),(sham-pc),20261131,335,21,8.458488805970148
+activity,Talking,L,FactorizePhys (matched),(sham-pc),20261132,335,21,8.332555970149254
+activity,Talking,L,FactorizePhys (matched),(sham-pc),20261133,335,21,7.860307835820896
+activity,Talking,L,PhysNet,(0),20261131,335,21,11.921641791044776
+activity,Talking,L,PhysNet,(0),20261132,335,21,12.08955223880597
+activity,Talking,L,PhysNet,(0),20261133,335,21,11.291977611940299
+activity,Talking,L,PhysNet,(i),20261131,335,21,10.861707089552239
+activity,Talking,L,PhysNet,(i),20261132,335,21,10.777751865671641
+activity,Talking,L,PhysNet,(i),20261133,335,21,11.239505597014926
+activity,Talking,L,PhysNet,(i-pc),20261131,335,21,12.163013059701493
+activity,Talking,L,PhysNet,(i-pc),20261132,335,21,12.918610074626866
+activity,Talking,L,PhysNet,(i-pc),20261133,335,21,12.309934701492537
+activity,Talking,L,PhysNet,(i-pc-g80),20261131,335,21,11.806203358208956
+activity,Talking,L,PhysNet,(i-pc-g80),20261132,335,21,10.095615671641792
+activity,Talking,L,PhysNet,(i-pc-g80),20261133,335,21,12.782182835820896
+activity,Talking,L,PhysNet,(i-simple),20261131,335,21,11.050606343283581
+activity,Talking,L,PhysNet,(i-simple),20261132,335,21,11.029617537313433
+activity,Talking,L,PhysNet,(i-simple),20261133,335,21,11.365438432835822
+activity,Talking,L,PhysNet,(ii),20261131,335,21,8.269589552238806
+activity,Talking,L,PhysNet,(ii),20261132,335,21,8.332555970149254
+activity,Talking,L,PhysNet,(ii),20261133,335,21,8.30107276119403
+activity,Talking,L,PhysNet,(ii-lag),20261131,335,21,8.017723880597014
+activity,Talking,L,PhysNet,(ii-lag),20261132,335,21,9.161613805970148
+activity,Talking,L,PhysNet,(ii-lag),20261133,335,21,9.119636194029852
+activity,Talking,L,PhysNet,(ii-pc),20261131,335,21,11.239505597014926
+activity,Talking,L,PhysNet,(ii-pc),20261132,335,21,9.938199626865671
+activity,Talking,L,PhysNet,(ii-pc),20261133,335,21,10.788246268656716
+activity,Talking,L,PhysNet,(ii-pc-g),20261131,335,21,9.371501865671641
+activity,Talking,L,PhysNet,(ii-pc-g),20261132,335,21,11.197527985074627
+activity,Talking,L,PhysNet,(ii-pc-g),20261133,335,21,10.032649253731343
+activity,Talking,L,PhysNet,(ii-pc-g2),20261131,335,21,9.644356343283581
+activity,Talking,L,PhysNet,(ii-pc-g2),20261132,335,21,10.284514925373134
+activity,Talking,L,PhysNet,(ii-pc-g2),20261133,335,21,11.312966417910447
+activity,Talking,L,PhysNet,(ii-pc-g80),20261131,335,21,10.200559701492537
+activity,Talking,L,PhysNet,(ii-pc-g80),20261132,335,21,10.00116604477612
+activity,Talking,L,PhysNet,(ii-pc-g80),20261133,335,21,11.627798507462687
+activity,Talking,L,PhysNet,(roi-pc),20261131,335,21,12.729710820895523
+activity,Talking,L,PhysNet,(roi-pc),20261132,335,21,12.750699626865671
+activity,Talking,L,PhysNet,(roi-pc),20261133,335,21,13.569263059701493
+activity,Talking,L,PhysNet,(sham-pc),20261131,335,21,11.061100746268657
+activity,Talking,L,PhysNet,(sham-pc),20261132,335,21,9.759794776119403
+activity,Talking,L,PhysNet,(sham-pc),20261133,335,21,12.645755597014926
+activity,Talking,L,RhythmFormer,(0),20261131,335,21,12.163013059701493
+activity,Talking,L,RhythmFormer,(0),20261132,335,21,13.390858208955224
+activity,Talking,L,RhythmFormer,(0),20261133,335,21,14.975513059701493
+activity,Talking,L,RhythmFormer,(i),20261131,335,21,15.867537313432836
+activity,Talking,L,RhythmFormer,(i),20261132,335,21,13.296408582089553
+activity,Talking,L,RhythmFormer,(i),20261133,335,21,13.338386194029852
+activity,Talking,L,RhythmFormer,(i-pc),20261131,335,21,10.903684701492537
+activity,Talking,L,RhythmFormer,(i-pc),20261132,335,21,11.375932835820896
+activity,Talking,L,RhythmFormer,(i-pc),20261133,335,21,12.121035447761194
+activity,Talking,L,RhythmFormer,(i-simple),20261131,335,21,10.914179104477611
+activity,Talking,L,RhythmFormer,(i-simple),20261132,335,21,11.65928171641791
+activity,Talking,L,RhythmFormer,(i-simple),20261133,335,21,11.281483208955224
+activity,Talking,L,RhythmFormer,(ii),20261131,335,21,12.351912313432836
+activity,Talking,L,RhythmFormer,(ii),20261132,335,21,14.692164179104477
+activity,Talking,L,RhythmFormer,(ii),20261133,335,21,12.404384328358208
+activity,Talking,L,RhythmFormer,(ii-lag),20261131,335,21,12.026585820895523
+activity,Talking,L,RhythmFormer,(ii-lag),20261132,335,21,13.915578358208956
+activity,Talking,L,RhythmFormer,(ii-lag),20261133,335,21,14.744636194029852
+activity,Talking,L,RhythmFormer,(ii-pc),20261131,335,21,10.651819029850746
+activity,Talking,L,RhythmFormer,(ii-pc),20261132,335,21,11.260494402985074
+activity,Talking,L,RhythmFormer,(ii-pc),20261133,335,21,13.947061567164178
+activity,Walking,H,FactorizePhys (matched),(0),20261131,93,14,25.365423387096776
+activity,Walking,H,FactorizePhys (matched),(0),20261132,93,14,31.489415322580644
+activity,Walking,H,FactorizePhys (matched),(0),20261133,93,14,31.451612903225808
+activity,Walking,H,FactorizePhys (matched),(i),20261131,93,14,31.716229838709676
+activity,Walking,H,FactorizePhys (matched),(i),20261132,93,14,30.204133064516128
+activity,Walking,H,FactorizePhys (matched),(i),20261133,93,14,31.67842741935484
+activity,Walking,H,FactorizePhys (matched),(i-pc),20261131,93,14,32.094254032258064
+activity,Walking,H,FactorizePhys (matched),(i-pc),20261132,93,14,28.503024193548388
+activity,Walking,H,FactorizePhys (matched),(i-pc),20261133,93,14,31.11139112903226
+activity,Walking,H,FactorizePhys (matched),(i-simple),20261131,93,14,26.612903225806452
+activity,Walking,H,FactorizePhys (matched),(i-simple),20261132,93,14,27.55796370967742
+activity,Walking,H,FactorizePhys (matched),(i-simple),20261133,93,14,30.808971774193548
+activity,Walking,H,FactorizePhys (matched),(ii),20261131,93,14,28.314012096774192
+activity,Walking,H,FactorizePhys (matched),(ii),20261132,93,14,34.778225806451616
+activity,Walking,H,FactorizePhys (matched),(ii),20261133,93,14,31.943044354838708
+activity,Walking,H,FactorizePhys (matched),(ii-lag),20261131,93,14,30.46875
+activity,Walking,H,FactorizePhys (matched),(ii-lag),20261132,93,14,31.791834677419356
+activity,Walking,H,FactorizePhys (matched),(ii-lag),20261133,93,14,31.149193548387096
+activity,Walking,H,FactorizePhys (matched),(ii-pc),20261131,93,14,23.513104838709676
+activity,Walking,H,FactorizePhys (matched),(ii-pc),20261132,93,14,25.894657258064516
+activity,Walking,H,FactorizePhys (matched),(ii-pc),20261133,93,14,28.125
+activity,Walking,H,FactorizePhys (matched),(ii-pc-g),20261131,93,14,23.928931451612904
+activity,Walking,H,FactorizePhys (matched),(ii-pc-g),20261132,93,14,26.045866935483872
+activity,Walking,H,FactorizePhys (matched),(ii-pc-g),20261133,93,14,26.612903225806452
+activity,Walking,H,FactorizePhys (matched),(ii-pc-g2),20261131,93,14,22.946068548387096
+activity,Walking,H,FactorizePhys (matched),(ii-pc-g2),20261132,93,14,26.461693548387096
+activity,Walking,H,FactorizePhys (matched),(ii-pc-g2),20261133,93,14,28.503024193548388
+activity,Walking,H,FactorizePhys (matched),(ii-pc-g80),20261131,93,14,24.533770161290324
+activity,Walking,H,FactorizePhys (matched),(ii-pc-g80),20261132,93,14,27.52016129032258
+activity,Walking,H,FactorizePhys (matched),(ii-pc-g80),20261133,93,14,29.145665322580644
+activity,Walking,H,FactorizePhys (matched),(sham-pc),20261131,93,14,27.633568548387096
+activity,Walking,H,FactorizePhys (matched),(sham-pc),20261132,93,14,29.410282258064516
+activity,Walking,H,FactorizePhys (matched),(sham-pc),20261133,93,14,34.32459677419355
+activity,Walking,H,PhysNet,(0),20261131,93,14,45.211693548387096
+activity,Walking,H,PhysNet,(0),20261132,93,14,45.325100806451616
+activity,Walking,H,PhysNet,(0),20261133,93,14,37.61340725806452
+activity,Walking,H,PhysNet,(i),20261131,93,14,31.149193548387096
+activity,Walking,H,PhysNet,(i),20261132,93,14,36.51713709677419
+activity,Walking,H,PhysNet,(i),20261133,93,14,32.54788306451613
+activity,Walking,H,PhysNet,(i-pc),20261131,93,14,24.382560483870968
+activity,Walking,H,PhysNet,(i-pc),20261132,93,14,22.341229838709676
+activity,Walking,H,PhysNet,(i-pc),20261133,93,14,23.4375
+activity,Walking,H,PhysNet,(i-pc-g80),20261131,93,14,25.81905241935484
+activity,Walking,H,PhysNet,(i-pc-g80),20261132,93,14,23.513104838709676
+activity,Walking,H,PhysNet,(i-pc-g80),20261133,93,14,19.95967741935484
+activity,Walking,H,PhysNet,(i-simple),20261131,93,14,29.93951612903226
+activity,Walking,H,PhysNet,(i-simple),20261132,93,14,30.771169354838708
+activity,Walking,H,PhysNet,(i-simple),20261133,93,14,23.626512096774192
+activity,Walking,H,PhysNet,(ii),20261131,93,14,29.561491935483872
+activity,Walking,H,PhysNet,(ii),20261132,93,14,34.362399193548384
+activity,Walking,H,PhysNet,(ii),20261133,93,14,30.241935483870968
+activity,Walking,H,PhysNet,(ii-lag),20261131,93,14,34.13558467741935
+activity,Walking,H,PhysNet,(ii-lag),20261132,93,14,34.02217741935484
+activity,Walking,H,PhysNet,(ii-lag),20261133,93,14,39.276713709677416
+activity,Walking,H,PhysNet,(ii-pc),20261131,93,14,25.063004032258064
+activity,Walking,H,PhysNet,(ii-pc),20261132,93,14,29.296875
+activity,Walking,H,PhysNet,(ii-pc),20261133,93,14,29.25907258064516
+activity,Walking,H,PhysNet,(ii-pc-g),20261131,93,14,26.612903225806452
+activity,Walking,H,PhysNet,(ii-pc-g),20261132,93,14,26.575100806451612
+activity,Walking,H,PhysNet,(ii-pc-g),20261133,93,14,28.578629032258064
+activity,Walking,H,PhysNet,(ii-pc-g2),20261131,93,14,41.733870967741936
+activity,Walking,H,PhysNet,(ii-pc-g2),20261132,93,14,36.781754032258064
+activity,Walking,H,PhysNet,(ii-pc-g2),20261133,93,14,33.341733870967744
+activity,Walking,H,PhysNet,(ii-pc-g80),20261131,93,14,31.03578629032258
+activity,Walking,H,PhysNet,(ii-pc-g80),20261132,93,14,29.25907258064516
+activity,Walking,H,PhysNet,(ii-pc-g80),20261133,93,14,34.664818548387096
+activity,Walking,H,PhysNet,(roi-pc),20261131,93,14,29.93951612903226
+activity,Walking,H,PhysNet,(roi-pc),20261132,93,14,28.465221774193548
+activity,Walking,H,PhysNet,(roi-pc),20261133,93,14,30.241935483870968
+activity,Walking,H,PhysNet,(sham-pc),20261131,93,14,45.85433467741935
+activity,Walking,H,PhysNet,(sham-pc),20261132,93,14,45.96774193548387
+activity,Walking,H,PhysNet,(sham-pc),20261133,93,14,47.78225806451613
+activity,Walking,H,RhythmFormer,(0),20261131,93,14,40.448588709677416
+activity,Walking,H,RhythmFormer,(0),20261132,93,14,33.417338709677416
+activity,Walking,H,RhythmFormer,(0),20261133,93,14,42.830141129032256
+activity,Walking,H,RhythmFormer,(i),20261131,93,14,23.626512096774192
+activity,Walking,H,RhythmFormer,(i),20261132,93,14,15.80141129032258
+activity,Walking,H,RhythmFormer,(i),20261133,93,14,23.928931451612904
+activity,Walking,H,RhythmFormer,(i-pc),20261131,93,14,23.39969758064516
+activity,Walking,H,RhythmFormer,(i-pc),20261132,93,14,21.963205645161292
+activity,Walking,H,RhythmFormer,(i-pc),20261133,93,14,14.742943548387096
+activity,Walking,H,RhythmFormer,(i-simple),20261131,93,14,16.595262096774192
+activity,Walking,H,RhythmFormer,(i-simple),20261132,93,14,14.478326612903226
+activity,Walking,H,RhythmFormer,(i-simple),20261133,93,14,15.347782258064516
+activity,Walking,H,RhythmFormer,(ii),20261131,93,14,20.375504032258064
+activity,Walking,H,RhythmFormer,(ii),20261132,93,14,21.547379032258064
+activity,Walking,H,RhythmFormer,(ii),20261133,93,14,17.767137096774192
+activity,Walking,H,RhythmFormer,(ii-lag),20261131,93,14,21.925403225806452
+activity,Walking,H,RhythmFormer,(ii-lag),20261132,93,14,17.956149193548388
+activity,Walking,H,RhythmFormer,(ii-lag),20261133,93,14,18.674395161290324
+activity,Walking,H,RhythmFormer,(ii-pc),20261131,93,14,19.619455645161292
+activity,Walking,H,RhythmFormer,(ii-pc),20261132,93,14,18.296370967741936
+activity,Walking,H,RhythmFormer,(ii-pc),20261133,93,14,13.986895161290322
+activity,Walking,L,FactorizePhys (matched),(0),20261131,152,19,14.825760690789474
+activity,Walking,L,FactorizePhys (matched),(0),20261132,152,19,15.935958059210526
+activity,Walking,L,FactorizePhys (matched),(0),20261133,152,19,14.779502467105264
+activity,Walking,L,FactorizePhys (matched),(i),20261131,152,19,16.05160361842105
+activity,Walking,L,FactorizePhys (matched),(i),20261132,152,19,16.05160361842105
+activity,Walking,L,FactorizePhys (matched),(i),20261133,152,19,18.040707236842106
+activity,Walking,L,FactorizePhys (matched),(i-pc),20261131,152,19,16.282894736842106
+activity,Walking,L,FactorizePhys (matched),(i-pc),20261132,152,19,16.537314967105264
+activity,Walking,L,FactorizePhys (matched),(i-pc),20261133,152,19,17.78628700657895
+activity,Walking,L,FactorizePhys (matched),(i-simple),20261131,152,19,16.39854029605263
+activity,Walking,L,FactorizePhys (matched),(i-simple),20261132,152,19,16.90738075657895
+activity,Walking,L,FactorizePhys (matched),(i-simple),20261133,152,19,17.115542763157894
+activity,Walking,L,FactorizePhys (matched),(ii),20261131,152,19,14.270662006578947
+activity,Walking,L,FactorizePhys (matched),(ii),20261132,152,19,17.300575657894736
+activity,Walking,L,FactorizePhys (matched),(ii),20261133,152,19,15.033922697368421
+activity,Walking,L,FactorizePhys (matched),(ii-lag),20261131,152,19,14.501953125
+activity,Walking,L,FactorizePhys (matched),(ii-lag),20261132,152,19,15.727796052631579
+activity,Walking,L,FactorizePhys (matched),(ii-lag),20261133,152,19,15.149568256578947
+activity,Walking,L,FactorizePhys (matched),(ii-pc),20261131,152,19,14.779502467105264
+activity,Walking,L,FactorizePhys (matched),(ii-pc),20261132,152,19,15.542763157894736
+activity,Walking,L,FactorizePhys (matched),(ii-pc),20261133,152,19,15.403988486842104
+activity,Walking,L,FactorizePhys (matched),(ii-pc-g),20261131,152,19,14.640727796052632
+activity,Walking,L,FactorizePhys (matched),(ii-pc-g),20261132,152,19,16.02847450657895
+activity,Walking,L,FactorizePhys (matched),(ii-pc-g),20261133,152,19,15.843441611842104
+activity,Walking,L,FactorizePhys (matched),(ii-pc-g2),20261131,152,19,14.571340460526315
+activity,Walking,L,FactorizePhys (matched),(ii-pc-g2),20261132,152,19,15.935958059210526
+activity,Walking,L,FactorizePhys (matched),(ii-pc-g2),20261133,152,19,15.635279605263158
+activity,Walking,L,FactorizePhys (matched),(ii-pc-g80),20261131,152,19,14.432565789473685
+activity,Walking,L,FactorizePhys (matched),(ii-pc-g80),20261132,152,19,14.525082236842104
+activity,Walking,L,FactorizePhys (matched),(ii-pc-g80),20261133,152,19,15.265213815789474
+activity,Walking,L,FactorizePhys (matched),(sham-pc),20261131,152,19,14.640727796052632
+activity,Walking,L,FactorizePhys (matched),(sham-pc),20261132,152,19,16.375411184210527
+activity,Walking,L,FactorizePhys (matched),(sham-pc),20261133,152,19,15.797183388157896
+activity,Walking,L,PhysNet,(0),20261131,152,19,24.100534539473685
+activity,Walking,L,PhysNet,(0),20261132,152,19,24.65563322368421
+activity,Walking,L,PhysNet,(0),20261133,152,19,20.237972861842106
+activity,Walking,L,PhysNet,(i),20261131,152,19,15.635279605263158
+activity,Walking,L,PhysNet,(i),20261132,152,19,18.965871710526315
+activity,Walking,L,PhysNet,(i),20261133,152,19,16.259765625
+activity,Walking,L,PhysNet,(i-pc),20261131,152,19,15.172697368421053
+activity,Walking,L,PhysNet,(i-pc),20261132,152,19,14.89514802631579
+activity,Walking,L,PhysNet,(i-pc),20261133,152,19,14.10875822368421
+activity,Walking,L,PhysNet,(i-pc-g80),20261131,152,19,17.023026315789473
+activity,Walking,L,PhysNet,(i-pc-g80),20261132,152,19,15.080180921052632
+activity,Walking,L,PhysNet,(i-pc-g80),20261133,152,19,17.36996299342105
+activity,Walking,L,PhysNet,(i-simple),20261131,152,19,16.74547697368421
+activity,Walking,L,PhysNet,(i-simple),20261132,152,19,16.236636513157894
+activity,Walking,L,PhysNet,(i-simple),20261133,152,19,14.640727796052632
+activity,Walking,L,PhysNet,(ii),20261131,152,19,14.432565789473685
+activity,Walking,L,PhysNet,(ii),20261132,152,19,18.80396792763158
+activity,Walking,L,PhysNet,(ii),20261133,152,19,16.329152960526315
+activity,Walking,L,PhysNet,(ii-lag),20261131,152,19,16.49105674342105
+activity,Walking,L,PhysNet,(ii-lag),20261132,152,19,16.39854029605263
+activity,Walking,L,PhysNet,(ii-lag),20261133,152,19,21.070620888157894
+activity,Walking,L,PhysNet,(ii-pc),20261131,152,19,14.756373355263158
+activity,Walking,L,PhysNet,(ii-pc),20261132,152,19,16.65296052631579
+activity,Walking,L,PhysNet,(ii-pc),20261133,152,19,16.421669407894736
+activity,Walking,L,PhysNet,(ii-pc-g),20261131,152,19,15.565892269736842
+activity,Walking,L,PhysNet,(ii-pc-g),20261132,152,19,17.04615542763158
+activity,Walking,L,PhysNet,(ii-pc-g),20261133,152,19,16.21350740131579
+activity,Walking,L,PhysNet,(ii-pc-g2),20261131,152,19,23.38353207236842
+activity,Walking,L,PhysNet,(ii-pc-g2),20261132,152,19,20.07606907894737
+activity,Walking,L,PhysNet,(ii-pc-g2),20261133,152,19,18.75770970394737
+activity,Walking,L,PhysNet,(ii-pc-g80),20261131,152,19,17.43935032894737
+activity,Walking,L,PhysNet,(ii-pc-g80),20261132,152,19,17.393092105263158
+activity,Walking,L,PhysNet,(ii-pc-g80),20261133,152,19,17.740028782894736
+activity,Walking,L,PhysNet,(roi-pc),20261131,152,19,17.138671875
+activity,Walking,L,PhysNet,(roi-pc),20261132,152,19,17.069284539473685
+activity,Walking,L,PhysNet,(roi-pc),20261133,152,19,15.080180921052632
+activity,Walking,L,PhysNet,(sham-pc),20261131,152,19,23.614823190789473
+activity,Walking,L,PhysNet,(sham-pc),20261132,152,19,23.753597861842106
+activity,Walking,L,PhysNet,(sham-pc),20261133,152,19,26.45970394736842
+activity,Walking,L,RhythmFormer,(0),20261131,152,19,29.258326480263158
+activity,Walking,L,RhythmFormer,(0),20261132,152,19,29.188939144736842
+activity,Walking,L,RhythmFormer,(0),20261133,152,19,24.146792763157894
+activity,Walking,L,RhythmFormer,(i),20261131,152,19,18.36451480263158
+activity,Walking,L,RhythmFormer,(i),20261132,152,19,15.265213815789474
+activity,Walking,L,RhythmFormer,(i),20261133,152,19,17.300575657894736
+activity,Walking,L,RhythmFormer,(i-pc),20261131,152,19,13.993112664473685
+activity,Walking,L,RhythmFormer,(i-pc),20261132,152,19,18.98900082236842
+activity,Walking,L,RhythmFormer,(i-pc),20261133,152,19,17.855674342105264
+activity,Walking,L,RhythmFormer,(i-simple),20261131,152,19,14.964535361842104
+activity,Walking,L,RhythmFormer,(i-simple),20261132,152,19,15.935958059210526
+activity,Walking,L,RhythmFormer,(i-simple),20261133,152,19,19.24342105263158
+activity,Walking,L,RhythmFormer,(ii),20261131,152,19,12.859786184210526
+activity,Walking,L,RhythmFormer,(ii),20261132,152,19,15.565892269736842
+activity,Walking,L,RhythmFormer,(ii),20261133,152,19,12.79039884868421
+activity,Walking,L,RhythmFormer,(ii-lag),20261131,152,19,11.333264802631579
+activity,Walking,L,RhythmFormer,(ii-lag),20261132,152,19,13.22985197368421
+activity,Walking,L,RhythmFormer,(ii-lag),20261133,152,19,11.81897615131579
+activity,Walking,L,RhythmFormer,(ii-pc),20261131,152,19,13.946854440789474
+activity,Walking,L,RhythmFormer,(ii-pc),20261132,152,19,14.663856907894736
+activity,Walking,L,RhythmFormer,(ii-pc),20261133,152,19,15.242084703947368

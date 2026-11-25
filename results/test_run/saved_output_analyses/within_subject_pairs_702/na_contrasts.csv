@@ -1,0 +1,325 @@
+dataset,population,backbone,contrast,quantity,item,subjects,metric,point,ci_lo,ci_hi,nan_replicates,source
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-pc)-(0),A,(ii-pc),149,M7_MAE,2.298410975128307,1.7787940879607917,2.9671348454309374,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-pc)-(0),A,(ii-pc),149,M7_slope,0.8156103758030074,0.716783184532639,0.9082147907456756,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-pc)-(0),A,(ii-pc),149,M7_CCC,0.8457804965580298,0.6902322482135749,0.9268133496197365,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-pc)-(0),B,(0),149,M7_MAE,1.9841606420252667,1.574366554835547,2.466383676871546,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-pc)-(0),B,(0),149,M7_slope,0.8017178925981941,0.6943126877150021,0.9012368472451039,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-pc)-(0),B,(0),149,M7_CCC,0.8942199478664722,0.8219942182532224,0.942318697955611,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-pc)-(0),diff,(ii-pc)-(0),149,M7_MAE,0.31425033310304046,-0.03831913854310655,0.7358692890563304,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-pc)-(0),diff,(ii-pc)-(0),149,M7_slope,0.013892483204813325,-0.05200060767312366,0.07267671217469275,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-pc)-(0),diff,(ii-pc)-(0),149,M7_CCC,-0.04843945130844233,-0.16728245152922394,0.021989043483615918,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-pc)-(0),A,(ii-pc),19,M7_MAE,4.096120356037151,2.5105517124613,5.863093798374613,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-pc)-(0),A,(ii-pc),19,M7_slope,0.7546872555504622,0.5727735836226467,0.9270980299534359,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-pc)-(0),A,(ii-pc),19,M7_CCC,0.8869020120151663,0.7592501030877037,0.9512147779244926,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-pc)-(0),B,(0),19,M7_MAE,4.887045278637771,2.891592492260059,7.219910990712073,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-pc)-(0),B,(0),19,M7_slope,0.6722084377461646,0.45440793232805027,0.8629014892667843,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-pc)-(0),B,(0),19,M7_CCC,0.8241363535939987,0.6127479139573471,0.936779503193476,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-pc)-(0),diff,(ii-pc)-(0),19,M7_MAE,-0.7909249226006194,-2.10801446400929,0.384578173374614,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-pc)-(0),diff,(ii-pc)-(0),19,M7_slope,0.08247881780429774,-0.026590147127711548,0.2012579187608946,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-pc)-(0),diff,(ii-pc)-(0),19,M7_CCC,0.06276565842116766,-0.008005830204800701,0.1663211006511162,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(i-simple)-(0),A,(i-simple),149,M7_MAE,2.0176155219848004,1.560956410537159,2.555650665126579,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(i-simple)-(0),A,(i-simple),149,M7_slope,0.8535234810705964,0.7522279298014063,0.9377832784177773,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(i-simple)-(0),A,(i-simple),149,M7_CCC,0.8879610317113311,0.7927625497879107,0.947338623912959,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(i-simple)-(0),B,(0),149,M7_MAE,1.9841606420252667,1.574366554835547,2.466383676871546,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(i-simple)-(0),B,(0),149,M7_slope,0.8017178925981941,0.6943126877150021,0.9012368472451039,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(i-simple)-(0),B,(0),149,M7_CCC,0.8942199478664722,0.8219942182532224,0.942318697955611,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(i-simple)-(0),diff,(i-simple)-(0),149,M7_MAE,0.0334548799595337,-0.32976116627701924,0.4496891038294508,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(i-simple)-(0),diff,(i-simple)-(0),149,M7_slope,0.05180558847240228,-0.026101787203402057,0.12304338803399091,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(i-simple)-(0),diff,(i-simple)-(0),149,M7_CCC,-0.006258916155141033,-0.07712585931637443,0.04575862830274332,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(i-simple)-(0),A,(i-simple),19,M7_MAE,3.6280959752321973,1.9265189628482953,5.681598297213618,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(i-simple)-(0),A,(i-simple),19,M7_slope,0.8073261898030859,0.5788610847294083,0.9855502424641617,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(i-simple)-(0),A,(i-simple),19,M7_CCC,0.896847568428529,0.7461056986676253,0.966507832781153,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(i-simple)-(0),B,(0),19,M7_MAE,4.887045278637771,2.891592492260059,7.219910990712073,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(i-simple)-(0),B,(0),19,M7_slope,0.6722084377461646,0.45440793232805027,0.8629014892667843,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(i-simple)-(0),B,(0),19,M7_CCC,0.8241363535939987,0.6127479139573471,0.936779503193476,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(i-simple)-(0),diff,(i-simple)-(0),19,M7_MAE,-1.2589493034055732,-2.706650299922601,0.25042932469040247,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(i-simple)-(0),diff,(i-simple)-(0),19,M7_slope,0.13511775205692136,-0.026538729054273524,0.2987056690756308,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(i-simple)-(0),diff,(i-simple)-(0),19,M7_CCC,0.07271121483453047,-0.02889251967968491,0.2022440708976394,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-pc)-(ii),A,(ii-pc),149,M7_MAE,2.298410975128307,1.7787940879607917,2.9671348454309374,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-pc)-(ii),A,(ii-pc),149,M7_slope,0.8156103758030074,0.716783184532639,0.9082147907456756,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-pc)-(ii),A,(ii-pc),149,M7_CCC,0.8457804965580298,0.6902322482135749,0.9268133496197365,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-pc)-(ii),B,(ii),149,M7_MAE,2.2560791304776946,1.6993423624562027,2.853441746678223,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-pc)-(ii),B,(ii),149,M7_slope,0.729571157128091,0.5918763855395054,0.8708275046998429,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-pc)-(ii),B,(ii),149,M7_CCC,0.8397396435212178,0.7417949757675388,0.9153117857436716,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-pc)-(ii),diff,(ii-pc)-(ii),149,M7_MAE,0.042331844650612384,-0.5879355399353533,0.7849896984800631,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-pc)-(ii),diff,(ii-pc)-(ii),149,M7_slope,0.08603921867491648,-0.02938789798193224,0.21719446244742094,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-pc)-(ii),diff,(ii-pc)-(ii),149,M7_CCC,0.006040853036812122,-0.13367722527288234,0.1209123064640673,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-pc)-(ii),A,(ii-pc),19,M7_MAE,4.096120356037151,2.5105517124613,5.863093798374613,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-pc)-(ii),A,(ii-pc),19,M7_slope,0.7546872555504622,0.5727735836226467,0.9270980299534359,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-pc)-(ii),A,(ii-pc),19,M7_CCC,0.8869020120151663,0.7592501030877037,0.9512147779244926,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-pc)-(ii),B,(ii),19,M7_MAE,6.033523606811148,3.196352554179567,9.360578318498455,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-pc)-(ii),B,(ii),19,M7_slope,0.6057312008870855,0.32501629919442593,0.8946472415926714,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-pc)-(ii),B,(ii),19,M7_CCC,0.7149780444842141,0.41553997696189887,0.8991547103114936,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-pc)-(ii),diff,(ii-pc)-(ii),19,M7_MAE,-1.9374032507739967,-4.6875907023993815,0.2612229102167243,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-pc)-(ii),diff,(ii-pc)-(ii),19,M7_slope,0.1489560546633768,-0.0763883784214072,0.4168879798726602,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-pc)-(ii),diff,(ii-pc)-(ii),19,M7_CCC,0.17192396753095218,0.006273696706388602,0.4440927096869291,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(i-pc)-(i),A,(i-pc),149,M7_MAE,1.8687890162356897,1.4554173966146868,2.3739815586600637,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(i-pc)-(i),A,(i-pc),149,M7_slope,0.8250839067678699,0.736984989303001,0.9067227619845721,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(i-pc)-(i),A,(i-pc),149,M7_CCC,0.8926619597500535,0.7952387438047784,0.9478232740972523,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(i-pc)-(i),B,(i),149,M7_MAE,2.223376045573431,1.567724011794314,3.0201407341066666,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(i-pc)-(i),B,(i),149,M7_slope,0.8196347051510356,0.7301444885016323,0.9025450998328899,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(i-pc)-(i),B,(i),149,M7_CCC,0.885772861861953,0.8047992925825234,0.9466257381903268,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(i-pc)-(i),diff,(i-pc)-(i),149,M7_MAE,-0.35458702933774094,-1.0217155037875012,0.16271013635634582,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(i-pc)-(i),diff,(i-pc)-(i),149,M7_slope,0.005449201616834191,-0.05980193853299172,0.06768630095484704,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(i-pc)-(i),diff,(i-pc)-(i),149,M7_CCC,0.006889097888100289,-0.04477081761774363,0.07157320637416925,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(i-pc)-(i),A,(i-pc),19,M7_MAE,4.24124419504644,2.546923374613007,6.102457430340556,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(i-pc)-(i),A,(i-pc),19,M7_slope,0.7418720385867735,0.5555456065911032,0.9033247874033498,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(i-pc)-(i),A,(i-pc),19,M7_CCC,0.8767829326526616,0.7344083889562409,0.9474778179885689,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(i-pc)-(i),B,(i),19,M7_MAE,4.375483746130031,2.6013448142414854,6.479960816563467,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(i-pc)-(i),B,(i),19,M7_slope,0.7330599615559499,0.5353377281432808,0.8859620197540923,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(i-pc)-(i),B,(i),19,M7_CCC,0.8726837202956946,0.7072811963542037,0.9533985515977479,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(i-pc)-(i),diff,(i-pc)-(i),19,M7_MAE,-0.1342395510835909,-1.709014609133127,1.4185855263157892,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(i-pc)-(i),diff,(i-pc)-(i),19,M7_slope,0.008812077030823687,-0.15900954618975927,0.14784058109840956,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(i-pc)-(i),diff,(i-pc)-(i),19,M7_CCC,0.004099212356967012,-0.09880824063904736,0.10575183026294582,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-pc)-(i-simple),A,(ii-pc),149,M7_MAE,2.298410975128307,1.7787940879607917,2.9671348454309374,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-pc)-(i-simple),A,(ii-pc),149,M7_slope,0.8156103758030074,0.716783184532639,0.9082147907456756,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-pc)-(i-simple),A,(ii-pc),149,M7_CCC,0.8457804965580298,0.6902322482135749,0.9268133496197365,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-pc)-(i-simple),B,(i-simple),149,M7_MAE,2.0176155219848004,1.560956410537159,2.555650665126579,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-pc)-(i-simple),B,(i-simple),149,M7_slope,0.8535234810705964,0.7522279298014063,0.9377832784177773,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-pc)-(i-simple),B,(i-simple),149,M7_CCC,0.8879610317113311,0.7927625497879107,0.947338623912959,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-pc)-(i-simple),diff,(ii-pc)-(i-simple),149,M7_MAE,0.2807954531435068,-0.16846064564930413,0.7744819168229365,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-pc)-(i-simple),diff,(ii-pc)-(i-simple),149,M7_slope,-0.037913105267588953,-0.09044598258717845,0.018676023574763622,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-pc)-(i-simple),diff,(ii-pc)-(i-simple),149,M7_CCC,-0.0421805351533013,-0.14675339958909173,0.022643044845306406,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-pc)-(i-simple),A,(ii-pc),19,M7_MAE,4.096120356037151,2.5105517124613,5.863093798374613,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-pc)-(i-simple),A,(ii-pc),19,M7_slope,0.7546872555504622,0.5727735836226467,0.9270980299534359,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-pc)-(i-simple),A,(ii-pc),19,M7_CCC,0.8869020120151663,0.7592501030877037,0.9512147779244926,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-pc)-(i-simple),B,(i-simple),19,M7_MAE,3.6280959752321973,1.9265189628482953,5.681598297213618,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-pc)-(i-simple),B,(i-simple),19,M7_slope,0.8073261898030859,0.5788610847294083,0.9855502424641617,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-pc)-(i-simple),B,(i-simple),19,M7_CCC,0.896847568428529,0.7461056986676253,0.966507832781153,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-pc)-(i-simple),diff,(ii-pc)-(i-simple),19,M7_MAE,0.46802438080495384,-0.794643720975231,1.5057505321207434,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-pc)-(i-simple),diff,(ii-pc)-(i-simple),19,M7_slope,-0.052638934252623636,-0.14311487273953757,0.05952497146249968,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-pc)-(i-simple),diff,(ii-pc)-(i-simple),19,M7_CCC,-0.00994555641336281,-0.06780282359376652,0.07489126154165016,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-lag)-(ii-pc),A,(ii-lag),149,M7_MAE,2.670520612292736,1.851927120601806,3.6630664679357463,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-lag)-(ii-pc),A,(ii-lag),149,M7_slope,0.6847937067570081,0.5244817686548527,0.8473595436430551,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-lag)-(ii-pc),A,(ii-lag),149,M7_CCC,0.7955104353152042,0.6547275310842584,0.90537336836251,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-lag)-(ii-pc),B,(ii-pc),149,M7_MAE,2.298410975128307,1.7787940879607917,2.9671348454309374,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-lag)-(ii-pc),B,(ii-pc),149,M7_slope,0.8156103758030074,0.716783184532639,0.9082147907456756,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-lag)-(ii-pc),B,(ii-pc),149,M7_CCC,0.8457804965580298,0.6902322482135749,0.9268133496197365,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-lag)-(ii-pc),diff,(ii-lag)-(ii-pc),149,M7_MAE,0.37210963716442924,-0.6865587622291988,1.4547342751461911,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-lag)-(ii-pc),diff,(ii-lag)-(ii-pc),149,M7_slope,-0.13081666904599934,-0.2775582277119894,0.015479581900191585,0,test (c) outputs
+MCD-rPPG test,all subjects,FactorizePhys (matched),(ii-lag)-(ii-pc),diff,(ii-lag)-(ii-pc),149,M7_CCC,-0.05027006124282566,-0.21860195070295096,0.13994095833617645,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-lag)-(ii-pc),A,(ii-lag),19,M7_MAE,6.828076625386996,3.961880804953561,10.263883513931889,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-lag)-(ii-pc),A,(ii-lag),19,M7_slope,0.5311026726940201,0.2551508654495708,0.8284882815402369,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-lag)-(ii-pc),A,(ii-lag),19,M7_CCC,0.6513476878340043,0.3359041445350219,0.8787931736866543,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-lag)-(ii-pc),B,(ii-pc),19,M7_MAE,4.096120356037151,2.5105517124613,5.863093798374613,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-lag)-(ii-pc),B,(ii-pc),19,M7_slope,0.7546872555504622,0.5727735836226467,0.9270980299534359,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-lag)-(ii-pc),B,(ii-pc),19,M7_CCC,0.8869020120151663,0.7592501030877037,0.9512147779244926,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-lag)-(ii-pc),diff,(ii-lag)-(ii-pc),19,M7_MAE,2.7319562693498445,0.5622641737616096,5.431531782120742,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-lag)-(ii-pc),diff,(ii-lag)-(ii-pc),19,M7_slope,-0.22358458285644214,-0.5042757402076335,0.025804635992482085,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,FactorizePhys (matched),(ii-lag)-(ii-pc),diff,(ii-lag)-(ii-pc),19,M7_CCC,-0.23555432418116193,-0.5167841841574904,-0.03125759831530503,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-pc)-(0),A,(ii-pc),149,M7_MAE,4.170178256390644,2.746951422858888,6.13328140806973,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-pc)-(0),A,(ii-pc),149,M7_slope,0.7013854206693314,0.4887886956862396,0.8431639363303172,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-pc)-(0),A,(ii-pc),149,M7_CCC,0.6743467238905265,0.40120789100350496,0.8540397768345461,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-pc)-(0),B,(0),149,M7_MAE,7.144799968540268,6.093674820494472,8.342819364467157,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-pc)-(0),B,(0),149,M7_slope,0.39157614833273463,0.1507992683171819,0.6102614158736734,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-pc)-(0),B,(0),149,M7_CCC,0.3406052283693302,0.13642933655063028,0.5009776713203911,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-pc)-(0),diff,(ii-pc)-(0),149,M7_MAE,-2.9746217121496237,-4.280968269622237,-1.377065894258289,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-pc)-(0),diff,(ii-pc)-(0),149,M7_slope,0.3098092723365968,0.10906655118038305,0.5089662546135166,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-pc)-(0),diff,(ii-pc)-(0),149,M7_CCC,0.3337414955211962,0.14316285360695824,0.4927738955499052,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-pc)-(0),A,(ii-pc),19,M7_MAE,5.6126644736842115,3.1782120743034077,9.139264464009289,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-pc)-(0),A,(ii-pc),19,M7_slope,0.7448758802470591,0.44656692085697636,0.9964509175409316,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-pc)-(0),A,(ii-pc),19,M7_CCC,0.7738888078728338,0.46013135833343827,0.9218261169428341,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-pc)-(0),B,(0),19,M7_MAE,11.892898606811144,8.652918198529408,16.221217105263154,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-pc)-(0),B,(0),19,M7_slope,0.2870346481344754,-0.15339079489007162,0.6549583480733531,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-pc)-(0),B,(0),19,M7_CCC,0.3145693492735859,-0.16723482017903477,0.618530173860775,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-pc)-(0),diff,(ii-pc)-(0),19,M7_MAE,-6.280234133126932,-9.766834365325074,-3.2036087461300276,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-pc)-(0),diff,(ii-pc)-(0),19,M7_slope,0.45784123211258354,0.11347952232268697,0.9024903348956488,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-pc)-(0),diff,(ii-pc)-(0),19,M7_CCC,0.45931945859924794,0.2233486561656045,0.8285338833478716,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(i-simple)-(0),A,(i-simple),149,M7_MAE,4.044223669438414,3.364249619861577,4.820986995102151,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(i-simple)-(0),A,(i-simple),149,M7_slope,0.707031285596801,0.5340944807501518,0.8468986760446603,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(i-simple)-(0),A,(i-simple),149,M7_CCC,0.7047329472255002,0.5357329669065396,0.8136702437738421,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(i-simple)-(0),B,(0),149,M7_MAE,7.144799968540268,6.093674820494472,8.342819364467157,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(i-simple)-(0),B,(0),149,M7_slope,0.39157614833273463,0.1507992683171819,0.6102614158736734,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(i-simple)-(0),B,(0),149,M7_CCC,0.3406052283693302,0.13642933655063028,0.5009776713203911,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(i-simple)-(0),diff,(i-simple)-(0),149,M7_MAE,-3.100576299101854,-4.273679471985416,-1.9513874377744995,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(i-simple)-(0),diff,(i-simple)-(0),149,M7_slope,0.3154551372640663,0.13461847146324396,0.5036948011170448,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(i-simple)-(0),diff,(i-simple)-(0),149,M7_CCC,0.36412771885617,0.22587731696741395,0.5192677528076522,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(i-simple)-(0),A,(i-simple),19,M7_MAE,5.69611068111455,3.370410458591327,8.391876693111453,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(i-simple)-(0),A,(i-simple),19,M7_slope,0.7164534037439488,0.44613587584609865,0.9470538030967754,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(i-simple)-(0),A,(i-simple),19,M7_CCC,0.7853017583938556,0.5269076069628272,0.9127020456808124,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(i-simple)-(0),B,(0),19,M7_MAE,11.892898606811144,8.652918198529408,16.221217105263154,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(i-simple)-(0),B,(0),19,M7_slope,0.2870346481344754,-0.15339079489007162,0.6549583480733531,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(i-simple)-(0),B,(0),19,M7_CCC,0.3145693492735859,-0.16723482017903477,0.618530173860775,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(i-simple)-(0),diff,(i-simple)-(0),19,M7_MAE,-6.196787925696593,-9.90116461880805,-3.0185758513931877,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(i-simple)-(0),diff,(i-simple)-(0),19,M7_slope,0.42941875560947346,0.08469044509671629,0.8034791794055058,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(i-simple)-(0),diff,(i-simple)-(0),19,M7_CCC,0.47073240912026965,0.20432177381236227,0.8441785528505155,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-pc)-(ii),A,(ii-pc),149,M7_MAE,4.170178256390644,2.746951422858888,6.13328140806973,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-pc)-(ii),A,(ii-pc),149,M7_slope,0.7013854206693314,0.4887886956862396,0.8431639363303172,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-pc)-(ii),A,(ii-pc),149,M7_CCC,0.6743467238905265,0.40120789100350496,0.8540397768345461,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-pc)-(ii),B,(ii),149,M7_MAE,3.4204940103138575,2.7365585790996345,4.149825573908778,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-pc)-(ii),B,(ii),149,M7_slope,0.6257872170153306,0.4975785225343794,0.7602704024872299,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-pc)-(ii),B,(ii),149,M7_CCC,0.7211507576647253,0.5870767299144012,0.821888667496341,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-pc)-(ii),diff,(ii-pc)-(ii),149,M7_MAE,0.7496842460767871,-0.6293449898835359,2.628639844675289,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-pc)-(ii),diff,(ii-pc)-(ii),149,M7_slope,0.07559820365400087,-0.11232318145388329,0.19520604081268997,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-pc)-(ii),diff,(ii-pc)-(ii),149,M7_CCC,-0.04680403377419865,-0.2788377341656459,0.10372712388475339,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-pc)-(ii),A,(ii-pc),19,M7_MAE,5.6126644736842115,3.1782120743034077,9.139264464009289,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-pc)-(ii),A,(ii-pc),19,M7_slope,0.7448758802470591,0.44656692085697636,0.9964509175409316,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-pc)-(ii),A,(ii-pc),19,M7_CCC,0.7738888078728338,0.46013135833343827,0.9218261169428341,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-pc)-(ii),B,(ii),19,M7_MAE,7.1437209752321955,4.622194272445817,9.995585816563468,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-pc)-(ii),B,(ii),19,M7_slope,0.5455768300035587,0.30255761602272435,0.8113064586289455,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-pc)-(ii),B,(ii),19,M7_CCC,0.6681912185273648,0.4063402728814299,0.8402801881473284,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-pc)-(ii),diff,(ii-pc)-(ii),19,M7_MAE,-1.5310565015479847,-4.121607730263158,1.741486068111459,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-pc)-(ii),diff,(ii-pc)-(ii),19,M7_slope,0.19929905024350025,-0.10782881620505004,0.46877747645640205,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-pc)-(ii),diff,(ii-pc)-(ii),19,M7_CCC,0.10569758934546887,-0.17862617580269313,0.34696458849620493,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(i-pc)-(i),A,(i-pc),149,M7_MAE,4.968382198726805,3.787714810979448,6.366995695876925,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(i-pc)-(i),A,(i-pc),149,M7_slope,0.6321535860074916,0.44048525292454616,0.7827118961318098,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(i-pc)-(i),A,(i-pc),149,M7_CCC,0.5874922787404772,0.3719971120493569,0.7515112002940867,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(i-pc)-(i),B,(i),149,M7_MAE,4.960517265840902,3.7838849934767325,6.518914681670696,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(i-pc)-(i),B,(i),149,M7_slope,0.5667049891585956,0.3290197901893668,0.7528652609157667,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(i-pc)-(i),B,(i),149,M7_CCC,0.5400115190237579,0.28168293812764245,0.7287656101108869,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(i-pc)-(i),diff,(i-pc)-(i),149,M7_MAE,0.007864932885904619,-1.0613069108856845,1.0253414691694636,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(i-pc)-(i),diff,(i-pc)-(i),149,M7_slope,0.06544859684889603,-0.10645959139133532,0.23840396005327505,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(i-pc)-(i),diff,(i-pc)-(i),149,M7_CCC,0.04748075971671926,-0.11223100869535195,0.2070543349442484,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(i-pc)-(i),A,(i-pc),19,M7_MAE,5.482053018575852,3.221749226006196,8.148884965170277,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(i-pc)-(i),A,(i-pc),19,M7_slope,0.6807828697998293,0.3741149766940002,0.9311653490153701,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(i-pc)-(i),A,(i-pc),19,M7_CCC,0.7847512146210661,0.49073858513230384,0.9225718780698938,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(i-pc)-(i),B,(i),19,M7_MAE,9.266157120743031,5.090127950851395,14.929977747678011,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(i-pc)-(i),B,(i),19,M7_slope,0.4618580955282487,-0.0307237957419095,0.8184798355441706,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(i-pc)-(i),B,(i),19,M7_CCC,0.4751580075106485,0.01631608702150125,0.813904395258653,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(i-pc)-(i),diff,(i-pc)-(i),19,M7_MAE,-3.7841041021671806,-8.145166166795661,-0.5658015673374606,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(i-pc)-(i),diff,(i-pc)-(i),19,M7_slope,0.2189247742715806,-0.0013179066481373532,0.49852042978396355,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(i-pc)-(i),diff,(i-pc)-(i),19,M7_CCC,0.30959320711041766,0.043548814705283746,0.5777144326065095,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-pc)-(i-simple),A,(ii-pc),149,M7_MAE,4.170178256390644,2.746951422858888,6.13328140806973,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-pc)-(i-simple),A,(ii-pc),149,M7_slope,0.7013854206693314,0.4887886956862396,0.8431639363303172,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-pc)-(i-simple),A,(ii-pc),149,M7_CCC,0.6743467238905265,0.40120789100350496,0.8540397768345461,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-pc)-(i-simple),B,(i-simple),149,M7_MAE,4.044223669438414,3.364249619861577,4.820986995102151,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-pc)-(i-simple),B,(i-simple),149,M7_slope,0.707031285596801,0.5340944807501518,0.8468986760446603,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-pc)-(i-simple),B,(i-simple),149,M7_CCC,0.7047329472255002,0.5357329669065396,0.8136702437738421,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-pc)-(i-simple),diff,(ii-pc)-(i-simple),149,M7_MAE,0.12595458695223036,-1.202525828979347,1.8994210503386515,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-pc)-(i-simple),diff,(ii-pc)-(i-simple),149,M7_slope,-0.005645864927469546,-0.18191445898439704,0.15550590922206062,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-pc)-(i-simple),diff,(ii-pc)-(i-simple),149,M7_CCC,-0.03038622333497376,-0.2504027694473685,0.1413598050080889,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-pc)-(i-simple),A,(ii-pc),19,M7_MAE,5.6126644736842115,3.1782120743034077,9.139264464009289,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-pc)-(i-simple),A,(ii-pc),19,M7_slope,0.7448758802470591,0.44656692085697636,0.9964509175409316,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-pc)-(i-simple),A,(ii-pc),19,M7_CCC,0.7738888078728338,0.46013135833343827,0.9218261169428341,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-pc)-(i-simple),B,(i-simple),19,M7_MAE,5.69611068111455,3.370410458591327,8.391876693111453,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-pc)-(i-simple),B,(i-simple),19,M7_slope,0.7164534037439488,0.44613587584609865,0.9470538030967754,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-pc)-(i-simple),B,(i-simple),19,M7_CCC,0.7853017583938556,0.5269076069628272,0.9127020456808124,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-pc)-(i-simple),diff,(ii-pc)-(i-simple),19,M7_MAE,-0.08344620743033875,-2.238535216718263,2.274906878869976,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-pc)-(i-simple),diff,(ii-pc)-(i-simple),19,M7_slope,0.0284224765031101,-0.15144531166620925,0.1937412163009243,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-pc)-(i-simple),diff,(ii-pc)-(i-simple),19,M7_CCC,-0.011412950521021759,-0.1983254021014561,0.1591497645119657,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-lag)-(ii-pc),A,(ii-lag),149,M7_MAE,3.1959096951490324,2.6197108326342287,3.846254344989884,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-lag)-(ii-pc),A,(ii-lag),149,M7_slope,0.6349747311569162,0.5040113026373223,0.7793015555390745,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-lag)-(ii-pc),A,(ii-lag),149,M7_CCC,0.7413966953014784,0.6268641150992764,0.8343340247828375,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-lag)-(ii-pc),B,(ii-pc),149,M7_MAE,4.170178256390644,2.746951422858888,6.13328140806973,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-lag)-(ii-pc),B,(ii-pc),149,M7_slope,0.7013854206693314,0.4887886956862396,0.8431639363303172,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-lag)-(ii-pc),B,(ii-pc),149,M7_CCC,0.6743467238905265,0.40120789100350496,0.8540397768345461,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-lag)-(ii-pc),diff,(ii-lag)-(ii-pc),149,M7_MAE,-0.9742685612416112,-2.8498121668969576,0.40980782190707515,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-lag)-(ii-pc),diff,(ii-lag)-(ii-pc),149,M7_slope,-0.0664106895124152,-0.22038061267644324,0.13330965244298273,0,test (c) outputs
+MCD-rPPG test,all subjects,PhysNet,(ii-lag)-(ii-pc),diff,(ii-lag)-(ii-pc),149,M7_CCC,0.06704997141095188,-0.13540016309965913,0.32120645483250776,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-lag)-(ii-pc),A,(ii-lag),19,M7_MAE,7.658910603715171,4.730855746904028,11.004015092879259,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-lag)-(ii-pc),A,(ii-lag),19,M7_slope,0.48590461081575104,0.21679967308946935,0.7672501075099437,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-lag)-(ii-pc),A,(ii-lag),19,M7_CCC,0.5967584145021781,0.2769889877289909,0.8168414151133717,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-lag)-(ii-pc),B,(ii-pc),19,M7_MAE,5.6126644736842115,3.1782120743034077,9.139264464009289,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-lag)-(ii-pc),B,(ii-pc),19,M7_slope,0.7448758802470591,0.44656692085697636,0.9964509175409316,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-lag)-(ii-pc),B,(ii-pc),19,M7_CCC,0.7738888078728338,0.46013135833343827,0.9218261169428341,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-lag)-(ii-pc),diff,(ii-lag)-(ii-pc),19,M7_MAE,2.0462461300309593,-1.3496517027863737,5.0322598200464395,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-lag)-(ii-pc),diff,(ii-lag)-(ii-pc),19,M7_slope,-0.258971269431308,-0.4740913590439427,-0.029168908213662855,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,PhysNet,(ii-lag)-(ii-pc),diff,(ii-lag)-(ii-pc),19,M7_CCC,-0.1771303933706556,-0.4763042914267776,0.10232604957878201,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-pc)-(0),A,(ii-pc),149,M7_MAE,8.110885529757207,6.809178415231448,9.739285185550727,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-pc)-(0),A,(ii-pc),149,M7_slope,0.27722280806106153,0.021904369230418937,0.4932189434480543,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-pc)-(0),A,(ii-pc),149,M7_CCC,0.21682934051432137,0.02418626732130563,0.3899502431887317,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-pc)-(0),B,(0),149,M7_MAE,12.54592696715851,10.776155865620682,14.598320962128033,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-pc)-(0),B,(0),149,M7_slope,0.12787616367893903,-0.25142013149450226,0.4772268347361004,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-pc)-(0),B,(0),149,M7_CCC,0.05960422647407549,-0.08428374112972523,0.20907986697734188,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-pc)-(0),diff,(ii-pc)-(0),149,M7_MAE,-4.435041437401302,-6.224116322742919,-2.7372619412042316,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-pc)-(0),diff,(ii-pc)-(0),149,M7_slope,0.14934664438212256,-0.19162431649068135,0.5308800124619943,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-pc)-(0),diff,(ii-pc)-(0),149,M7_CCC,0.15722511404024586,-0.023009141456536517,0.3289973098490215,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-pc)-(0),A,(ii-pc),19,M7_MAE,10.126015866873066,6.370936532507739,15.357730263157892,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-pc)-(0),A,(ii-pc),19,M7_slope,0.42719646629466856,-0.016292717743545067,0.7957549293138599,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-pc)-(0),A,(ii-pc),19,M7_CCC,0.43272008611659746,0.03679889892556035,0.7320281707052012,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-pc)-(0),B,(0),19,M7_MAE,19.642511609907118,13.006724071207435,27.261966669891635,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-pc)-(0),B,(0),19,M7_slope,0.17599062960594383,-0.5255379471687682,0.7764021821907681,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-pc)-(0),B,(0),19,M7_CCC,0.11404771356522646,-0.234048942146045,0.4182553783251739,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-pc)-(0),diff,(ii-pc)-(0),19,M7_MAE,-9.516495743034055,-16.34838186919505,-3.1490966041021657,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-pc)-(0),diff,(ii-pc)-(0),19,M7_slope,0.25120583668872465,-0.4366916322339274,1.0215396310579672,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-pc)-(0),diff,(ii-pc)-(0),19,M7_CCC,0.318672372551371,-0.07335361680438329,0.7326568963354709,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(i-simple)-(0),A,(i-simple),149,M7_MAE,9.940928185452035,6.962400753414309,13.205238941673041,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(i-simple)-(0),A,(i-simple),149,M7_slope,0.22161095609100367,-0.07186388130671542,0.4929568878859888,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(i-simple)-(0),A,(i-simple),149,M7_CCC,0.1528207169420744,-0.0337585843426953,0.3697620441212366,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(i-simple)-(0),B,(0),149,M7_MAE,12.54592696715851,10.776155865620682,14.598320962128033,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(i-simple)-(0),B,(0),149,M7_slope,0.12787616367893903,-0.25142013149450226,0.4772268347361004,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(i-simple)-(0),B,(0),149,M7_CCC,0.05960422647407549,-0.08428374112972523,0.20907986697734188,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(i-simple)-(0),diff,(i-simple)-(0),149,M7_MAE,-2.604998781706475,-5.465431499518849,0.17769688163122038,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(i-simple)-(0),diff,(i-simple)-(0),149,M7_slope,0.09373479241206463,-0.2974387112340365,0.47246260341579926,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(i-simple)-(0),diff,(i-simple)-(0),149,M7_CCC,0.09321649046799892,-0.11810758694084159,0.3031826302669139,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(i-simple)-(0),A,(i-simple),19,M7_MAE,11.374080882352937,6.574109907120744,17.74138931888545,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(i-simple)-(0),A,(i-simple),19,M7_slope,0.3157928925167678,-0.11963301722398663,0.7008368865136342,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(i-simple)-(0),A,(i-simple),19,M7_CCC,0.33325577505889664,-0.08350144060022571,0.6977260934975567,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(i-simple)-(0),B,(0),19,M7_MAE,19.642511609907118,13.006724071207435,27.261966669891635,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(i-simple)-(0),B,(0),19,M7_slope,0.17599062960594383,-0.5255379471687682,0.7764021821907681,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(i-simple)-(0),B,(0),19,M7_CCC,0.11404771356522646,-0.234048942146045,0.4182553783251739,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(i-simple)-(0),diff,(i-simple)-(0),19,M7_MAE,-8.268430727554183,-14.987845878482966,-1.414957430340564,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(i-simple)-(0),diff,(i-simple)-(0),19,M7_slope,0.1398022629108239,-0.47220491273404197,0.8280944620979176,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(i-simple)-(0),diff,(i-simple)-(0),19,M7_CCC,0.21920806149367023,-0.186061907878711,0.6289175076475281,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-pc)-(ii),A,(ii-pc),149,M7_MAE,8.110885529757207,6.809178415231448,9.739285185550727,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-pc)-(ii),A,(ii-pc),149,M7_slope,0.27722280806106153,0.021904369230418937,0.4932189434480543,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-pc)-(ii),A,(ii-pc),149,M7_CCC,0.21682934051432137,0.02418626732130563,0.3899502431887317,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-pc)-(ii),B,(ii),149,M7_MAE,8.878294790021712,6.644256266500937,11.015268620228609,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-pc)-(ii),B,(ii),149,M7_slope,0.3331917176764056,0.03576316334512095,0.5639637135147454,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-pc)-(ii),B,(ii),149,M7_CCC,0.2302867575246792,0.029415160640015963,0.4375768256770393,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-pc)-(ii),diff,(ii-pc)-(ii),149,M7_MAE,-0.7674092602645057,-2.9114311691145565,1.1872521003997243,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-pc)-(ii),diff,(ii-pc)-(ii),149,M7_slope,-0.05596890961534399,-0.3186165697163217,0.2129214381203956,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-pc)-(ii),diff,(ii-pc)-(ii),149,M7_CCC,-0.013457417010357834,-0.22232593275743961,0.1853448027615911,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-pc)-(ii),A,(ii-pc),19,M7_MAE,10.126015866873066,6.370936532507739,15.357730263157892,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-pc)-(ii),A,(ii-pc),19,M7_slope,0.42719646629466856,-0.016292717743545067,0.7957549293138599,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-pc)-(ii),A,(ii-pc),19,M7_CCC,0.43272008611659746,0.03679889892556035,0.7320281707052012,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-pc)-(ii),B,(ii),19,M7_MAE,8.22126547987616,4.843508126934991,11.983601006191952,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-pc)-(ii),B,(ii),19,M7_slope,0.4674604786567819,0.11767063608761857,0.751870369756645,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-pc)-(ii),B,(ii),19,M7_CCC,0.5458643537058151,0.13489665776399712,0.8134372424266342,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-pc)-(ii),diff,(ii-pc)-(ii),19,M7_MAE,1.9047503869969058,-1.4114200367647058,6.280324835526314,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-pc)-(ii),diff,(ii-pc)-(ii),19,M7_slope,-0.040264012362113376,-0.48326497214062103,0.4171757235397554,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-pc)-(ii),diff,(ii-pc)-(ii),19,M7_CCC,-0.1131442675892176,-0.47948286805420026,0.2564036087018057,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(i-pc)-(i),A,(i-pc),149,M7_MAE,8.651512920079945,7.439637362980531,9.934367327835076,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(i-pc)-(i),A,(i-pc),149,M7_slope,0.17159667527882405,-0.08663880955967064,0.3909160981297381,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(i-pc)-(i),A,(i-pc),149,M7_CCC,0.1273333110527553,-0.0605355336240867,0.3038452265382975,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(i-pc)-(i),B,(i),149,M7_MAE,7.659316938289578,6.490171532644099,8.941968939683678,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(i-pc)-(i),B,(i),149,M7_slope,0.44629399048457213,0.1769717523802285,0.6622835252252652,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(i-pc)-(i),B,(i),149,M7_CCC,0.3282288979216286,0.11499395784000908,0.5111798910112414,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(i-pc)-(i),diff,(i-pc)-(i),149,M7_MAE,0.9921959817903657,-0.38148972623864885,2.442050817875911,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(i-pc)-(i),diff,(i-pc)-(i),149,M7_slope,-0.2746973152057481,-0.5516172028114629,-0.023589976642932362,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(i-pc)-(i),diff,(i-pc)-(i),149,M7_CCC,-0.20089558686887332,-0.4067206832405198,-0.02225784650725568,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(i-pc)-(i),A,(i-pc),19,M7_MAE,11.947320046439629,8.540447223297209,15.865754402089781,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(i-pc)-(i),A,(i-pc),19,M7_slope,0.35611591585492236,-0.010998129772418892,0.6608524562777603,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(i-pc)-(i),A,(i-pc),19,M7_CCC,0.3606908415464123,-0.009914439206978676,0.6205296593232552,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(i-pc)-(i),B,(i),19,M7_MAE,8.555050309597524,5.79035047407121,11.878386222910216,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(i-pc)-(i),B,(i),19,M7_slope,0.5525165665309869,0.18858003261734324,0.8530515204799535,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(i-pc)-(i),B,(i),19,M7_CCC,0.6001821668507197,0.21505327204832736,0.8181558077386224,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(i-pc)-(i),diff,(i-pc)-(i),19,M7_MAE,3.392269736842104,-0.7691563467492274,7.46662151702786,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(i-pc)-(i),diff,(i-pc)-(i),19,M7_slope,-0.1964006506760645,-0.5494623429459381,0.08136863102365507,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(i-pc)-(i),diff,(i-pc)-(i),19,M7_CCC,-0.2394913253043074,-0.5536526274376152,0.07840988034791968,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-pc)-(i-simple),A,(ii-pc),149,M7_MAE,8.110885529757207,6.809178415231448,9.739285185550727,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-pc)-(i-simple),A,(ii-pc),149,M7_slope,0.27722280806106153,0.021904369230418937,0.4932189434480543,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-pc)-(i-simple),A,(ii-pc),149,M7_CCC,0.21682934051432137,0.02418626732130563,0.3899502431887317,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-pc)-(i-simple),B,(i-simple),149,M7_MAE,9.940928185452035,6.962400753414309,13.205238941673041,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-pc)-(i-simple),B,(i-simple),149,M7_slope,0.22161095609100367,-0.07186388130671542,0.4929568878859888,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-pc)-(i-simple),B,(i-simple),149,M7_CCC,0.1528207169420744,-0.0337585843426953,0.3697620441212366,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-pc)-(i-simple),diff,(ii-pc)-(i-simple),149,M7_MAE,-1.8300426556948273,-4.290306431664529,0.4881007709947405,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-pc)-(i-simple),diff,(ii-pc)-(i-simple),149,M7_slope,0.05561185197005792,-0.1958798816174566,0.31530206341633643,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-pc)-(i-simple),diff,(ii-pc)-(i-simple),149,M7_CCC,0.06400862357224694,-0.12564043511659065,0.24404527449150962,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-pc)-(i-simple),A,(ii-pc),19,M7_MAE,10.126015866873066,6.370936532507739,15.357730263157892,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-pc)-(i-simple),A,(ii-pc),19,M7_slope,0.42719646629466856,-0.016292717743545067,0.7957549293138599,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-pc)-(i-simple),A,(ii-pc),19,M7_CCC,0.43272008611659746,0.03679889892556035,0.7320281707052012,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-pc)-(i-simple),B,(i-simple),19,M7_MAE,11.374080882352937,6.574109907120744,17.74138931888545,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-pc)-(i-simple),B,(i-simple),19,M7_slope,0.3157928925167678,-0.11963301722398663,0.7008368865136342,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-pc)-(i-simple),B,(i-simple),19,M7_CCC,0.33325577505889664,-0.08350144060022571,0.6977260934975567,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-pc)-(i-simple),diff,(ii-pc)-(i-simple),19,M7_MAE,-1.2480650154798705,-6.313340508900926,3.0368977360681124,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-pc)-(i-simple),diff,(ii-pc)-(i-simple),19,M7_slope,0.11140357377790074,-0.3106899658647526,0.5793853180908418,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-pc)-(i-simple),diff,(ii-pc)-(i-simple),19,M7_CCC,0.0994643110577008,-0.2485859165342012,0.5224666426601319,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-lag)-(ii-pc),A,(ii-lag),149,M7_MAE,8.755781111207066,7.223909771870684,10.416906984060402,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-lag)-(ii-pc),A,(ii-lag),149,M7_slope,0.3248863663146357,0.06359577361603402,0.5408559702636573,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-lag)-(ii-pc),A,(ii-lag),149,M7_CCC,0.19868507247494668,0.034472281860609605,0.3546546686588655,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-lag)-(ii-pc),B,(ii-pc),149,M7_MAE,8.110885529757207,6.809178415231448,9.739285185550727,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-lag)-(ii-pc),B,(ii-pc),149,M7_slope,0.27722280806106153,0.021904369230418937,0.4932189434480543,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-lag)-(ii-pc),B,(ii-pc),149,M7_CCC,0.21682934051432137,0.02418626732130563,0.3899502431887317,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-lag)-(ii-pc),diff,(ii-lag)-(ii-pc),149,M7_MAE,0.6448955814498598,-0.5382136944674051,2.0318548094835664,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-lag)-(ii-pc),diff,(ii-lag)-(ii-pc),149,M7_slope,0.047663558253574045,-0.16870755742730803,0.2517181298922774,0,test (c) outputs
+MCD-rPPG test,all subjects,RhythmFormer,(ii-lag)-(ii-pc),diff,(ii-lag)-(ii-pc),149,M7_CCC,-0.01814426803937469,-0.1472744261963248,0.12093839762160004,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-lag)-(ii-pc),A,(ii-lag),19,M7_MAE,9.204479489164088,5.72495404411765,13.239012916021673,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-lag)-(ii-pc),A,(ii-lag),19,M7_slope,0.3986138824922209,0.02754131490332818,0.6790332678653667,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-lag)-(ii-pc),A,(ii-lag),19,M7_CCC,0.4730525391674945,0.04683404156052837,0.7481408198750701,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-lag)-(ii-pc),B,(ii-pc),19,M7_MAE,10.126015866873066,6.370936532507739,15.357730263157892,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-lag)-(ii-pc),B,(ii-pc),19,M7_slope,0.42719646629466856,-0.016292717743545067,0.7957549293138599,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-lag)-(ii-pc),B,(ii-pc),19,M7_CCC,0.43272008611659746,0.03679889892556035,0.7320281707052012,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-lag)-(ii-pc),diff,(ii-lag)-(ii-pc),19,M7_MAE,-0.9215363777089781,-4.495392318111456,2.0644773123065012,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-lag)-(ii-pc),diff,(ii-lag)-(ii-pc),19,M7_slope,-0.028582583802447676,-0.4371533131004673,0.329466259661216,0,test (c) outputs
+MCD-rPPG test,post-exercise reference HR >= 100,RhythmFormer,(ii-lag)-(ii-pc),diff,(ii-lag)-(ii-pc),19,M7_CCC,0.040332453050897075,-0.2706073261325209,0.32032234480766786,0,test (c) outputs

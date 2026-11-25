@@ -1,0 +1,74 @@
+{
+ "support": {
+  "runs": 21,
+  "planned": {
+   "HAR": 319,
+   "L0": 319
+  }
+ },
+ "judgement_population": "Qstar",
+ "judgement_layer": "HAR",
+ "usability": {
+  "gop10": {
+   "hit": 0.9257990867579909,
+   "ratio_to_distributed": 0.9463243873978997
+  },
+  "gop12": {
+   "hit": 0.9086757990867579,
+   "ratio_to_distributed": 0.9288214702450407
+  },
+  "gop15": {
+   "hit": 0.9269406392694064,
+   "ratio_to_distributed": 0.9474912485414236
+  },
+  "nokey": {
+   "hit": 0.9029680365296805,
+   "ratio_to_distributed": 0.9229871645274214
+  },
+  "distributed": {
+   "hit": 0.978310502283105,
+   "ratio_to_distributed": 1.0
+  }
+ },
+ "usable": true,
+ "concentration": {
+  "gop10": {
+   "RF0_in_condition": 0.0,
+   "RF0_nokey": 0.0,
+   "RF0_distributed": 0.0,
+   "PhysNet0_in_condition": 0.0,
+   "FPm0_in_condition": 0.0,
+   "holds": false
+  },
+  "gop12": {
+   "RF0_in_condition": 0.07191780821917808,
+   "RF0_nokey": 0.001141552511415525,
+   "RF0_distributed": 0.0,
+   "PhysNet0_in_condition": 0.0,
+   "FPm0_in_condition": 0.0045662100456621,
+   "holds": false
+  },
+  "gop15": {
+   "RF0_in_condition": 0.04249667994687915,
+   "RF0_nokey": 0.0199203187250996,
+   "RF0_distributed": 0.00796812749003984,
+   "PhysNet0_in_condition": 0.010624169986719787,
+   "FPm0_in_condition": 0.021248339973439574,
+   "holds": false
+  }
+ },
+ "aligned": {
+  "RhythmFormer (i-pc) - RhythmFormer (i)": {
+   "lower_above_0_in_keyframe": 0,
+   "includes_0_nokey": true,
+   "includes_0_distributed": true
+  },
+  "RhythmFormer (ii-pc) - RhythmFormer (ii)": {
+   "lower_above_0_in_keyframe": 0,
+   "includes_0_nokey": true,
+   "includes_0_distributed": false
+  }
+ },
+ "concentration_induced_by_periodic_key_frames": false,
+ "aligned_arm_worsening_consistent_with_compression_interaction": false
+}

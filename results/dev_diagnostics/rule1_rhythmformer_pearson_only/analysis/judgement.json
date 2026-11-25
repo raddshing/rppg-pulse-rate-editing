@@ -1,0 +1,45 @@
+{
+ "judgement_layer": "HAR",
+ "loss": {
+  "pearson": "negative Pearson only (train/train_pc_pearson.py)",
+  "standard": "RhythmFormer_Loss (author loss)"
+ },
+ "convergence": {
+  "MMPD-A": {
+   "pearson": 13.821476063829786,
+   "standard": 14.020944148936168,
+   "ratio": 0.9857735625370481
+  },
+  "MCD-dev": {
+   "pearson": 23.00915948275862,
+   "standard": 19.008620689655174,
+   "ratio": 1.2104591836734693
+  }
+ },
+ "converged": true,
+ "alignment": {
+  "condition_gained": false,
+  "condition_does_not_depend": true,
+  "judgement": "does not depend"
+ },
+ "keyframe_line": {
+  "pearson": {
+   "20261131": 0.49137931034482757,
+   "20261132": 0.36551724137931035,
+   "20261133": 0.38620689655172413
+  },
+  "standard": {
+   "20261131": 0.25862068965517243,
+   "20261132": 0.28793103448275864,
+   "20261133": 0.42931034482758623
+  },
+  "standard_range": [
+   0.25862068965517243,
+   0.42931034482758623
+  ],
+  "pearson_seeds_within_or_above": 3,
+  "condition_did_not_occur": false,
+  "condition_does_not_depend": true,
+  "judgement": "does not depend"
+ }
+}

@@ -1,0 +1,442 @@
+dataset,backbone,strategy,bin,bin_lo,windows,MAE_seed_mean,used,high_bin,source
+MMPD-B,FactorizePhys (matched),(0),40-50,40,26,32.40685096153846,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(0),50-60,50,71,15.382922535211266,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(0),60-70,60,167,8.778536676646707,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(0),70-80,70,537,7.229835893854748,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(0),80-90,80,357,9.414390756302522,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(0),90-100,90,244,13.38530993852459,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(0),100-110,100,170,17.323069852941178,True,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(0),110-120,110,74,27.792440878378375,True,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(0),120-130,120,15,37.8125,False,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(0),130-140,130,21,49.888392857142854,True,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(0),140-150,140,2,55.6640625,False,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i),40-50,40,26,29.071514423076923,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i),50-60,50,71,14.640184859154928,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i),60-70,60,167,7.824195359281437,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i),70-80,70,537,7.550628491620112,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i),80-90,80,357,9.923188025210083,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i),90-100,90,244,13.990458504098362,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i),100-110,100,170,19.76332720588235,True,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i),110-120,110,74,28.299197635135133,True,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i),120-130,120,15,39.0625,False,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i),130-140,130,21,54.129464285714285,True,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i),140-150,140,2,67.96875,False,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii),40-50,40,26,24.879807692307693,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii),50-60,50,71,10.134242957746478,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii),60-70,60,167,5.894461077844311,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii),70-80,70,537,6.775925279329609,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii),80-90,80,357,9.887079831932773,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii),90-100,90,244,14.115330430327868,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii),100-110,100,170,21.348805147058822,True,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii),110-120,110,74,33.240076013513516,True,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii),120-130,120,15,49.375,False,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii),130-140,130,21,53.348214285714285,True,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii),140-150,140,2,52.1484375,False,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i-pc),40-50,40,26,35.47175480769231,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i-pc),50-60,50,71,20.301496478873236,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i-pc),60-70,60,167,10.560909431137725,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i-pc),70-80,70,537,7.48516061452514,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i-pc),80-90,80,357,9.447216386554622,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i-pc),90-100,90,244,13.015496926229508,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i-pc),100-110,100,170,16.778492647058822,True,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i-pc),110-120,110,74,27.07981418918919,True,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i-pc),120-130,120,15,35.703125,False,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i-pc),130-140,130,21,49.107142857142854,True,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i-pc),140-150,140,2,58.59375,False,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii-pc),40-50,40,26,35.87740384615385,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii-pc),50-60,50,71,24.609375,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii-pc),60-70,60,167,11.031062874251496,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii-pc),70-80,70,537,9.032384776536313,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii-pc),80-90,80,357,10.054490546218487,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii-pc),90-100,90,244,11.55545594262295,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii-pc),100-110,100,170,15.041360294117647,True,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii-pc),110-120,110,74,24.181798986486484,True,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii-pc),120-130,120,15,36.71875,False,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii-pc),130-140,130,21,42.91294642857142,True,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii-pc),140-150,140,2,52.734375,False,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i-simple),40-50,40,26,38.22115384615385,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i-simple),50-60,50,71,21.786971830985916,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i-simple),60-70,60,167,10.652133233532934,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i-simple),70-80,70,537,7.8845146648044695,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i-simple),80-90,80,357,9.77219012605042,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i-simple),90-100,90,244,12.823386270491802,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i-simple),100-110,100,170,15.81341911764706,True,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i-simple),110-120,110,74,25.084459459459463,True,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i-simple),120-130,120,15,34.0625,False,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i-simple),130-140,130,21,46.707589285714285,True,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(i-simple),140-150,140,2,46.875,False,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii-lag),40-50,40,26,30.153245192307693,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii-lag),50-60,50,71,10.976012323943664,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii-lag),60-70,60,167,7.2698353293413165,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii-lag),70-80,70,537,7.256023044692738,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii-lag),80-90,80,357,9.424238445378151,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii-lag),90-100,90,244,13.101946721311476,True,False,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii-lag),100-110,100,170,20.11488970588235,True,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii-lag),110-120,110,74,31.308065878378375,True,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii-lag),120-130,120,15,45.859375,False,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii-lag),130-140,130,21,54.35267857142858,True,True,test (c) outputs
+MMPD-B,FactorizePhys (matched),(ii-lag),140-150,140,2,51.5625,False,True,test (c) outputs
+MMPD-B,PhysNet,(0),40-50,40,26,17.803485576923077,True,False,test (c) outputs
+MMPD-B,PhysNet,(0),50-60,50,71,12.527508802816902,True,False,test (c) outputs
+MMPD-B,PhysNet,(0),60-70,60,167,7.55754116766467,True,False,test (c) outputs
+MMPD-B,PhysNet,(0),70-80,70,537,9.004015363128492,True,False,test (c) outputs
+MMPD-B,PhysNet,(0),80-90,80,357,15.313156512605042,True,False,test (c) outputs
+MMPD-B,PhysNet,(0),90-100,90,244,23.293417008196723,True,False,test (c) outputs
+MMPD-B,PhysNet,(0),100-110,100,170,31.626838235294116,True,True,test (c) outputs
+MMPD-B,PhysNet,(0),110-120,110,74,43.311866554054056,True,True,test (c) outputs
+MMPD-B,PhysNet,(0),120-130,120,15,54.375,False,True,test (c) outputs
+MMPD-B,PhysNet,(0),130-140,130,21,65.45758928571429,True,True,test (c) outputs
+MMPD-B,PhysNet,(0),140-150,140,2,69.7265625,False,True,test (c) outputs
+MMPD-B,PhysNet,(i),40-50,40,26,33.48858173076923,True,False,test (c) outputs
+MMPD-B,PhysNet,(i),50-60,50,71,20.169454225352112,True,False,test (c) outputs
+MMPD-B,PhysNet,(i),60-70,60,167,11.13632110778443,True,False,test (c) outputs
+MMPD-B,PhysNet,(i),70-80,70,537,9.23969972067039,True,False,test (c) outputs
+MMPD-B,PhysNet,(i),80-90,80,357,11.252626050420169,True,False,test (c) outputs
+MMPD-B,PhysNet,(i),90-100,90,244,14.979828381147541,True,False,test (c) outputs
+MMPD-B,PhysNet,(i),100-110,100,170,21.424632352941178,True,True,test (c) outputs
+MMPD-B,PhysNet,(i),110-120,110,74,32.2582347972973,True,True,test (c) outputs
+MMPD-B,PhysNet,(i),120-130,120,15,41.640625,False,True,test (c) outputs
+MMPD-B,PhysNet,(i),130-140,130,21,51.395089285714285,True,True,test (c) outputs
+MMPD-B,PhysNet,(i),140-150,140,2,56.8359375,False,True,test (c) outputs
+MMPD-B,PhysNet,(ii),40-50,40,26,24.11358173076923,True,False,test (c) outputs
+MMPD-B,PhysNet,(ii),50-60,50,71,11.768265845070422,True,False,test (c) outputs
+MMPD-B,PhysNet,(ii),60-70,60,167,8.596089071856287,True,False,test (c) outputs
+MMPD-B,PhysNet,(ii),70-80,70,537,6.605708798882681,True,False,test (c) outputs
+MMPD-B,PhysNet,(ii),80-90,80,357,10.093881302521007,True,False,test (c) outputs
+MMPD-B,PhysNet,(ii),90-100,90,244,15.431288422131146,True,False,test (c) outputs
+MMPD-B,PhysNet,(ii),100-110,100,170,21.817555147058822,True,True,test (c) outputs
+MMPD-B,PhysNet,(ii),110-120,110,74,35.1879222972973,True,True,test (c) outputs
+MMPD-B,PhysNet,(ii),120-130,120,15,47.734375,False,True,test (c) outputs
+MMPD-B,PhysNet,(ii),130-140,130,21,55.301339285714285,True,True,test (c) outputs
+MMPD-B,PhysNet,(ii),140-150,140,2,56.25,False,True,test (c) outputs
+MMPD-B,PhysNet,(i-pc),40-50,40,26,32.54206730769231,True,False,test (c) outputs
+MMPD-B,PhysNet,(i-pc),50-60,50,71,25.73173415492958,True,False,test (c) outputs
+MMPD-B,PhysNet,(i-pc),60-70,60,167,15.950130988023952,True,False,test (c) outputs
+MMPD-B,PhysNet,(i-pc),70-80,70,537,10.856756284916202,True,False,test (c) outputs
+MMPD-B,PhysNet,(i-pc),80-90,80,357,10.507484243697478,True,False,test (c) outputs
+MMPD-B,PhysNet,(i-pc),90-100,90,244,11.531442110655737,True,False,test (c) outputs
+MMPD-B,PhysNet,(i-pc),100-110,100,170,15.778952205882353,True,True,test (c) outputs
+MMPD-B,PhysNet,(i-pc),110-120,110,74,26.177153716216214,True,True,test (c) outputs
+MMPD-B,PhysNet,(i-pc),120-130,120,15,31.640625,False,True,test (c) outputs
+MMPD-B,PhysNet,(i-pc),130-140,130,21,50.167410714285715,True,True,test (c) outputs
+MMPD-B,PhysNet,(i-pc),140-150,140,2,44.53125,False,True,test (c) outputs
+MMPD-B,PhysNet,(ii-pc),40-50,40,26,39.2578125,True,False,test (c) outputs
+MMPD-B,PhysNet,(ii-pc),50-60,50,71,19.360695422535212,True,False,test (c) outputs
+MMPD-B,PhysNet,(ii-pc),60-70,60,167,10.14689371257485,True,False,test (c) outputs
+MMPD-B,PhysNet,(ii-pc),70-80,70,537,8.235858938547485,True,False,test (c) outputs
+MMPD-B,PhysNet,(ii-pc),80-90,80,357,10.451680672268907,True,False,test (c) outputs
+MMPD-B,PhysNet,(ii-pc),90-100,90,244,14.369877049180326,True,False,test (c) outputs
+MMPD-B,PhysNet,(ii-pc),100-110,100,170,17.26792279411765,True,True,test (c) outputs
+MMPD-B,PhysNet,(ii-pc),110-120,110,74,30.801309121621625,True,True,test (c) outputs
+MMPD-B,PhysNet,(ii-pc),120-130,120,15,32.1875,False,True,test (c) outputs
+MMPD-B,PhysNet,(ii-pc),130-140,130,21,53.683035714285715,True,True,test (c) outputs
+MMPD-B,PhysNet,(ii-pc),140-150,140,2,60.3515625,False,True,test (c) outputs
+MMPD-B,PhysNet,(i-simple),40-50,40,26,29.341947115384613,True,False,test (c) outputs
+MMPD-B,PhysNet,(i-simple),50-60,50,71,20.68111795774648,True,False,test (c) outputs
+MMPD-B,PhysNet,(i-simple),60-70,60,167,12.125748502994012,True,False,test (c) outputs
+MMPD-B,PhysNet,(i-simple),70-80,70,537,9.167685055865922,True,False,test (c) outputs
+MMPD-B,PhysNet,(i-simple),80-90,80,357,10.776654411764705,True,False,test (c) outputs
+MMPD-B,PhysNet,(i-simple),90-100,90,244,13.044313524590164,True,False,test (c) outputs
+MMPD-B,PhysNet,(i-simple),100-110,100,170,18.63970588235294,True,True,test (c) outputs
+MMPD-B,PhysNet,(i-simple),110-120,110,74,29.17018581081081,True,True,test (c) outputs
+MMPD-B,PhysNet,(i-simple),120-130,120,15,32.1875,False,True,test (c) outputs
+MMPD-B,PhysNet,(i-simple),130-140,130,21,51.729910714285715,True,True,test (c) outputs
+MMPD-B,PhysNet,(i-simple),140-150,140,2,52.734375,False,True,test (c) outputs
+MMPD-B,PhysNet,(ii-lag),40-50,40,26,21.18389423076923,True,False,test (c) outputs
+MMPD-B,PhysNet,(ii-lag),50-60,50,71,11.669234154929578,True,False,test (c) outputs
+MMPD-B,PhysNet,(ii-lag),60-70,60,167,6.5330276946107775,True,False,test (c) outputs
+MMPD-B,PhysNet,(ii-lag),70-80,70,537,6.394029329608938,True,False,test (c) outputs
+MMPD-B,PhysNet,(ii-lag),80-90,80,357,10.921087184873949,True,False,test (c) outputs
+MMPD-B,PhysNet,(ii-lag),90-100,90,244,17.861488217213115,True,False,test (c) outputs
+MMPD-B,PhysNet,(ii-lag),100-110,100,170,25.3125,True,True,test (c) outputs
+MMPD-B,PhysNet,(ii-lag),110-120,110,74,37.15160472972973,True,True,test (c) outputs
+MMPD-B,PhysNet,(ii-lag),120-130,120,15,49.0625,False,True,test (c) outputs
+MMPD-B,PhysNet,(ii-lag),130-140,130,21,57.70089285714286,True,True,test (c) outputs
+MMPD-B,PhysNet,(ii-lag),140-150,140,2,60.3515625,False,True,test (c) outputs
+MMPD-B,RhythmFormer,(0),40-50,40,26,24.654447115384613,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(0),50-60,50,71,10.662411971830986,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(0),60-70,60,167,8.532934131736527,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(0),70-80,70,537,10.267545391061452,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(0),80-90,80,357,17.889968487394956,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(0),90-100,90,244,26.6265368852459,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(0),100-110,100,170,30.827205882352942,True,True,test (c) outputs
+MMPD-B,RhythmFormer,(0),110-120,110,74,40.25548986486486,True,True,test (c) outputs
+MMPD-B,RhythmFormer,(0),120-130,120,15,48.359375,False,True,test (c) outputs
+MMPD-B,RhythmFormer,(0),130-140,130,21,40.56919642857142,True,True,test (c) outputs
+MMPD-B,RhythmFormer,(0),140-150,140,2,39.84375,False,True,test (c) outputs
+MMPD-B,RhythmFormer,(i),40-50,40,26,36.37319711538461,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(i),50-60,50,71,18.518926056338028,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(i),60-70,60,167,12.869573353293413,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(i),70-80,70,537,11.799493715083798,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(i),80-90,80,357,14.40060399159664,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(i),90-100,90,244,14.360271516393441,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(i),100-110,100,170,16.46829044117647,True,True,test (c) outputs
+MMPD-B,RhythmFormer,(i),110-120,110,74,23.53251689189189,True,True,test (c) outputs
+MMPD-B,RhythmFormer,(i),120-130,120,15,33.125,False,True,test (c) outputs
+MMPD-B,RhythmFormer,(i),130-140,130,21,37.83482142857142,True,True,test (c) outputs
+MMPD-B,RhythmFormer,(i),140-150,140,2,42.7734375,False,True,test (c) outputs
+MMPD-B,RhythmFormer,(ii),40-50,40,26,44.48617788461539,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(ii),50-60,50,71,29.098811619718308,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(ii),60-70,60,167,17.1500748502994,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(ii),70-80,70,537,11.559444832402235,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(ii),80-90,80,357,10.55344012605042,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(ii),90-100,90,244,9.821657274590164,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(ii),100-110,100,170,12.284007352941176,True,True,test (c) outputs
+MMPD-B,RhythmFormer,(ii),110-120,110,74,22.02808277027027,True,True,test (c) outputs
+MMPD-B,RhythmFormer,(ii),120-130,120,15,31.09375,False,True,test (c) outputs
+MMPD-B,RhythmFormer,(ii),130-140,130,21,40.848214285714285,True,True,test (c) outputs
+MMPD-B,RhythmFormer,(ii),140-150,140,2,47.4609375,False,True,test (c) outputs
+MMPD-B,RhythmFormer,(i-pc),40-50,40,26,32.31670673076923,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(i-pc),50-60,50,71,16.83538732394366,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(i-pc),60-70,60,167,10.855632485029941,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(i-pc),70-80,70,537,9.405551675977653,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(i-pc),80-90,80,357,12.322741596638656,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(i-pc),90-100,90,244,12.347912397540982,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(i-pc),100-110,100,170,15.3515625,True,True,test (c) outputs
+MMPD-B,RhythmFormer,(i-pc),110-120,110,74,22.455658783783786,True,True,test (c) outputs
+MMPD-B,RhythmFormer,(i-pc),120-130,120,15,34.296875,False,True,test (c) outputs
+MMPD-B,RhythmFormer,(i-pc),130-140,130,21,39.285714285714285,True,True,test (c) outputs
+MMPD-B,RhythmFormer,(i-pc),140-150,140,2,31.640625,False,True,test (c) outputs
+MMPD-B,RhythmFormer,(ii-pc),40-50,40,26,37.27463942307693,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(ii-pc),50-60,50,71,23.78411091549296,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(ii-pc),60-70,60,167,14.24494760479042,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(ii-pc),70-80,70,537,10.151885474860334,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(ii-pc),80-90,80,357,11.177127100840337,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(ii-pc),90-100,90,244,10.085809426229508,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(ii-pc),100-110,100,170,11.794577205882353,True,True,test (c) outputs
+MMPD-B,RhythmFormer,(ii-pc),110-120,110,74,17.514780405405403,True,True,test (c) outputs
+MMPD-B,RhythmFormer,(ii-pc),120-130,120,15,22.890625,False,True,test (c) outputs
+MMPD-B,RhythmFormer,(ii-pc),130-140,130,21,35.323660714285715,True,True,test (c) outputs
+MMPD-B,RhythmFormer,(ii-pc),140-150,140,2,39.84375,False,True,test (c) outputs
+MMPD-B,RhythmFormer,(i-simple),40-50,40,26,33.668870192307686,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(i-simple),50-60,50,71,18.56844190140845,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(i-simple),60-70,60,167,10.967907934131738,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(i-simple),70-80,70,537,9.931476955307263,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(i-simple),80-90,80,357,12.263655462184873,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(i-simple),90-100,90,244,11.60828637295082,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(i-simple),100-110,100,170,13.524816176470589,True,True,test (c) outputs
+MMPD-B,RhythmFormer,(i-simple),110-120,110,74,18.322423986486488,True,True,test (c) outputs
+MMPD-B,RhythmFormer,(i-simple),120-130,120,15,26.015625,False,True,test (c) outputs
+MMPD-B,RhythmFormer,(i-simple),130-140,130,21,36.941964285714285,True,True,test (c) outputs
+MMPD-B,RhythmFormer,(i-simple),140-150,140,2,39.84375,False,True,test (c) outputs
+MMPD-B,RhythmFormer,(ii-lag),40-50,40,26,39.48317307692307,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(ii-lag),50-60,50,71,26.210387323943664,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(ii-lag),60-70,60,167,16.34309505988024,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(ii-lag),70-80,70,537,11.60963687150838,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(ii-lag),80-90,80,357,10.303965336134453,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(ii-lag),90-100,90,244,9.788037909836065,True,False,test (c) outputs
+MMPD-B,RhythmFormer,(ii-lag),100-110,100,170,13.545496323529411,True,True,test (c) outputs
+MMPD-B,RhythmFormer,(ii-lag),110-120,110,74,20.5394847972973,True,True,test (c) outputs
+MMPD-B,RhythmFormer,(ii-lag),120-130,120,15,30.9375,False,True,test (c) outputs
+MMPD-B,RhythmFormer,(ii-lag),130-140,130,21,40.066964285714285,True,True,test (c) outputs
+MMPD-B,RhythmFormer,(ii-lag),140-150,140,2,50.9765625,False,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(0),50-60,50,1,28.125,False,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(0),60-70,60,4,11.42578125,False,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(0),70-80,70,90,2.1875,True,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(0),80-90,80,234,2.654246794871795,True,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(0),90-100,90,529,2.78015713610586,True,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(0),100-110,100,376,5.560172872340426,True,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(0),110-120,110,177,10.758739406779661,True,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(0),120-130,120,48,18.3837890625,True,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(0),130-140,130,14,14.6484375,False,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(0),140-150,140,1,84.375,False,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i),50-60,50,1,28.125,False,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i),60-70,60,4,11.1328125,False,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i),70-80,70,90,2.2526041666666665,True,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i),80-90,80,234,2.8395432692307696,True,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i),90-100,90,529,2.7292060491493384,True,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i),100-110,100,376,5.500955784574468,True,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i),110-120,110,177,9.87155720338983,True,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i),120-130,120,48,16.015625,True,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i),130-140,130,14,15.736607142857144,False,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i),140-150,140,1,80.859375,False,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii),50-60,50,1,28.125,False,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii),60-70,60,4,11.42578125,False,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii),70-80,70,90,1.9140625,True,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii),80-90,80,234,3.0999599358974357,True,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii),90-100,90,529,3.207703213610586,True,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii),100-110,100,376,7.280585106382979,True,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii),110-120,110,177,12.83103813559322,True,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii),120-130,120,48,22.9248046875,True,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii),130-140,130,14,26.116071428571427,False,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii),140-150,140,1,56.25,False,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i-pc),50-60,50,1,28.125,False,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i-pc),60-70,60,4,11.42578125,False,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i-pc),70-80,70,90,2.2265625,True,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i-pc),80-90,80,234,2.1033653846153846,True,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i-pc),90-100,90,529,2.3415347353497165,True,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i-pc),100-110,100,376,4.4443982712765955,True,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i-pc),110-120,110,177,7.7065677966101696,True,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i-pc),120-130,120,48,14.6484375,True,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i-pc),130-140,130,14,8.956473214285714,False,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i-pc),140-150,140,1,63.28125,False,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii-pc),50-60,50,1,28.125,False,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii-pc),60-70,60,4,11.42578125,False,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii-pc),70-80,70,90,2.4479166666666665,True,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii-pc),80-90,80,234,2.654246794871795,True,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii-pc),90-100,90,529,2.631734404536862,True,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii-pc),100-110,100,376,4.684383311170213,True,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii-pc),110-120,110,177,8.176641949152541,True,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii-pc),120-130,120,48,15.0634765625,True,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii-pc),130-140,130,14,9.877232142857142,False,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii-pc),140-150,140,1,42.1875,False,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i-simple),50-60,50,1,28.125,False,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i-simple),60-70,60,4,11.42578125,False,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i-simple),70-80,70,90,2.0963541666666665,True,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i-simple),80-90,80,234,2.559094551282051,True,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i-simple),90-100,90,529,2.264000472589792,True,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i-simple),100-110,100,376,4.435048204787234,True,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i-simple),110-120,110,177,7.097457627118644,True,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i-simple),120-130,120,48,13.037109375,True,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i-simple),130-140,130,14,12.723214285714286,False,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(i-simple),140-150,140,1,63.28125,False,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii-lag),50-60,50,1,28.125,False,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii-lag),60-70,60,4,12.3046875,False,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii-lag),70-80,70,90,2.5911458333333335,True,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii-lag),80-90,80,234,3.3203125,True,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii-lag),90-100,90,529,3.539992911153119,True,False,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii-lag),100-110,100,376,7.3834358377659575,True,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii-lag),110-120,110,177,13.784427966101696,True,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii-lag),120-130,120,48,23.7548828125,True,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii-lag),130-140,130,14,25.94866071428571,False,True,test (c) outputs
+MCD-rPPG test,FactorizePhys (matched),(ii-lag),140-150,140,1,70.3125,False,True,test (c) outputs
+MCD-rPPG test,PhysNet,(0),50-60,50,1,21.09375,False,False,test (c) outputs
+MCD-rPPG test,PhysNet,(0),60-70,60,4,9.9609375,False,False,test (c) outputs
+MCD-rPPG test,PhysNet,(0),70-80,70,90,9.283854166666666,True,False,test (c) outputs
+MCD-rPPG test,PhysNet,(0),80-90,80,234,12.845552884615385,True,False,test (c) outputs
+MCD-rPPG test,PhysNet,(0),90-100,90,529,20.172199905482042,True,False,test (c) outputs
+MCD-rPPG test,PhysNet,(0),100-110,100,376,26.264336768617017,True,True,test (c) outputs
+MCD-rPPG test,PhysNet,(0),110-120,110,177,31.779661016949152,True,True,test (c) outputs
+MCD-rPPG test,PhysNet,(0),120-130,120,48,38.720703125,True,True,test (c) outputs
+MCD-rPPG test,PhysNet,(0),130-140,130,14,50.809151785714285,False,True,test (c) outputs
+MCD-rPPG test,PhysNet,(0),140-150,140,1,63.28125,False,True,test (c) outputs
+MCD-rPPG test,PhysNet,(i),50-60,50,1,28.125,False,False,test (c) outputs
+MCD-rPPG test,PhysNet,(i),60-70,60,4,7.6171875,False,False,test (c) outputs
+MCD-rPPG test,PhysNet,(i),70-80,70,90,3.4765625,True,False,test (c) outputs
+MCD-rPPG test,PhysNet,(i),80-90,80,234,6.575520833333333,True,False,test (c) outputs
+MCD-rPPG test,PhysNet,(i),90-100,90,529,6.3068584593572785,True,False,test (c) outputs
+MCD-rPPG test,PhysNet,(i),100-110,100,376,12.3046875,True,True,test (c) outputs
+MCD-rPPG test,PhysNet,(i),110-120,110,177,18.471927966101692,True,True,test (c) outputs
+MCD-rPPG test,PhysNet,(i),120-130,120,48,24.365234375,True,True,test (c) outputs
+MCD-rPPG test,PhysNet,(i),130-140,130,14,26.032366071428573,False,True,test (c) outputs
+MCD-rPPG test,PhysNet,(i),140-150,140,1,66.796875,False,True,test (c) outputs
+MCD-rPPG test,PhysNet,(ii),50-60,50,1,19.921875,False,False,test (c) outputs
+MCD-rPPG test,PhysNet,(ii),60-70,60,4,11.1328125,False,False,test (c) outputs
+MCD-rPPG test,PhysNet,(ii),70-80,70,90,2.3828125,True,False,test (c) outputs
+MCD-rPPG test,PhysNet,(ii),80-90,80,234,4.206730769230769,True,False,test (c) outputs
+MCD-rPPG test,PhysNet,(ii),90-100,90,529,3.8279773156899815,True,False,test (c) outputs
+MCD-rPPG test,PhysNet,(ii),100-110,100,376,8.262342087765957,True,True,test (c) outputs
+MCD-rPPG test,PhysNet,(ii),110-120,110,177,12.321239406779661,True,True,test (c) outputs
+MCD-rPPG test,PhysNet,(ii),120-130,120,48,16.9677734375,True,True,test (c) outputs
+MCD-rPPG test,PhysNet,(ii),130-140,130,14,23.353794642857142,False,True,test (c) outputs
+MCD-rPPG test,PhysNet,(ii),140-150,140,1,37.5,False,True,test (c) outputs
+MCD-rPPG test,PhysNet,(i-pc),50-60,50,1,28.125,False,False,test (c) outputs
+MCD-rPPG test,PhysNet,(i-pc),60-70,60,4,15.52734375,False,False,test (c) outputs
+MCD-rPPG test,PhysNet,(i-pc),70-80,70,90,6.549479166666667,True,False,test (c) outputs
+MCD-rPPG test,PhysNet,(i-pc),80-90,80,234,6.645633012820514,True,False,test (c) outputs
+MCD-rPPG test,PhysNet,(i-pc),90-100,90,529,4.434959829867675,True,False,test (c) outputs
+MCD-rPPG test,PhysNet,(i-pc),100-110,100,376,6.252077792553192,True,True,test (c) outputs
+MCD-rPPG test,PhysNet,(i-pc),110-120,110,177,9.633209745762711,True,True,test (c) outputs
+MCD-rPPG test,PhysNet,(i-pc),120-130,120,48,10.498046875,True,True,test (c) outputs
+MCD-rPPG test,PhysNet,(i-pc),130-140,130,14,8.119419642857144,False,True,test (c) outputs
+MCD-rPPG test,PhysNet,(i-pc),140-150,140,1,80.859375,False,True,test (c) outputs
+MCD-rPPG test,PhysNet,(ii-pc),50-60,50,1,30.46875,False,False,test (c) outputs
+MCD-rPPG test,PhysNet,(ii-pc),60-70,60,4,9.08203125,False,False,test (c) outputs
+MCD-rPPG test,PhysNet,(ii-pc),70-80,70,90,6.119791666666667,True,False,test (c) outputs
+MCD-rPPG test,PhysNet,(ii-pc),80-90,80,234,4.787660256410256,True,False,test (c) outputs
+MCD-rPPG test,PhysNet,(ii-pc),90-100,90,529,3.6042355860113418,True,False,test (c) outputs
+MCD-rPPG test,PhysNet,(ii-pc),100-110,100,376,5.797041223404254,True,True,test (c) outputs
+MCD-rPPG test,PhysNet,(ii-pc),110-120,110,177,8.904925847457628,True,True,test (c) outputs
+MCD-rPPG test,PhysNet,(ii-pc),120-130,120,48,13.4521484375,True,True,test (c) outputs
+MCD-rPPG test,PhysNet,(ii-pc),130-140,130,14,17.74553571428571,False,True,test (c) outputs
+MCD-rPPG test,PhysNet,(ii-pc),140-150,140,1,53.90625,False,True,test (c) outputs
+MCD-rPPG test,PhysNet,(i-simple),50-60,50,1,28.125,False,False,test (c) outputs
+MCD-rPPG test,PhysNet,(i-simple),60-70,60,4,13.4765625,False,False,test (c) outputs
+MCD-rPPG test,PhysNet,(i-simple),70-80,70,90,3.9453125,True,False,test (c) outputs
+MCD-rPPG test,PhysNet,(i-simple),80-90,80,234,4.181690705128205,True,False,test (c) outputs
+MCD-rPPG test,PhysNet,(i-simple),90-100,90,529,3.8612062854442346,True,False,test (c) outputs
+MCD-rPPG test,PhysNet,(i-simple),100-110,100,376,7.106050531914893,True,True,test (c) outputs
+MCD-rPPG test,PhysNet,(i-simple),110-120,110,177,13.201800847457628,True,True,test (c) outputs
+MCD-rPPG test,PhysNet,(i-simple),120-130,120,48,11.1572265625,True,True,test (c) outputs
+MCD-rPPG test,PhysNet,(i-simple),130-140,130,14,14.313616071428571,False,True,test (c) outputs
+MCD-rPPG test,PhysNet,(i-simple),140-150,140,1,69.140625,False,True,test (c) outputs
+MCD-rPPG test,PhysNet,(ii-lag),50-60,50,1,23.4375,False,False,test (c) outputs
+MCD-rPPG test,PhysNet,(ii-lag),60-70,60,4,10.546875,False,False,test (c) outputs
+MCD-rPPG test,PhysNet,(ii-lag),70-80,70,90,2.5911458333333335,True,False,test (c) outputs
+MCD-rPPG test,PhysNet,(ii-lag),80-90,80,234,3.730969551282051,True,False,test (c) outputs
+MCD-rPPG test,PhysNet,(ii-lag),90-100,90,529,4.180204395085066,True,False,test (c) outputs
+MCD-rPPG test,PhysNet,(ii-lag),100-110,100,376,8.595827792553193,True,True,test (c) outputs
+MCD-rPPG test,PhysNet,(ii-lag),110-120,110,177,15.545550847457628,True,True,test (c) outputs
+MCD-rPPG test,PhysNet,(ii-lag),120-130,120,48,20.8984375,True,True,test (c) outputs
+MCD-rPPG test,PhysNet,(ii-lag),130-140,130,14,31.89174107142857,False,True,test (c) outputs
+MCD-rPPG test,PhysNet,(ii-lag),140-150,140,1,35.15625,False,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(0),50-60,50,1,65.625,False,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(0),60-70,60,4,65.0390625,False,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(0),70-80,70,90,57.526041666666664,True,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(0),80-90,80,234,49.38401442307693,True,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(0),90-100,90,529,44.73948487712665,True,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(0),100-110,100,376,34.90691489361702,True,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(0),110-120,110,177,31.110963983050848,True,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(0),120-130,120,48,27.5390625,True,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(0),130-140,130,14,23.60491071428571,False,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(0),140-150,140,1,53.90625,False,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i),50-60,50,1,26.953125,False,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i),60-70,60,4,73.828125,False,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i),70-80,70,90,58.372395833333336,True,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i),80-90,80,234,36.86398237179487,True,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i),90-100,90,529,29.210479678638944,True,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i),100-110,100,376,20.11510970744681,True,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i),110-120,110,177,18.518273305084744,True,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i),120-130,120,48,16.9189453125,True,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i),130-140,130,14,14.6484375,False,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i),140-150,140,1,15.234375,False,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii),50-60,50,1,28.125,False,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii),60-70,60,4,39.84375,False,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii),70-80,70,90,29.739583333333332,True,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii),80-90,80,234,16.391225961538463,True,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii),90-100,90,529,10.219015831758034,True,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii),100-110,100,376,8.645694813829786,True,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii),110-120,110,177,11.79157838983051,True,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii),120-130,120,48,16.9921875,True,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii),130-140,130,14,16.908482142857142,False,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii),140-150,140,1,38.671875,False,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i-pc),50-60,50,1,44.53125,False,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i-pc),60-70,60,4,74.12109375,False,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i-pc),70-80,70,90,58.515625,True,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i-pc),80-90,80,234,38.947315705128204,True,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i-pc),90-100,90,529,33.45714201323251,True,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i-pc),100-110,100,376,22.913896276595747,True,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i-pc),110-120,110,177,23.252118644067796,True,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i-pc),120-130,120,48,29.150390625,True,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i-pc),130-140,130,14,22.68415178571429,False,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i-pc),140-150,140,1,53.90625,False,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii-pc),50-60,50,1,23.4375,False,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii-pc),60-70,60,4,72.0703125,False,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii-pc),70-80,70,90,53.619791666666664,True,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii-pc),80-90,80,234,31.405248397435898,True,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii-pc),90-100,90,529,24.031190926275993,True,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii-pc),100-110,100,376,15.203208111702127,True,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii-pc),110-120,110,177,15.207891949152541,True,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii-pc),120-130,120,48,17.1875,True,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii-pc),130-140,130,14,18.080357142857142,False,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii-pc),140-150,140,1,33.984375,False,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i-simple),50-60,50,1,33.984375,False,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i-simple),60-70,60,4,63.8671875,False,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i-simple),70-80,70,90,51.796875,True,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i-simple),80-90,80,234,36.72876602564102,True,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i-simple),90-100,90,529,29.92601016068053,True,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i-simple),100-110,100,376,20.298994348404253,True,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i-simple),110-120,110,177,19.140625,True,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i-simple),120-130,120,48,18.26171875,True,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i-simple),130-140,130,14,22.767857142857142,False,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(i-simple),140-150,140,1,51.5625,False,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii-lag),50-60,50,1,49.21875,False,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii-lag),60-70,60,4,52.1484375,False,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii-lag),70-80,70,90,43.658854166666664,True,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii-lag),80-90,80,234,26.883012820512818,True,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii-lag),90-100,90,529,19.35698251417769,True,False,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii-lag),100-110,100,376,13.224110704787234,True,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii-lag),110-120,110,177,15.638241525423728,True,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii-lag),120-130,120,48,18.6279296875,True,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii-lag),130-140,130,14,21.6796875,False,True,test (c) outputs
+MCD-rPPG test,RhythmFormer,(ii-lag),140-150,140,1,38.671875,False,True,test (c) outputs

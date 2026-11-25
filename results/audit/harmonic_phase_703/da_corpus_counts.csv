@@ -1,0 +1,5 @@
+corpus,recordings,negative,positive,undecidable,undecidable_coherence,undecidable_intermediate_Delta,coherence_f0_below,coherence_2f0_below_with_f0_ok,correlation_sign_negative,correlation_sign_positive,fps_min,fps_max,segment_s,source
+PURE,59,13,2,44,18,26,10,8,49,10,29.847709762862387,30.000006295724333,10.0,"training/development data (audit recordings, Table VI)"
+UBFC-rPPG,42,14,1,27,3,24,2,1,40,2,23.178330583542905,29.973033111802064,10.0,"training/development data (audit recordings, Table VI)"
+MMPD-A,220,14,9,197,187,10,150,37,74,146,30.0,30.0,10.0,"training/development data (audit recordings, Table VI)"
+MCD-rPPG dev,89,0,1,88,81,7,76,5,16,73,29.97114173846701,29.9926019364353,10.0,"training/development data (audit recordings, Table VI)"

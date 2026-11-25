@@ -1,0 +1,27 @@
+{
+ "strategies_present": [
+  "(ii)",
+  "(ii-lag)",
+  "(ii-lag-std)",
+  "(ii-pc)",
+  "(ii-pc-std)",
+  "(ii-std)"
+ ],
+ "judgement_layer": "HAR",
+ "convergence": {
+  "MMPD-A": {
+   "std": 12.799202127659575,
+   "standard": 19.655917553191486,
+   "ratio": 0.6511627906976746
+  },
+  "MCD-dev": {
+   "std": 4.8430765086206895,
+   "standard": 7.572737068965517,
+   "ratio": 0.6395410885805763
+  }
+ },
+ "converged": true,
+ "condition_depended": true,
+ "condition_did_not_depend": false,
+ "judgement": "depended"
+}

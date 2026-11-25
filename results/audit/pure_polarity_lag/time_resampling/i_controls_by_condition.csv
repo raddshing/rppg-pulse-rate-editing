@@ -1,0 +1,5 @@
+known_lag,known_sign,controls,passed
+-10,-1,12,11
+-10,1,12,11
+5,-1,12,10
+5,1,12,11

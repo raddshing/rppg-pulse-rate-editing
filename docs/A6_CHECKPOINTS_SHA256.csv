@@ -1,0 +1,160 @@
+group,backbone,arm,seed,sha256
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(0-std),20261131,b48a7af52de9615b01af98c25258c36c734dfd104e90246717b336237a952d10
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(0-std),20261132,55f2339b3a9206f6aa250824c62405e088e55c57a82c307b09cef8bbedc315c9
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(0-std),20261133,384d5e8e2489bf829a4c195efe7208023ab75d671ce710ac444399233e8e2e43
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(i-std),20261131,a1601adfced29949f92669afe374f8f868ae324871fc8646b9123c69cf6d5676
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(i-std),20261132,ee7e80377ea909a876b92192a7c8c3b3be71862b94ac2795fe88481a7b6fb5ed
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(i-std),20261133,726cd3cc41b89e2c06cb65e4ad2ac1d3673c8c36c4e74452232aff5b22b2f0a1
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(i-pc-std),20261131,46c7228cda09ed16349ace9f94ed32040c8798ae5f3cb151caf2fd3a27117874
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(i-pc-std),20261132,09299935050006c5829c741dc2d2ebb2c669b8592f06d9c30beeb2e1cbcac83b
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(i-pc-std),20261133,2be40da5ece91f03f858d4792b2ec21f168d758b0a188f6eae2e42c57947423a
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(i-simple-std),20261131,5864c98b830c12f1c46998ad2351b5c6277d964852bc5cf88852200fbb4d1877
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(i-simple-std),20261132,6f8af87e8d7d4aaf499355ffd9d69b26026081987834ab46cf3d5b363394d59d
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(i-simple-std),20261133,2ec35a85a92fd7fcd8cfd34c71b7acb18643707fccd95847e01a13fad2462291
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(ii-std),20261131,c409c3725abf69ba50f522d60ab688b60f2fb4f37093629487ce1f8a6677f124
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(ii-std),20261132,6e0b3169bfe36220dc1d7bbe32fa508e21fe8e66073b3f8e68a195749a2e4eba
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(ii-std),20261133,cec11c4c195aa4ff1421e0af7e988860dbd722b8a3c33c77279a2f22865ede3c
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(ii-lag-std),20261131,6515c8676ad7ea312c9c0de85ef30c380c9f5861f30f2b7b3d32a2885331f5ab
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(ii-lag-std),20261132,71cf50e08db7a3b857ca540b6361754b6023550e38ee4a54d04b8125f63021ce
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(ii-lag-std),20261133,cefb16cd12428bd3a8221beb1a10e11ed2f7743478cc3943713980ef1d621c9d
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(ii-pc-std),20261131,aba03db9d6c7d43a4e23e275029c46b56cfbe23a220051164a4c086838edb298
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(ii-pc-std),20261132,4f60b67d09ca14192d57a41fd87c5a64d807060ed0774c4d9ef149d1dce7b093
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(ii-pc-std),20261133,43606dbd96e2218eab5feaf95196cfb21d0efc55126de4df44d26903589c2866
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(0-mcc),20261131,ae2110fb2a8adefb41642d5b8ac699fc547dce8de6510c850f66a8373421f58a
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(0-std-mcc),20261131,b2bfcf49976290377039f004e8340b676de72c4b90191eccce8efa3a91bb6fb8
+7.04 (A6 items 1 and 2; rule 5),FactorizePhys-matched,(0-mcc),20261131,e24af2164488fe97b890aef2d2fe91aa787adb765662a0fd30538e16bdacdd48
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(0-mcc),20261132,03f5dc2ddd7b6848f3c0dc1231efc4f57707960677f679eb2205bc37551e3c65
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(0-std-mcc),20261132,71957cc54f13a64ba24dfbc5222df9c597aa12bdcbdfbae61ad19d7f0bd263bd
+7.04 (A6 items 1 and 2; rule 5),FactorizePhys-matched,(0-mcc),20261132,fc94769a04d08cae2236153dc9557bfd4323ce21e2410bf525abf03a114fbbe4
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(0-mcc),20261133,a40d648e5ab4ce3b877200e09248325293168bebb1fa7d8effed0f9896c9c33e
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(0-std-mcc),20261133,bdf7c00c1fd26fe89a06618b783f9d66955ccd4121c19e1cfa3ce112f45098b4
+7.04 (A6 items 1 and 2; rule 5),FactorizePhys-matched,(0-mcc),20261133,bc797a07fd0bf19e19cbe1147416240bc48b395fae1e2c84c828ac3d5ecb7656
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(i-mcc),20261131,62fdcfb4fad0e52fdd0d99dc283301feae26f5f2032a84b30f1edff323b7c8aa
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(i-std-mcc),20261131,ca6a579da841e8e5b438d64ff4cb1c724828e8fc83a2e34cadd30302c3ed4488
+7.04 (A6 items 1 and 2; rule 5),FactorizePhys-matched,(i-mcc),20261131,8c0fd1f74dcff84ed5c5908fd1dcc588407480f8fa2f9c960d898e73fe89a71c
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(i-mcc),20261132,c2cd872125c95abbf605126c97a57c0fa74e66691bc6f125d3c76642506d3a75
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(i-std-mcc),20261132,2cb16b783fb02067e72e1ac77ac06e69a65d04fd73e1e7801be8ef2f8aed8f2f
+7.04 (A6 items 1 and 2; rule 5),FactorizePhys-matched,(i-mcc),20261132,55f21c7f04e89d2614aad7bac0ea68fdcf62ab7c9586b0b432c592f07135382a
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(i-mcc),20261133,816722d993f9681aa91baa5a0580f66e57741a4bf0e70fd7719ee517098dd0ab
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(i-std-mcc),20261133,acc1cda25cffa11b5af43721dd7e5f32b44050da68db8cdec65a29954110db88
+7.04 (A6 items 1 and 2; rule 5),FactorizePhys-matched,(i-mcc),20261133,167288a79d216cf2762c3c78c34c72ca428cd3b4973ea5257c940e135d04fec6
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(i-pc-mcc),20261131,17020879d18a391b480821eb55512043f345891823bd351261d3428410f44a86
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(i-pc-std-mcc),20261131,92b84fe0e369fa98490dc6a6159708538af3885187147ae46e6b756c090f18af
+7.04 (A6 items 1 and 2; rule 5),FactorizePhys-matched,(i-pc-mcc),20261131,cd344c0570b0744979ced9e789d08e44df3ec23b27aa147bc2679f64d53ca517
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(i-pc-mcc),20261132,4fd08c9a81611bb8003178dc9365c80fba0557d7bd1c0f9321e5b6456d34661f
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(i-pc-std-mcc),20261132,4490cf4553b6bb97cfc540ad83fa226d1bee9273771b7bb6d30dd9b599ddf6b4
+7.04 (A6 items 1 and 2; rule 5),FactorizePhys-matched,(i-pc-mcc),20261132,9826228e205c94b1ef60e58f6c4809540847005ba66160f06a98111fbab5453d
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(i-pc-mcc),20261133,ac622e867a5c0b564e4b99d68d86342d8abc5aadcd481ce548b33ec4880cb806
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(i-pc-std-mcc),20261133,6ee91e1a78614d0dfd5fbf65b50c8dfc8f33af57ab37e6712184137fea20a5c7
+7.04 (A6 items 1 and 2; rule 5),FactorizePhys-matched,(i-pc-mcc),20261133,985773e4e9898eb0ea39bc5ae8d50bf345351be3f6d54d7c0b94d21108a27b83
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(i-simple-mcc),20261131,17887b6d04e7eb87e481045ea610836c69cb34bda53a5677f92dd8d461c19003
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(i-simple-std-mcc),20261131,036181197dedd3a3c4c5ff8eca6e5085db3d1d95af6533eff02205a428d59d36
+7.04 (A6 items 1 and 2; rule 5),FactorizePhys-matched,(i-simple-mcc),20261131,24469e17084fcf067629839fc722d1c423d0afbfcc58cef9b138670ef2dcde91
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(i-simple-mcc),20261132,e278a15f9ee5b9d132bfcdb20ba8839a9de826b499612557652c9a89b8c5676b
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(i-simple-std-mcc),20261132,55f73d92da92ad9fb062541f129fe9d70408911a0a5f76ec82eac1ed50e4af2b
+7.04 (A6 items 1 and 2; rule 5),FactorizePhys-matched,(i-simple-mcc),20261132,0d61ac64cdd6e6d875c03d5afea43372889471622c53a3c6c73dc1887e1f1b1a
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(i-simple-mcc),20261133,0ab46fa74d46c8b3dcac2093b987e45a94642384d64f2b3890743af44decd191
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(i-simple-std-mcc),20261133,ad7b619d29a49f7bd66745117afb6537aa014c90914e9dfd0d355d63e7fdd672
+7.04 (A6 items 1 and 2; rule 5),FactorizePhys-matched,(i-simple-mcc),20261133,c8868686beba6994dba43f29739717d5b37d78ed18d546adea308b70d6a289cc
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(ii-mcc),20261131,6c67690c3468a94a93078c45a6228cd0855000cca21446bdfc3fa43fcab7f912
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(ii-std-mcc),20261131,06beecfd74748da3c77db9b8e97665db917b5bc1b407b45f7613188b13928518
+7.04 (A6 items 1 and 2; rule 5),FactorizePhys-matched,(ii-mcc),20261131,0ac25b8105c66317bacbc741532c416d1c39c59112198aaaad5f40adda969d75
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(ii-mcc),20261132,c8e8a03b110590fbd3b91ee8a168b14d5c8f00d713421ae409f8de4b024278ae
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(ii-std-mcc),20261132,ea06b8de70635d13c5a8c3d4f2f5fba7db14bdc8f805e3e965544a72de535b71
+7.04 (A6 items 1 and 2; rule 5),FactorizePhys-matched,(ii-mcc),20261132,f1c374ec56b436af835bbf9fbd77ca4e5ba624454c6f86f1c7f091bfa22d722f
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(ii-mcc),20261133,257c0b19eb287b967597c50baf0d37d2915343daa2aa645d2a1d6b5f96431b86
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(ii-std-mcc),20261133,8e9bb2e609db9a4fdf7f79da4e8b12d3aa88958171a9463a7180239c872d746e
+7.04 (A6 items 1 and 2; rule 5),FactorizePhys-matched,(ii-mcc),20261133,b33310ea7f0445c86e5904781bb6772002d2e0a0b2f686c89362521595e349f7
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(ii-lag-mcc),20261131,be8228a46a7cdc22f6aaa8a452223629d77fef0d3f5bd8dac7b7908426802175
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(ii-lag-std-mcc),20261131,735cf62cc5d3bf916be7c5da3a2274b9c620ed28ece60f53823be6eec6004960
+7.04 (A6 items 1 and 2; rule 5),FactorizePhys-matched,(ii-lag-mcc),20261131,51a17ad16becfac8ce24f19d4d0ebc7fb4cb1d58ebb9c730af53310297cd7ef1
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(ii-lag-mcc),20261132,cbf9a68d17c72c4084d776f5e57d322fd93f081d581ca093efd27b1e35283cb4
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(ii-lag-std-mcc),20261132,7324603cc7225a484f9dbda2db9a12790730ca683e25c82d9a996cdb2492775d
+7.04 (A6 items 1 and 2; rule 5),FactorizePhys-matched,(ii-lag-mcc),20261132,71e3f118b65e0730a50c29e01213da47a086f96f791f426161f31cf88512991b
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(ii-lag-mcc),20261133,48f1a12729d1ce6cb727ab23dd91b3fc3ba48371de171932f3689efbc6510322
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(ii-lag-std-mcc),20261133,de796afce8e4f23b1be59eb491a7bcf0d6b79d8fb0495e98969f9e0c9931a886
+7.04 (A6 items 1 and 2; rule 5),FactorizePhys-matched,(ii-lag-mcc),20261133,7c80f6a417877cbac2b4d2760865c620416d3a8a16b69dea83338b15003bf419
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(ii-pc-mcc),20261131,a5608d4c4e40c106e907f6da5d48938a36da382599aaefb5990d95525eba40ea
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(ii-pc-std-mcc),20261131,8cb09e35bc5f03bb67937492f54062366f4a128a580d3639fb222b1c25465ca6
+7.04 (A6 items 1 and 2; rule 5),FactorizePhys-matched,(ii-pc-mcc),20261131,4986f773ab8ed2718b3c64570db787f759cbd43bf73ece50de0af45d55e9b6e0
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(ii-pc-mcc),20261132,1647fc625b9cd5c64a819b59360793434cf1a885756b932df67c6ffc42fdf7e9
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(ii-pc-std-mcc),20261132,8fde29f4b28df8a75e960940f7c1a6d951c5c216aaf6707e98eeda32e4541c82
+7.04 (A6 items 1 and 2; rule 5),FactorizePhys-matched,(ii-pc-mcc),20261132,1d35549d68cb3f7f5fe42de93eb7f700a81850e26ef57f82e20611ca5af9b73a
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(ii-pc-mcc),20261133,1d3c3f2b4e13f73fc9b45538645b5d5eb9933f997d61b6d0e0a490f26be07b57
+7.04 (A6 items 1 and 2; rule 5),PhysNet,(ii-pc-std-mcc),20261133,89945063ba46323267e1f0739e528d7e393c413b6d3858c0c3dabe09fa404b1d
+7.04 (A6 items 1 and 2; rule 5),FactorizePhys-matched,(ii-pc-mcc),20261133,27bfe6e0dad28d5cd9236c7b7a09d1adb6721bfcddb72308368c40de403952c7
+P: PhysNet and FactorizePhys (A6 item 3),PhysNet,(0),20261148,8df02398fa28ec58d0a916044dc0557a67d0ae4504aa2894271c05211f10d552
+P: PhysNet and FactorizePhys (A6 item 3),PhysNet,(0),20261149,3be4d776a98b52ae586f5056e0c22c3069ce4f5c1df730caa01f40642fb73a0f
+P: PhysNet and FactorizePhys (A6 item 3),PhysNet,(0),20261150,7c595f6c8fbea737d1893cc99258106e726327a3e125d3167d53bef5a9b513b0
+P: PhysNet and FactorizePhys (A6 item 3),PhysNet,(i),20261148,ac02255b01d5bc9f4dcbad859b16c66ad1b6027c79deea714b46deda8e6f8400
+P: PhysNet and FactorizePhys (A6 item 3),PhysNet,(i),20261149,743da8c1e3121be3014621b6d733dfa4093f91402ca60b8f40436d1fbe77f3f7
+P: PhysNet and FactorizePhys (A6 item 3),PhysNet,(i),20261150,f45bea27fee54b834544b0e3efb90801dcd5bfc23dd367eccc15c7e0bbd43a20
+P: PhysNet and FactorizePhys (A6 item 3),PhysNet,(i-pc),20261148,c272d37a3717ca77a37d82e9d1ac58123ffe146b41b43cd5cb6afd9eaf6300ea
+P: PhysNet and FactorizePhys (A6 item 3),PhysNet,(i-pc),20261149,a10cffc12cab33100f06ff3907cd4b9bd5f8d6b195b01207b699a818c2379359
+P: PhysNet and FactorizePhys (A6 item 3),PhysNet,(i-pc),20261150,e979ee6ebacf2611b171b38783c450e77f69b7579a804bdccec933474c16f11f
+P: PhysNet and FactorizePhys (A6 item 3),PhysNet,(i-simple),20261148,6bf577622338488cf7f8f277c4864e543dbc445e0be453acc72b2730858b7e85
+P: PhysNet and FactorizePhys (A6 item 3),PhysNet,(i-simple),20261149,842077648d2f7fd218761d66477ed0410b7f22af7d43f6eb0f7a9affaf342947
+P: PhysNet and FactorizePhys (A6 item 3),PhysNet,(i-simple),20261150,2c41ac472ff35a6518020d01f88373a8ba4258ecf922aee1b19ce5bb8521762a
+P: PhysNet and FactorizePhys (A6 item 3),PhysNet,(ii),20261148,68ac1391d07b518ae30cb60a51b596ea9d3e8588bbfc6ecf128c959192debd59
+P: PhysNet and FactorizePhys (A6 item 3),PhysNet,(ii),20261149,ee64cb307b5eb94edd04f3433723da8ff899fc044a2fda348763b1750955c46e
+P: PhysNet and FactorizePhys (A6 item 3),PhysNet,(ii),20261150,b6163e830d91dd46951ba03fe3083ae45fa0ee111611c801d9288638f770e579
+P: PhysNet and FactorizePhys (A6 item 3),PhysNet,(ii-pc),20261148,d5c9dd83413b76e4c729c26aa83a1928fc1a2c609aa24a9c1289978f18aed022
+P: PhysNet and FactorizePhys (A6 item 3),PhysNet,(ii-pc),20261149,c980aeacd974f6d29fd1f0a87cdccf89110245b77796b292ca868fa814e551bc
+P: PhysNet and FactorizePhys (A6 item 3),PhysNet,(ii-pc),20261150,1bf732ec750585f859565d8e954ef791bcd4ff178ec4407d728bdfb9c0da0af2
+P: PhysNet and FactorizePhys (A6 item 3),FactorizePhys-matched,(0),20261148,47111c48e2ff1f21c26a5f0ea36834d0e450c37210bc271a7b2f9e3a685bf1a4
+P: PhysNet and FactorizePhys (A6 item 3),FactorizePhys-matched,(0),20261149,d30ed12976ad8e341941ba5b6df163bcf8c931af26b5da0fb845062eb0fa54e4
+P: PhysNet and FactorizePhys (A6 item 3),FactorizePhys-matched,(0),20261150,91b32a8ce29310388f17666102bb5ee8a2e53429ea88b721f31b5bc2634f7c7a
+P: PhysNet and FactorizePhys (A6 item 3),FactorizePhys-matched,(i),20261148,4dceb4c1e446cb517239d5e2ed3b0d3ce7727f94345eb5c2ca494b7f2f5347f2
+P: PhysNet and FactorizePhys (A6 item 3),FactorizePhys-matched,(i),20261149,33dc9c3c2752fbec391b3ad4fe16fe094e3ec496004247a168de83c2c342af7c
+P: PhysNet and FactorizePhys (A6 item 3),FactorizePhys-matched,(i),20261150,e1de7272340875d41cb43d06e3f81c4b158d6e0bb35a1e89b7eac78419a0e9f9
+P: PhysNet and FactorizePhys (A6 item 3),FactorizePhys-matched,(i-pc),20261148,8d41774763840505e313e78460a0e73c765d82c8d45d5da7a8c9ed529b90e96e
+P: PhysNet and FactorizePhys (A6 item 3),FactorizePhys-matched,(i-pc),20261149,b3289241311a1539412f397279b95f8f47de29184a69f7f0ec06ec43467cc846
+P: PhysNet and FactorizePhys (A6 item 3),FactorizePhys-matched,(i-pc),20261150,d8af6ffabea7a0b83e2ab268b1e617410dbf6a8c3e9641a863c8da35d72e0c6c
+P: PhysNet and FactorizePhys (A6 item 3),FactorizePhys-matched,(i-simple),20261148,fc1fa1ded7a7d45362dc0dbaf51e6cfb7f837be76cddcf5a5e91cfc3ffd995d0
+P: PhysNet and FactorizePhys (A6 item 3),FactorizePhys-matched,(i-simple),20261149,4c8b08599f0da4f9be668e803b4953ba6d8ed7762d186b3b6ae7b089383dfdd2
+P: PhysNet and FactorizePhys (A6 item 3),FactorizePhys-matched,(i-simple),20261150,4ec8cb8184c0fd757b148ffad9753a72018c24acc460fe75f9436adba65b035e
+P: PhysNet and FactorizePhys (A6 item 3),FactorizePhys-matched,(ii),20261148,24776f00477358fa5fd81eb0905e128d6c820483128778d3164e95b223085ecc
+P: PhysNet and FactorizePhys (A6 item 3),FactorizePhys-matched,(ii),20261149,ac6758db43b1edcf976e68eecc621ad07a8ba7bd823a4d1152efe7d46fc772d9
+P: PhysNet and FactorizePhys (A6 item 3),FactorizePhys-matched,(ii),20261150,6b4481f9265ed54218cde2a016045beac509109a496cdc6edab930fb870bfa0f
+P: PhysNet and FactorizePhys (A6 item 3),FactorizePhys-matched,(ii-pc),20261148,052169502b3cd439fd843f8874e201fe6e45c3138270d3a8693c689f4b587a0a
+P: PhysNet and FactorizePhys (A6 item 3),FactorizePhys-matched,(ii-pc),20261149,1695bb4f6e5b07afbc0f6f3f6ba2f200895596a1985da49475ebfbbd82c271d2
+P: PhysNet and FactorizePhys (A6 item 3),FactorizePhys-matched,(ii-pc),20261150,73c8199350e79f9d5358ded79ceb9d880fecd5eef2b140b14d7e0b7d786fd93b
+P: RhythmFormer (A6 item 3),RhythmFormer,(0),20261148,7a53c26030ed08bc80ddba69ea289da01ca78dca3dd3b6f64020550885364fc4
+P: RhythmFormer (A6 item 3),RhythmFormer,(0),20261149,dc32600c230d5bdf82fba18d235286d5fc87f2a677f5c69e9b9053b466645b72
+P: RhythmFormer (A6 item 3),RhythmFormer,(0),20261150,55116fdd763bbc83cc8bd2ea47b8b7489aa55afce5d197d646fec898d1f2c68f
+P: RhythmFormer (A6 item 3),RhythmFormer,(i),20261148,577f8e60a42e9cb6033138925c6d0b611bb0895d1da4c94192454ad944e36d73
+P: RhythmFormer (A6 item 3),RhythmFormer,(i),20261149,bb14e306bfcd4e3f4669e266c5f0f1e9afe71e2da7f1d831444155dae840fdf1
+P: RhythmFormer (A6 item 3),RhythmFormer,(i),20261150,7ec02d2f8d7cbc6fe8b48e85bfe659d7c27a7d0c6a6e0ab302ef581be9ff60ae
+P: RhythmFormer (A6 item 3),RhythmFormer,(i-pc),20261148,afec1efb2731e742d4aba59aa8e4890f2963de3e8e6d56b559584d6bdc0c9c49
+P: RhythmFormer (A6 item 3),RhythmFormer,(i-pc),20261149,d82dbb7e466c3879b227d98f992e0a6c13048fd9f821a5e634a56fec2605c4fa
+P: RhythmFormer (A6 item 3),RhythmFormer,(i-pc),20261150,5c1ee82f060f735074ee028ddade3142fb1464e153599f0aca6eaf66173171ba
+P: RhythmFormer (A6 item 3),RhythmFormer,(i-simple),20261148,007ba78c923d423ef08bd376b2fd7926a78e89d032dbfd0e9175a6b65af26a50
+P: RhythmFormer (A6 item 3),RhythmFormer,(i-simple),20261149,07a6faf9f78b85759a4bc1e93627e884fd246321533cdd4b42cd450eaa3c8390
+P: RhythmFormer (A6 item 3),RhythmFormer,(i-simple),20261150,5a24744c4d1903f3e81d9677bb5c25fb55e88222d6007da05627975d3ca9313b
+P: RhythmFormer (A6 item 3),RhythmFormer,(ii),20261148,181e44cb4d7df032811b39235abb07d93d36eef313076163511ba0173c5909f8
+P: RhythmFormer (A6 item 3),RhythmFormer,(ii),20261149,b27d4d0057b9bae9d8af9880bb02f94a7fc74126274c1e7bb4ee5ac7632965cb
+P: RhythmFormer (A6 item 3),RhythmFormer,(ii),20261150,a4d96437251e389ca009068b9adec0999b7b00e9babb78662eb3eeec9d3ddac0
+P: RhythmFormer (A6 item 3),RhythmFormer,(ii-pc),20261148,d58f268e2ccc8ca5d1e0d6055c49189a94b59ee6b626bb334d9aa7da41b87afa
+P: RhythmFormer (A6 item 3),RhythmFormer,(ii-pc),20261149,4b7547d8e199be6498a15f5fdb61de07fc2062c572e65df97f4332276cadd596
+P: RhythmFormer (A6 item 3),RhythmFormer,(ii-pc),20261150,743ce547410a5e3af262f32debfda8cf244aceca9edd1fe089c5061b06de8b1a
+R: RhythmFormer-MCC (A6 item 9),RhythmFormer,(0-mcc),20261131,96e623b0f860093d4933b9c89df22eda5eb7d1411293c979fea06ec47d93fe73
+R: RhythmFormer-MCC (A6 item 9),RhythmFormer,(0-mcc),20261132,2a31f69834c46c1271a918d6f725a4a74b9e21ecf0aa3575cc77469e492329c1
+R: RhythmFormer-MCC (A6 item 9),RhythmFormer,(0-mcc),20261133,cb1c0f433e7b3c9a1a3e738d2816be89c5801d3a1263ed144cd378a668976915
+R: RhythmFormer-MCC (A6 item 9),RhythmFormer,(i-mcc),20261131,2dba54b553e65cd07fc05e720c847de16ca64ade8442e119e6dbcaf6cefce0f2
+R: RhythmFormer-MCC (A6 item 9),RhythmFormer,(i-mcc),20261132,7fd63cfc986674f44734561e7501a0655e2db4727053fea28074e1c8b69c4db9
+R: RhythmFormer-MCC (A6 item 9),RhythmFormer,(i-mcc),20261133,7f25e22f7cd518254b424c3298a4af835c399a57074c3c56857b7d854805bfb0
+R: RhythmFormer-MCC (A6 item 9),RhythmFormer,(i-pc-mcc),20261131,31a327809d2232cd514309813bd1fb6b1cf8c4b95b29ca622f36dd2d3949236e
+R: RhythmFormer-MCC (A6 item 9),RhythmFormer,(i-pc-mcc),20261132,65f4c712cdcac88ab8df3f731b94daa762f12cd47e1f35845a7218fc263172b6
+R: RhythmFormer-MCC (A6 item 9),RhythmFormer,(i-pc-mcc),20261133,464cce02e75b0bae2f6369a07edb020fb66a0732418618cea2c2d63b4e298085
+R: RhythmFormer-MCC (A6 item 9),RhythmFormer,(i-simple-mcc),20261131,843796c6bc1718d2a628e2c1207a24de41e20bf5fbe88ee739e92f57e0346b63
+R: RhythmFormer-MCC (A6 item 9),RhythmFormer,(i-simple-mcc),20261132,d943eafaa6157e18d0b84916e8f7a6d7ac875f9898fb6c85e9d059cd08464e9a
+R: RhythmFormer-MCC (A6 item 9),RhythmFormer,(i-simple-mcc),20261133,a52fbd3f94cf4fbf61a16421530cc15bc6f161001ac6605964a2a192dbe75fc3
+R: RhythmFormer-MCC (A6 item 9),RhythmFormer,(ii-mcc),20261131,ec1c68999b0b958e44b692862c4fbb7972671dc2073bb46e040aa9030a5d39f6
+R: RhythmFormer-MCC (A6 item 9),RhythmFormer,(ii-mcc),20261132,a12c336948689ebc712847ee69d78d580ac78450fd42f7e6848cda23929c949f
+R: RhythmFormer-MCC (A6 item 9),RhythmFormer,(ii-mcc),20261133,c60d8872c1db50dc4e6ab4efbc98bb0545b7006bf7f607db80f720a0bf3a0e90
+R: RhythmFormer-MCC (A6 item 9),RhythmFormer,(ii-lag-mcc),20261131,4cd21b9b8264ba13bcc57fd9ee67c8e3f8e107242bd2eac21b9eb56ce759b4f1
+R: RhythmFormer-MCC (A6 item 9),RhythmFormer,(ii-lag-mcc),20261132,0f4eaa8b2244997c1c6fe37c50562058104b1e9d956c1534c70da57d4e427b52
+R: RhythmFormer-MCC (A6 item 9),RhythmFormer,(ii-lag-mcc),20261133,d32106a81eaa75b5a17c9883f26ba004dcc24b049e18d7f243a49ca0946b0f6f
+R: RhythmFormer-MCC (A6 item 9),RhythmFormer,(ii-pc-mcc),20261131,008b4df92cad74c160203a66ba9959d658227ec080c5704d4af3b5175e8f15b5
+R: RhythmFormer-MCC (A6 item 9),RhythmFormer,(ii-pc-mcc),20261132,2d9e80ee3e7c4c0fdac72e46a5aa2be7740921854d6460a5094c418816348cb9
+R: RhythmFormer-MCC (A6 item 9),RhythmFormer,(ii-pc-mcc),20261133,81e48c7c75596b764f261015d736eb8eeb94c247b8a9ebf1c3113f15be390fbd

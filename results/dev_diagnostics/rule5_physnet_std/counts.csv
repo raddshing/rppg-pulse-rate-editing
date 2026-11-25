@@ -1,0 +1,5 @@
+dataset,population,layer,runs,windows,high,low,recordings,subjects,subjects_high
+MCD-dev,draft_rule,HAR,18,1446,580,866,89,73,73
+MCD-dev,draft_rule,L0,18,1449,573,876,89,73,73
+MMPD-A,validation,HAR,18,760,141,619,195,11,11
+MMPD-A,validation,L0,18,758,140,618,195,11,11

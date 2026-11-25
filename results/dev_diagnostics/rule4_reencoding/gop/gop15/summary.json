@@ -1,0 +1,33 @@
+{
+ "recordings": 54,
+ "codecs": {
+  "FMP4": 54
+ },
+ "recordings_with_B": 0,
+ "recordings_with_S": 0,
+ "gop_mode_by_recording": {
+  "15": 54
+ },
+ "gop_min": 15.0,
+ "gop_max": 15.0,
+ "share_constant_I_interval": 1.0,
+ "first_frame_types": {
+  "I": 54
+ },
+ "empty_packets_total": 0,
+ "packets_with_several_vops_total": 0,
+ "header_fps": {
+  "30.0": 54
+ },
+ "meta_fps_median": 30.0,
+ "meta_fps_min": 29.99999978054133,
+ "meta_fps_max": 30.000000207325503,
+ "bitrate_kbps_median": 2044.8816240878145,
+ "bitrate_kbps_min": 2039.297602945297,
+ "bitrate_kbps_max": 2058.1849003494867,
+ "keyframe_hz_median": 2.0,
+ "keyframe_bpm_median": 120.0,
+ "vop_fps_over_span_median": 30.0,
+ "keyframe_bpm_on_vop_grid_median": 120.0,
+ "meta_frames_minus_vops_median": 0.0
+}

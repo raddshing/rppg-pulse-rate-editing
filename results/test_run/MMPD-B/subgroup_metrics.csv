@@ -1,0 +1,621 @@
+dimension,category,group,backbone,strategy,seeds,windows,subjects,MAE
+activity,Rotation,H,FactorizePhys (matched),(0),3,20,2,15.46875
+activity,Rotation,H,FactorizePhys (matched),(i),3,20,2,19.04296875
+activity,Rotation,H,FactorizePhys (matched),(i-pc),3,20,2,14.82421875
+activity,Rotation,H,FactorizePhys (matched),(i-simple),3,20,2,13.59375
+activity,Rotation,H,FactorizePhys (matched),(ii),3,20,2,22.44140625
+activity,Rotation,H,FactorizePhys (matched),(ii-lag),3,20,2,19.86328125
+activity,Rotation,H,FactorizePhys (matched),(ii-pc),3,20,2,12.83203125
+activity,Rotation,H,FactorizePhys (matched),(ii-pc-g),3,20,2,13.53515625
+activity,Rotation,H,FactorizePhys (matched),(ii-pc-g2),3,20,2,15.0
+activity,Rotation,H,FactorizePhys (matched),(ii-pc-g80),3,20,2,13.65234375
+activity,Rotation,H,FactorizePhys (matched),(sham-pc),3,20,2,20.15625
+activity,Rotation,H,PhysNet,(0),3,20,2,34.8046875
+activity,Rotation,H,PhysNet,(i),3,20,2,23.73046875
+activity,Rotation,H,PhysNet,(i-pc),3,20,2,17.51953125
+activity,Rotation,H,PhysNet,(i-pc-g80),3,20,2,16.40625
+activity,Rotation,H,PhysNet,(i-simple),3,20,2,23.7890625
+activity,Rotation,H,PhysNet,(ii),3,20,2,23.14453125
+activity,Rotation,H,PhysNet,(ii-lag),3,20,2,24.31640625
+activity,Rotation,H,PhysNet,(ii-pc),3,20,2,18.046875
+activity,Rotation,H,PhysNet,(ii-pc-g),3,20,2,21.9140625
+activity,Rotation,H,PhysNet,(ii-pc-g2),3,20,2,27.24609375
+activity,Rotation,H,PhysNet,(ii-pc-g80),3,20,2,26.71875
+activity,Rotation,H,PhysNet,(roi-pc),3,20,2,21.2109375
+activity,Rotation,H,PhysNet,(sham-pc),3,20,2,38.96484375
+activity,Rotation,H,RhythmFormer,(0),3,20,2,36.85546875
+activity,Rotation,H,RhythmFormer,(i),3,20,2,20.5078125
+activity,Rotation,H,RhythmFormer,(i-pc),3,20,2,20.15625
+activity,Rotation,H,RhythmFormer,(i-simple),3,20,2,16.640625
+activity,Rotation,H,RhythmFormer,(ii),3,20,2,14.94140625
+activity,Rotation,H,RhythmFormer,(ii-lag),3,20,2,14.47265625
+activity,Rotation,H,RhythmFormer,(ii-pc),3,20,2,11.54296875
+activity,Rotation,L,FactorizePhys (matched),(0),3,356,22,11.741792485955054
+activity,Rotation,L,FactorizePhys (matched),(i),3,356,22,12.512069873595507
+activity,Rotation,L,FactorizePhys (matched),(i-pc),3,356,22,12.637157654494382
+activity,Rotation,L,FactorizePhys (matched),(i-simple),3,356,22,13.124341643258427
+activity,Rotation,L,FactorizePhys (matched),(ii),3,356,22,10.708172401685394
+activity,Rotation,L,FactorizePhys (matched),(ii-lag),3,356,22,10.869469803370785
+activity,Rotation,L,FactorizePhys (matched),(ii-pc),3,356,22,13.493021418539326
+activity,Rotation,L,FactorizePhys (matched),(ii-pc-g),3,356,22,13.190177317415731
+activity,Rotation,L,FactorizePhys (matched),(ii-pc-g2),3,356,22,12.367231390449438
+activity,Rotation,L,FactorizePhys (matched),(ii-pc-g80),3,356,22,12.492319171348313
+activity,Rotation,L,FactorizePhys (matched),(sham-pc),3,356,22,10.454705056179776
+activity,Rotation,L,PhysNet,(0),3,356,22,13.657610603932584
+activity,Rotation,L,PhysNet,(i),3,356,22,14.427887991573032
+activity,Rotation,L,PhysNet,(i-pc),3,356,22,15.599762991573035
+activity,Rotation,L,PhysNet,(i-pc-g80),3,356,22,16.03098665730337
+activity,Rotation,L,PhysNet,(i-simple),3,356,22,13.420602176966293
+activity,Rotation,L,PhysNet,(ii),3,356,22,11.70558286516854
+activity,Rotation,L,PhysNet,(ii-lag),3,356,22,10.405328300561798
+activity,Rotation,L,PhysNet,(ii-pc),3,356,22,13.38110077247191
+activity,Rotation,L,PhysNet,(ii-pc-g),3,356,22,13.87157654494382
+activity,Rotation,L,PhysNet,(ii-pc-g2),3,356,22,14.02299859550562
+activity,Rotation,L,PhysNet,(ii-pc-g80),3,356,22,12.818205758426965
+activity,Rotation,L,PhysNet,(roi-pc),3,356,22,15.191581811797752
+activity,Rotation,L,PhysNet,(sham-pc),3,356,22,13.746488764044946
+activity,Rotation,L,RhythmFormer,(0),3,356,22,15.784102879213483
+activity,Rotation,L,RhythmFormer,(i),3,356,22,15.217916081460674
+activity,Rotation,L,RhythmFormer,(i-pc),3,356,22,13.736613412921349
+activity,Rotation,L,RhythmFormer,(i-simple),3,356,22,14.691230688202246
+activity,Rotation,L,RhythmFormer,(ii),3,356,22,15.234375
+activity,Rotation,L,RhythmFormer,(ii-lag),3,356,22,14.220505617977528
+activity,Rotation,L,RhythmFormer,(ii-pc),3,356,22,13.855117626404494
+activity,Stationary,H,FactorizePhys (matched),(0),3,144,15,22.452799479166668
+activity,Stationary,H,FactorizePhys (matched),(i),3,144,15,25.048828125
+activity,Stationary,H,FactorizePhys (matched),(i-pc),3,144,15,20.80078125
+activity,Stationary,H,FactorizePhys (matched),(i-simple),3,144,15,19.588216145833332
+activity,Stationary,H,FactorizePhys (matched),(ii),3,144,15,28.059895833333332
+activity,Stationary,H,FactorizePhys (matched),(ii-lag),3,144,15,26.725260416666668
+activity,Stationary,H,FactorizePhys (matched),(ii-pc),3,144,15,19.596354166666668
+activity,Stationary,H,FactorizePhys (matched),(ii-pc-g),3,144,15,19.002278645833332
+activity,Stationary,H,FactorizePhys (matched),(ii-pc-g2),3,144,15,20.1904296875
+activity,Stationary,H,FactorizePhys (matched),(ii-pc-g80),3,144,15,20.011393229166668
+activity,Stationary,H,FactorizePhys (matched),(sham-pc),3,144,15,27.018229166666668
+activity,Stationary,H,PhysNet,(0),3,144,15,37.752278645833336
+activity,Stationary,H,PhysNet,(i),3,144,15,26.139322916666668
+activity,Stationary,H,PhysNet,(i-pc),3,144,15,22.713216145833332
+activity,Stationary,H,PhysNet,(i-pc-g80),3,144,15,24.568684895833332
+activity,Stationary,H,PhysNet,(i-simple),3,144,15,23.2421875
+activity,Stationary,H,PhysNet,(ii),3,144,15,30.891927083333332
+activity,Stationary,H,PhysNet,(ii-lag),3,144,15,32.5927734375
+activity,Stationary,H,PhysNet,(ii-pc),3,144,15,23.9501953125
+activity,Stationary,H,PhysNet,(ii-pc-g),3,144,15,21.525065104166668
+activity,Stationary,H,PhysNet,(ii-pc-g2),3,144,15,25.252278645833332
+activity,Stationary,H,PhysNet,(ii-pc-g80),3,144,15,27.197265625
+activity,Stationary,H,PhysNet,(roi-pc),3,144,15,20.271809895833332
+activity,Stationary,H,PhysNet,(sham-pc),3,144,15,33.349609375
+activity,Stationary,H,RhythmFormer,(0),3,144,15,32.340494791666664
+activity,Stationary,H,RhythmFormer,(i),3,144,15,21.354166666666668
+activity,Stationary,H,RhythmFormer,(i-pc),3,144,15,20.540364583333332
+activity,Stationary,H,RhythmFormer,(i-simple),3,144,15,18.896484375
+activity,Stationary,H,RhythmFormer,(ii),3,144,15,18.5791015625
+activity,Stationary,H,RhythmFormer,(ii-lag),3,144,15,19.319661458333332
+activity,Stationary,H,RhythmFormer,(ii-pc),3,144,15,16.194661458333332
+activity,Stationary,L,FactorizePhys (matched),(0),3,559,22,7.689512522361359
+activity,Stationary,L,FactorizePhys (matched),(i),3,559,22,7.461007379248659
+activity,Stationary,L,FactorizePhys (matched),(i-pc),3,559,22,7.886572003577818
+activity,Stationary,L,FactorizePhys (matched),(i-simple),3,559,22,8.117173524150267
+activity,Stationary,L,FactorizePhys (matched),(ii),3,559,22,7.16961091234347
+activity,Stationary,L,FactorizePhys (matched),(ii-lag),3,559,22,7.4756820214669055
+activity,Stationary,L,FactorizePhys (matched),(ii-pc),3,559,22,8.85509838998211
+activity,Stationary,L,FactorizePhys (matched),(ii-pc-g),3,559,22,9.04586873881932
+activity,Stationary,L,FactorizePhys (matched),(ii-pc-g2),3,559,22,8.706255590339893
+activity,Stationary,L,FactorizePhys (matched),(ii-pc-g80),3,559,22,8.358256932021467
+activity,Stationary,L,FactorizePhys (matched),(sham-pc),3,559,22,7.289104427549195
+activity,Stationary,L,PhysNet,(0),3,559,22,11.270125223613595
+activity,Stationary,L,PhysNet,(i),3,559,22,9.681071109123435
+activity,Stationary,L,PhysNet,(i-pc),3,559,22,10.31208072450805
+activity,Stationary,L,PhysNet,(i-pc-g80),3,559,22,9.714613148479428
+activity,Stationary,L,PhysNet,(i-simple),3,559,22,9.452565966010733
+activity,Stationary,L,PhysNet,(ii),3,559,22,7.790138640429338
+activity,Stationary,L,PhysNet,(ii-lag),3,559,22,8.561605545617175
+activity,Stationary,L,PhysNet,(ii-pc),3,559,22,8.932664355992845
+activity,Stationary,L,PhysNet,(ii-pc-g),3,559,22,8.515485241502683
+activity,Stationary,L,PhysNet,(ii-pc-g2),3,559,22,8.945242620751342
+activity,Stationary,L,PhysNet,(ii-pc-g80),3,559,22,8.691580948121645
+activity,Stationary,L,PhysNet,(roi-pc),3,559,22,11.880171064400715
+activity,Stationary,L,PhysNet,(sham-pc),3,559,22,10.771187388193203
+activity,Stationary,L,RhythmFormer,(0),3,559,22,12.32669946332737
+activity,Stationary,L,RhythmFormer,(i),3,559,22,11.890652951699463
+activity,Stationary,L,RhythmFormer,(i-pc),3,559,22,8.95153175313059
+activity,Stationary,L,RhythmFormer,(i-simple),3,559,22,8.976688282647585
+activity,Stationary,L,RhythmFormer,(ii),3,559,22,11.701978980322004
+activity,Stationary,L,RhythmFormer,(ii-lag),3,559,22,11.572003577817531
+activity,Stationary,L,RhythmFormer,(ii-pc),3,559,22,10.341430008944544
+activity,Talking,H,FactorizePhys (matched),(0),3,25,2,17.90625
+activity,Talking,H,FactorizePhys (matched),(i),3,25,2,16.921875
+activity,Talking,H,FactorizePhys (matched),(i-pc),3,25,2,16.21875
+activity,Talking,H,FactorizePhys (matched),(i-simple),3,25,2,16.125
+activity,Talking,H,FactorizePhys (matched),(ii),3,25,2,24.75
+activity,Talking,H,FactorizePhys (matched),(ii-lag),3,25,2,21.09375
+activity,Talking,H,FactorizePhys (matched),(ii-pc),3,25,2,16.875
+activity,Talking,H,FactorizePhys (matched),(ii-pc-g),3,25,2,15.1875
+activity,Talking,H,FactorizePhys (matched),(ii-pc-g2),3,25,2,15.703125
+activity,Talking,H,FactorizePhys (matched),(ii-pc-g80),3,25,2,16.640625
+activity,Talking,H,FactorizePhys (matched),(sham-pc),3,25,2,22.171875
+activity,Talking,H,PhysNet,(0),3,25,2,32.25
+activity,Talking,H,PhysNet,(i),3,25,2,20.0625
+activity,Talking,H,PhysNet,(i-pc),3,25,2,17.625
+activity,Talking,H,PhysNet,(i-pc-g80),3,25,2,20.25
+activity,Talking,H,PhysNet,(i-simple),3,25,2,22.59375
+activity,Talking,H,PhysNet,(ii),3,25,2,18.890625
+activity,Talking,H,PhysNet,(ii-lag),3,25,2,24.421875
+activity,Talking,H,PhysNet,(ii-pc),3,25,2,21.75
+activity,Talking,H,PhysNet,(ii-pc-g),3,25,2,19.3125
+activity,Talking,H,PhysNet,(ii-pc-g2),3,25,2,25.640625
+activity,Talking,H,PhysNet,(ii-pc-g80),3,25,2,25.078125
+activity,Talking,H,PhysNet,(roi-pc),3,25,2,17.71875
+activity,Talking,H,PhysNet,(sham-pc),3,25,2,33.890625
+activity,Talking,H,RhythmFormer,(0),3,25,2,34.59375
+activity,Talking,H,RhythmFormer,(i),3,25,2,18.75
+activity,Talking,H,RhythmFormer,(i-pc),3,25,2,18.0
+activity,Talking,H,RhythmFormer,(i-simple),3,25,2,16.3125
+activity,Talking,H,RhythmFormer,(ii),3,25,2,12.515625
+activity,Talking,H,RhythmFormer,(ii-lag),3,25,2,13.734375
+activity,Talking,H,RhythmFormer,(ii-pc),3,25,2,11.765625
+activity,Talking,L,FactorizePhys (matched),(0),3,335,21,9.326026119402984
+activity,Talking,L,FactorizePhys (matched),(i),3,335,21,8.797807835820896
+activity,Talking,L,FactorizePhys (matched),(i-pc),3,335,21,9.623367537313433
+activity,Talking,L,FactorizePhys (matched),(i-simple),3,335,21,10.169076492537313
+activity,Talking,L,FactorizePhys (matched),(ii),3,335,21,8.304570895522389
+activity,Talking,L,FactorizePhys (matched),(ii-lag),3,335,21,8.619402985074627
+activity,Talking,L,FactorizePhys (matched),(ii-pc),3,335,21,11.078591417910447
+activity,Talking,L,FactorizePhys (matched),(ii-pc-g),3,335,21,11.022621268656716
+activity,Talking,L,FactorizePhys (matched),(ii-pc-g2),3,335,21,10.102611940298507
+activity,Talking,L,FactorizePhys (matched),(ii-pc-g80),3,335,21,9.952192164179104
+activity,Talking,L,FactorizePhys (matched),(sham-pc),3,335,21,8.217117537313433
+activity,Talking,L,PhysNet,(0),3,335,21,11.767723880597016
+activity,Talking,L,PhysNet,(i),3,335,21,10.959654850746269
+activity,Talking,L,PhysNet,(i-pc),3,335,21,12.463852611940299
+activity,Talking,L,PhysNet,(i-pc-g80),3,335,21,11.561333955223882
+activity,Talking,L,PhysNet,(i-simple),3,335,21,11.148554104477611
+activity,Talking,L,PhysNet,(ii),3,335,21,8.30107276119403
+activity,Talking,L,PhysNet,(ii-lag),3,335,21,8.766324626865671
+activity,Talking,L,PhysNet,(ii-pc),3,335,21,10.655317164179104
+activity,Talking,L,PhysNet,(ii-pc-g),3,335,21,10.200559701492537
+activity,Talking,L,PhysNet,(ii-pc-g2),3,335,21,10.413945895522387
+activity,Talking,L,PhysNet,(ii-pc-g80),3,335,21,10.609841417910447
+activity,Talking,L,PhysNet,(roi-pc),3,335,21,13.016557835820896
+activity,Talking,L,PhysNet,(sham-pc),3,335,21,11.155550373134327
+activity,Talking,L,RhythmFormer,(0),3,335,21,13.509794776119405
+activity,Talking,L,RhythmFormer,(i),3,335,21,14.167444029850747
+activity,Talking,L,RhythmFormer,(i-pc),3,335,21,11.46688432835821
+activity,Talking,L,RhythmFormer,(i-simple),3,335,21,11.284981343283581
+activity,Talking,L,RhythmFormer,(ii),3,335,21,13.149486940298507
+activity,Talking,L,RhythmFormer,(ii-lag),3,335,21,13.562266791044777
+activity,Talking,L,RhythmFormer,(ii-pc),3,335,21,11.953125
+activity,Walking,H,FactorizePhys (matched),(0),3,93,14,29.435483870967744
+activity,Walking,H,FactorizePhys (matched),(i),3,93,14,31.199596774193548
+activity,Walking,H,FactorizePhys (matched),(i-pc),3,93,14,30.569556451612907
+activity,Walking,H,FactorizePhys (matched),(i-simple),3,93,14,28.326612903225808
+activity,Walking,H,FactorizePhys (matched),(ii),3,93,14,31.678427419354836
+activity,Walking,H,FactorizePhys (matched),(ii-lag),3,93,14,31.136592741935484
+activity,Walking,H,FactorizePhys (matched),(ii-pc),3,93,14,25.844254032258064
+activity,Walking,H,FactorizePhys (matched),(ii-pc-g),3,93,14,25.529233870967744
+activity,Walking,H,FactorizePhys (matched),(ii-pc-g2),3,93,14,25.970262096774192
+activity,Walking,H,FactorizePhys (matched),(ii-pc-g80),3,93,14,27.066532258064516
+activity,Walking,H,FactorizePhys (matched),(sham-pc),3,93,14,30.456149193548388
+activity,Walking,H,PhysNet,(0),3,93,14,42.716733870967744
+activity,Walking,H,PhysNet,(i),3,93,14,33.4047379032258
+activity,Walking,H,PhysNet,(i-pc),3,93,14,23.387096774193548
+activity,Walking,H,PhysNet,(i-pc-g80),3,93,14,23.097278225806452
+activity,Walking,H,PhysNet,(i-simple),3,93,14,28.112399193548384
+activity,Walking,H,PhysNet,(ii),3,93,14,31.388608870967744
+activity,Walking,H,PhysNet,(ii-lag),3,93,14,35.81149193548387
+activity,Walking,H,PhysNet,(ii-pc),3,93,14,27.872983870967744
+activity,Walking,H,PhysNet,(ii-pc-g),3,93,14,27.255544354838708
+activity,Walking,H,PhysNet,(ii-pc-g2),3,93,14,37.285786290322584
+activity,Walking,H,PhysNet,(ii-pc-g80),3,93,14,31.653225806451612
+activity,Walking,H,PhysNet,(roi-pc),3,93,14,29.548891129032256
+activity,Walking,H,PhysNet,(sham-pc),3,93,14,46.534778225806456
+activity,Walking,H,RhythmFormer,(0),3,93,14,38.89868951612903
+activity,Walking,H,RhythmFormer,(i),3,93,14,21.118951612903228
+activity,Walking,H,RhythmFormer,(i-pc),3,93,14,20.035282258064516
+activity,Walking,H,RhythmFormer,(i-simple),3,93,14,15.473790322580646
+activity,Walking,H,RhythmFormer,(ii),3,93,14,19.896673387096772
+activity,Walking,H,RhythmFormer,(ii-lag),3,93,14,19.518649193548388
+activity,Walking,H,RhythmFormer,(ii-pc),3,93,14,17.300907258064516
+activity,Walking,L,FactorizePhys (matched),(0),3,152,19,15.18040707236842
+activity,Walking,L,FactorizePhys (matched),(i),3,152,19,16.714638157894736
+activity,Walking,L,FactorizePhys (matched),(i-pc),3,152,19,16.868832236842106
+activity,Walking,L,FactorizePhys (matched),(i-simple),3,152,19,16.807154605263158
+activity,Walking,L,FactorizePhys (matched),(ii),3,152,19,15.535053453947368
+activity,Walking,L,FactorizePhys (matched),(ii-lag),3,152,19,15.126439144736842
+activity,Walking,L,FactorizePhys (matched),(ii-pc),3,152,19,15.242084703947368
+activity,Walking,L,FactorizePhys (matched),(ii-pc-g),3,152,19,15.504214638157896
+activity,Walking,L,FactorizePhys (matched),(ii-pc-g2),3,152,19,15.380859375
+activity,Walking,L,FactorizePhys (matched),(ii-pc-g80),3,152,19,14.74095394736842
+activity,Walking,L,FactorizePhys (matched),(sham-pc),3,152,19,15.604440789473685
+activity,Walking,L,PhysNet,(0),3,152,19,22.998046875
+activity,Walking,L,PhysNet,(i),3,152,19,16.953638980263158
+activity,Walking,L,PhysNet,(i-pc),3,152,19,14.725534539473685
+activity,Walking,L,PhysNet,(i-pc-g80),3,152,19,16.49105674342105
+activity,Walking,L,PhysNet,(i-simple),3,152,19,15.874280427631577
+activity,Walking,L,PhysNet,(ii),3,152,19,16.521895559210524
+activity,Walking,L,PhysNet,(ii-lag),3,152,19,17.986739309210524
+activity,Walking,L,PhysNet,(ii-pc),3,152,19,15.943667763157896
+activity,Walking,L,PhysNet,(ii-pc-g),3,152,19,16.275185032894736
+activity,Walking,L,PhysNet,(ii-pc-g2),3,152,19,20.739103618421055
+activity,Walking,L,PhysNet,(ii-pc-g80),3,152,19,17.52415707236842
+activity,Walking,L,PhysNet,(roi-pc),3,152,19,16.429379111842106
+activity,Walking,L,PhysNet,(sham-pc),3,152,19,24.609375
+activity,Walking,L,RhythmFormer,(0),3,152,19,27.53135279605263
+activity,Walking,L,RhythmFormer,(i),3,152,19,16.976768092105264
+activity,Walking,L,RhythmFormer,(i-pc),3,152,19,16.94592927631579
+activity,Walking,L,RhythmFormer,(i-simple),3,152,19,16.714638157894736
+activity,Walking,L,RhythmFormer,(ii),3,152,19,13.738692434210526
+activity,Walking,L,RhythmFormer,(ii-lag),3,152,19,12.127364309210526
+activity,Walking,L,RhythmFormer,(ii-pc),3,152,19,14.617598684210526
+lighting,Incandescent,H,FactorizePhys (matched),(0),3,59,10,21.76906779661017
+lighting,Incandescent,H,FactorizePhys (matched),(i),3,59,10,25.542902542372882
+lighting,Incandescent,H,FactorizePhys (matched),(i-pc),3,59,10,19.30614406779661
+lighting,Incandescent,H,FactorizePhys (matched),(i-simple),3,59,10,18.015095338983052
+lighting,Incandescent,H,FactorizePhys (matched),(ii),3,59,10,27.27092161016949
+lighting,Incandescent,H,FactorizePhys (matched),(ii-lag),3,59,10,25.90042372881356
+lighting,Incandescent,H,FactorizePhys (matched),(ii-pc),3,59,10,17.558262711864405
+lighting,Incandescent,H,FactorizePhys (matched),(ii-pc-g),3,59,10,16.386387711864405
+lighting,Incandescent,H,FactorizePhys (matched),(ii-pc-g2),3,59,10,16.962394067796613
+lighting,Incandescent,H,FactorizePhys (matched),(ii-pc-g80),3,59,10,17.836334745762713
+lighting,Incandescent,H,FactorizePhys (matched),(sham-pc),3,59,10,25.960010593220336
+lighting,Incandescent,H,PhysNet,(0),3,59,10,38.79104872881356
+lighting,Incandescent,H,PhysNet,(i),3,59,10,27.8270656779661
+lighting,Incandescent,H,PhysNet,(i-pc),3,59,10,21.808792372881356
+lighting,Incandescent,H,PhysNet,(i-pc-g80),3,59,10,21.07388771186441
+lighting,Incandescent,H,PhysNet,(i-simple),3,59,10,21.72934322033898
+lighting,Incandescent,H,PhysNet,(ii),3,59,10,32.63373940677966
+lighting,Incandescent,H,PhysNet,(ii-lag),3,59,10,33.34878177966102
+lighting,Incandescent,H,PhysNet,(ii-pc),3,59,10,20.835540254237287
+lighting,Incandescent,H,PhysNet,(ii-pc-g),3,59,10,20.577330508474578
+lighting,Incandescent,H,PhysNet,(ii-pc-g2),3,59,10,25.761387711864405
+lighting,Incandescent,H,PhysNet,(ii-pc-g80),3,59,10,25.324417372881356
+lighting,Incandescent,H,PhysNet,(roi-pc),3,59,10,20.696504237288135
+lighting,Incandescent,H,PhysNet,(sham-pc),3,59,10,33.289194915254235
+lighting,Incandescent,H,RhythmFormer,(0),3,59,10,36.248675847457626
+lighting,Incandescent,H,RhythmFormer,(i),3,59,10,22.404661016949152
+lighting,Incandescent,H,RhythmFormer,(i-pc),3,59,10,20.65677966101695
+lighting,Incandescent,H,RhythmFormer,(i-simple),3,59,10,16.545286016949152
+lighting,Incandescent,H,RhythmFormer,(ii),3,59,10,17.061705508474578
+lighting,Incandescent,H,RhythmFormer,(ii-lag),3,59,10,16.187764830508474
+lighting,Incandescent,H,RhythmFormer,(ii-pc),3,59,10,14.141949152542372
+lighting,Incandescent,L,FactorizePhys (matched),(0),3,378,21,9.111483134920634
+lighting,Incandescent,L,FactorizePhys (matched),(i),3,378,21,9.154885912698413
+lighting,Incandescent,L,FactorizePhys (matched),(i-pc),3,378,21,9.874131944444445
+lighting,Incandescent,L,FactorizePhys (matched),(i-simple),3,378,21,10.00124007936508
+lighting,Incandescent,L,FactorizePhys (matched),(ii),3,378,21,8.100818452380953
+lighting,Incandescent,L,FactorizePhys (matched),(ii-lag),3,378,21,8.054315476190476
+lighting,Incandescent,L,FactorizePhys (matched),(ii-pc),3,378,21,10.599578373015873
+lighting,Incandescent,L,FactorizePhys (matched),(ii-pc-g),3,378,21,10.599578373015873
+lighting,Incandescent,L,FactorizePhys (matched),(ii-pc-g2),3,378,21,10.094246031746032
+lighting,Incandescent,L,FactorizePhys (matched),(ii-pc-g80),3,378,21,9.840029761904761
+lighting,Incandescent,L,FactorizePhys (matched),(sham-pc),3,378,21,8.745659722222223
+lighting,Incandescent,L,PhysNet,(0),3,378,21,11.65984623015873
+lighting,Incandescent,L,PhysNet,(i),3,378,21,10.44456845238095
+lighting,Incandescent,L,PhysNet,(i-pc),3,378,21,11.687748015873018
+lighting,Incandescent,L,PhysNet,(i-pc-g80),3,378,21,11.154513888888888
+lighting,Incandescent,L,PhysNet,(i-simple),3,378,21,10.122147817460318
+lighting,Incandescent,L,PhysNet,(ii),3,378,21,8.86966765873016
+lighting,Incandescent,L,PhysNet,(ii-lag),3,378,21,8.816964285714286
+lighting,Incandescent,L,PhysNet,(ii-pc),3,378,21,9.505208333333334
+lighting,Incandescent,L,PhysNet,(ii-pc-g),3,378,21,9.31609623015873
+lighting,Incandescent,L,PhysNet,(ii-pc-g2),3,378,21,10.094246031746032
+lighting,Incandescent,L,PhysNet,(ii-pc-g80),3,378,21,9.821428571428571
+lighting,Incandescent,L,PhysNet,(roi-pc),3,378,21,12.174479166666666
+lighting,Incandescent,L,PhysNet,(sham-pc),3,378,21,11.039806547619046
+lighting,Incandescent,L,RhythmFormer,(0),3,378,21,12.704613095238095
+lighting,Incandescent,L,RhythmFormer,(i),3,378,21,12.162078373015873
+lighting,Incandescent,L,RhythmFormer,(i-pc),3,378,21,9.440104166666666
+lighting,Incandescent,L,RhythmFormer,(i-simple),3,378,21,9.874131944444445
+lighting,Incandescent,L,RhythmFormer,(ii),3,378,21,11.994667658730158
+lighting,Incandescent,L,RhythmFormer,(ii-lag),3,378,21,11.17001488095238
+lighting,Incandescent,L,RhythmFormer,(ii-pc),3,378,21,10.168650793650793
+lighting,LED-high,H,FactorizePhys (matched),(0),3,70,14,21.780133928571427
+lighting,LED-high,H,FactorizePhys (matched),(i),3,70,14,23.470982142857142
+lighting,LED-high,H,FactorizePhys (matched),(i-pc),3,70,14,21.02678571428571
+lighting,LED-high,H,FactorizePhys (matched),(i-simple),3,70,14,18.950892857142858
+lighting,LED-high,H,FactorizePhys (matched),(ii),3,70,14,28.577008928571427
+lighting,LED-high,H,FactorizePhys (matched),(ii-lag),3,70,14,26.43415178571429
+lighting,LED-high,H,FactorizePhys (matched),(ii-pc),3,70,14,20.574776785714285
+lighting,LED-high,H,FactorizePhys (matched),(ii-pc-g),3,70,14,21.060267857142858
+lighting,LED-high,H,FactorizePhys (matched),(ii-pc-g2),3,70,14,21.696428571428573
+lighting,LED-high,H,FactorizePhys (matched),(ii-pc-g80),3,70,14,20.708705357142858
+lighting,LED-high,H,FactorizePhys (matched),(sham-pc),3,70,14,26.049107142857142
+lighting,LED-high,H,PhysNet,(0),3,70,14,37.60044642857143
+lighting,LED-high,H,PhysNet,(i),3,70,14,25.83147321428571
+lighting,LED-high,H,PhysNet,(i-pc),3,70,14,21.294642857142858
+lighting,LED-high,H,PhysNet,(i-pc-g80),3,70,14,22.232142857142858
+lighting,LED-high,H,PhysNet,(i-simple),3,70,14,24.626116071428573
+lighting,LED-high,H,PhysNet,(ii),3,70,14,28.69419642857143
+lighting,LED-high,H,PhysNet,(ii-lag),3,70,14,31.69084821428571
+lighting,LED-high,H,PhysNet,(ii-pc),3,70,14,24.19084821428571
+lighting,LED-high,H,PhysNet,(ii-pc-g),3,70,14,21.72991071428571
+lighting,LED-high,H,PhysNet,(ii-pc-g2),3,70,14,25.94866071428571
+lighting,LED-high,H,PhysNet,(ii-pc-g80),3,70,14,26.30022321428571
+lighting,LED-high,H,PhysNet,(roi-pc),3,70,14,19.135044642857142
+lighting,LED-high,H,PhysNet,(sham-pc),3,70,14,33.41517857142858
+lighting,LED-high,H,RhythmFormer,(0),3,70,14,32.645089285714285
+lighting,LED-high,H,RhythmFormer,(i),3,70,14,18.91741071428571
+lighting,LED-high,H,RhythmFormer,(i-pc),3,70,14,18.515625
+lighting,LED-high,H,RhythmFormer,(i-simple),3,70,14,16.891741071428573
+lighting,LED-high,H,RhythmFormer,(ii),3,70,14,17.762276785714285
+lighting,LED-high,H,RhythmFormer,(ii-lag),3,70,14,17.293526785714285
+lighting,LED-high,H,RhythmFormer,(ii-pc),3,70,14,16.975446428571427
+lighting,LED-high,L,FactorizePhys (matched),(0),3,359,21,9.972362465181059
+lighting,LED-high,L,FactorizePhys (matched),(i),3,359,21,10.409775417827298
+lighting,LED-high,L,FactorizePhys (matched),(i-pc),3,359,21,10.546875
+lighting,LED-high,L,FactorizePhys (matched),(i-simple),3,359,21,10.791695682451254
+lighting,LED-high,L,FactorizePhys (matched),(ii),3,359,21,9.704691852367688
+lighting,LED-high,L,FactorizePhys (matched),(ii-lag),3,359,21,10.102933495821727
+lighting,LED-high,L,FactorizePhys (matched),(ii-pc),3,359,21,11.199730153203342
+lighting,LED-high,L,FactorizePhys (matched),(ii-pc-g),3,359,21,11.483722144846796
+lighting,LED-high,L,FactorizePhys (matched),(ii-pc-g2),3,359,21,10.97449512534819
+lighting,LED-high,L,FactorizePhys (matched),(ii-pc-g80),3,359,21,10.79495995821727
+lighting,LED-high,L,FactorizePhys (matched),(sham-pc),3,359,21,9.681841922005573
+lighting,LED-high,L,PhysNet,(0),3,359,21,13.155031337047355
+lighting,LED-high,L,PhysNet,(i),3,359,21,13.288866643454037
+lighting,LED-high,L,PhysNet,(i-pc),3,359,21,12.746996866295264
+lighting,LED-high,L,PhysNet,(i-pc-g80),3,359,21,12.554404596100278
+lighting,LED-high,L,PhysNet,(i-simple),3,359,21,12.322641016713092
+lighting,LED-high,L,PhysNet,(ii),3,359,21,9.897284122562674
+lighting,LED-high,L,PhysNet,(ii-lag),3,359,21,10.210654596100278
+lighting,LED-high,L,PhysNet,(ii-pc),3,359,21,11.473929317548746
+lighting,LED-high,L,PhysNet,(ii-pc-g),3,359,21,11.950513579387186
+lighting,LED-high,L,PhysNet,(ii-pc-g2),3,359,21,12.306319637883007
+lighting,LED-high,L,PhysNet,(ii-pc-g80),3,359,21,11.297658426183844
+lighting,LED-high,L,PhysNet,(roi-pc),3,359,21,13.582651462395544
+lighting,LED-high,L,PhysNet,(sham-pc),3,359,21,13.690372562674094
+lighting,LED-high,L,RhythmFormer,(0),3,359,21,14.898154596100278
+lighting,LED-high,L,RhythmFormer,(i),3,359,21,15.080954038997215
+lighting,LED-high,L,RhythmFormer,(i-pc),3,359,21,12.24429839832869
+lighting,LED-high,L,RhythmFormer,(i-simple),3,359,21,13.412909122562674
+lighting,LED-high,L,RhythmFormer,(ii),3,359,21,14.486855849582172
+lighting,LED-high,L,RhythmFormer,(ii-lag),3,359,21,14.25182799442897
+lighting,LED-high,L,RhythmFormer,(ii-pc),3,359,21,13.56633008356546
+lighting,LED-low,H,FactorizePhys (matched),(0),3,60,16,27.05078125
+lighting,LED-low,H,FactorizePhys (matched),(i),3,60,16,27.40234375
+lighting,LED-low,H,FactorizePhys (matched),(i-pc),3,60,16,26.5625
+lighting,LED-low,H,FactorizePhys (matched),(i-simple),3,60,16,25.68359375
+lighting,LED-low,H,FactorizePhys (matched),(ii),3,60,16,29.70703125
+lighting,LED-low,H,FactorizePhys (matched),(ii-lag),3,60,16,30.15625
+lighting,LED-low,H,FactorizePhys (matched),(ii-pc),3,60,16,22.32421875
+lighting,LED-low,H,FactorizePhys (matched),(ii-pc-g),3,60,16,22.734375
+lighting,LED-low,H,FactorizePhys (matched),(ii-pc-g2),3,60,16,23.92578125
+lighting,LED-low,H,FactorizePhys (matched),(ii-pc-g80),3,60,16,24.51171875
+lighting,LED-low,H,FactorizePhys (matched),(sham-pc),3,60,16,28.5546875
+lighting,LED-low,H,PhysNet,(0),3,60,16,39.58984375
+lighting,LED-low,H,PhysNet,(i),3,60,16,28.73046875
+lighting,LED-low,H,PhysNet,(i-pc),3,60,16,23.84765625
+lighting,LED-low,H,PhysNet,(i-pc-g80),3,60,16,24.39453125
+lighting,LED-low,H,PhysNet,(i-simple),3,60,16,27.63671875
+lighting,LED-low,H,PhysNet,(ii),3,60,16,31.2890625
+lighting,LED-low,H,PhysNet,(ii-lag),3,60,16,34.35546875
+lighting,LED-low,H,PhysNet,(ii-pc),3,60,16,26.30859375
+lighting,LED-low,H,PhysNet,(ii-pc-g),3,60,16,24.140625
+lighting,LED-low,H,PhysNet,(ii-pc-g2),3,60,16,30.9375
+lighting,LED-low,H,PhysNet,(ii-pc-g80),3,60,16,30.41015625
+lighting,LED-low,H,PhysNet,(roi-pc),3,60,16,24.62890625
+lighting,LED-low,H,PhysNet,(sham-pc),3,60,16,40.37109375
+lighting,LED-low,H,RhythmFormer,(0),3,60,16,33.6328125
+lighting,LED-low,H,RhythmFormer,(i),3,60,16,21.328125
+lighting,LED-low,H,RhythmFormer,(i-pc),3,60,16,20.37109375
+lighting,LED-low,H,RhythmFormer,(i-simple),3,60,16,18.6328125
+lighting,LED-low,H,RhythmFormer,(ii),3,60,16,17.71484375
+lighting,LED-low,H,RhythmFormer,(ii-lag),3,60,16,20.0
+lighting,LED-low,H,RhythmFormer,(ii-pc),3,60,16,16.62109375
+lighting,LED-low,L,FactorizePhys (matched),(0),3,355,21,10.847271126760566
+lighting,LED-low,L,FactorizePhys (matched),(i),3,355,21,10.81756161971831
+lighting,LED-low,L,FactorizePhys (matched),(i-pc),3,355,21,11.646126760563382
+lighting,LED-low,L,FactorizePhys (matched),(i-simple),3,355,21,12.36905809859155
+lighting,LED-low,L,FactorizePhys (matched),(ii),3,355,21,9.757922535211268
+lighting,LED-low,L,FactorizePhys (matched),(ii-lag),3,355,21,10.124339788732394
+lighting,LED-low,L,FactorizePhys (matched),(ii-pc),3,355,21,12.60013204225352
+lighting,LED-low,L,FactorizePhys (matched),(ii-pc-g),3,355,21,12.636443661971832
+lighting,LED-low,L,FactorizePhys (matched),(ii-pc-g2),3,355,21,11.946522887323944
+lighting,LED-low,L,FactorizePhys (matched),(ii-pc-g80),3,355,21,11.332526408450704
+lighting,LED-low,L,FactorizePhys (matched),(sham-pc),3,355,21,9.487235915492958
+lighting,LED-low,L,PhysNet,(0),3,355,21,13.953565140845072
+lighting,LED-low,L,PhysNet,(i),3,355,21,12.751980633802816
+lighting,LED-low,L,PhysNet,(i-pc),3,355,21,13.960167253521128
+lighting,LED-low,L,PhysNet,(i-pc-g80),3,355,21,13.471610915492958
+lighting,LED-low,L,PhysNet,(i-simple),3,355,21,12.814700704225352
+lighting,LED-low,L,PhysNet,(ii),3,355,21,10.705325704225352
+lighting,LED-low,L,PhysNet,(ii-lag),3,355,21,10.909991197183098
+lighting,LED-low,L,PhysNet,(ii-pc),3,355,21,12.435079225352112
+lighting,LED-low,L,PhysNet,(ii-pc-g),3,355,21,12.41857394366197
+lighting,LED-low,L,PhysNet,(ii-pc-g2),3,355,21,12.900528169014086
+lighting,LED-low,L,PhysNet,(ii-pc-g80),3,355,21,12.210607394366198
+lighting,LED-low,L,PhysNet,(roi-pc),3,355,21,15.422535211267606
+lighting,LED-low,L,PhysNet,(sham-pc),3,355,21,13.729093309859154
+lighting,LED-low,L,RhythmFormer,(0),3,355,21,16.525088028169012
+lighting,LED-low,L,RhythmFormer,(i),3,355,21,15.254181338028168
+lighting,LED-low,L,RhythmFormer,(i-pc),3,355,21,13.253741197183098
+lighting,LED-low,L,RhythmFormer,(i-simple),3,355,21,12.989656690140846
+lighting,LED-low,L,RhythmFormer,(ii),3,355,21,14.108714788732394
+lighting,LED-low,L,RhythmFormer,(ii-lag),3,355,21,14.052596830985914
+lighting,LED-low,L,RhythmFormer,(ii-pc),3,355,21,13.461707746478874
+lighting,Nature,H,FactorizePhys (matched),(0),3,93,15,24.68497983870968
+lighting,Nature,H,FactorizePhys (matched),(i),3,93,15,27.079133064516128
+lighting,Nature,H,FactorizePhys (matched),(i-pc),3,93,15,25.113407258064516
+lighting,Nature,H,FactorizePhys (matched),(i-simple),3,93,15,23.65171370967742
+lighting,Nature,H,FactorizePhys (matched),(ii),3,93,15,28.629032258064516
+lighting,Nature,H,FactorizePhys (matched),(ii-lag),3,93,15,26.675907258064516
+lighting,Nature,H,FactorizePhys (matched),(ii-pc),3,93,15,22.454637096774192
+lighting,Nature,H,FactorizePhys (matched),(ii-pc-g),3,93,15,21.030745967741936
+lighting,Nature,H,FactorizePhys (matched),(ii-pc-g2),3,93,15,22.152217741935484
+lighting,Nature,H,FactorizePhys (matched),(ii-pc-g80),3,93,15,22.744455645161292
+lighting,Nature,H,FactorizePhys (matched),(sham-pc),3,93,15,28.087197580645164
+lighting,Nature,H,PhysNet,(0),3,93,15,38.87348790322581
+lighting,Nature,H,PhysNet,(i),3,93,15,28.742439516129036
+lighting,Nature,H,PhysNet,(i-pc),3,93,15,21.811995967741936
+lighting,Nature,H,PhysNet,(i-pc-g80),3,93,15,24.269153225806452
+lighting,Nature,H,PhysNet,(i-simple),3,93,15,25.138608870967744
+lighting,Nature,H,PhysNet,(ii),3,93,15,26.789314516129036
+lighting,Nature,H,PhysNet,(ii-lag),3,93,15,30.897177419354836
+lighting,Nature,H,PhysNet,(ii-pc),3,93,15,26.285282258064516
+lighting,Nature,H,PhysNet,(ii-pc-g),3,93,15,25.504032258064516
+lighting,Nature,H,PhysNet,(ii-pc-g2),3,93,15,33.303931451612904
+lighting,Nature,H,PhysNet,(ii-pc-g80),3,93,15,30.771169354838708
+lighting,Nature,H,PhysNet,(roi-pc),3,93,15,26.839717741935484
+lighting,Nature,H,PhysNet,(sham-pc),3,93,15,43.346774193548384
+lighting,Nature,H,RhythmFormer,(0),3,93,15,36.932963709677416
+lighting,Nature,H,RhythmFormer,(i),3,93,15,21.421370967741936
+lighting,Nature,H,RhythmFormer,(i-pc),3,93,15,20.829133064516128
+lighting,Nature,H,RhythmFormer,(i-simple),3,93,15,17.464717741935484
+lighting,Nature,H,RhythmFormer,(ii),3,93,15,19.619455645161292
+lighting,Nature,H,RhythmFormer,(ii-lag),3,93,15,20.047883064516128
+lighting,Nature,H,RhythmFormer,(ii-pc),3,93,15,15.549395161290322
+lighting,Nature,L,FactorizePhys (matched),(0),3,310,20,9.790826612903226
+lighting,Nature,L,FactorizePhys (matched),(i),3,310,20,9.919354838709678
+lighting,Nature,L,FactorizePhys (matched),(i-pc),3,310,20,9.813508064516128
+lighting,Nature,L,FactorizePhys (matched),(i-simple),3,310,20,10.081905241935484
+lighting,Nature,L,FactorizePhys (matched),(ii),3,310,20,9.526209677419354
+lighting,Nature,L,FactorizePhys (matched),(ii-lag),3,310,20,9.57913306451613
+lighting,Nature,L,FactorizePhys (matched),(ii-pc),3,310,20,10.584677419354838
+lighting,Nature,L,FactorizePhys (matched),(ii-pc-g),3,310,20,10.278477822580646
+lighting,Nature,L,FactorizePhys (matched),(ii-pc-g2),3,310,20,9.662298387096774
+lighting,Nature,L,FactorizePhys (matched),(ii-pc-g80),3,310,20,9.92313508064516
+lighting,Nature,L,FactorizePhys (matched),(sham-pc),3,310,20,8.940272177419354
+lighting,Nature,L,PhysNet,(0),3,310,20,14.569052419354838
+lighting,Nature,L,PhysNet,(i),3,310,20,11.454133064516128
+lighting,Nature,L,PhysNet,(i-pc),3,310,20,12.19884072580645
+lighting,Nature,L,PhysNet,(i-pc-g80),3,310,20,12.93976814516129
+lighting,Nature,L,PhysNet,(i-simple),3,310,20,11.000504032258064
+lighting,Nature,L,PhysNet,(ii),3,310,20,10.025201612903226
+lighting,Nature,L,PhysNet,(ii-lag),3,310,20,10.611139112903226
+lighting,Nature,L,PhysNet,(ii-pc),3,310,20,11.688508064516128
+lighting,Nature,L,PhysNet,(ii-pc-g),3,310,20,10.868195564516128
+lighting,Nature,L,PhysNet,(ii-pc-g2),3,310,20,12.323588709677418
+lighting,Nature,L,PhysNet,(ii-pc-g80),3,310,20,11.408770161290322
+lighting,Nature,L,PhysNet,(roi-pc),3,310,20,12.754536290322582
+lighting,Nature,L,PhysNet,(sham-pc),3,310,20,14.293094758064518
+lighting,Nature,L,RhythmFormer,(0),3,310,20,16.784274193548388
+lighting,Nature,L,RhythmFormer,(i),3,310,20,12.788558467741936
+lighting,Nature,L,RhythmFormer,(i-pc),3,310,20,11.748991935483872
+lighting,Nature,L,RhythmFormer,(i-simple),3,310,20,11.000504032258064
+lighting,Nature,L,RhythmFormer,(ii),3,310,20,11.983366935483872
+lighting,Nature,L,RhythmFormer,(ii-lag),3,310,20,11.582661290322582
+lighting,Nature,L,RhythmFormer,(ii-pc),3,310,20,11.117691532258064
+skin_group,3-4,H,FactorizePhys (matched),(0),3,129,11,18.977107558139533
+skin_group,3-4,H,FactorizePhys (matched),(i),3,129,11,20.921148255813957
+skin_group,3-4,H,FactorizePhys (matched),(i-pc),3,129,11,18.150436046511626
+skin_group,3-4,H,FactorizePhys (matched),(i-simple),3,129,11,17.296511627906977
+skin_group,3-4,H,FactorizePhys (matched),(ii),3,129,11,23.119549418604652
+skin_group,3-4,H,FactorizePhys (matched),(ii-lag),3,129,11,21.593386627906977
+skin_group,3-4,H,FactorizePhys (matched),(ii-pc),3,129,11,15.43422965116279
+skin_group,3-4,H,FactorizePhys (matched),(ii-pc-g),3,129,11,15.55232558139535
+skin_group,3-4,H,FactorizePhys (matched),(ii-pc-g2),3,129,11,15.525072674418604
+skin_group,3-4,H,FactorizePhys (matched),(ii-pc-g80),3,129,11,16.360828488372093
+skin_group,3-4,H,FactorizePhys (matched),(sham-pc),3,129,11,21.184593023255815
+skin_group,3-4,H,PhysNet,(0),3,129,11,34.65661337209303
+skin_group,3-4,H,PhysNet,(i),3,129,11,21.55704941860465
+skin_group,3-4,H,PhysNet,(i-pc),3,129,11,15.534156976744185
+skin_group,3-4,H,PhysNet,(i-pc-g80),3,129,11,18.777252906976745
+skin_group,3-4,H,PhysNet,(i-simple),3,129,11,18.840843023255815
+skin_group,3-4,H,PhysNet,(ii),3,129,11,25.663154069767444
+skin_group,3-4,H,PhysNet,(ii-lag),3,129,11,29.451308139534884
+skin_group,3-4,H,PhysNet,(ii-pc),3,129,11,19.095203488372093
+skin_group,3-4,H,PhysNet,(ii-pc-g),3,129,11,18.386627906976745
+skin_group,3-4,H,PhysNet,(ii-pc-g2),3,129,11,24.473110465116278
+skin_group,3-4,H,PhysNet,(ii-pc-g80),3,129,11,22.356468023255815
+skin_group,3-4,H,PhysNet,(roi-pc),3,129,11,20.058139534883722
+skin_group,3-4,H,PhysNet,(sham-pc),3,129,11,31.61337209302326
+skin_group,3-4,H,RhythmFormer,(0),3,129,11,30.178052325581394
+skin_group,3-4,H,RhythmFormer,(i),3,129,11,17.977834302325583
+skin_group,3-4,H,RhythmFormer,(i-pc),3,129,11,15.279796511627907
+skin_group,3-4,H,RhythmFormer,(i-simple),3,129,11,14.444040697674419
+skin_group,3-4,H,RhythmFormer,(ii),3,129,11,14.84375
+skin_group,3-4,H,RhythmFormer,(ii-lag),3,129,11,15.843023255813954
+skin_group,3-4,H,RhythmFormer,(ii-pc),3,129,11,12.890625
+skin_group,3-4,L,FactorizePhys (matched),(0),3,941,14,6.853164851222104
+skin_group,3-4,L,FactorizePhys (matched),(i),3,941,14,7.155785069075452
+skin_group,3-4,L,FactorizePhys (matched),(i-pc),3,941,14,7.225524707757704
+skin_group,3-4,L,FactorizePhys (matched),(i-simple),3,941,14,7.56052404357067
+skin_group,3-4,L,FactorizePhys (matched),(ii),3,941,14,6.773462407013816
+skin_group,3-4,L,FactorizePhys (matched),(ii-lag),3,941,14,6.955283607863975
+skin_group,3-4,L,FactorizePhys (matched),(ii-pc),3,941,14,7.91918504250797
+skin_group,3-4,L,FactorizePhys (matched),(ii-pc-g),3,941,14,7.983943278427205
+skin_group,3-4,L,FactorizePhys (matched),(ii-pc-g2),3,941,14,7.372476089266738
+skin_group,3-4,L,FactorizePhys (matched),(ii-pc-g80),3,941,14,7.183182784272051
+skin_group,3-4,L,FactorizePhys (matched),(sham-pc),3,941,14,6.554280685441021
+skin_group,3-4,L,PhysNet,(0),3,941,14,10.67639147183847
+skin_group,3-4,L,PhysNet,(i),3,941,14,9.411115170031882
+skin_group,3-4,L,PhysNet,(i-pc),3,941,14,10.282860653560043
+skin_group,3-4,L,PhysNet,(i-pc-g80),3,941,14,9.68135626992561
+skin_group,3-4,L,PhysNet,(i-simple),3,941,14,8.901766737513285
+skin_group,3-4,L,PhysNet,(ii),3,941,14,7.195636291179596
+skin_group,3-4,L,PhysNet,(ii-lag),3,941,14,7.68754981402763
+skin_group,3-4,L,PhysNet,(ii-pc),3,941,14,7.904240834218917
+skin_group,3-4,L,PhysNet,(ii-pc-g),3,941,14,8.124667906482465
+skin_group,3-4,L,PhysNet,(ii-pc-g2),3,941,14,9.015093650371945
+skin_group,3-4,L,PhysNet,(ii-pc-g80),3,941,14,8.210597104144528
+skin_group,3-4,L,PhysNet,(roi-pc),3,941,14,11.520739240170032
+skin_group,3-4,L,PhysNet,(sham-pc),3,941,14,10.63778560042508
+skin_group,3-4,L,RhythmFormer,(0),3,941,14,11.941667773645058
+skin_group,3-4,L,RhythmFormer,(i),3,941,14,10.868175478214665
+skin_group,3-4,L,RhythmFormer,(i-pc),3,941,14,8.546841790648246
+skin_group,3-4,L,RhythmFormer,(i-simple),3,941,14,8.432269527098832
+skin_group,3-4,L,RhythmFormer,(ii),3,941,14,10.614123937300745
+skin_group,3-4,L,RhythmFormer,(ii-lag),3,941,14,10.312749070138151
+skin_group,3-4,L,RhythmFormer,(ii-pc),3,941,14,8.66888615834219
+skin_group,5-6,H,FactorizePhys (matched),(0),3,153,6,27.971813725490193
+skin_group,5-6,H,FactorizePhys (matched),(i),3,153,6,30.154718137254903
+skin_group,5-6,H,FactorizePhys (matched),(i-pc),3,153,6,27.44332107843137
+skin_group,5-6,H,FactorizePhys (matched),(i-simple),3,153,6,25.482536764705884
+skin_group,5-6,H,FactorizePhys (matched),(ii),3,153,6,33.14950980392157
+skin_group,5-6,H,FactorizePhys (matched),(ii-lag),3,153,6,31.91636029411765
+skin_group,5-6,H,FactorizePhys (matched),(ii-pc),3,153,6,25.574448529411768
+skin_group,5-6,H,FactorizePhys (matched),(ii-pc-g),3,153,6,24.54044117647059
+skin_group,5-6,H,FactorizePhys (matched),(ii-pc-g2),3,153,6,26.22549019607843
+skin_group,5-6,H,FactorizePhys (matched),(ii-pc-g80),3,153,6,25.995710784313726
+skin_group,5-6,H,FactorizePhys (matched),(sham-pc),3,153,6,32.337622549019606
+skin_group,5-6,H,PhysNet,(0),3,153,6,42.095588235294116
+skin_group,5-6,H,PhysNet,(i),3,153,6,33.111213235294116
+skin_group,5-6,H,PhysNet,(i-pc),3,153,6,27.66544117647059
+skin_group,5-6,H,PhysNet,(i-pc-g80),3,153,6,26.784620098039216
+skin_group,5-6,H,PhysNet,(i-simple),3,153,6,29.878982843137255
+skin_group,5-6,H,PhysNet,(ii),3,153,6,32.62867647058824
+skin_group,5-6,H,PhysNet,(ii-lag),3,153,6,34.78094362745098
+skin_group,5-6,H,PhysNet,(ii-pc),3,153,6,29.296875
+skin_group,5-6,H,PhysNet,(ii-pc-g),3,153,6,27.34375
+skin_group,5-6,H,PhysNet,(ii-pc-g2),3,153,6,33.54779411764706
+skin_group,5-6,H,PhysNet,(ii-pc-g80),3,153,6,33.57843137254902
+skin_group,5-6,H,PhysNet,(roi-pc),3,153,6,25.79656862745098
+skin_group,5-6,H,PhysNet,(sham-pc),3,153,6,43.650428921568626
+skin_group,5-6,H,RhythmFormer,(0),3,153,6,39.108455882352935
+skin_group,5-6,H,RhythmFormer,(i),3,153,6,23.52175245098039
+skin_group,5-6,H,RhythmFormer,(i-pc),3,153,6,24.20343137254902
+skin_group,5-6,H,RhythmFormer,(i-simple),3,153,6,19.85294117647059
+skin_group,5-6,H,RhythmFormer,(ii),3,153,6,21.06311274509804
+skin_group,5-6,H,RhythmFormer,(ii-lag),3,153,6,20.825674019607842
+skin_group,5-6,H,RhythmFormer,(ii-pc),3,153,6,18.32107843137255
+skin_group,5-6,L,FactorizePhys (matched),(0),3,461,8,16.18509354663774
+skin_group,5-6,L,FactorizePhys (matched),(i),3,461,8,16.00715157266811
+skin_group,5-6,L,FactorizePhys (matched),(i-pc),3,461,8,17.12818600867679
+skin_group,5-6,L,FactorizePhys (matched),(i-simple),3,461,8,17.476443872017352
+skin_group,5-6,L,FactorizePhys (matched),(ii),3,461,8,14.293824566160522
+skin_group,5-6,L,FactorizePhys (matched),(ii-lag),3,461,8,14.51243899132321
+skin_group,5-6,L,FactorizePhys (matched),(ii-pc),3,461,8,18.06873644251627
+skin_group,5-6,L,FactorizePhys (matched),(ii-pc-g),3,461,8,17.979765455531453
+skin_group,5-6,L,FactorizePhys (matched),(ii-pc-g2),3,461,8,17.47135981561822
+skin_group,5-6,L,FactorizePhys (matched),(ii-pc-g80),3,461,8,17.212072939262473
+skin_group,5-6,L,FactorizePhys (matched),(sham-pc),3,461,8,14.649708514099784
+skin_group,5-6,L,PhysNet,(0),3,461,8,18.554263828633406
+skin_group,5-6,L,PhysNet,(i),3,461,8,17.224783080260305
+skin_group,5-6,L,PhysNet,(i-pc),3,461,8,17.47390184381779
+skin_group,5-6,L,PhysNet,(i-pc-g80),3,461,8,18.236510303687634
+skin_group,5-6,L,PhysNet,(i-simple),3,461,8,16.990916485900218
+skin_group,5-6,L,PhysNet,(ii),3,461,8,15.277589479392624
+skin_group,5-6,L,PhysNet,(ii-lag),3,461,8,15.025928687635576
+skin_group,5-6,L,PhysNet,(ii-pc),3,461,8,18.030606019522775
+skin_group,5-6,L,PhysNet,(ii-pc-g),3,461,8,17.232409164859003
+skin_group,5-6,L,PhysNet,(ii-pc-g2),3,461,8,17.679806127982644
+skin_group,5-6,L,PhysNet,(ii-pc-g80),3,461,8,17.166316431670282
+skin_group,5-6,L,PhysNet,(roi-pc),3,461,8,17.496780097613883
+skin_group,5-6,L,PhysNet,(sham-pc),3,461,8,18.18312771149675
+skin_group,5-6,L,RhythmFormer,(0),3,461,8,21.65553823210412
+skin_group,5-6,L,RhythmFormer,(i),3,461,8,19.878660520607372
+skin_group,5-6,L,RhythmFormer,(i-pc),3,461,8,17.93655097613883
+skin_group,5-6,L,RhythmFormer,(i-simple),3,461,8,18.72966377440347
+skin_group,5-6,L,RhythmFormer,(ii),3,461,8,18.37377982646421
+skin_group,5-6,L,RhythmFormer,(ii-lag),3,461,8,17.817075650759218
+skin_group,5-6,L,RhythmFormer,(ii-pc),3,461,8,19.049959327548805

@@ -1,0 +1,12 @@
+{
+ "_comment": "Copy to config/paths.json and set the paths of this machine. Read by the OPS2 tools that use data or programs outside the repository (7.08). The repository root takes the place of the OPS2 work folder.",
+ "october_project": "/path/to/october_project",
+ "october_bulk": "/path/to/october_project_bulk",
+ "mmpd_raw": "/path/to/MMPD",
+ "ubfc2_raw": "/path/to/UBFC-rPPG/DATASET_2",
+ "pure_raw": "/path/to/PURE",
+ "mcd_raw": "/path/to/MCD-rPPG",
+ "python_main": "/path/to/envs/main/bin/python",
+ "python_repro": "/path/to/envs/repro/bin/python",
+ "ffmpeg": "/path/to/ffmpeg"
+}

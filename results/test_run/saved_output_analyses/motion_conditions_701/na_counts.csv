@@ -1,0 +1,37 @@
+backbone,activity,contrast,windows,high_windows,subjects,subjects_high,recordings,metric_by_rule
+FactorizePhys (matched),Stationary,(ii-pc)-(i-simple),703,144,22,15,171,MAE_high
+FactorizePhys (matched),Stationary,(ii-pc)-(i-pc),703,144,22,15,171,MAE_high
+FactorizePhys (matched),Stationary,(ii-pc)-(0),703,144,22,15,171,MAE_high
+FactorizePhys (matched),Rotation,(ii-pc)-(i-simple),376,20,22,2,85,MAE_high
+FactorizePhys (matched),Rotation,(ii-pc)-(i-pc),376,20,22,2,85,MAE_high
+FactorizePhys (matched),Rotation,(ii-pc)-(0),376,20,22,2,85,MAE_high
+FactorizePhys (matched),Talking,(ii-pc)-(i-simple),360,25,22,2,82,MAE_high
+FactorizePhys (matched),Talking,(ii-pc)-(i-pc),360,25,22,2,82,MAE_high
+FactorizePhys (matched),Talking,(ii-pc)-(0),360,25,22,2,82,MAE_high
+FactorizePhys (matched),Walking,(ii-pc)-(i-simple),245,93,22,14,74,MAE_high
+FactorizePhys (matched),Walking,(ii-pc)-(i-pc),245,93,22,14,74,MAE_high
+FactorizePhys (matched),Walking,(ii-pc)-(0),245,93,22,14,74,MAE_high
+PhysNet,Stationary,(ii-pc)-(i-simple),703,144,22,15,171,MAE_high
+PhysNet,Stationary,(ii-pc)-(i-pc),703,144,22,15,171,MAE_high
+PhysNet,Stationary,(ii-pc)-(0),703,144,22,15,171,MAE_high
+PhysNet,Rotation,(ii-pc)-(i-simple),376,20,22,2,85,MAE_high
+PhysNet,Rotation,(ii-pc)-(i-pc),376,20,22,2,85,MAE_high
+PhysNet,Rotation,(ii-pc)-(0),376,20,22,2,85,MAE_high
+PhysNet,Talking,(ii-pc)-(i-simple),360,25,22,2,82,MAE_high
+PhysNet,Talking,(ii-pc)-(i-pc),360,25,22,2,82,MAE_high
+PhysNet,Talking,(ii-pc)-(0),360,25,22,2,82,MAE_high
+PhysNet,Walking,(ii-pc)-(i-simple),245,93,22,14,74,MAE_high
+PhysNet,Walking,(ii-pc)-(i-pc),245,93,22,14,74,MAE_high
+PhysNet,Walking,(ii-pc)-(0),245,93,22,14,74,MAE_high
+RhythmFormer,Stationary,(ii-pc)-(i-simple),703,144,22,15,171,MAE_high
+RhythmFormer,Stationary,(ii-pc)-(i-pc),703,144,22,15,171,MAE_high
+RhythmFormer,Stationary,(ii-pc)-(0),703,144,22,15,171,MAE_high
+RhythmFormer,Rotation,(ii-pc)-(i-simple),376,20,22,2,85,MAE_high
+RhythmFormer,Rotation,(ii-pc)-(i-pc),376,20,22,2,85,MAE_high
+RhythmFormer,Rotation,(ii-pc)-(0),376,20,22,2,85,MAE_high
+RhythmFormer,Talking,(ii-pc)-(i-simple),360,25,22,2,82,MAE_high
+RhythmFormer,Talking,(ii-pc)-(i-pc),360,25,22,2,82,MAE_high
+RhythmFormer,Talking,(ii-pc)-(0),360,25,22,2,82,MAE_high
+RhythmFormer,Walking,(ii-pc)-(i-simple),245,93,22,14,74,MAE_high
+RhythmFormer,Walking,(ii-pc)-(i-pc),245,93,22,14,74,MAE_high
+RhythmFormer,Walking,(ii-pc)-(0),245,93,22,14,74,MAE_high

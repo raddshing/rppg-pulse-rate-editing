@@ -1,0 +1,145 @@
+analysis,dataset,population,layer,backbone,name,contrast,windows,subjects,metric,point,ci_lo,ci_hi,grade,values_only
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C1,(ii-pc)-(0),1870,107,MAE_high,-2.8082167288557187,-4.994800704697433,-1.0407137450346489,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C1,(ii-pc)-(0),1870,107,MAE_low,1.7964759744623635,1.231172803294416,2.4091278046479627,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C1,(ii-pc)-(0),1870,107,MAE_all,1.4665140374331547,0.904879600071381,2.0617241048632247,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C1,(ii-pc)-(0),1870,107,signed_error_high,3.559351679104475,1.5458591903073293,5.937221531901643,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C1,(ii-pc)-(0),1870,107,signed_error_low,3.0991233438940067,2.3371117623476936,3.8894168825707363,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C1,(ii-pc)-(0),1870,107,signed_error_all,3.132102272727271,2.381359887679049,3.9259217184594206,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C1,(ii-pc)-(0),1870,107,slope_high,0.14792393361281328,-0.03197475076552643,0.36418557754827674,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C1,(ii-pc)-(0),1870,107,spearman_high,0.12743450652882518,-0.012593990455750784,0.2835464953301327,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C1,(ii-pc)-(0),1870,107,kendall_high,0.0876944225746545,-0.015497472186802468,0.1988611851555947,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C1,(ii-pc)-(0),1870,107,pearson_high,0.13738261131641386,-0.004592336285018649,0.29746078537218373,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C1,(ii-pc)-(0),1870,107,AUROC,0.0033186601554439457,-0.02552517656129338,0.03683557662806401,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C1,(ii-pc)-(0),1870,107,MAE_verified,1.4665140374331547,0.904879600071381,2.0617241048632247,,True
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C2,(ii-pc)-(ii),1870,107,MAE_high,-4.804516480099502,-7.864975871028469,-2.4260239947465916,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C2,(ii-pc)-(ii),1870,107,MAE_low,2.386137912826418,1.657940711561391,3.2050806592608527,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C2,(ii-pc)-(ii),1870,107,MAE_all,1.8708717691622099,1.1508591300128581,2.6986948548375542,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C2,(ii-pc)-(ii),1870,107,signed_error_high,5.623250932835819,2.9879141212406015,8.830885571413404,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C2,(ii-pc)-(ii),1870,107,signed_error_low,5.046622983870964,4.256101383232547,5.9231526375472985,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C2,(ii-pc)-(ii),1870,107,signed_error_all,5.087942847593581,4.296202708381221,5.957349890190875,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C2,(ii-pc)-(ii),1870,107,slope_high,0.334635724501515,0.03490330458756853,0.5312991884989228,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C2,(ii-pc)-(ii),1870,107,spearman_high,0.20182724890981882,0.034154416715676296,0.36821351108718625,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C2,(ii-pc)-(ii),1870,107,kendall_high,0.14302282362383315,0.021426254156039375,0.265236637992128,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C2,(ii-pc)-(ii),1870,107,pearson_high,0.2791737871479083,0.050037167012618226,0.44425032902725053,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C2,(ii-pc)-(ii),1870,107,AUROC,0.011985005846344321,-0.029907245490538293,0.06072896817360998,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C2,(ii-pc)-(ii),1870,107,MAE_verified,1.8708717691622099,1.1508591300128581,2.6986948548375542,,True
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C3,(i-pc)-(i),1870,107,MAE_high,-1.0760649875621884,-3.181912887243391,1.2185393318652202,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C3,(i-pc)-(i),1870,107,MAE_low,0.9300505232334858,0.47893253136979413,1.4169258655706949,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C3,(i-pc)-(i),1870,107,MAE_all,0.7862967914438505,0.3292138360055353,1.27023351311779,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C3,(i-pc)-(i),1870,107,signed_error_high,1.565415111940298,-0.9374999999999988,3.925400771103895,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C3,(i-pc)-(i),1870,107,signed_error_low,2.113560267857142,1.500049440234993,2.7278147490431794,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C3,(i-pc)-(i),1870,107,signed_error_all,2.074281417112299,1.460198297167109,2.7003382105997793,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C3,(i-pc)-(i),1870,107,slope_high,-0.15146614474391162,-0.3533927989799809,0.0797643686974733,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C3,(i-pc)-(i),1870,107,spearman_high,-0.03238663678860401,-0.17745443152898632,0.11556089963015988,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C3,(i-pc)-(i),1870,107,kendall_high,-0.020568659279581663,-0.126624178996606,0.08963251511480465,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C3,(i-pc)-(i),1870,107,pearson_high,-0.10370071708963872,-0.2736945725335158,0.08487346159141326,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C3,(i-pc)-(i),1870,107,AUROC,0.005872853474562641,-0.03124127027704235,0.041646133519391275,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C3,(i-pc)-(i),1870,107,MAE_verified,0.7862967914438505,0.3292138360055353,1.27023351311779,,True
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C4,(ii-pc)-(i-pc),1870,107,MAE_high,-2.069239738805969,-3.9373361619887737,-0.49903339403195407,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C4,(ii-pc)-(i-pc),1870,107,MAE_low,1.34561791954685,0.7949271755996172,1.9602763692111143,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C4,(ii-pc)-(i-pc),1870,107,MAE_all,1.1009168894830648,0.5905490217805909,1.6729675770404278,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C4,(ii-pc)-(i-pc),1870,107,signed_error_high,2.7547807835820883,0.9694831173651685,4.916672087631266,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C4,(ii-pc)-(i-pc),1870,107,signed_error_low,1.9907024049539148,1.2821073887053147,2.749127304204435,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C4,(ii-pc)-(i-pc),1870,107,signed_error_all,2.045454545454544,1.3438010824397333,2.7734083368803653,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C4,(ii-pc)-(i-pc),1870,107,slope_high,0.10533995319273955,-0.07545745864035722,0.2781975092578126,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C4,(ii-pc)-(i-pc),1870,107,spearman_high,0.05708258710557276,-0.05053813990795461,0.16281035756579457,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C4,(ii-pc)-(i-pc),1870,107,kendall_high,0.034737428288000805,-0.04838080918771681,0.11529145537530666,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C4,(ii-pc)-(i-pc),1870,107,pearson_high,0.1017560309918586,-0.039809543769881856,0.2514230248886925,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C4,(ii-pc)-(i-pc),1870,107,AUROC,0.006774164889836509,-0.02034540425825294,0.03831577127765599,,False
+secondary_set,VIPL-HR,secondary,HAR,FactorizePhys (matched),C4,(ii-pc)-(i-pc),1870,107,MAE_verified,1.1009168894830648,0.5905490217805909,1.6729675770404278,,True
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C1,(ii-pc)-(0),1870,107,MAE_high,-17.720436878109453,-24.350140106615715,-12.34409001970721,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C1,(ii-pc)-(0),1870,107,MAE_low,-0.02749195948540617,-1.5495507470845489,1.5444933944568802,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C1,(ii-pc)-(0),1870,107,MAE_all,-1.2953286541889468,-2.733739078309632,0.13724104122451142,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C1,(ii-pc)-(0),1870,107,signed_error_high,18.706273320895523,13.12785247014261,25.597904473244153,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C1,(ii-pc)-(0),1870,107,signed_error_low,11.446707589285715,8.43089802586553,15.44728125863033,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C1,(ii-pc)-(0),1870,107,signed_error_all,11.966911764705884,8.933976315495457,16.08669603342994,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C1,(ii-pc)-(0),1870,107,slope_high,0.2907528959194415,-0.09942257864518762,0.6342734742404327,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C1,(ii-pc)-(0),1870,107,spearman_high,0.24811252172463058,0.027779279204732076,0.4726043733399422,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C1,(ii-pc)-(0),1870,107,kendall_high,0.19940316327447605,0.037100405781435405,0.3699052258749855,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C1,(ii-pc)-(0),1870,107,pearson_high,0.23667698422851058,-0.019285718354039576,0.4765673943762674,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C1,(ii-pc)-(0),1870,107,AUROC,0.1517613545177339,0.08634442994862783,0.22402921155480443,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C1,(ii-pc)-(0),1870,107,MAE_verified,-1.2953286541889468,-2.733739078309632,0.13724104122451142,,True
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C2,(ii-pc)-(ii),1870,107,MAE_high,-4.434297263681592,-8.322396915046404,-0.6078813262836721,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C2,(ii-pc)-(ii),1870,107,MAE_low,1.36828137000768,0.10958650296970271,2.662704443971188,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C2,(ii-pc)-(ii),1870,107,MAE_all,0.9524816176470612,-0.1107643955114728,2.1058948099754624,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C2,(ii-pc)-(ii),1870,107,signed_error_high,4.040345149253732,0.025761964942230077,8.183694898744374,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C2,(ii-pc)-(ii),1870,107,signed_error_low,3.158527145737326,0.809457736103768,5.059132918819109,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C2,(ii-pc)-(ii),1870,107,signed_error_all,3.2217162433155058,0.8596738148044799,5.092559772655115,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C2,(ii-pc)-(ii),1870,107,slope_high,0.338155382044492,-0.030629638946567332,0.689716566234507,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C2,(ii-pc)-(ii),1870,107,spearman_high,0.23284822162018284,0.022660083440078933,0.43877172555101307,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C2,(ii-pc)-(ii),1870,107,kendall_high,0.17666350780072423,0.024825615115109858,0.32886634814978544,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C2,(ii-pc)-(ii),1870,107,pearson_high,0.25387902392049333,-0.012378552616404031,0.5060296257706711,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C2,(ii-pc)-(ii),1870,107,AUROC,0.014578604672490095,-0.0349092701523384,0.06668164451608731,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C2,(ii-pc)-(ii),1870,107,MAE_verified,0.9524816176470612,-0.1107643955114728,2.1058948099754624,,True
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C3,(i-pc)-(i),1870,107,MAE_high,-5.627868470149252,-10.272915728549176,-1.1385909288194473,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C3,(i-pc)-(i),1870,107,MAE_low,2.327827380952383,0.7365538636042529,4.437854582359376,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C3,(i-pc)-(i),1870,107,MAE_all,1.7577400846702336,0.38247141931381706,3.524315603607992,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C3,(i-pc)-(i),1870,107,signed_error_high,6.445312499999997,1.3039924028822054,11.596366213133823,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C3,(i-pc)-(i),1870,107,signed_error_low,4.888662874423962,0.9727880062344885,8.229781636926727,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C3,(i-pc)-(i),1870,107,signed_error_all,5.00020889037433,1.014382745325825,8.398867517405206,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C3,(i-pc)-(i),1870,107,slope_high,0.23928104800094208,-0.04818945128625211,0.5137838540422883,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C3,(i-pc)-(i),1870,107,spearman_high,0.12810194417080334,-0.08330181276652229,0.3425151639859235,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C3,(i-pc)-(i),1870,107,kendall_high,0.0874376729504368,-0.07153955455698585,0.24500241989059204,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C3,(i-pc)-(i),1870,107,pearson_high,0.18565934221763306,-0.03230281278703645,0.41598696174939753,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C3,(i-pc)-(i),1870,107,AUROC,0.026280607332003585,-0.018604917936074317,0.07505225541976122,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C3,(i-pc)-(i),1870,107,MAE_verified,1.7577400846702336,0.38247141931381706,3.524315603607992,,True
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C4,(ii-pc)-(i-pc),1870,107,MAE_high,1.3895055970149233,-2.0235662405303008,5.032064814814817,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C4,(ii-pc)-(i-pc),1870,107,MAE_low,-0.821792194700461,-3.551622520938579,1.2580696873298023,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C4,(ii-pc)-(i-pc),1870,107,MAE_all,-0.6633355614973256,-2.9446703566888326,1.1431576516830284,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C4,(ii-pc)-(i-pc),1870,107,signed_error_high,-1.6091417910447738,-5.626637513476666,2.316705885455735,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C4,(ii-pc)-(i-pc),1870,107,signed_error_low,-1.899571572580645,-6.303440608780279,1.9773143959918218,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C4,(ii-pc)-(i-pc),1870,107,signed_error_all,-1.8787600267379674,-6.220894593275533,1.9141011948164894,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C4,(ii-pc)-(i-pc),1870,107,slope_high,0.019583740056494436,-0.1870803091236779,0.20816235695863228,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C4,(ii-pc)-(i-pc),1870,107,spearman_high,0.006240188238626969,-0.16022520762904993,0.1464947883808211,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C4,(ii-pc)-(i-pc),1870,107,kendall_high,0.015928970400458393,-0.10493574901612664,0.11996162514500944,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C4,(ii-pc)-(i-pc),1870,107,pearson_high,0.00636636540059754,-0.16065252489451226,0.1561030280284088,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C4,(ii-pc)-(i-pc),1870,107,AUROC,0.00048647889584337484,-0.04528623476390528,0.0459754923042297,,False
+secondary_set,VIPL-HR,secondary,HAR,PhysNet,C4,(ii-pc)-(i-pc),1870,107,MAE_verified,-0.6633355614973256,-2.9446703566888326,1.1431576516830284,,True
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C1,(ii-pc)-(0),1870,107,MAE_high,-22.951212686567164,-28.904971003320682,-16.44518096301021,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C1,(ii-pc)-(0),1870,107,MAE_low,-2.5163336453532996,-5.075883224091936,0.631736752281829,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C1,(ii-pc)-(0),1870,107,MAE_all,-3.980651180926911,-6.427453210531346,-1.0704391025390507,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C1,(ii-pc)-(0),1870,107,signed_error_high,20.376632462686565,11.800499258115309,27.5637637867647,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C1,(ii-pc)-(0),1870,107,signed_error_low,12.808944772465438,4.769865896586421,18.416504195142725,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C1,(ii-pc)-(0),1870,107,signed_error_all,13.351228275401075,5.296570757281228,18.848758536169115,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C1,(ii-pc)-(0),1870,107,slope_high,0.18992029309694658,-0.16074838270234804,0.5093234837830729,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C1,(ii-pc)-(0),1870,107,spearman_high,0.3529937900334213,0.13498960313036493,0.5488685498577883,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C1,(ii-pc)-(0),1870,107,kendall_high,0.2770061727181368,0.11752740822116547,0.4233865248948666,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C1,(ii-pc)-(0),1870,107,pearson_high,0.27205360084014113,0.02614121513829318,0.47509102218504845,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C1,(ii-pc)-(0),1870,107,AUROC,0.16574386133846897,0.09068722406990892,0.23529148688327162,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C1,(ii-pc)-(0),1870,107,MAE_verified,-3.980651180926911,-6.427453210531346,-1.0704391025390507,,True
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C2,(ii-pc)-(ii),1870,107,MAE_high,-2.1714629975124367,-4.927943741391185,-0.043476440087416156,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C2,(ii-pc)-(ii),1870,107,MAE_low,1.4082565284178212,-0.04828469533248814,3.06319085887358,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C2,(ii-pc)-(ii),1870,107,MAE_all,1.1517418672014255,-0.20757154175072098,2.698095886192539,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C2,(ii-pc)-(ii),1870,107,signed_error_high,1.827775186567164,-0.8765058757878158,4.9498037145859275,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C2,(ii-pc)-(ii),1870,107,signed_error_low,1.9400741647465438,0.40936262667674356,3.5589634486478907,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C2,(ii-pc)-(ii),1870,107,signed_error_all,1.9320270721925148,0.43423504314043776,3.5461708155884235,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C2,(ii-pc)-(ii),1870,107,slope_high,0.2345270462595137,-0.15867834561666083,0.5632683972951378,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C2,(ii-pc)-(ii),1870,107,spearman_high,0.12320999477486372,-0.07675624684387414,0.344027935708354,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C2,(ii-pc)-(ii),1870,107,kendall_high,0.08900880237546183,-0.05949524210269277,0.2519150162529852,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C2,(ii-pc)-(ii),1870,107,pearson_high,0.21104268750426725,-0.11464612497935024,0.5089632876399932,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C2,(ii-pc)-(ii),1870,107,AUROC,-0.006931070454180695,-0.04251371327267238,0.031806470347320995,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C2,(ii-pc)-(ii),1870,107,MAE_verified,1.1517418672014255,-0.20757154175072098,2.698095886192539,,True
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C3,(i-pc)-(i),1870,107,MAE_high,0.6749844527363192,-5.040263356140101,5.76415321035395,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C3,(i-pc)-(i),1870,107,MAE_low,2.3484993039554536,-0.4212569563200128,4.97483153795503,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C3,(i-pc)-(i),1870,107,MAE_all,2.228578988413542,-0.17374095859657324,4.7528801846181485,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C3,(i-pc)-(i),1870,107,signed_error_high,1.521688432835821,-5.910594250572084,8.258572346893352,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C3,(i-pc)-(i),1870,107,signed_error_low,3.4568962413594484,-2.443934858198956,8.17683627513604,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C3,(i-pc)-(i),1870,107,signed_error_all,3.3182235962566864,-2.7161769227826946,8.050661554283371,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C3,(i-pc)-(i),1870,107,slope_high,-0.020541022369143163,-0.3842363559769992,0.31651665250192657,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C3,(i-pc)-(i),1870,107,spearman_high,-0.06717987849287935,-0.32891653402204274,0.1779522692964207,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C3,(i-pc)-(i),1870,107,kendall_high,-0.05738485413068096,-0.25773907678328456,0.12858111767752856,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C3,(i-pc)-(i),1870,107,pearson_high,-0.014385090306822121,-0.24142157687544524,0.19680664104356688,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C3,(i-pc)-(i),1870,107,AUROC,-0.027831751381342158,-0.08339060114781473,0.029815089428539568,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C3,(i-pc)-(i),1870,107,MAE_verified,2.228578988413542,-0.17374095859657324,4.7528801846181485,,True
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C4,(ii-pc)-(i-pc),1870,107,MAE_high,-7.3699315920398005,-10.190457532251026,-4.499590057595804,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C4,(ii-pc)-(i-pc),1870,107,MAE_low,-0.6942282306067581,-3.8713852370409922,1.9293960617023436,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C4,(ii-pc)-(i-pc),1870,107,MAE_all,-1.172594139928697,-4.223671643249891,1.3623876000485546,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C4,(ii-pc)-(i-pc),1870,107,signed_error_high,4.442630597014925,-0.17755681818181895,9.03481238461912,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C4,(ii-pc)-(i-pc),1870,107,signed_error_low,2.677896385368664,-0.43113032438757876,5.15459345474134,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C4,(ii-pc)-(i-pc),1870,107,signed_error_all,2.8043532754010703,-0.3329782994542961,5.232277095916917,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C4,(ii-pc)-(i-pc),1870,107,slope_high,0.250503159256685,-0.03241561822385549,0.5788221365006953,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C4,(ii-pc)-(i-pc),1870,107,spearman_high,0.30959218607620864,0.09543640840575005,0.5209096836543935,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C4,(ii-pc)-(i-pc),1870,107,kendall_high,0.24224022018958322,0.08072537160252999,0.41030344898108806,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C4,(ii-pc)-(i-pc),1870,107,pearson_high,0.26395806515059284,0.026237927341534798,0.5056208833831607,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C4,(ii-pc)-(i-pc),1870,107,AUROC,0.05114189994726829,-0.005841144735448811,0.10675894928189864,,False
+secondary_set,VIPL-HR,secondary,HAR,RhythmFormer,C4,(ii-pc)-(i-pc),1870,107,MAE_verified,-1.172594139928697,-4.223671643249891,1.3623876000485546,,True

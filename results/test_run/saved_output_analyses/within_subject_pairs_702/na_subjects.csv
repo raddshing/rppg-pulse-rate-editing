@@ -1,0 +1,3 @@
+population,subjects,after_reference_HR_median,after_reference_HR_min,after_reference_HR_max,before_reference_HR_median,source
+all subjects,149,84.78860294117646,54.802389705882355,127.38970588235294,81.27297794117646,test (c) outputs
+post-exercise reference HR >= 100,19,108.984375,100.29871323529412,127.38970588235294,98.02389705882354,test (c) outputs

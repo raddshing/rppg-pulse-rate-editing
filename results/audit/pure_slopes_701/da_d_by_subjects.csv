@@ -1,0 +1,4 @@
+subjects,subject_count,recordings,negative_recordings,positive_recordings,negative_fraction,d_negative_median,d_negative_q25,d_negative_q75,abs_max_lag_all_median,abs_max_lag_all_q25,abs_max_lag_all_q75
+01-08,8,47,38,9,0.8085106382978723,2.0,1.0,2.75,2.0,-8.0,2.0
+09-10,2,12,11,1,0.9166666666666666,1.0,1.0,2.5,1.5,1.0,3.0
+all,10,59,49,10,0.8305084745762712,2.0,1.0,3.0,2.0,-1.5,2.5

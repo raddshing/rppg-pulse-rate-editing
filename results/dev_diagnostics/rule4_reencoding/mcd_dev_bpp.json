@@ -1,0 +1,14 @@
+{
+ "recordings": 404,
+ "sizes": [
+  {
+   "width": 640,
+   "height": 480,
+   "n": 404
+  }
+ ],
+ "bits_per_pixel_median": 0.21941350133406978,
+ "bits_per_pixel_min": 0.08540386040886393,
+ "bits_per_pixel_max": 0.5611589868108292,
+ "bitrate_kbps_median": 2013.66525958083
+}
