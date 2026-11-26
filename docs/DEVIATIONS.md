@@ -122,3 +122,5 @@ No model of this study was trained on any test set, and every inference on a tes
 evaluation path of the test run (commit 19ecf5d).
 
 Erratum (A9 commit): the `dataset` column of `results/test_run/MCD-test/m7.csv` reads `MCD-dev`; the rows are those of the MCD-rPPG test half (149 subjects). The file is kept byte for byte as the stage output listed in `docs/TEST_STAGE_C_OUTPUTS_SHA256.txt`.
+
+A9, item 1: 'median 102.0 bpm' is the median reference HR of all chunks (101.95 bpm); among the chunks at or above 100 bpm the median is 112.5 bpm.
