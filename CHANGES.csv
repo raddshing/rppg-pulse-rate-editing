@@ -135,3 +135,4 @@ docs/PAPER_MAP.md,OPS2 (7.18 4),"rewritten for manuscript rev4-J (2026-11-27): p
 "results/MANIFEST.csv, results/README.md",OPS2 (7.18b 1),"MANIFEST: one row per new file; README: the new folders, the count of files marked otherwise, one exception",2
 docs/DEVIATIONS.md,PI (7.18b 3),"the last line: the parenthesis naming an internal review document, which is not published, removed; the rest of the line unchanged",1
 docs/PAPER_MAP.md,PI (7.18b 2),"the new files added to four rows with their content names; three rows restored (Sec. III-D label share, Sec. IV-C, Sec. IV-D)",1
+"docs/PREREGISTRATION_STAGE5_AMENDMENTS.md, docs/A10_UBFC_B1.txt",PI (7.20 3),"amendment A10 (B1, post hoc, UBFC-rPPG training below 100 bpm) appended as received; the keys, SHA-256 of the pool manifests and chunk lists, training sets, design table and checks of its training data",2

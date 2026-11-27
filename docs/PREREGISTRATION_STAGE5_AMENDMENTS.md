@@ -130,3 +130,47 @@ Each entry is dated and committed before any test data are opened. The original 
   9. Statistics. Intervals use the crossed bootstrap over subjects and seeds of the test run (B = 10,000, seed 20261110), with seeds paired by index. No correction for multiplicity is applied, and the paper says so. A run that fails for a technical reason is repeated from its inputs and reported.
 
   10. Also committed with this entry: LICENSE (code under the MIT licence; results and documents under CC BY 4.0; the third-party files listed in it keep their own licences); a line in README.md explaining internal terms; and an erratum: the dataset column of results/test_run/MCD-test/m7.csv reads "MCD-dev", but its values are those of the MCD-rPPG test half (149 subjects); the file is kept byte for byte, because its hash is listed.
+- 2026-11-27: Post hoc experiment after the fourth internal review of the manuscript (B1). This entry is committed before any run below starts training and before any of its checkpoints is evaluated on any test or development set. Its pools, on training data only, were generated from 20:59 KST on 27 November 2026. A trial of a few training steps on them, made before this commit to test the training wrapper, was discarded and is not one of the runs below. This entry changes nothing in Sections 3–5, in the confirmatory contrasts C1–C4 and their tiers, or in any earlier entry. Because MMPD-B, the MCD-rPPG test half and VIPL-HR have been used, every result of this entry is post hoc. Results are reported with 95% intervals and without tiers, whatever their direction, except for the descriptions defined below. No setting below is changed after any of its results has been seen.
+
+  1. Purpose. (a) To test the pulse–label alignment of time resampling on a second training corpus without the pulse editor, at a larger phase error than in item 1 of the entry of 2026-11-26. (b) To compare, within one corpus and with the same subjects, the high-HR gain from recorded high heart rates with that from synthesized ones.
+
+  2. Training data. The UBFC-rPPG chunk lists of item 1 of the entry of 2026-11-26 (PhysNet 555 chunks of 128 frames; RhythmFormer and FactorizePhys 436 chunks of 160 frames), with every heart rate in frame units as there. The original chunks were regenerated for this entry and matched those of that item tensor for tensor.
+     a. U-low: the chunks whose reference HR is below 100 bpm: 270 chunks (PhysNet list) and 210 chunks (RhythmFormer list), each from 31 subjects; median reference HR 87.9 bpm (quartiles 77.3–94.9).
+     b. U-full-m: for each list, as many chunks as U-low, drawn without replacement from all chunks of the 31 subjects of U-low, with the key given in docs/A10_UBFC_B1.txt. It has the subjects and the size of U-low and contains recorded heart rates of at least 100 bpm; the numbers of such chunks and of their subjects are listed in that file. A first sample drawn from all 42 subjects was replaced by this one before this commit and before any training, so that the two sets share their subjects.
+     The SHA-256 of the four chunk lists are in docs/A10_UBFC_B1.txt, committed with this entry.
+
+  3. Design choice. Before this entry, four designs were compared on training data only: cutoff 100 or 90 bpm, with targets drawn uniformly from 70–140 or 100–140 bpm.
+     a. For each design, the fundamental phase error of delay-rule resampling (i) relative to lag-preserving resampling (i-pc) was computed for every pool item from the generation keys as |wrap(2π(τ − d)(r − 1)/T0)|, with T0 the source period in frames and r = h*/h0.
+     b. The rule, fixed before the computation: among the designs whose mean phase error is at least 55° on both lists, take the one with the most U-low chunks; on a tie, take cutoff 100, then targets 70–140.
+     c. Three designs met the criterion (cutoff 100 with targets 100–140, and cutoff 90 with either). The rule chose cutoff 100 with targets 100–140: mean phase error 64.1° and 65.4° on the two lists (medians 61.1° and 64.1°).
+     d. With the pools of item 1 of the entry of 2026-11-26, the same measure is 38.2° and 38.9°. All four designs are listed in docs/A10_UBFC_B1.txt.
+
+  4. Arms. On U-low: (0), (i-simple), (i) and (i-pc). On U-full-m: (0). They are defined as in the protocol and in item 1 of the entry of 2026-11-26 (s = −1, d = 1 frame, per-recording τ of the October rule).
+     a. There are four pool items per U-low chunk, with targets drawn uniformly from 100–140 bpm with the key 20261160, in the format given in docs/A10_UBFC_B1.txt together with the SHA-256 of the three pool manifests, which fix every item and its target. The three resampling arms share each item's clip and differ only in the label shift.
+     b. No editing arm is trained.
+
+  5. Training. The steps, batch structure, loss and initial weights are those of item 1d of the entry of 2026-11-26 (PhysNet 5,580, RhythmFormer 4,470 and FactorizePhys 1,490 steps), with seeds 20261131–20261133: 45 runs, all started after this commit.
+
+  6. Evaluation. As in item 7 of the entry of 2026-11-26:
+     a. Guarded inference on MMPD-B, the MCD-rPPG test half and the VIPL-HR primary set.
+     b. For each backbone, one checkpoint is inferred twice, and the two prediction files must be identical.
+     c. The SHA-256 of the 45 checkpoints are committed before any of them is evaluated, and the SHA-256 of the prediction files before their analyses are run.
+     Measures: high-HR MAE (primary), high-HR hit rate, low-HR and all-window MAE, and signed errors.
+
+  7. Contrasts, per backbone and test set, with seeds paired by index; arms are on U-low unless stated.
+     a. Alignment without the editor: C3 = (i-pc) − (i), and (i) − (i-simple).
+     b. Synthesized range: (i-simple) − (0) and (i-pc) − (0).
+     c. Recorded range: (0, U-full-m) − (0, U-low).
+     d. Recovery ratio: [(i-simple) − (0)] / [(0, U-full-m) − (0, U-low)], computed within each bootstrap replicate. It is reported with its percentile interval only if the interval of the denominator lies below 0. Otherwise, the two differences are reported without the ratio.
+
+  8. Descriptions, fixed before any result.
+     a. C3: "correcting the delay rule lowered the high-HR error of resampling" if its interval is below 0, "raised it" if the interval is above 0, and "not established" otherwise.
+     b. (i) − (i-simple): "the delay-rule shift raised the high-HR error relative to plain resampling" if the interval is above 0, "lowered it" if below 0, and "not established" otherwise.
+     c. (i-simple) − (0) and (i-pc) − (0): "<arm> lowered the high-HR error" if the interval is below 0, "raised it" if above 0, and "not established" otherwise.
+     d. (0, U-full-m) − (0, U-low): "recorded high heart rates lowered the high-HR error" if the interval is below 0, "raised it" if above 0, and "not established" otherwise.
+     e. Summary sentences:
+        - "With training on UBFC-rPPG chunks below 100 bpm, correcting the delay rule lowered the high-HR error of resampling (C3 interval below 0) for <k> of three backbones on <set>, at a mean phase error of 64–65°."
+        - "Plain resampling recovered <R> [<lower>, <upper>] of the high-HR gain from recorded high heart rates of the same subjects for <backbone> on <set>," for each cell in which the ratio is reported.
+     The frame units of item 1 of the entry of 2026-11-26 are stated with the results.
+
+  9. Statistics. As in item 9 of the entry of 2026-11-26: the crossed bootstrap over subjects and seeds (B = 10,000, seed 20261110), with seeds paired by index, including between U-low and U-full-m runs. No correction for multiplicity is applied, and the paper says so. A run that fails for a technical reason is repeated from its inputs and reported.

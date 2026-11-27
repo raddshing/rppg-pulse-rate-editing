@@ -1,0 +1,94 @@
+A10 (entry of 2026-11-27), item B1: keys, SHA-256, design table and checks of the UBFC-rPPG training sets.
+The pool manifests and chunk lists are not committed (they hold recording codes); their SHA-256 are below.
+Heart rates are in the frame units of item 1 of the entry of 2026-11-26.
+
+1. Keys and formats
+
+Target HR of pool item k (k = 0, 1, 2, 3) of chunk c:
+  numpy.random.default_rng([20261160, v, c, k]).uniform(100, 140)
+  v = 0 for PhysNet; v = 2 for RhythmFormer and FactorizePhys, which share the targets;
+  c = chunk order in the chunk list of item 1 of the entry of 2026-11-26 (from 0).
+Rounding generator of the resampled clip of item k of chunk c (shared by (i), (i-pc) and (i-simple)):
+  numpy.random.default_rng([20261160, j, h]); j = 1 for PhysNet and RhythmFormer, j = 2 for FactorizePhys;
+  h = int(first 8 hexadecimal digits of SHA-256 of the string 'OPS2-719|UBFC|<model>|<chunk>|<k>', 16), where
+  <model> is PhysNet, RhythmFormer or FPm (FactorizePhys) and <chunk> is '<recording>|<chunk index>'.
+U-low: the chunks of the list with reference HR < 100 bpm.
+U-full-m, per list (v as above):
+  S = the subjects of U-low; C = the chunk orders of all chunks of the list whose subject is in S, ascending;
+  n = the number of U-low chunks of the list;
+  U-full-m = sorted(C[i] for i in numpy.random.default_rng([20261160, 10, v]).choice(len(C), n, replace=False)).
+Replaced before this commit and before any training: a first U-full-m drawn from all chunks of the list
+  (all 42 subjects) with numpy.random.default_rng([20261160, 9, v]).choice(N, n, replace=False); SHA-256
+  PhysNet list e59557660d58dec71b26c69ae4ee48ac9bc952e3319e69126ef48abd2d4b171b, RhythmFormer list e6d912ba29a65915d0a43d9159b8b229c655e41a516e9a68a7daf4916b25e9c8; not used.
+
+2. SHA-256
+
+3369473428d3faa0842cffd665030a6bc83c69aedf558c1eb557e83c0814787a  PhysNet_items.csv  (1080 rows; pool manifest, PhysNet, U-low)
+11a3ec8b005f09506daa9ffaa7729470cdd004c0749b41653e996ee9c7b8b724  RhythmFormer_items.csv  (840 rows; pool manifest, RhythmFormer, U-low)
+aa16b4690200599f68f939477aa52336ce0136fd91cf07d5b70a232ff368f3fc  FPm_items.csv  (840 rows; pool manifest, FactorizePhys, U-low)
+ae85831003940416c695f9fce28310230008e9e20dd1cba0a52eb1b1a6c67ffb  PhysNet_U_low_chunks.csv  (270 rows; chunk list, PhysNet list, U-low)
+07a8bfc559d79addffd3bf9c206a890c50bbca1410b88f01afce781d8842c6bb  RhythmFormer_U_low_chunks.csv  (210 rows; chunk list, RhythmFormer list (also FactorizePhys), U-low)
+ffb80f177404c0b9ac3909bb68416316d938ca0f7c63540542b8faed95520030  PhysNet_U_full_m_chunks.csv  (270 rows; chunk list, PhysNet list, U-full-m)
+90962e9a4d72ca48b8a7e996c972e5ad1c08ccc817100cee4adb8eb42f5ee284  RhythmFormer_U_full_m_chunks.csv  (210 rows; chunk list, RhythmFormer list (also FactorizePhys), U-full-m)
+
+3. Training sets
+
+List                          set       chunks  subjects  chunks >= 100 bpm  their subjects  ref. HR median [quartiles]
+PhysNet                       U-low        270        31                  0               0  87.9 [77.3, 94.9]
+PhysNet                       U-full-m     270        31                 93              17  94.9 [85.3, 105.5]
+                              (U-full-m drawn from 415 chunks of the 31 subjects, 145 of them >= 100 bpm)
+RhythmFormer/FactorizePhys    U-low        210        31                  0               0  87.9 [77.3, 94.9]
+RhythmFormer/FactorizePhys    U-full-m     210        31                 77              18  94.9 [84.4, 105.5]
+                              (U-full-m drawn from 325 chunks of the 31 subjects, 115 of them >= 100 bpm)
+
+Expected share of labels >= 100 bpm in a training batch (the sampling of the training code: originals in a
+permutation per epoch, pool items drawn uniformly; a pool item counts by its target, an original by its reference HR):
+  PhysNet: U-low augmented arms (2 originals + 2 pool items) 0.500; U-low (0) 0; U-full-m (0) 0.344
+  RhythmFormer/FactorizePhys: U-low augmented arms (2 originals + 2 pool items) 0.500; U-low (0) 0; U-full-m (0) 0.367
+
+4. Design table (training data only; before this entry)
+
+Phase error of (i) against (i-pc) at f*: |wrap(2 pi (tau - d)(r - 1) / T0)|, T0 = 1800 / h0 frames, r = h* / h0,
+d = 1 frame, tau = per-recording tau of the October rule; targets drawn with the keys above (the U(70, 140)
+designs with the same key). Degrees, mean / median (items). No item is excluded by the generator rule.
+Rule (fixed before the computation): designs with mean >= 55 deg on both lists; most U-low chunks; ties: cutoff
+100, then targets 70-140. Selected: cutoff 100, targets 100-140.
+
+design (cutoff, targets) / list | U-low chunks | subjects | ref. HR median [quartiles] | all | 70-100 | 100-120 | 120-140
+pools of item 1 of the entry of 2026-11-26 (all chunks, U(70, 140)) / PhysNet | 555 | 42 | 102.0 [87.9, 112.5] | 38.2 / 31.8 (2220) | 35.0 / 32.3 (932) | 27.5 / 19.9 (660) | 54.1 / 47.2 (628)
+pools of item 1 of the entry of 2026-11-26 (all chunks, U(70, 140)) / RhythmFormer/FactorizePhys | 436 | 42 | 102.0 [87.9, 112.5] | 38.9 / 33.0 (1744) | 35.4 / 34.0 (743) | 28.7 / 21.2 (531) | 55.9 / 51.4 (470)
+cutoff 100, U(70, 140) / PhysNet | 270 | 31 | 87.9 [77.3, 94.9] | 45.8 / 39.8 (1080) | 21.5 / 18.1 (453) | 46.6 / 41.9 (312) | 80.1 / 76.4 (315)
+cutoff 100, U(70, 140) / RhythmFormer/FactorizePhys | 210 | 31 | 87.9 [77.3, 94.9] | 46.4 / 38.7 (840) | 21.6 / 19.6 (336) | 44.5 / 41.5 (260) | 82.5 / 78.4 (244)
+cutoff 100, U(100, 140) / PhysNet | 270 | 31 | 87.9 [77.3, 94.9] | 64.1 / 61.1 (1080) | – / – (0) | 45.5 / 39.6 (515) | 81.1 / 75.3 (565)
+cutoff 100, U(100, 140) / RhythmFormer/FactorizePhys | 210 | 31 | 87.9 [77.3, 94.9] | 65.4 / 64.1 (840) | – / – (0) | 48.0 / 40.7 (407) | 81.7 / 76.1 (433)
+cutoff 90, U(70, 140) / PhysNet | 145 | 17 | 80.9 [70.3, 87.9] | 57.2 / 54.0 (580) | 23.9 / 19.8 (242) | 64.2 / 55.9 (165) | 97.2 / 90.0 (173)
+cutoff 90, U(70, 140) / RhythmFormer/FactorizePhys | 116 | 18 | 80.9 [70.3, 87.9] | 56.9 / 52.6 (464) | 23.6 / 20.0 (192) | 62.5 / 55.3 (138) | 98.9 / 91.7 (134)
+cutoff 90, U(100, 140) / PhysNet | 145 | 17 | 80.9 [70.3, 87.9] | 81.7 / 80.6 (580) | – / – (0) | 62.7 / 56.6 (272) | 98.6 / 92.6 (308)
+cutoff 90, U(100, 140) / RhythmFormer/FactorizePhys | 116 | 18 | 80.9 [70.3, 87.9] | 82.2 / 80.9 (464) | – / – (0) | 64.6 / 60.0 (226) | 98.9 / 92.6 (238)
+
+The same measure on the first PURE pool (manifests only; items of (i-pc), d = 2 frames, tau of the PURE recordings):
+  PhysNet, targets all: 93.7 / 96.6 (2972)
+  PhysNet, targets 70-100: 63.6 / 61.7 (1283)
+  PhysNet, targets 100-120: 111.4 / 116.0 (811)
+  PhysNet, targets 120-140: 121.3 / 134.6 (878)
+  RhythmFormer/FactorizePhys, targets all: 93.2 / 95.1 (2384)
+  RhythmFormer/FactorizePhys, targets 70-100: 63.3 / 60.7 (1021)
+  RhythmFormer/FactorizePhys, targets 100-120: 109.7 / 112.4 (675)
+  RhythmFormer/FactorizePhys, targets 120-140: 121.3 / 134.6 (688)
+
+5. Checks before this commit
+
+Pools, PhysNet: items generated (i) 1080, (i-pc) 1080, (i-simple) 1080; excluded 0.
+Pools, RhythmFormer: items generated (i) 840, (i-pc) 840, (i-simple) 840; excluded 0.
+Pools, FactorizePhys: items generated (i) 840, (i-pc) 840, (i-simple) 840; excluded 0.
+Regenerated originals, PhysNet: 555 of 555 chunk tensors (input and label SHA-256) equal to those of item 1 of the entry of 2026-11-26.
+Regenerated originals, RhythmFormer: 436 of 436 chunk tensors (input and label SHA-256) equal to those of item 1 of the entry of 2026-11-26.
+Regenerated originals, FactorizePhys: 436 of 436 chunk tensors (input and label SHA-256) equal to those of item 1 of the entry of 2026-11-26.
+Training-wrapper trial, first attempt (2026-11-27T22:06:07+09:00 to 2026-11-27T22:34:09+09:00): no case reached its first step; the data-loader workers re-read the wrapper's arguments at import and
+stopped there. The wrapper was corrected (arguments read in the main process only; training code unchanged) and the trial repeated:
+Training-wrapper trial (discarded), PhysNet U_low (i-pc): 5 steps, 2026-11-27T22:34:51+09:00 to 2026-11-27T22:35:06+09:00 (exit 0).
+Training-wrapper trial (discarded), RhythmFormer U_low (i-pc): 5 steps, 2026-11-27T22:34:51+09:00 to 2026-11-27T22:35:21+09:00 (exit 0).
+Training-wrapper trial (discarded), PhysNet U_full_m (0): 5 steps, 2026-11-27T22:35:06+09:00 to 2026-11-27T22:35:37+09:00 (exit 0).
+Training-wrapper trial (discarded), FPm U_low (i-pc): 5 steps, 2026-11-27T22:35:37+09:00 to 2026-11-27T22:36:07+09:00 (exit 0).
+Training-wrapper trial (discarded), RhythmFormer U_full_m (0): 5 steps, 2026-11-27T22:35:21+09:00 to 2026-11-27T22:36:07+09:00 (exit 0).
+Training-wrapper trial (discarded), FPm U_full_m (0): 5 steps, 2026-11-27T22:36:07+09:00 to 2026-11-27T22:36:22+09:00 (exit 0).
