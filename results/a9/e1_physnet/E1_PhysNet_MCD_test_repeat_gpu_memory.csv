@@ -1,0 +1,3 @@
+pass,recordings,recordings_sampled,samples_per_recording_median,free_mib_min,free_mib_median,free_mib_max,free_mib_min_after_first_recording,free_mib_max_after_first_recording,used_mib_max,recording_concerned_samples,recording_concerned_free_mib_min,recording_concerned_free_mib_max,note
+repeat again (7.17),385,365,11.0,21391.0,21391.0,24097.0,21391.0,22029.0,2745.0,3.0,21391.0,21391.0,"GPU0, 1-s samples of nvidia-smi memory.free with the number of recordings done; recordings finished within a second of the previous have no sample; the first recording includes model loading"
+main pass and first repeat,385,0,,,,,,,,,,,not recorded

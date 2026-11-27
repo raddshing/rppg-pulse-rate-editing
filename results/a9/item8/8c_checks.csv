@@ -1,0 +1,2 @@
+check,rows,equal,max_abs_difference,nonfinite_SNR,windows_without_phase,windows,keys
+readout HR recomputed from the stored waveform vs stage (c2) readout,271014,271014,0.0,0,4,2657,102

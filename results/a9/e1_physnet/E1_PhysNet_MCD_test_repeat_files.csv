@@ -1,0 +1,4 @@
+comparison,key,files,identical,differing_values,max_abs_difference,note
+first repeat vs main pass,(ii-pc-ubfc) seed 20261131,385,384,5375 of 5376,0.015457,"main 2026-11-27 03:43-04:20, first repeat 04:20-04:58 KST, both GPU0"
+repeat again vs main pass,(ii-pc-ubfc) seed 20261131,385,385,,,"repeat again 11:18-12:50 KST, GPU0, new process (7.17)"
+repeat again vs first repeat,(ii-pc-ubfc) seed 20261131,385,384,5375 of 5376,0.015457,

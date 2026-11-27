@@ -1,0 +1,4 @@
+dataset,backbones_evaluated,k_C1_interval_below_0,backbones,C1_high_by_backbone,sentence
+VIPL-HR,3,1,RhythmFormer,"PhysNet -1.7 [-4.6, 0.8]; FactorizePhys 1.3 [-0.0, 3.1]; RhythmFormer -3.3 [-5.4, -1.3]","With UBFC-rPPG as the training corpus, aligned editing reduced the high-HR error against no augmentation (C1 interval below 0) for 1 of three backbones on VIPL-HR."
+MMPD-B,3,1,RhythmFormer,"PhysNet -2.0 [-5.4, 2.0]; FactorizePhys 0.4 [-1.0, 2.2]; RhythmFormer -2.3 [-3.8, -0.6]","With UBFC-rPPG as the training corpus, aligned editing reduced the high-HR error against no augmentation (C1 interval below 0) for 1 of three backbones on MMPD-B."
+MCD-rPPG test,3,2,"PhysNet, FactorizePhys","PhysNet -9.4 [-12.5, -6.3]; FactorizePhys -1.1 [-1.9, -0.3]; RhythmFormer -2.8 [-5.9, 0.5]","With UBFC-rPPG as the training corpus, aligned editing reduced the high-HR error against no augmentation (C1 interval below 0) for 2 of three backbones on MCD-rPPG test."

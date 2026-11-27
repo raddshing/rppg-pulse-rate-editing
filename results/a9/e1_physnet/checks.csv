@@ -1,0 +1,10 @@
+check,dataset,backbone,arm,seed,value,passed
+same checkpoint inferred twice: identical prediction files,MMPD-B,PhysNet,(ii-pc-ubfc),20261131,435 of 435,True
+"same checkpoint inferred twice: identical prediction files (repeat inferred again, 7.17)",MCD-rPPG test,PhysNet,(ii-pc-ubfc),20261131,385 of 385,True
+same checkpoint inferred twice: identical prediction files,VIPL-HR,PhysNet,(ii-pc-ubfc),20261131,2360 of 2360,True
+first MCD-rPPG test repeat pass (moved aside): identical prediction files,MCD-rPPG test,PhysNet,(ii-pc-ubfc),20261131,384 of 385,False
+step (b) of the test run: stored readouts reproduced (rows equal of rows); support windows equal; E1 PhysNet keys defective 0,MMPD-B,all,,,"535050 of 535050; new keys 21, defective 0",True
+step (b) of the test run: stored readouts reproduced (rows equal of rows); support windows equal; E1 PhysNet keys defective 0,MCD-rPPG test,all,,,"1508340 of 1508340; new keys 21, defective 0",True
+"VIPL-HR readouts of the E1 PhysNet pass: keys, defective keys",VIPL-HR,PhysNet,,,"21 keys, 0 defective",True
+7.17 4: main-pass HR readouts recomputed for the repeat comparison equal the evaluation step (b),MCD-rPPG test,PhysNet,(ii-pc-ubfc),20261131,10930 of 10930,True
+7.17 4: HR readouts of the windows of the recording that differed: first repeat equal to main pass (HAR and L0),MCD-rPPG test,PhysNet,(ii-pc-ubfc),20261131,34 of 34; max difference 0.0 bpm,True

@@ -1,0 +1,18 @@
+set,group,windows,recordings,subjects,reference_finite,reference_median,reference_q1,reference_q3,reference_ge100,share_ge100,position_1,position_2,position_3,position_4,position_5
+primary,excluded at step 4: interval > 200 ms between frames (200-ms rule),29,27,21,29,80.8,73.2,87.6,4,0.13793103448275862,16,2,11,0,0
+primary,excluded at step 5: not verified: signal defect (d1-d4),15,15,7,15,87.2,72.0,93.0,1,0.06666666666666667,7,4,4,0,0
+primary,excluded at step 5: not verified: reference estimators disagree,298,225,62,298,80.05,73.9,88.8,18,0.06040268456375839,133,107,58,0,0
+primary,excluded at step 5: not verified: harmonic suspect,95,82,37,95,86.9,79.19999999999999,93.25,7,0.07368421052631578,39,34,22,0,0
+primary,excluded at step 5: not verified: other,0,0,0,0,,,,0,,0,0,0,0,0
+primary,excluded at step 6: no finite reference (gt_HR mean),0,0,0,0,,,,0,,0,0,0,0,0
+primary,excluded at step 7: outside the confirmatory support (a confirmatory key without a valid readout),872,872,105,872,77.6,71.1,85.725,54,0.06192660550458716,0,4,842,21,5
+primary,included (analysis windows),2657,1344,107,2657,78.7,71.9,87.0,213,0.08016560030109146,1213,1242,184,18,0
+primary,all created windows,3966,1408,107,3966,78.7,72.0,87.3,297,0.07488653555219364,1408,1393,1121,39,5
+secondary,excluded at step 5: not verified: signal defect (d1-d4),7,7,7,7,86.6,80.15,91.35,0,0.0,4,2,1,0,0
+secondary,excluded at step 5: not verified: reference estimators disagree,239,165,68,239,79.8,72.7,88.0,16,0.06694560669456066,95,71,70,3,0
+secondary,excluded at step 5: not verified: harmonic suspect,80,70,43,80,86.15,81.52499999999999,93.45,11,0.1375,24,28,24,3,1
+secondary,excluded at step 5: not verified: other,0,0,0,0,,,,0,,0,0,0,0,0
+secondary,excluded at step 6: no finite reference (gt_HR mean),0,0,0,0,,,,0,,0,0,0,0,0
+secondary,excluded at step 7: outside the confirmatory support (a confirmatory key without a valid readout),600,600,107,600,77.6,70.875,85.9,31,0.051666666666666666,3,2,570,22,3
+secondary,included (analysis windows),1870,906,107,1870,78.9,71.9,87.0,134,0.07165775401069518,826,834,172,30,8
+secondary,all created windows,2796,952,107,2796,79.0,71.9,87.0,192,0.06866952789699571,952,937,837,58,12

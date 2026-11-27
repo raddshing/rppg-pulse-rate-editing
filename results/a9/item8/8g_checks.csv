@@ -1,0 +1,46 @@
+table,backbone,strategy,metric,windows,windows_c1,max_abs_difference
+stage (c1) arms.csv,FactorizePhys (matched),(0),MAE_high,2657,2657,0.0
+stage (c1) arms.csv,FactorizePhys (matched),(0),MAE_low,2657,2657,0.0
+stage (c1) arms.csv,FactorizePhys (matched),(0),MAE_all,2657,2657,0.0
+stage (c1) arms.csv,FactorizePhys (matched),(i),MAE_high,2657,2657,0.0
+stage (c1) arms.csv,FactorizePhys (matched),(i),MAE_low,2657,2657,0.0
+stage (c1) arms.csv,FactorizePhys (matched),(i),MAE_all,2657,2657,0.0
+stage (c1) arms.csv,FactorizePhys (matched),(i-pc),MAE_high,2657,2657,0.0
+stage (c1) arms.csv,FactorizePhys (matched),(i-pc),MAE_low,2657,2657,0.0
+stage (c1) arms.csv,FactorizePhys (matched),(i-pc),MAE_all,2657,2657,0.0
+stage (c1) arms.csv,FactorizePhys (matched),(ii),MAE_high,2657,2657,0.0
+stage (c1) arms.csv,FactorizePhys (matched),(ii),MAE_low,2657,2657,0.0
+stage (c1) arms.csv,FactorizePhys (matched),(ii),MAE_all,2657,2657,0.0
+stage (c1) arms.csv,FactorizePhys (matched),(ii-pc),MAE_high,2657,2657,1.7763568394002505e-15
+stage (c1) arms.csv,FactorizePhys (matched),(ii-pc),MAE_low,2657,2657,0.0
+stage (c1) arms.csv,FactorizePhys (matched),(ii-pc),MAE_all,2657,2657,0.0
+stage (c1) arms.csv,PhysNet,(0),MAE_high,2657,2657,7.105427357601002e-15
+stage (c1) arms.csv,PhysNet,(0),MAE_low,2657,2657,1.7763568394002505e-15
+stage (c1) arms.csv,PhysNet,(0),MAE_all,2657,2657,1.7763568394002505e-15
+stage (c1) arms.csv,PhysNet,(i),MAE_high,2657,2657,0.0
+stage (c1) arms.csv,PhysNet,(i),MAE_low,2657,2657,0.0
+stage (c1) arms.csv,PhysNet,(i),MAE_all,2657,2657,0.0
+stage (c1) arms.csv,PhysNet,(i-pc),MAE_high,2657,2657,3.552713678800501e-15
+stage (c1) arms.csv,PhysNet,(i-pc),MAE_low,2657,2657,0.0
+stage (c1) arms.csv,PhysNet,(i-pc),MAE_all,2657,2657,0.0
+stage (c1) arms.csv,PhysNet,(ii),MAE_high,2657,2657,0.0
+stage (c1) arms.csv,PhysNet,(ii),MAE_low,2657,2657,1.7763568394002505e-15
+stage (c1) arms.csv,PhysNet,(ii),MAE_all,2657,2657,1.7763568394002505e-15
+stage (c1) arms.csv,PhysNet,(ii-pc),MAE_high,2657,2657,0.0
+stage (c1) arms.csv,PhysNet,(ii-pc),MAE_low,2657,2657,1.7763568394002505e-15
+stage (c1) arms.csv,PhysNet,(ii-pc),MAE_all,2657,2657,1.7763568394002505e-15
+stage (c1) arms.csv,RhythmFormer,(0),MAE_high,2657,2657,0.0
+stage (c1) arms.csv,RhythmFormer,(0),MAE_low,2657,2657,1.7763568394002505e-15
+stage (c1) arms.csv,RhythmFormer,(0),MAE_all,2657,2657,3.552713678800501e-15
+stage (c1) arms.csv,RhythmFormer,(i),MAE_high,2657,2657,3.552713678800501e-15
+stage (c1) arms.csv,RhythmFormer,(i),MAE_low,2657,2657,1.7763568394002505e-15
+stage (c1) arms.csv,RhythmFormer,(i),MAE_all,2657,2657,1.7763568394002505e-15
+stage (c1) arms.csv,RhythmFormer,(i-pc),MAE_high,2657,2657,1.7763568394002505e-15
+stage (c1) arms.csv,RhythmFormer,(i-pc),MAE_low,2657,2657,1.7763568394002505e-15
+stage (c1) arms.csv,RhythmFormer,(i-pc),MAE_all,2657,2657,0.0
+stage (c1) arms.csv,RhythmFormer,(ii),MAE_high,2657,2657,1.7763568394002505e-15
+stage (c1) arms.csv,RhythmFormer,(ii),MAE_low,2657,2657,1.7763568394002505e-15
+stage (c1) arms.csv,RhythmFormer,(ii),MAE_all,2657,2657,1.7763568394002505e-15
+stage (c1) arms.csv,RhythmFormer,(ii-pc),MAE_high,2657,2657,0.0
+stage (c1) arms.csv,RhythmFormer,(ii-pc),MAE_low,2657,2657,0.0
+stage (c1) arms.csv,RhythmFormer,(ii-pc),MAE_all,2657,2657,1.7763568394002505e-15

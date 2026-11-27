@@ -1,0 +1,9 @@
+backbone,arm,check,value,passed
+PhysNet,(ii),"pool manifest vs plan: items, target, tau, reference HR equal",2220 of 2220,True
+PhysNet,(ii-lag),"pool manifest vs plan: items, target, tau, reference HR equal",2220 of 2220,True
+FactorizePhys,(ii),"pool manifest vs plan: items, target, tau, reference HR equal",1744 of 1744,True
+FactorizePhys,(ii-lag),"pool manifest vs plan: items, target, tau, reference HR equal",1744 of 1744,True
+RhythmFormer,(ii),"pool manifest vs plan: items, target, tau, reference HR equal",1744 of 1744,True
+RhythmFormer,(ii-lag),"pool manifest vs plan: items, target, tau, reference HR equal",1744 of 1744,True
+FactorizePhys,(ii-pc) PURE first pool,tau of the E7 table vs manifest tau_rec,2384 of 2384 equal,True
+FactorizePhys,PURE first pool,"equal to the alpha = 1 row of E7_phase_error.csv (items, mean, median; largest absolute difference in degrees)",items 2384 vs 2384; 0.0e+00,True

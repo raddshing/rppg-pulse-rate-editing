@@ -1,9 +1,11 @@
 # Aggregate results
 
 Aggregate result tables of the stage-5 test run, the development diagnostics, the audits, the post hoc experiments
-(amendment of 2026-11-20, A6) and the registered evaluation on VIPL-HR (A7, A8), with the data of the figures of the
-manuscript. Every file is a copy, byte for byte, of an output of the analysis that produced it, except the four files
-marked otherwise in `MANIFEST.csv` (column `action`). No value was recomputed for this folder.
+(amendment of 2026-11-20, A6), the registered evaluation on VIPL-HR (A7, A8) and the post hoc experiments and analyses
+of A9 (amendment of 2026-11-26), with the data of the figures of the manuscript. Every file is a copy, byte for byte, of
+an output of the analysis that produced it, except the four files marked otherwise in `MANIFEST.csv` (column `action`),
+`figures/fig3b_posthoc_settings.csv` (two rows added; column `change`) and the files of `a9/`, which are the aggregate
+CSVs attached to the A9 reports (their derivation in column `note`). No value was recomputed for this folder.
 
 Not included: values per window, recording or subject; subject or recording identifiers (one exception, below);
 predictions, reference signals, video or face-derived data (pools, masks, crops); checkpoints (their SHA-256 are in
@@ -27,6 +29,7 @@ form), the `change` (empty for copies), the entry of a hash list already committ
 | `posthoc_P/` | New seeds 20261148–20261150 and second pool (A6 item 3): replication verdicts of item 8(d) (`replication_8d.csv`), arms and contrasts on the new and on all six seeds |
 | `posthoc_R/` | RhythmFormer with the MCC loss (A6 item 9): arms, contrasts, loss interactions, statements, reproduction; `test/` and `dev/` |
 | `vipl/` | VIPL-HR: stage (a) BVP-rate rule (`stage_a/bvp_rate.json`) and exclusion counts (`stage_a/exclusions.csv`), primary analysis (`primary_c1`, commit 126b0b7), secondary checkpoints (`secondary_checkpoints_c2`, commit 13802c0), A8 sensitivity analysis (`A8_sensitivity`, `docs/A8_OUTPUT_SHA256.txt`) and the common support (`common_support.csv`) |
+| `a9/` | A9 (amendment of 2026-11-26): E1 (UBFC-rPPG training; `e1_physnet/`, `e1_rhythmformer/`, `e1_factorizephys/`), E2 and E3 (`e2e3/`), E4, E6 and E7 (`e467/`) and the stored-output analyses of item 8 (`item8/`): the aggregate CSVs attached to the reports, byte for byte; files, A9 items and prediction SHA-256 lists in `a9/README.md` |
 | `figures/` | The data of the figures of the manuscript, as used for the figures |
 
 ## Columns

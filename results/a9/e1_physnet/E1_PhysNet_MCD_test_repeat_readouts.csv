@@ -1,0 +1,14 @@
+comparison,scope,layer,windows,windows_valid_both,windows_valid_equal,windows_HR_equal,max_abs_HR_difference_bpm
+main pass recomputed here vs evaluation step (b),all recordings,all,10930,10896,10930,10930,0.0
+first repeat vs main pass,recording whose first-repeat file differed,all,34,34,34,34,0.0
+first repeat vs main pass,recording whose first-repeat file differed,HAR,17,17,17,17,0.0
+first repeat vs main pass,recording whose first-repeat file differed,L0,17,17,17,17,0.0
+first repeat vs main pass,all recordings,all,10930,10896,10930,10930,0.0
+first repeat vs main pass,all recordings,HAR,5465,5448,5465,5465,0.0
+first repeat vs main pass,all recordings,L0,5465,5448,5465,5465,0.0
+repeat again vs main pass,recording whose first-repeat file differed,all,34,34,34,34,0.0
+repeat again vs main pass,recording whose first-repeat file differed,HAR,17,17,17,17,0.0
+repeat again vs main pass,recording whose first-repeat file differed,L0,17,17,17,17,0.0
+repeat again vs main pass,all recordings,all,10930,10896,10930,10930,0.0
+repeat again vs main pass,all recordings,HAR,5465,5448,5465,5465,0.0
+repeat again vs main pass,all recordings,L0,5465,5448,5465,5465,0.0

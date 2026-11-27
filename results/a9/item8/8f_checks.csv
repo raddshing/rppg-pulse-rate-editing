@@ -1,0 +1,37 @@
+dataset,backbone,item,windows,point,ci_lo,ci_hi
+MMPD-B,FactorizePhys (matched),C1 window-weighted MAE_high (check value),1684,-2.921376329787235,-4.668682423993718,-1.395523236497517
+MMPD-B,FactorizePhys (matched),C2 window-weighted MAE_high (check value),1684,-7.625498670212767,-9.968536667693883,-5.060929995576344
+MMPD-B,FactorizePhys (matched),C3 window-weighted MAE_high (check value),1684,-2.7385305851063833,-4.546254630509122,-0.4267082630860637
+MMPD-B,FactorizePhys (matched),C4 window-weighted MAE_high (check value),1684,-2.2564827127659584,-4.83817272025998,-0.46567017824460766
+MMPD-B,PhysNet,C1 window-weighted MAE_high (check value),1684,-14.0625,-18.90805682050757,-9.34351745580574
+MMPD-B,PhysNet,C2 window-weighted MAE_high (check value),1684,-4.81216755319149,-8.21349906308286,-1.554733958980944
+MMPD-B,PhysNet,C3 window-weighted MAE_high (check value),1684,-5.709773936170212,-9.628044498124313,-2.431129354990583
+MMPD-B,PhysNet,C4 window-weighted MAE_high (check value),1684,2.5141289893617014,-1.3132525167902558,6.359616588632403
+MMPD-B,RhythmFormer,C1 window-weighted MAE_high (check value),1684,-19.186336436170212,-24.606010255199145,-14.0860408471364
+MMPD-B,RhythmFormer,C2 window-weighted MAE_high (check value),1684,-2.3811502659574466,-5.13520594684309,0.2242954560711847
+MMPD-B,RhythmFormer,C3 window-weighted MAE_high (check value),1684,-0.8643617021276592,-7.466145196306264,4.343938908811473
+MMPD-B,RhythmFormer,C4 window-weighted MAE_high (check value),1684,-4.284408244680852,-6.302188526500356,-1.834884344362746
+MCD-rPPG test,FactorizePhys (matched),C1 window-weighted MAE_high (check value),1474,-1.712155032467533,-2.7555629547817047,-0.8233795549933193
+MCD-rPPG test,FactorizePhys (matched),C2 window-weighted MAE_high (check value),1474,-3.9265422077922074,-5.782565607104761,-2.477829736214574
+MCD-rPPG test,FactorizePhys (matched),C3 window-weighted MAE_high (check value),1474,-1.5561586850649352,-2.9811667335968415,-0.04604108216332723
+MCD-rPPG test,FactorizePhys (matched),C4 window-weighted MAE_high (check value),1474,0.300578327922078,-0.49798588874782007,1.0464773966313057
+MCD-rPPG test,PhysNet,C1 window-weighted MAE_high (check value),1474,-21.801440746753247,-26.613592893331113,-16.761497338539257
+MCD-rPPG test,PhysNet,C2 window-weighted MAE_high (check value),1474,-2.861201298701299,-4.683659526977203,-0.9604148941295657
+MCD-rPPG test,PhysNet,C3 window-weighted MAE_high (check value),1474,-7.698990462662337,-11.618962384712665,-4.019110719390603
+MCD-rPPG test,PhysNet,C4 window-weighted MAE_high (check value),1474,-0.0818029626623377,-1.7152508432941058,1.8026158367148906
+MCD-rPPG test,RhythmFormer,C1 window-weighted MAE_high (check value),1474,-17.561003449675326,-21.13729342326319,-14.043955605299534
+MCD-rPPG test,RhythmFormer,C2 window-weighted MAE_high (check value),1474,5.0185166396103895,2.51926174278428,8.084437685323634
+MCD-rPPG test,RhythmFormer,C3 window-weighted MAE_high (check value),1474,4.267070819805196,0.2460030626167078,8.193155146125337
+MCD-rPPG test,RhythmFormer,C4 window-weighted MAE_high (check value),1474,-8.087078936688313,-11.720600553942857,-4.074204901978163
+VIPL-HR,FactorizePhys (matched),C1 window-weighted MAE_high (check value),2657,-2.4473738262910802,-4.330954846556186,-1.0353116020114947
+VIPL-HR,FactorizePhys (matched),C2 window-weighted MAE_high (check value),2657,-3.9135269953051632,-5.927944106501798,-2.012315609612963
+VIPL-HR,FactorizePhys (matched),C3 window-weighted MAE_high (check value),2657,-1.510441118935838,-3.2020923974210587,-0.10427918894830879
+VIPL-HR,FactorizePhys (matched),C4 window-weighted MAE_high (check value),2657,-1.3045383411580591,-3.3339369102032324,0.3006699145175317
+VIPL-HR,PhysNet,C1 window-weighted MAE_high (check value),2657,-11.854494327073551,-15.746756441603763,-7.945134910300931
+VIPL-HR,PhysNet,C2 window-weighted MAE_high (check value),2657,2.0355291471048544,-1.9871227126261986,5.920769997589704
+VIPL-HR,PhysNet,C3 window-weighted MAE_high (check value),2657,-2.7605584898278566,-6.091867090928916,0.8991321420743981
+VIPL-HR,PhysNet,C4 window-weighted MAE_high (check value),2657,4.460133020344293,2.003768869617224,6.9896820337067656
+VIPL-HR,RhythmFormer,C1 window-weighted MAE_high (check value),2657,-23.062358176838814,-27.20698430337408,-18.99590049342105
+VIPL-HR,RhythmFormer,C2 window-weighted MAE_high (check value),2657,-1.6107932316118927,-3.0035365002722987,-0.290923348139511
+VIPL-HR,RhythmFormer,C3 window-weighted MAE_high (check value),2657,2.6950802034428816,-1.7753501066094122,6.91129566947422
+VIPL-HR,RhythmFormer,C4 window-weighted MAE_high (check value),2657,-6.5310103677621285,-9.476885837282659,-4.04201864094581

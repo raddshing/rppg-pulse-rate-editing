@@ -1,0 +1,23 @@
+set,step,description,recordings_removed,windows_removed,recordings_remaining,windows_remaining,windows_per_recording
+primary,1,recordings of the set,0,0,1413.0,,
+primary,2,recording excluded: time.txt not one line per frame,5,0,,,
+primary,3,windows created (first five 10-s windows inside video and BVP record),0,0,1408.0,3966.0,1:15;2:272;3:1082;4:34;5:5
+primary,4,interval > 200 ms between frames (200-ms rule),1,29,1407.0,3937.0,
+primary,5,not verified: signal defect (d1-d4),0,15,1407.0,3922.0,
+primary,5,not verified: reference estimators disagree,33,298,1374.0,3624.0,
+primary,5,not verified: harmonic suspect,7,95,1367.0,3529.0,
+primary,5,not verified: other,0,0,1367.0,3529.0,
+primary,6,no finite reference (gt_HR mean),0,0,1367.0,3529.0,
+primary,7,outside the confirmatory support (a confirmatory key without a valid readout),23,872,1344.0,2657.0,
+primary,8,analysis windows,0,0,1344.0,2657.0,
+secondary,1,recordings of the set,0,0,965.0,,
+secondary,2,recording excluded: no complete window,2,0,,,
+secondary,2,recording excluded: source2 duration difference > 2 s,11,0,,,
+secondary,3,windows created (first five 10-s windows inside video and BVP record),0,0,952.0,2796.0,1:15;2:100;3:779;4:46;5:12
+secondary,5,not verified: signal defect (d1-d4),0,7,952.0,2789.0,
+secondary,5,not verified: reference estimators disagree,28,239,924.0,2550.0,
+secondary,5,not verified: harmonic suspect,3,80,921.0,2470.0,
+secondary,5,not verified: other,0,0,921.0,2470.0,
+secondary,6,no finite reference (gt_HR mean),0,0,921.0,2470.0,
+secondary,7,outside the confirmatory support (a confirmatory key without a valid readout),15,600,906.0,1870.0,
+secondary,8,analysis windows,0,0,906.0,1870.0,

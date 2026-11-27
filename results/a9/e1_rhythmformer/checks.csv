@@ -1,0 +1,7 @@
+check,dataset,backbone,arm,seed,value,passed
+same checkpoint inferred twice: identical prediction files,MMPD-B,RhythmFormer,(ii-pc-ubfc),20261131,435 of 435,True
+same checkpoint inferred twice: identical prediction files,MCD-rPPG test,RhythmFormer,(ii-pc-ubfc),20261131,385 of 385,True
+same checkpoint inferred twice: identical prediction files,VIPL-HR,RhythmFormer,(ii-pc-ubfc),20261131,2360 of 2360,True
+step (b) of the test run: stored readouts reproduced (rows equal of rows); support windows equal; E1 RhythmFormer keys defective 0,MMPD-B,all,,,"535050 of 535050; new keys 21, defective 0",True
+step (b) of the test run: stored readouts reproduced (rows equal of rows); support windows equal; E1 RhythmFormer keys defective 0,MCD-rPPG test,all,,,"1508340 of 1508340; new keys 21, defective 0",True
+"VIPL-HR readouts of the E1 RhythmFormer pass: keys, defective keys",VIPL-HR,RhythmFormer,,,"21 keys, 0 defective",True

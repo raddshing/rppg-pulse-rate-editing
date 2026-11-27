@@ -45,3 +45,5 @@ RhythmFormer,MCC,native,MMPD-B,C1 (ii-pc)-(0),-12.61,-17.36,-7.32
 RhythmFormer,MCC,native,MMPD-B,(ii-lag)-(ii-pc),1.03,-0.82,2.61
 RhythmFormer,MCC,native,MCD-test,C1 (ii-pc)-(0),-8.03,-10.16,-5.9
 RhythmFormer,MCC,native,MCD-test,(ii-lag)-(ii-pc),-1.8,-3.68,-0.57
+RhythmFormer,MCC,native,VIPL-HR,C1 (ii-pc)-(0),-5.23,-7.73,-3.02
+RhythmFormer,MCC,native,VIPL-HR,(ii-lag)-(ii-pc),0.22,-1.28,1.74

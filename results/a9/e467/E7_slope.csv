@@ -1,0 +1,4 @@
+dataset,experiment,backbone,levels,windows,windows_high,subjects,metric,point,ci_lo,ci_hi,statement
+VIPL-HR,E7,FactorizePhys (matched),(ii-pc)=0.0;(ii-a0.25)=0.25;(ii-a0.5)=0.5;(ii-a0.75)=0.75;(ii-lag)=1.0,2657,213,107,slope_MAE_high_per_unit_alpha,4.066602112676056,1.808456719900973,6.847079647780549,the high-HR error increased with the misalignment fraction
+MMPD-B,E7,FactorizePhys (matched),(ii-pc)=0.0;(ii-a0.25)=0.25;(ii-a0.5)=0.5;(ii-a0.75)=0.75;(ii-lag)=1.0,1684,282,22,slope_MAE_high_per_unit_alpha,6.821808510638299,4.7150297155408785,8.556408393673777,the high-HR error increased with the misalignment fraction
+MCD-rPPG test,E7,FactorizePhys (matched),(ii-pc)=0.0;(ii-a0.25)=0.25;(ii-a0.5)=0.5;(ii-a0.75)=0.75;(ii-lag)=1.0,1474,616,75,slope_MAE_high_per_unit_alpha,4.323762175324675,2.647962811552977,6.111755627916018,the high-HR error increased with the misalignment fraction
