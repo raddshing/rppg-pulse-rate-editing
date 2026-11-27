@@ -1,0 +1,18 @@
+quantity,value,note
+recordings,42.0,
+recordings with one contact PPG value per video frame,42.0,ground_truth.txt line 1 length = frame count
+frame rate from timestamps: median (fps),29.696,ground_truth.txt line 3
+frame rate from timestamps: min (fps),23.178,
+frame rate from timestamps: max (fps),29.973,
+recordings below 29 fps,5.0,
+recordings below 25 fps,3.0,
+recordings with non-increasing timestamp intervals,9.0,
+factor 30/fps: median,1.0102,HR in 30-fps frame units over HR in real time
+factor 30/fps: max,1.2943,
+chunk h0 values of the October chunk list,1093.0,PhysNet 610 + RhythmFormer 483 candidate chunks
+chunk h0 recomputed at fs = 30 frame units equal to the stored h0,1093.0,"common_hr, HAR, 300-frame context"
+largest absolute difference (bpm),0.0,
+PhysNet chunks from recordings below 25 fps,30.0,of 555; h0 >= 100 in frame units: 19
+PhysNet chunks from recordings below 29 fps,59.0,of 555
+RhythmFormer chunks from recordings below 25 fps,22.0,of 436; h0 >= 100 in frame units: 14
+RhythmFormer chunks from recordings below 29 fps,46.0,of 436
