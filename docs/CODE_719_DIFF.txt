@@ -1,0 +1,138 @@
+Unified diff (no context lines) from each A9 file as run to its published form (7.19).
+In removed lines a machine path is shown as <key/rest of the path> (key work folder = the OPS2 work folder,
+which is the repository root here; the other keys are those of config/paths.example.json). SHA-256 of both
+forms: docs/CODE_719_SHA256.csv.
+
+--- train/gen_ubfc.py (as run)
++++ train/gen_ubfc.py (published)
+@@ -40 +40,2 @@
+-REPRO = Path('<python_repro>')
++CFG = json.loads((Path(__file__).resolve().parents[1] / 'config' / 'paths.json').read_text())  # 7.19: machine paths, see config/paths.example.json
++REPRO = Path(CFG['python_repro'])
+@@ -253 +254 @@
+-        index = {r['recording_id']: r for r in read_csv(Path('<october_project/data/index/ubfc_index_st1.csv>'))}
++        index = {r['recording_id']: r for r in read_csv(Path(CFG['october_project']) / 'data' / 'index' / 'ubfc_index_st1.csv')}
+@@ -255 +256 @@
+-                for r in read_csv(Path(f'<october_project/outputs/st30g_UBFC_{backbone}_i_manifest.csv>'))]
++                for r in read_csv(Path(CFG['october_project']) / 'outputs' / f'st30g_UBFC_{backbone}_i_manifest.csv')]
+
+--- train/gen_ubfc_ii.py (as run)
++++ train/gen_ubfc_ii.py (published)
+@@ -30 +30,3 @@
+-DIRECTION = '<october_project/outputs/st31u_direction.csv>'
++import json  # 7.19
++CFG = json.loads((Path(__file__).resolve().parents[1] / 'config' / 'paths.json').read_text())  # 7.19: machine paths, see config/paths.example.json
++DIRECTION = str(Path(CFG['october_project']) / 'outputs' / 'st31u_direction.csv')
+
+--- train/gen_pool_frac.py (as run)
++++ train/gen_pool_frac.py (published)
+@@ -54 +54 @@
+-        ref = Path('<work folder/cache/pools>') / f'{backbone}_{m}_all_manifest.csv'
++        ref = Path(__file__).resolve().parents[1] / 'cache' / 'pools' / f'{backbone}_{m}_all_manifest.csv'
+
+--- audit/a2_validity_ubfc.py (as run)
++++ audit/a2_validity_ubfc.py (published)
+@@ -36,2 +36,3 @@
+-OCT = Path('<october_project>')
+-REPRO = OCT / 'envs' / 'repro' / 'bin' / 'python'
++CFG = json.loads((Path(__file__).resolve().parents[1] / 'config' / 'paths.json').read_text())  # 7.19: machine paths, see config/paths.example.json
++OCT = Path(CFG['october_project'])
++REPRO = Path(CFG['python_repro'])
+
+--- tools/ubfc_video_reader.py (as run)
++++ tools/ubfc_video_reader.py (published)
+@@ -13 +13,2 @@
+-allowed = Path('<ubfc2_raw>').resolve()
++CFG = json.loads((Path(__file__).resolve().parents[1] / 'config' / 'paths.json').read_text())  # 7.19: machine paths, see config/paths.example.json
++allowed = Path(CFG['ubfc2_raw']).resolve()
+
+--- tools/t709b_ubfc_manifests.py (as run)
++++ tools/t709b_ubfc_manifests.py (published)
+@@ -20,2 +20,4 @@
+-OCT = Path('<october_project/outputs>')
+-OUT = Path('<work folder/cache/ubfc709/plan>')
++import json  # 7.19
++CFG = json.loads((Path(__file__).resolve().parents[1] / 'config' / 'paths.json').read_text())  # 7.19: machine paths, see config/paths.example.json
++OCT = Path(CFG['october_project']) / 'outputs'
++OUT = Path(__file__).resolve().parents[1] / 'cache' / 'ubfc709' / 'plan'
+@@ -44 +46 @@
+-    idx = {r['recording_id']: r for r in rows('<october_project/data/index/ubfc_index_st1.csv>')}
++    idx = {r['recording_id']: r for r in rows(str(Path(CFG['october_project']) / 'data' / 'index' / 'ubfc_index_st1.csv'))}
+
+--- tools/t709b_frame_units.py (as run)
++++ tools/t709b_frame_units.py (published)
+@@ -15 +15 @@
+-WORK = Path('<work folder>')
++WORK = Path(__file__).resolve().parents[1]
+@@ -19 +19,3 @@
+-OCT = Path('<october_project>')
++import json  # 7.19
++CFG = json.loads((Path(__file__).resolve().parents[1] / 'config' / 'paths.json').read_text())  # 7.19: machine paths, see config/paths.example.json
++OCT = Path(CFG['october_project'])
+
+--- tools/t709b_validity_report.py (as run)
++++ tools/t709b_validity_report.py (published)
+@@ -13,2 +13,4 @@
+-W = Path('<work folder/outputs>')
+-OCT = Path('<october_project/outputs>')
++W = Path(__file__).resolve().parents[1] / 'outputs'
++import json  # 7.19
++CFG = json.loads((Path(__file__).resolve().parents[1] / 'config' / 'paths.json').read_text())  # 7.19: machine paths, see config/paths.example.json
++OCT = Path(CFG['october_project']) / 'outputs'
+
+--- tools/ubfc_tensor_check.py (as run)
++++ tools/ubfc_tensor_check.py (published)
+@@ -12 +12 @@
+-sys.path.insert(0, '<work folder/train>')
++sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'train'))
+@@ -17 +17 @@
+-OUT = Path('<work folder/outputs/709b/ubfc_tensor_check.csv>')
++OUT = Path(__file__).resolve().parents[1] / 'outputs' / '709b' / 'ubfc_tensor_check.csv'
+
+--- tools/infer_index_709.py (as run)
++++ tools/infer_index_709.py (published)
+@@ -21 +21 @@
+-C = Path('<work folder/cache/train709>')
++C = Path(__file__).resolve().parents[1] / 'cache' / 'train709'
+
+--- tools/a9_eval/a9_e2e3.py (as run)
++++ tools/a9_eval/a9_e2e3.py (published)
+@@ -33 +33 @@
+-W = Path('<work folder>')
++W = Path(__file__).resolve().parents[2]
+
+--- tools/a9_eval/a9_e3_october.py (as run)
++++ tools/a9_eval/a9_e3_october.py (published)
+@@ -16 +16 @@
+-W = Path('<work folder>')
++W = Path(__file__).resolve().parents[2]
+
+--- tools/a9_eval/repeat_readouts_717.py (as run)
++++ tools/a9_eval/repeat_readouts_717.py (published)
+@@ -19 +19 @@
+-W = Path('<work folder>')
++W = Path(__file__).resolve().parents[2]
+
+--- tools/a9_eval/ubfc_phase_715.py (as run)
++++ tools/a9_eval/ubfc_phase_715.py (published)
+@@ -18 +18 @@
+-W = Path('<work folder>')
++W = Path(__file__).resolve().parents[2]
+
+--- tools/a9_8/a9_common.py (as run)
++++ tools/a9_8/a9_common.py (published)
+Line 77, described instead of shown: the guard that no written output contains a server path tested two string
+literals, the root folder names home and mnt each between slashes; the published line builds the same two strings
+as '/' + 'home/' and '/' + 'mnt/'. The test is unchanged.
+
+--- tools/a9_8/vipl_bvp.py (as run)
++++ tools/a9_8/vipl_bvp.py (published)
+@@ -20 +20 @@
+-WORK = Path('<work folder>')
++WORK = Path(__file__).resolve().parents[2]
+
+--- tools/a9_8/a9_8h.py (as run)
++++ tools/a9_8/a9_8h.py (published)
+@@ -23 +23 @@
+-WORK = __import__('pathlib').Path('<work folder>')
++WORK = __import__('pathlib').Path(__file__).resolve().parents[2]

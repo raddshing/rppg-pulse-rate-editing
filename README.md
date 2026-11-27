@@ -10,7 +10,8 @@ subject / validation-window lists.
 Not included: MMPD-B and MCD-rPPG window lists, predictions or reference signals; values per window,
 recording or subject; any face-pixel derivative (crops, frames, edited video, augmentation pools,
 masks); model checkpoints (their SHA-256 are listed, see below); server paths and credentials. Data
-must be obtained from the dataset providers under their licences.
+must be obtained from the dataset providers under their licences. Window-level predictions and recording lists are left out because of the datasets' terms of use and
+this repository's publication rule (aggregate values only).
 
 Data notice. The identification codes that appear in this repository (the MMPD subjects in `lists/`,
 the recording codes in the file names of the stage hash lists, the PURE recording codes in
@@ -150,6 +151,38 @@ Stage-5 test run and later analyses (the shell runners of the operations workspa
 
 The archived scripts check the SHA-256 of their committed settings and sources; files changed for
 this package (see `CHANGES.csv`) therefore differ from the hashes recorded in the archived settings.
+
+## A9 experiments: execution paths (amendment of 2026-11-26)
+
+The code run for the experiments of the amendment of 2026-11-26 (A9) is published at the paths it had in the operations
+workspace. `docs/CODE_719_SHA256.csv` gives, for each file, the SHA-256 of the file as run and of the published file;
+the published files differ only in machine paths, which are read from `config/paths.json` (keys in
+`config/paths.example.json`) or derived from the repository root, and in one guard string (`docs/CODE_719_DIFF.txt`).
+Files published earlier are used unchanged and are named here with their paths. The shell runners of the workspace are
+not included; the commands below are the calls they made, without their scheduling, GPU locks and progress guards
+(`python` = main environment, `python_repro` = repro environment of `config/paths.json`). `docs/A9_RUN_SETTINGS.csv`
+lists the settings recorded by each of the 84 training runs (E1 63, E4 9, E6 3, E7 9). Pool manifests, chunk lists and
+prediction folders stay on the server; their keys and SHA-256 are in `docs/A9_UBFC_POOLS.txt` and the `docs/A9_*_SHA256*`
+lists.
+
+| A9 item | Step | Entry point and command |
+|---|---|---|
+| 1 (E1, UBFC-rPPG) | Chunk lists and pool plans (targets with key 20261159) | `python -B tools/t709b_ubfc_manifests.py` → `cache/ubfc709/plan/<model>_originals.csv`, `<model>_items.csv` |
+| 1 | Frame units | `python -B tools/t709b_frame_units.py` |
+| 1c | Editor check (360 windows, notch f0/2f0 or f0/2f0/f*/2f*; (ii-pc) with d = 2 as on PURE) | `OPS2_UBFC_NOTCH=source` or `target python -B audit/a2_validity_ubfc.py`, then `python -B tools/t709b_validity_report.py`; editor `audit/editor_pc.py`, gate code `vendor/st8_6ebbc9cd/src/st9e/brange.py` |
+| 1b | Originals and the (i) family: (i), (i-pc) with d = 1, (i-simple), one clip per item | `OPS2_WORKERS=3 OPS2_POOL_COMPRESS=delta-zlib python -B -s train/gen_ubfc.py <PhysNet\|FPm\|RhythmFormer> originals\|family_i <out_root>`; frames read by `tools/ubfc_video_reader.py` (`python_repro`); tensors checked by `python_repro -B -s tools/ubfc_tensor_check.py <manifest> ...` |
+| 1b | The (ii) family: (ii), (ii-pc) with s = −1 and d = 1, (ii-lag) | `OPS2_WORKERS=4 OPS2_POOL_COMPRESS=delta-zlib python -B -s train/gen_ubfc_ii.py <backbone> original,polarity_ubfc,lag_shift source <out_root>` (RhythmFormer in two runs: `original,polarity_ubfc`, then `lag_shift`). The injection, with d = 1 (`D_UBFC`), is passed to `edited(..., inject=...)` of `audit/editor_pc.py`; the constant `D_FRAMES = 2` of that file is the PURE value and is not used by these pools |
+| 1d | Training (63 runs) | `OPS2_DATA_WORKERS=3 CUDA_VISIBLE_DEVICES=<gpu> python_repro -B -s train/train_ubfc.py <backbone> <seed> <pool manifest>\|ORIGINAL <out_dir>`: a wrapper of `train/train_704.py` (published) that reads the UBFC originals (`train/ubfc_tensor.py`) |
+| 1, 7 | Inference | Index: `python -B -s tools/infer_index_711.py <backbone> <dir>`. MMPD-B and the MCD-rPPG test half: `python_repro -B -s eval5/stage2_predict.py --dataset MMPD\|MCD ... --unseal --amendment-commit <A9 commit> --manifest <dir>/manifest.csv --checkpoint-index <dir>/checkpoint_index.csv --set exploratory --gpu <gpu> --out <dir>/<pass>` (the evaluation code of commit `19ecf5d`, compared by SHA-256 before each pass). VIPL-HR: `python_repro -B -s eval5/vipl.py b ... --manifest <dir>/manifest.csv --checkpoint-index <dir>/checkpoint_index.csv --set exploratory` (A7 code). Each pass is repeated for arm (ii-pc), seed 20261131 (`--arms '(ii-pc-ubfc)' --seeds 20261131`) and the two prediction folders are compared file by file |
+| 1e, 9 | Analysis | `python -B -s tools/a9_eval/a9_groups.py vipl_readouts\|test_check\|analyze E1_<PhysNet\|FPm\|RhythmFormer>`; readouts of the PhysNet MCD-rPPG repeat passes `tools/a9_eval/repeat_readouts_717.py`; phase table of the (ii) items `tools/a9_eval/ubfc_phase_715.py`; report tables `tools/a9_eval/report_tables.py <run dir>` |
+| 2, 3 (E2, E3) | Inference, analysis | Passes as above, on checkpoint indexes of the stored E2 and E3 checkpoints (their SHA-256 in `docs/A6_CHECKPOINTS_SHA256.csv` and A9 item 3; the tool that wrote these two indexes is not in the workspace); `python -B -s tools/a9_eval/a9_e2e3.py vipl_readouts\|test_check\|analyze`; values of the stored October predictions `tools/a9_eval/a9_e3_october.py` |
+| 4 (E4) | Training (9 runs) | `python_repro -B -s train/train_e4.py <backbone> <seed> <out_dir>`: a wrapper of `train/train_704.py`; the two pool slots of each batch are filled with original chunks, drawn with probability 40/70 from the chunks of reference HR ≥ 100 bpm |
+| 5 (E6) | Training (3 runs) | `OPS2_ARM=ii python_repro -B -s train/train_704.py RhythmFormer <seed> <second-pool (ii-pc) manifest> <out_dir>`; pool of `train/gen_p2.py` (both published) |
+| 6 (E7) | Pools and training (9 runs) | `OPS2_WORKERS=<n> OPS2_POOL_COMPRESS=delta-zlib python -B -s train/gen_pool_frac.py FPm lag_frac_0.25,lag_frac_0.5,lag_frac_0.75 <out_root>`: the items, contexts, targets, notch, masks and amplitudes of the first FactorizePhys (ii-pc) pool, with the injection −g*(t − d − α(τ + T*/2 − d)) of `audit/editor_frac.py`; training `OPS2_ARM=ii python_repro -B -s train/train_704.py FPm <seed> <pool manifest> <out_dir>` |
+| 4–7 | Index, inference, analysis | `python -B -s tools/infer_index_709.py E467 <dir>`; passes as above; `python -B -s tools/a9_eval/a9_groups.py vipl_readouts\|test_check\|analyze E467` |
+| 8 | Stored-output analyses | `python -B -s tools/a9_8/vipl_bvp.py` (BVP records for 8c and 8g), then `python -B -s tools/a9_8/<a9_8ae\|a9_8b\|a9_8c\|a9_8d\|a9_8f\|a9_8g\|a9_8g_rec\|a9_8h>.py` (shared code `tools/a9_8/a9_common.py`) |
+
+Aggregate results of these steps: `results/a9/` (see `results/a9/README.md`).
 
 ## Licence and terms
 
