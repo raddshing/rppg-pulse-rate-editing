@@ -1,0 +1,6 @@
+check,passed,value
+pool tau of audit_PURE.csv equals tau_rec of 1a natural_recordings.csv (59),True,
+half periods equal,True,
+OLS point equals 1a summary.json ols_slope,True,-0.3867900067775657 vs -0.3867900067775657
+t interval equals 1a summary.json slope_ci,True,"-0.5074302716097849, -0.26614974194534646 vs -0.5074302716097849, -0.26614974194534646"
+same code reproduces the da_slopes.csv subject-cluster interval of -1.02,True,"-2.1964142910162763, -0.576329562085192"

@@ -1,0 +1,244 @@
+dataset,backbone,contrast,arms,seed,seed_set,windows,high_windows,subjects,MAE_high_difference
+VIPL-HR,PhysNet,C1,(ii-pc)-(0),20261131,original,2657,213,107,-14.065536971830984
+VIPL-HR,PhysNet,C1,(ii-pc)-(0),20261132,original,2657,213,107,-11.957863849765257
+VIPL-HR,PhysNet,C1,(ii-pc)-(0),20261133,original,2657,213,107,-9.540082159624411
+VIPL-HR,PhysNet,C1,(ii-pc)-(0),20261148,new,2657,213,107,-17.849838615023472
+VIPL-HR,PhysNet,C1,(ii-pc)-(0),20261149,new,2657,213,107,-11.805457746478872
+VIPL-HR,PhysNet,C1,(ii-pc)-(0),20261150,new,2657,213,107,-17.150748239436624
+VIPL-HR,PhysNet,C2,(ii-pc)-(ii),20261131,original,2657,213,107,3.9870451877934343
+VIPL-HR,PhysNet,C2,(ii-pc)-(ii),20261132,original,2657,213,107,-2.044703638497655
+VIPL-HR,PhysNet,C2,(ii-pc)-(ii),20261133,original,2657,213,107,4.1642458920187835
+VIPL-HR,PhysNet,C2,(ii-pc)-(ii),20261148,new,2657,213,107,2.180677816901408
+VIPL-HR,PhysNet,C2,(ii-pc)-(ii),20261149,new,2657,213,107,-6.2088468309859195
+VIPL-HR,PhysNet,C2,(ii-pc)-(ii),20261150,new,2657,213,107,2.1253374413145565
+VIPL-HR,PhysNet,C3,(i-pc)-(i),20261131,original,2657,213,107,0.6186766431924866
+VIPL-HR,PhysNet,C3,(i-pc)-(i),20261132,original,2657,213,107,-4.698386150234747
+VIPL-HR,PhysNet,C3,(i-pc)-(i),20261133,original,2657,213,107,-4.20196596244131
+VIPL-HR,PhysNet,C3,(i-pc)-(i),20261148,new,2657,213,107,-2.493515258215968
+VIPL-HR,PhysNet,C3,(i-pc)-(i),20261149,new,2657,213,107,-5.859580399061038
+VIPL-HR,PhysNet,C3,(i-pc)-(i),20261150,new,2657,213,107,0.5864289906103366
+VIPL-HR,PhysNet,C4,(ii-pc)-(i-pc),20261131,original,2657,213,107,3.7154929577464877
+VIPL-HR,PhysNet,C4,(ii-pc)-(i-pc),20261132,original,2657,213,107,5.000997652582164
+VIPL-HR,PhysNet,C4,(ii-pc)-(i-pc),20261133,original,2657,213,107,4.663908450704227
+VIPL-HR,PhysNet,C4,(ii-pc)-(i-pc),20261148,new,2657,213,107,2.616329225352114
+VIPL-HR,PhysNet,C4,(ii-pc)-(i-pc),20261149,new,2657,213,107,4.663629694835684
+VIPL-HR,PhysNet,C4,(ii-pc)-(i-pc),20261150,new,2657,213,107,2.028227699530511
+VIPL-HR,PhysNet,(ii-lag)-(ii-pc),(ii-lag)-(ii-pc),20261131,original,2657,213,107,-1.0590375586854464
+VIPL-HR,PhysNet,(ii-lag)-(ii-pc),(ii-lag)-(ii-pc),20261132,original,2657,213,107,1.7912558685445994
+VIPL-HR,PhysNet,(ii-lag)-(ii-pc),(ii-lag)-(ii-pc),20261133,original,2657,213,107,-4.990228873239442
+VIPL-HR,FactorizePhys (matched),C1,(ii-pc)-(0),20261131,original,2657,213,107,-3.2047975352112665
+VIPL-HR,FactorizePhys (matched),C1,(ii-pc)-(0),20261132,original,2657,213,107,-2.0203638497652605
+VIPL-HR,FactorizePhys (matched),C1,(ii-pc)-(0),20261133,original,2657,213,107,-2.1169600938967132
+VIPL-HR,FactorizePhys (matched),C1,(ii-pc)-(0),20261148,new,2657,213,107,-1.285137910798122
+VIPL-HR,FactorizePhys (matched),C1,(ii-pc)-(0),20261149,new,2657,213,107,-1.9055604460093925
+VIPL-HR,FactorizePhys (matched),C1,(ii-pc)-(0),20261150,new,2657,213,107,-2.1848298122065763
+VIPL-HR,FactorizePhys (matched),C2,(ii-pc)-(ii),20261131,original,2657,213,107,-4.233832159624413
+VIPL-HR,FactorizePhys (matched),C2,(ii-pc)-(ii),20261132,original,2657,213,107,-4.047021713615022
+VIPL-HR,FactorizePhys (matched),C2,(ii-pc)-(ii),20261133,original,2657,213,107,-3.4597271126760543
+VIPL-HR,FactorizePhys (matched),C2,(ii-pc)-(ii),20261148,new,2657,213,107,-4.1286825117370896
+VIPL-HR,FactorizePhys (matched),C2,(ii-pc)-(ii),20261149,new,2657,213,107,-4.096640258215963
+VIPL-HR,FactorizePhys (matched),C2,(ii-pc)-(ii),20261150,new,2657,213,107,-5.958406690140846
+VIPL-HR,FactorizePhys (matched),C3,(i-pc)-(i),20261131,original,2657,213,107,-1.84463028169014
+VIPL-HR,FactorizePhys (matched),C3,(i-pc)-(i),20261132,original,2657,213,107,-1.4845657276995308
+VIPL-HR,FactorizePhys (matched),C3,(i-pc)-(i),20261133,original,2657,213,107,-1.2021273474178429
+VIPL-HR,FactorizePhys (matched),C3,(i-pc)-(i),20261148,new,2657,213,107,-1.958773474178404
+VIPL-HR,FactorizePhys (matched),C3,(i-pc)-(i),20261149,new,2657,213,107,-0.16134096244131158
+VIPL-HR,FactorizePhys (matched),C3,(i-pc)-(i),20261150,new,2657,213,107,-3.2077464788732417
+VIPL-HR,FactorizePhys (matched),C4,(ii-pc)-(i-pc),20261131,original,2657,213,107,-2.3230487089201866
+VIPL-HR,FactorizePhys (matched),C4,(ii-pc)-(i-pc),20261132,original,2657,213,107,0.058406690140843764
+VIPL-HR,FactorizePhys (matched),C4,(ii-pc)-(i-pc),20261133,original,2657,213,107,-1.6489730046948345
+VIPL-HR,FactorizePhys (matched),C4,(ii-pc)-(i-pc),20261148,new,2657,213,107,-0.7098298122065714
+VIPL-HR,FactorizePhys (matched),C4,(ii-pc)-(i-pc),20261149,new,2657,213,107,-0.4152435446009406
+VIPL-HR,FactorizePhys (matched),C4,(ii-pc)-(i-pc),20261150,new,2657,213,107,0.06230927230046923
+VIPL-HR,FactorizePhys (matched),(ii-lag)-(ii-pc),(ii-lag)-(ii-pc),20261131,original,2657,213,107,3.664260563380278
+VIPL-HR,FactorizePhys (matched),(ii-lag)-(ii-pc),(ii-lag)-(ii-pc),20261132,original,2657,213,107,3.1107394366197223
+VIPL-HR,FactorizePhys (matched),(ii-lag)-(ii-pc),(ii-lag)-(ii-pc),20261133,original,2657,213,107,5.72074530516432
+VIPL-HR,RhythmFormer,C1,(ii-pc)-(0),20261131,original,2657,213,107,-26.299706572769946
+VIPL-HR,RhythmFormer,C1,(ii-pc)-(0),20261132,original,2657,213,107,-20.59303110328639
+VIPL-HR,RhythmFormer,C1,(ii-pc)-(0),20261133,original,2657,213,107,-22.294336854460106
+VIPL-HR,RhythmFormer,C1,(ii-pc)-(0),20261148,new,2657,213,107,-16.81396713615024
+VIPL-HR,RhythmFormer,C1,(ii-pc)-(0),20261149,new,2657,213,107,-19.500102699530522
+VIPL-HR,RhythmFormer,C1,(ii-pc)-(0),20261150,new,2657,213,107,-20.100557511737094
+VIPL-HR,RhythmFormer,C2,(ii-pc)-(ii),20261131,original,2657,213,107,-1.527992957746477
+VIPL-HR,RhythmFormer,C2,(ii-pc)-(ii),20261132,original,2657,213,107,-1.7590375586854456
+VIPL-HR,RhythmFormer,C2,(ii-pc)-(ii),20261133,original,2657,213,107,-1.5453491784037556
+VIPL-HR,RhythmFormer,C2,(ii-pc)-(ii),20261148,new,2657,213,107,-1.465346244131453
+VIPL-HR,RhythmFormer,C2,(ii-pc)-(ii),20261149,new,2657,213,107,-6.335680751173708
+VIPL-HR,RhythmFormer,C2,(ii-pc)-(ii),20261150,new,2657,213,107,-1.0126613849765267
+VIPL-HR,RhythmFormer,C3,(i-pc)-(i),20261131,original,2657,213,107,4.739612676056346
+VIPL-HR,RhythmFormer,C3,(i-pc)-(i),20261132,original,2657,213,107,5.143089788732395
+VIPL-HR,RhythmFormer,C3,(i-pc)-(i),20261133,original,2657,213,107,-1.7974618544600958
+VIPL-HR,RhythmFormer,C3,(i-pc)-(i),20261148,new,2657,213,107,0.2327464788732403
+VIPL-HR,RhythmFormer,C3,(i-pc)-(i),20261149,new,2657,213,107,6.398239436619722
+VIPL-HR,RhythmFormer,C3,(i-pc)-(i),20261150,new,2657,213,107,-4.055795187793429
+VIPL-HR,RhythmFormer,C4,(ii-pc)-(i-pc),20261131,original,2657,213,107,-7.7589055164319305
+VIPL-HR,RhythmFormer,C4,(ii-pc)-(i-pc),20261132,original,2657,213,107,-7.238600352112673
+VIPL-HR,RhythmFormer,C4,(ii-pc)-(i-pc),20261133,original,2657,213,107,-4.595525234741784
+VIPL-HR,RhythmFormer,C4,(ii-pc)-(i-pc),20261148,new,2657,213,107,-3.695686619718309
+VIPL-HR,RhythmFormer,C4,(ii-pc)-(i-pc),20261149,new,2657,213,107,-8.251261737089205
+VIPL-HR,RhythmFormer,C4,(ii-pc)-(i-pc),20261150,new,2657,213,107,-2.52787558685446
+VIPL-HR,RhythmFormer,(ii-lag)-(ii-pc),(ii-lag)-(ii-pc),20261131,original,2657,213,107,2.4031249999999975
+VIPL-HR,RhythmFormer,(ii-lag)-(ii-pc),(ii-lag)-(ii-pc),20261132,original,2657,213,107,2.1511003521126746
+VIPL-HR,RhythmFormer,(ii-lag)-(ii-pc),(ii-lag)-(ii-pc),20261133,original,2657,213,107,1.1834800469483557
+MMPD-B,PhysNet,C1,(ii-pc)-(0),20261131,original,1684,282,22,-18.114195478723406
+MMPD-B,PhysNet,C1,(ii-pc)-(0),20261132,original,1684,282,22,-14.361702127659573
+MMPD-B,PhysNet,C1,(ii-pc)-(0),20261133,original,1684,282,22,-9.71160239361702
+MMPD-B,PhysNet,C1,(ii-pc)-(0),20261148,new,1684,282,22,-16.60571808510638
+MMPD-B,PhysNet,C1,(ii-pc)-(0),20261149,new,1684,282,22,-16.78025265957447
+MMPD-B,PhysNet,C1,(ii-pc)-(0),20261150,new,1684,282,22,-20.133809840425528
+MMPD-B,PhysNet,C2,(ii-pc)-(ii),20261131,original,1684,282,22,-5.772107712765958
+MMPD-B,PhysNet,C2,(ii-pc)-(ii),20261132,original,1684,282,22,-6.931515957446809
+MMPD-B,PhysNet,C2,(ii-pc)-(ii),20261133,original,1684,282,22,-1.7328789893617014
+MMPD-B,PhysNet,C2,(ii-pc)-(ii),20261148,new,1684,282,22,-5.797041223404253
+MMPD-B,PhysNet,C2,(ii-pc)-(ii),20261149,new,1684,282,22,-7.26811835106383
+MMPD-B,PhysNet,C2,(ii-pc)-(ii),20261150,new,1684,282,22,-6.071309840425531
+MMPD-B,PhysNet,C3,(i-pc)-(i),20261131,original,1684,282,22,-2.2814162234042534
+MMPD-B,PhysNet,C3,(i-pc)-(i),20261132,original,1684,282,22,-9.287732712765958
+MMPD-B,PhysNet,C3,(i-pc)-(i),20261133,original,1684,282,22,-5.560172872340424
+MMPD-B,PhysNet,C3,(i-pc)-(i),20261148,new,1684,282,22,-2.2315492021276597
+MMPD-B,PhysNet,C3,(i-pc)-(i),20261149,new,1684,282,22,-5.323304521276594
+MMPD-B,PhysNet,C3,(i-pc)-(i),20261150,new,1684,282,22,-1.1843417553191493
+MMPD-B,PhysNet,C4,(ii-pc)-(i-pc),20261131,original,1684,282,22,-1.3713430851063855
+MMPD-B,PhysNet,C4,(ii-pc)-(i-pc),20261132,original,1684,282,22,3.852227393617021
+MMPD-B,PhysNet,C4,(ii-pc)-(i-pc),20261133,original,1684,282,22,5.061502659574469
+MMPD-B,PhysNet,C4,(ii-pc)-(i-pc),20261148,new,1684,282,22,-1.857546542553191
+MMPD-B,PhysNet,C4,(ii-pc)-(i-pc),20261149,new,1684,282,22,4.276097074468083
+MMPD-B,PhysNet,C4,(ii-pc)-(i-pc),20261150,new,1684,282,22,-1.957280585106382
+MMPD-B,PhysNet,(ii-lag)-(ii-pc),(ii-lag)-(ii-pc),20261131,original,1684,282,22,8.589594414893618
+MMPD-B,PhysNet,(ii-lag)-(ii-pc),(ii-lag)-(ii-pc),20261132,original,1684,282,22,7.542386968085108
+MMPD-B,PhysNet,(ii-lag)-(ii-pc),(ii-lag)-(ii-pc),20261133,original,1684,282,22,7.006316489361701
+MMPD-B,FactorizePhys (matched),C1,(ii-pc)-(0),20261131,original,1684,282,22,-2.9296875
+MMPD-B,FactorizePhys (matched),C1,(ii-pc)-(0),20261132,original,1684,282,22,-3.9644281914893647
+MMPD-B,FactorizePhys (matched),C1,(ii-pc)-(0),20261133,original,1684,282,22,-1.8700132978723403
+MMPD-B,FactorizePhys (matched),C1,(ii-pc)-(0),20261148,new,1684,282,22,-2.6304853723404236
+MMPD-B,FactorizePhys (matched),C1,(ii-pc)-(0),20261149,new,1684,282,22,-2.318816489361705
+MMPD-B,FactorizePhys (matched),C1,(ii-pc)-(0),20261150,new,1684,282,22,-4.81216755319149
+MMPD-B,FactorizePhys (matched),C2,(ii-pc)-(ii),20261131,original,1684,282,22,-7.056183510638299
+MMPD-B,FactorizePhys (matched),C2,(ii-pc)-(ii),20261132,original,1684,282,22,-8.764128989361705
+MMPD-B,FactorizePhys (matched),C2,(ii-pc)-(ii),20261133,original,1684,282,22,-7.056183510638299
+MMPD-B,FactorizePhys (matched),C2,(ii-pc)-(ii),20261148,new,1684,282,22,-7.26811835106383
+MMPD-B,FactorizePhys (matched),C2,(ii-pc)-(ii),20261149,new,1684,282,22,-7.330452127659576
+MMPD-B,FactorizePhys (matched),C2,(ii-pc)-(ii),20261150,new,1684,282,22,-8.390126329787233
+MMPD-B,FactorizePhys (matched),C3,(i-pc)-(i),20261131,original,1684,282,22,-3.1416223404255312
+MMPD-B,FactorizePhys (matched),C3,(i-pc)-(i),20261132,original,1684,282,22,-3.7400265957446805
+MMPD-B,FactorizePhys (matched),C3,(i-pc)-(i),20261133,original,1684,282,22,-1.3339428191489375
+MMPD-B,FactorizePhys (matched),C3,(i-pc)-(i),20261148,new,1684,282,22,-3.104222074468087
+MMPD-B,FactorizePhys (matched),C3,(i-pc)-(i),20261149,new,1684,282,22,1.134474734042552
+MMPD-B,FactorizePhys (matched),C3,(i-pc)-(i),20261150,new,1684,282,22,-3.3909574468085104
+MMPD-B,FactorizePhys (matched),C4,(ii-pc)-(i-pc),20261131,original,1684,282,22,-4.2636303191489375
+MMPD-B,FactorizePhys (matched),C4,(ii-pc)-(i-pc),20261132,original,1684,282,22,-1.3464095744680868
+MMPD-B,FactorizePhys (matched),C4,(ii-pc)-(i-pc),20261133,original,1684,282,22,-1.1594082446808507
+MMPD-B,FactorizePhys (matched),C4,(ii-pc)-(i-pc),20261148,new,1684,282,22,-1.7952127659574444
+MMPD-B,FactorizePhys (matched),C4,(ii-pc)-(i-pc),20261149,new,1684,282,22,0.39893617021276384
+MMPD-B,FactorizePhys (matched),C4,(ii-pc)-(i-pc),20261150,new,1684,282,22,-1.7702792553191493
+MMPD-B,FactorizePhys (matched),(ii-lag)-(ii-pc),(ii-lag)-(ii-pc),20261131,original,1684,282,22,6.6697140957446805
+MMPD-B,FactorizePhys (matched),(ii-lag)-(ii-pc),(ii-lag)-(ii-pc),20261132,original,1684,282,22,5.572639627659576
+MMPD-B,FactorizePhys (matched),(ii-lag)-(ii-pc),(ii-lag)-(ii-pc),20261133,original,1684,282,22,6.532579787234045
+MMPD-B,RhythmFormer,C1,(ii-pc)-(0),20261131,original,1684,282,22,-17.70279255319149
+MMPD-B,RhythmFormer,C1,(ii-pc)-(0),20261132,original,1684,282,22,-14.685837765957444
+MMPD-B,RhythmFormer,C1,(ii-pc)-(0),20261133,original,1684,282,22,-25.170378989361705
+MMPD-B,RhythmFormer,C1,(ii-pc)-(0),20261148,new,1684,282,22,-10.970744680851062
+MMPD-B,RhythmFormer,C1,(ii-pc)-(0),20261149,new,1684,282,22,-19.535405585106382
+MMPD-B,RhythmFormer,C1,(ii-pc)-(0),20261150,new,1684,282,22,-18.26379654255319
+MMPD-B,RhythmFormer,C2,(ii-pc)-(ii),20261131,original,1684,282,22,-2.4684175531914896
+MMPD-B,RhythmFormer,C2,(ii-pc)-(ii),20261132,original,1684,282,22,0.12466755319148959
+MMPD-B,RhythmFormer,C2,(ii-pc)-(ii),20261133,original,1684,282,22,-4.79970079787234
+MMPD-B,RhythmFormer,C2,(ii-pc)-(ii),20261148,new,1684,282,22,5.086436170212766
+MMPD-B,RhythmFormer,C2,(ii-pc)-(ii),20261149,new,1684,282,22,-5.884308510638299
+MMPD-B,RhythmFormer,C2,(ii-pc)-(ii),20261150,new,1684,282,22,-0.6108710106382986
+MMPD-B,RhythmFormer,C3,(i-pc)-(i),20261131,original,1684,282,22,2.4060837765957466
+MMPD-B,RhythmFormer,C3,(i-pc)-(i),20261132,original,1684,282,22,2.9172207446808507
+MMPD-B,RhythmFormer,C3,(i-pc)-(i),20261133,original,1684,282,22,-7.916389627659575
+MMPD-B,RhythmFormer,C3,(i-pc)-(i),20261148,new,1684,282,22,-5.14876994680851
+MMPD-B,RhythmFormer,C3,(i-pc)-(i),20261149,new,1684,282,22,1.620678191489361
+MMPD-B,RhythmFormer,C3,(i-pc)-(i),20261150,new,1684,282,22,-6.0837765957446805
+MMPD-B,RhythmFormer,C4,(ii-pc)-(i-pc),20261131,original,1684,282,22,-5.871841755319149
+MMPD-B,RhythmFormer,C4,(ii-pc)-(i-pc),20261132,original,1684,282,22,-4.3259640957446805
+MMPD-B,RhythmFormer,C4,(ii-pc)-(i-pc),20261133,original,1684,282,22,-2.655418882978724
+MMPD-B,RhythmFormer,C4,(ii-pc)-(i-pc),20261148,new,1684,282,22,1.7453457446808507
+MMPD-B,RhythmFormer,C4,(ii-pc)-(i-pc),20261149,new,1684,282,22,-7.654587765957448
+MMPD-B,RhythmFormer,C4,(ii-pc)-(i-pc),20261150,new,1684,282,22,-1.9448138297872326
+MMPD-B,RhythmFormer,(ii-lag)-(ii-pc),(ii-lag)-(ii-pc),20261131,original,1684,282,22,2.742686170212764
+MMPD-B,RhythmFormer,(ii-lag)-(ii-pc),(ii-lag)-(ii-pc),20261132,original,1684,282,22,1.0098071808510625
+MMPD-B,RhythmFormer,(ii-lag)-(ii-pc),(ii-lag)-(ii-pc),20261133,original,1684,282,22,4.375831117021278
+MCD-rPPG test,PhysNet,C1,(ii-pc)-(0),20261131,original,1474,616,75,-26.213093547077925
+MCD-rPPG test,PhysNet,C1,(ii-pc)-(0),20261132,original,1474,616,75,-17.589539366883116
+MCD-rPPG test,PhysNet,C1,(ii-pc)-(0),20261133,original,1474,616,75,-21.6016893262987
+MCD-rPPG test,PhysNet,C1,(ii-pc)-(0),20261148,new,1474,616,75,-31.657746550324678
+MCD-rPPG test,PhysNet,C1,(ii-pc)-(0),20261149,new,1474,616,75,-21.97265625
+MCD-rPPG test,PhysNet,C1,(ii-pc)-(0),20261150,new,1474,616,75,-29.043856534090907
+MCD-rPPG test,PhysNet,C2,(ii-pc)-(ii),20261131,original,1474,616,75,-1.9290280032467528
+MCD-rPPG test,PhysNet,C2,(ii-pc)-(ii),20261132,original,1474,616,75,-2.442674512987013
+MCD-rPPG test,PhysNet,C2,(ii-pc)-(ii),20261133,original,1474,616,75,-4.211901379870131
+MCD-rPPG test,PhysNet,C2,(ii-pc)-(ii),20261148,new,1474,616,75,-5.05656452922078
+MCD-rPPG test,PhysNet,C2,(ii-pc)-(ii),20261149,new,1474,616,75,-11.060521509740262
+MCD-rPPG test,PhysNet,C2,(ii-pc)-(ii),20261150,new,1474,616,75,-5.8099127435064934
+MCD-rPPG test,PhysNet,C3,(i-pc)-(i),20261131,original,1474,616,75,-4.542918019480519
+MCD-rPPG test,PhysNet,C3,(i-pc)-(i),20261132,original,1474,616,75,-8.218344155844157
+MCD-rPPG test,PhysNet,C3,(i-pc)-(i),20261133,original,1474,616,75,-10.335709212662337
+MCD-rPPG test,PhysNet,C3,(i-pc)-(i),20261148,new,1474,616,75,-5.433238636363637
+MCD-rPPG test,PhysNet,C3,(i-pc)-(i),20261149,new,1474,616,75,-7.367973823051949
+MCD-rPPG test,PhysNet,C3,(i-pc)-(i),20261150,new,1474,616,75,-2.4712104301948052
+MCD-rPPG test,PhysNet,C4,(ii-pc)-(i-pc),20261131,original,1474,616,75,0.41091720779220786
+MCD-rPPG test,PhysNet,C4,(ii-pc)-(i-pc),20261132,original,1474,616,75,-0.14838676948051965
+MCD-rPPG test,PhysNet,C4,(ii-pc)-(i-pc),20261133,original,1474,616,75,-0.5079393262987013
+MCD-rPPG test,PhysNet,C4,(ii-pc)-(i-pc),20261148,new,1474,616,75,-4.428774350649351
+MCD-rPPG test,PhysNet,C4,(ii-pc)-(i-pc),20261149,new,1474,616,75,-2.825055803571428
+MCD-rPPG test,PhysNet,C4,(ii-pc)-(i-pc),20261150,new,1474,616,75,-5.3704596185064934
+MCD-rPPG test,PhysNet,(ii-lag)-(ii-pc),(ii-lag)-(ii-pc),20261131,original,1474,616,75,3.2359730113636367
+MCD-rPPG test,PhysNet,(ii-lag)-(ii-pc),(ii-lag)-(ii-pc),20261132,original,1474,616,75,5.1650010146103895
+MCD-rPPG test,PhysNet,(ii-lag)-(ii-pc),(ii-lag)-(ii-pc),20261133,original,1474,616,75,5.062271712662337
+MCD-rPPG test,FactorizePhys (matched),C1,(ii-pc)-(0),20261131,original,1474,616,75,-2.3741883116883127
+MCD-rPPG test,FactorizePhys (matched),C1,(ii-pc)-(0),20261132,original,1474,616,75,-0.9987571022727275
+MCD-rPPG test,FactorizePhys (matched),C1,(ii-pc)-(0),20261133,original,1474,616,75,-1.763519683441559
+MCD-rPPG test,FactorizePhys (matched),C1,(ii-pc)-(0),20261148,new,1474,616,75,-0.03995028409090917
+MCD-rPPG test,FactorizePhys (matched),C1,(ii-pc)-(0),20261149,new,1474,616,75,-2.220094358766234
+MCD-rPPG test,FactorizePhys (matched),C1,(ii-pc)-(0),20261150,new,1474,616,75,-1.552353896103897
+MCD-rPPG test,FactorizePhys (matched),C2,(ii-pc)-(ii),20261131,original,1474,616,75,-3.1389508928571423
+MCD-rPPG test,FactorizePhys (matched),C2,(ii-pc)-(ii),20261132,original,1474,616,75,-3.481381899350649
+MCD-rPPG test,FactorizePhys (matched),C2,(ii-pc)-(ii),20261133,original,1474,616,75,-5.159293831168831
+MCD-rPPG test,FactorizePhys (matched),C2,(ii-pc)-(ii),20261148,new,1474,616,75,-3.5955255681818192
+MCD-rPPG test,FactorizePhys (matched),C2,(ii-pc)-(ii),20261149,new,1474,616,75,-5.672940340909092
+MCD-rPPG test,FactorizePhys (matched),C2,(ii-pc)-(ii),20261150,new,1474,616,75,-5.730012175324676
+MCD-rPPG test,FactorizePhys (matched),C3,(i-pc)-(i),20261131,original,1474,616,75,-0.6734476461038961
+MCD-rPPG test,FactorizePhys (matched),C3,(i-pc)-(i),20261132,original,1474,616,75,-2.3627739448051948
+MCD-rPPG test,FactorizePhys (matched),C3,(i-pc)-(i),20261133,original,1474,616,75,-1.6322544642857144
+MCD-rPPG test,FactorizePhys (matched),C3,(i-pc)-(i),20261148,new,1474,616,75,0.26823762175324717
+MCD-rPPG test,FactorizePhys (matched),C3,(i-pc)-(i),20261149,new,1474,616,75,-1.3868455762987013
+MCD-rPPG test,FactorizePhys (matched),C3,(i-pc)-(i),20261150,new,1474,616,75,-2.7337408685064934
+MCD-rPPG test,FactorizePhys (matched),C4,(ii-pc)-(i-pc),20261131,original,1474,616,75,-0.09702211850649345
+MCD-rPPG test,FactorizePhys (matched),C4,(ii-pc)-(i-pc),20261132,original,1474,616,75,0.9473924512987013
+MCD-rPPG test,FactorizePhys (matched),C4,(ii-pc)-(i-pc),20261133,original,1474,616,75,0.051364650974026205
+MCD-rPPG test,FactorizePhys (matched),C4,(ii-pc)-(i-pc),20261148,new,1474,616,75,0.14838676948051877
+MCD-rPPG test,FactorizePhys (matched),C4,(ii-pc)-(i-pc),20261149,new,1474,616,75,0.5478896103896105
+MCD-rPPG test,FactorizePhys (matched),C4,(ii-pc)-(i-pc),20261150,new,1474,616,75,0.7019835633116882
+MCD-rPPG test,FactorizePhys (matched),(ii-lag)-(ii-pc),(ii-lag)-(ii-pc),20261131,original,1474,616,75,2.830762987012987
+MCD-rPPG test,FactorizePhys (matched),(ii-lag)-(ii-pc),(ii-lag)-(ii-pc),20261132,original,1474,616,75,4.959542410714286
+MCD-rPPG test,FactorizePhys (matched),(ii-lag)-(ii-pc),(ii-lag)-(ii-pc),20261133,original,1474,616,75,5.250608766233767
+MCD-rPPG test,RhythmFormer,C1,(ii-pc)-(0),20261131,original,1474,616,75,-19.60417512175325
+MCD-rPPG test,RhythmFormer,C1,(ii-pc)-(0),20261132,original,1474,616,75,-16.647854099025977
+MCD-rPPG test,RhythmFormer,C1,(ii-pc)-(0),20261133,original,1474,616,75,-16.430981128246753
+MCD-rPPG test,RhythmFormer,C1,(ii-pc)-(0),20261148,new,1474,616,75,-8.669211647727273
+MCD-rPPG test,RhythmFormer,C1,(ii-pc)-(0),20261149,new,1474,616,75,-2.8364701704545467
+MCD-rPPG test,RhythmFormer,C1,(ii-pc)-(0),20261150,new,1474,616,75,-9.799233969155846
+MCD-rPPG test,RhythmFormer,C2,(ii-pc)-(ii),20261131,original,1474,616,75,5.986835430194805
+MCD-rPPG test,RhythmFormer,C2,(ii-pc)-(ii),20261132,original,1474,616,75,3.281630478896103
+MCD-rPPG test,RhythmFormer,C2,(ii-pc)-(ii),20261133,original,1474,616,75,5.78708400974026
+MCD-rPPG test,RhythmFormer,C2,(ii-pc)-(ii),20261148,new,1474,616,75,4.360288149350648
+MCD-rPPG test,RhythmFormer,C2,(ii-pc)-(ii),20261149,new,1474,616,75,0.439453125
+MCD-rPPG test,RhythmFormer,C2,(ii-pc)-(ii),20261150,new,1474,616,75,6.99129971590909
+MCD-rPPG test,RhythmFormer,C3,(i-pc)-(i),20261131,original,1474,616,75,6.243658685064936
+MCD-rPPG test,RhythmFormer,C3,(i-pc)-(i),20261132,original,1474,616,75,6.677404626623378
+MCD-rPPG test,RhythmFormer,C3,(i-pc)-(i),20261133,original,1474,616,75,-0.11985085227272663
+MCD-rPPG test,RhythmFormer,C3,(i-pc)-(i),20261148,new,1474,616,75,2.899249188311689
+MCD-rPPG test,RhythmFormer,C3,(i-pc)-(i),20261149,new,1474,616,75,10.603946834415584
+MCD-rPPG test,RhythmFormer,C3,(i-pc)-(i),20261150,new,1474,616,75,-2.23721590909091
+MCD-rPPG test,RhythmFormer,C4,(ii-pc)-(i-pc),20261131,original,1474,616,75,-10.786576704545455
+MCD-rPPG test,RhythmFormer,C4,(ii-pc)-(i-pc),20261132,original,1474,616,75,-9.776405235389612
+MCD-rPPG test,RhythmFormer,C4,(ii-pc)-(i-pc),20261133,original,1474,616,75,-3.698254870129869
+MCD-rPPG test,RhythmFormer,C4,(ii-pc)-(i-pc),20261148,new,1474,616,75,-0.9074421672077939
+MCD-rPPG test,RhythmFormer,C4,(ii-pc)-(i-pc),20261149,new,1474,616,75,-3.041928774350648
+MCD-rPPG test,RhythmFormer,C4,(ii-pc)-(i-pc),20261150,new,1474,616,75,1.900492086038959
+MCD-rPPG test,RhythmFormer,(ii-lag)-(ii-pc),(ii-lag)-(ii-pc),20261131,original,1474,616,75,0.10272930194805241
+MCD-rPPG test,RhythmFormer,(ii-lag)-(ii-pc),(ii-lag)-(ii-pc),20261132,original,1474,616,75,2.847884537337661
+MCD-rPPG test,RhythmFormer,(ii-lag)-(ii-pc),(ii-lag)-(ii-pc),20261133,original,1474,616,75,-5.5987469561688314

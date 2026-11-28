@@ -1,0 +1,19 @@
+dataset,part,windows_ratio,windows_contrast,equal
+VIPL-HR,(i-simple)-(0),2657,2657,True
+VIPL-HR,"(0, U-full-m)-(0, U-low)",2657,2657,True
+MMPD-B,(i-simple)-(0),1684,1684,True
+MMPD-B,"(0, U-full-m)-(0, U-low)",1684,1684,True
+MCD-rPPG test,(i-simple)-(0),1474,1474,True
+MCD-rPPG test,"(0, U-full-m)-(0, U-low)",1474,1474,True
+VIPL-HR,(i-simple)-(0),2657,2657,True
+VIPL-HR,"(0, U-full-m)-(0, U-low)",2657,2657,True
+MMPD-B,(i-simple)-(0),1684,1684,True
+MMPD-B,"(0, U-full-m)-(0, U-low)",1684,1684,True
+MCD-rPPG test,(i-simple)-(0),1474,1474,True
+MCD-rPPG test,"(0, U-full-m)-(0, U-low)",1474,1474,True
+VIPL-HR,(i-simple)-(0),2657,2657,True
+VIPL-HR,"(0, U-full-m)-(0, U-low)",2657,2657,True
+MMPD-B,(i-simple)-(0),1684,1684,True
+MMPD-B,"(0, U-full-m)-(0, U-low)",1684,1684,True
+MCD-rPPG test,(i-simple)-(0),1474,1474,True
+MCD-rPPG test,"(0, U-full-m)-(0, U-low)",1474,1474,True

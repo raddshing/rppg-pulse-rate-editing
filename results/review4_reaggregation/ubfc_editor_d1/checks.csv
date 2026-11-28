@@ -1,0 +1,4 @@
+check,rows,matched,equal,expected,passed
+"(ii) readouts: rows matched, edited HR equal to the d = 2 run (outputs/2u)",3822,3822,3822,all equal,True
+"(ii-pc) readouts: rows matched, edited HR equal to the d = 2 run (outputs/2u)",3822,3822,3403,not required (d differs),
+baselines (unedited readouts) identical to outputs/2u,2328,2328,1,identical,True

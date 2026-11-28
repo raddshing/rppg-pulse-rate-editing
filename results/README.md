@@ -1,11 +1,13 @@
 # Aggregate results
 
 Aggregate result tables of the stage-5 test run, the development diagnostics, the audits, the post hoc experiments
-(amendment of 2026-11-20, A6), the registered evaluation on VIPL-HR (A7, A8) and the post hoc experiments and analyses
-of A9 (amendment of 2026-11-26), with the data of the figures of the manuscript. Every file is a copy, byte for byte, of
-an output of the analysis that produced it, except the six files marked otherwise in `MANIFEST.csv` (column `action`),
-`figures/fig3b_posthoc_settings.csv` (two rows added; column `change`) and the files of `a9/`, which are the aggregate
-CSVs attached to the A9 reports (their derivation in column `note`). No value was recomputed for this folder.
+(amendment of 2026-11-20, A6), the registered evaluation on VIPL-HR (A7, A8), the post hoc experiments and analyses
+of A9 (amendment of 2026-11-26), the post hoc experiment of A10 (amendment of 2026-11-27) and the re-aggregations of
+stored outputs after the fourth internal review, with the data of the figures of the manuscript. Every file is a copy,
+byte for byte, of an output of the analysis that produced it, except the six files marked otherwise in `MANIFEST.csv`
+(column `action`), `figures/fig3b_posthoc_settings.csv` (two rows added; column `change`) and the files of `a9/` and
+`a10/`, which are the aggregate CSVs attached to the A9 and A10 reports (their derivation in column `note`). No value
+was recomputed for this folder.
 
 Not included: values per window, recording or subject; subject or recording identifiers (one exception, below);
 predictions, reference signals, video or face-derived data (pools, masks, crops); checkpoints (their SHA-256 are in
@@ -31,7 +33,9 @@ form), the `change` (empty for copies), the entry of a hash list already committ
 | `vipl/` | VIPL-HR: stage (a) BVP-rate rule (`stage_a/bvp_rate.json`) and exclusion counts (`stage_a/exclusions.csv`), primary analysis (`primary_c1`, commit 126b0b7), secondary checkpoints (`secondary_checkpoints_c2`, commit 13802c0), A8 sensitivity analysis (`A8_sensitivity`, `docs/A8_OUTPUT_SHA256.txt`) and the common support (`common_support.csv`) |
 | `registration/` | Registered statements set against the existing results (October primary comparison as originally specified, A4 item 7 tiers and 7a-7j, the Section 5 sentence, A6 items 8(a)-(d) and 9, A7 item 10; `registered_statements.csv`) and the history of the test data (MCD-rPPG split, development guard comparison; `test_data_history.csv`) |
 | `a9/` | A9 (amendment of 2026-11-26): E1 (UBFC-rPPG training; `e1_physnet/`, `e1_rhythmformer/`, `e1_factorizephys/`), E2 and E3 (`e2e3/`), E4, E6 and E7 (`e467/`) and the stored-output analyses of item 8 (`item8/`): the aggregate CSVs attached to the reports, byte for byte; files, A9 items and prediction SHA-256 lists in `a9/README.md` |
-| `figures/` | The data of the figures of the manuscript, as used for the figures |
+| `a10/` | A10 (amendment of 2026-11-27, experiment B1: UBFC-rPPG training below 100 bpm): arms, contrasts, their descriptions, recovery ratio, summary sentences, repeat inference and checks; the aggregate CSVs attached to the report, byte for byte; files, A10 items and hash lists in `a10/README.md` |
+| `review4_reaggregation/` | Descriptive values re-aggregated after the fourth internal review from stored outputs (no new training, no new inference, no tiers): (ii-lag) - (ii) of E1 (`e1_iilag_minus_ii/`), signs per seed (`seed_signs/`), PURE pool tau slope (`pool_tau_slope/`), UBFC-rPPG editor check with d = 1 (`ubfc_editor_d1/`, computed again from the raw training videos), generation cost of the pools (`generation_cost/`); files and places in the manuscript in `review4_reaggregation/README.md` |
+| `figures/` | The data of the figures of the manuscript, as used for the figures. In fig3b_posthoc_settings.csv, the column loss is the time-domain loss term (negative Pearson or MCC); RhythmFormer keeps its frequency-domain term in both settings. |
 
 ## Columns
 

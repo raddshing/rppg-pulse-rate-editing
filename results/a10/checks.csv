@@ -1,0 +1,23 @@
+check,value,passed
+MMPD-B: windows equal over the 15 arm-backbone cells,1684,True
+MCD-rPPG test: windows equal over the 15 arm-backbone cells,1474,True
+VIPL-HR: windows equal over the 15 arm-backbone cells,2657,True
+MMPD-B PhysNet: ratio numerator/denominator equal to boot.summarize,True,True
+MMPD-B RhythmFormer: ratio numerator/denominator equal to boot.summarize,True,True
+MMPD-B FactorizePhys (matched): ratio numerator/denominator equal to boot.summarize,True,True
+MCD-rPPG test PhysNet: ratio numerator/denominator equal to boot.summarize,True,True
+MCD-rPPG test RhythmFormer: ratio numerator/denominator equal to boot.summarize,True,True
+MCD-rPPG test FactorizePhys (matched): ratio numerator/denominator equal to boot.summarize,True,True
+VIPL-HR PhysNet: ratio numerator/denominator equal to boot.summarize,True,True
+VIPL-HR RhythmFormer: ratio numerator/denominator equal to boot.summarize,True,True
+VIPL-HR FactorizePhys (matched): ratio numerator/denominator equal to boot.summarize,True,True
+ratio numerator/denominator equal to the separate contrasts (all cells),18,True
+B1_PhysNet MMPD_B: repeat files identical,435/435,True
+B1_PhysNet MCD_test: repeat files identical,385/385,True
+B1_PhysNet VIPL: repeat files identical,2360/2360,True
+B1_RhythmFormer MMPD_B: repeat files identical,435/435,True
+B1_RhythmFormer MCD_test: repeat files identical,385/385,True
+B1_RhythmFormer VIPL: repeat files identical,2360/2360,True
+B1_FPm MMPD_B: repeat files identical,435/435,True
+B1_FPm MCD_test: repeat files identical,385/385,True
+B1_FPm VIPL: repeat files identical,2360/2360,True

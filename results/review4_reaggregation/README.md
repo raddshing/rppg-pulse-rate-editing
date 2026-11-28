@@ -1,0 +1,21 @@
+# Re-aggregations after the fourth internal review
+
+Descriptive values re-aggregated, after the fourth internal review of the manuscript, from stored outputs (predictions, pool manifests, run records): no new training, no new inference and no tiers. The one computation not read from stored outputs is in `ubfc_editor_d1/`: the 360-window editor check of `results/audit/editor_validity/ubfc/` repeated on the raw UBFC-rPPG training videos with the injection delay of (ii-pc) set to d = 1 frame (CPU, no network). Every file is an aggregate CSV attached to the report of these re-aggregations, byte for byte and identical to the output it was written to (`results/MANIFEST.csv`); the folder names replace the bundle folders B1-B5. Intervals, where given, are 95% intervals as named in the file (the crossed bootstrap over subjects and seeds, B = 10,000, seed 20261110, where not stated otherwise).
+
+Code: `tools/review4/` (SHA-256 as run and as published in `docs/CODE_721_REVIEW4_SHA256.csv`; differences in `docs/CODE_721_DIFF.txt`), main environment: `python -B -s tools/review4/b_reagg.py b1|b2|b3|b5` (`e1_iilag_minus_ii/`, `seed_signs/`, `pool_tau_slope/`, `generation_cost/`); `OPS2_WORKERS=3 python -B -s tools/review4/a2_validity_ubfc_d1.py <out_dir>` (the check of `audit/a2_validity_ubfc.py` with d = 1), then `python -B -s tools/review4/b4_table.py` (`ubfc_editor_d1/`).
+
+| File | Content | Manuscript |
+|---|---|---|
+| `e1_iilag_minus_ii/E1_iilag_minus_ii.csv` | (ii-lag) - (ii) of E1 (UBFC-rPPG training, A9 item 1) per backbone and test set: high-HR, low-HR and all-window MAE and high-HR hit rate with the intervals of A9 item 9, beside the stored (ii-lag) - (ii) with PURE training (columns pure_*; no hit rate stored) | Table III, upper part: the row (ii-lag) - (ii) |
+| `e1_iilag_minus_ii/E1_iilag_minus_ii_all_metrics.csv` | every measure of the same contrasts | Table III, upper part: the row (ii-lag) - (ii) |
+| `seed_signs/checks_mean_equals_stored_point.csv` | the mean over seeds equals the stored bootstrap point (45 of 45) | Sec. V-F: signs per seed |
+| `seed_signs/per_seed_MAE_high_differences.csv` | the high-HR MAE difference of each seed | Sec. V-F: signs per seed |
+| `seed_signs/per_seed_sign_counts.csv` | numbers of seeds with a negative and a positive high-HR MAE difference, PURE training: C1-C4 (seeds 20261131-20261133 and 20261148-20261150) and (ii-lag) - (ii-pc) (seeds 20261131-20261133), per backbone and test set | Sec. V-F: signs per seed |
+| `pool_tau_slope/checks.csv` | checks of the slope table against the stored audit outputs | Sec. III-C: pool tau slope -0.387 [-0.545, -0.286] |
+| `pool_tau_slope/tau_slopes.csv` | PURE, 59 recordings: OLS slope of the pool tau against the half period with its subject-cluster interval (B = 10,000, seed 20261110), t and recording-bootstrap intervals; the slope of the signed maximum lag beside it | Sec. III-C: pool tau slope -0.387 [-0.545, -0.286] |
+| `ubfc_editor_d1/checks.csv` | the (ii) readouts and the unedited baselines equal to those of the d = 2 run (d is not used by (ii)) | Sec. V-G, Sec. VII (limitations) and Suppl. Table S3: the check with d = 1 |
+| `ubfc_editor_d1/d1_vs_d2_decision_cells.csv` | the decision cells (PhysNet view, HAR, POS and CHROM, 70-100 and 100-140 bpm) of (ii) and (ii-pc) with d = 1 and d = 2 side by side | Sec. V-G, Sec. VII (limitations) and Suppl. Table S3: the check with d = 1 |
+| `ubfc_editor_d1/ubfc_validity_cells_d1.csv` | the 360-window editor check on UBFC-rPPG with d = 1 frame for (ii-pc): every mode, view, reader, band and target interval (columns of results/audit/editor_validity/ubfc/ubfc_validity_cells.csv) | Sec. V-G, Sec. VII (limitations) and Suppl. Table S3: the check with d = 1 |
+| `ubfc_editor_d1/ubfc_validity_gate_d1.csv` | the October gate rule per mode with d = 1 | Sec. V-G, Sec. VII (limitations) and Suppl. Table S3: the check with d = 1 |
+| `generation_cost/pool_item_time_storage.csv` | generation time (worker wall seconds) and storage per pool item, (ii-pc) and (i-simple), PURE second pool and UBFC-rPPG (E1) | Sec. VI (discussion): generation-time ratio of the pools |
+| `generation_cost/ratios_iipc_over_isimple.csv` | the ratios (ii-pc) / (i-simple) of generation time and storage | Sec. VI (discussion): generation-time ratio of the pools |

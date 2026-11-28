@@ -1,0 +1,118 @@
+dataset,experiment,backbone,base_contrast,contrast,windows,subjects,metric,point,ci_lo,ci_hi
+VIPL-HR,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,MAE_high,1.0220266040688546,-0.7065519759831773,2.703655099476974
+VIPL-HR,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,MAE_low,-1.0415059840425525,-1.4977885995772648,-0.6082209211377725
+VIPL-HR,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,MAE_all,-0.8760816553757369,-1.3386743330450779,-0.44856826954176565
+VIPL-HR,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,signed_error_high,-1.4304577464788746,-3.2683255142902046,0.45613593254567303
+VIPL-HR,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,signed_error_low,-1.2960630626022915,-1.897048746619011,-0.7293946699176619
+VIPL-HR,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,signed_error_all,-1.306836893112533,-1.8600628330942444,-0.7832599272726727
+VIPL-HR,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,slope_high,-0.04889114347803355,-0.24296745813297665,0.03293089060884212
+VIPL-HR,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,spearman_high,-0.09521952314100822,-0.21453859874338435,0.02738239880357573
+VIPL-HR,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,kendall_high,-0.06729889177446048,-0.14892759991064253,0.017463374775538925
+VIPL-HR,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,pearson_high,-0.052936335258579485,-0.16598675886761255,0.0296358100855392
+VIPL-HR,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,AUROC,-0.002047747477774512,-0.038011301391186254,0.03500472475456226
+VIPL-HR,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,hit_high,0.0015649452269170434,-0.042593669250646,0.049550480232298404
+VIPL-HR,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,MAE_verified,-0.8760816553757369,-1.3386743330450779,-0.44856826954176565
+MMPD-B,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,MAE_high,2.4393284574468077,0.1728616236311808,4.4327614737639465
+MMPD-B,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,MAE_low,-0.5959678138373761,-1.5132984655379627,0.3361570662271008
+MMPD-B,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,MAE_all,-0.0876818586698338,-0.9946846006912854,0.7701492507893973
+MMPD-B,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,signed_error_high,-3.4948470744680846,-5.630895102896342,-1.1799015410958908
+MMPD-B,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,signed_error_low,-2.199146308844508,-3.474429500044107,-0.9621481215493249
+MMPD-B,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,signed_error_all,-2.416122327790974,-3.654534126566614,-1.1406679832116413
+MMPD-B,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,slope_high,-0.15445299709895763,-0.3271864071225649,0.08316497106974567
+MMPD-B,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,spearman_high,-0.09438712292672968,-0.19094759797623917,0.030075192146038928
+MMPD-B,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,kendall_high,-0.07427488873382147,-0.14466042005576382,0.02218387657392474
+MMPD-B,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,pearson_high,-0.07859671436884898,-0.1591116919558191,0.03459455121686604
+MMPD-B,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,AUROC,-0.013582420250705662,-0.04798962824575028,0.022647521293226572
+MMPD-B,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,hit_high,-0.04728132387706857,-0.10782145504947942,0.005077443706885327
+MMPD-B,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,MAE_verified,-0.0876818586698338,-0.9946846006912854,0.7701492507893973
+MCD-rPPG test,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,MAE_high,3.418602881493506,-0.14839063680804848,6.4167447270262254
+MCD-rPPG test,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,MAE_low,-0.5886691433566433,-2.282917890386522,0.7740171555190051
+MCD-rPPG test,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,MAE_all,1.0860117028493894,-0.8558284697021412,2.893456074181055
+MCD-rPPG test,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,signed_error_high,-4.6018922483766245,-8.542318046185779,-0.3960431698808002
+MCD-rPPG test,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,signed_error_low,-0.2608719405594407,-2.721787662343882,1.697485207100592
+MCD-rPPG test,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,signed_error_all,-2.075029681139756,-4.954627354589562,0.6563204999192773
+MCD-rPPG test,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,slope_high,-0.3287799914334235,-0.6640871451548457,-0.00981626708725527
+MCD-rPPG test,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,spearman_high,-0.2148244537970346,-0.32413793998356266,-0.08384275083139203
+MCD-rPPG test,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,kendall_high,-0.17368651756798034,-0.2614260328314809,-0.06853152692814418
+MCD-rPPG test,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,pearson_high,-0.12461100776215628,-0.25366754958752946,0.013310429074039716
+MCD-rPPG test,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,AUROC,-0.08352600682146138,-0.13950040537825048,-0.01868787413948194
+MCD-rPPG test,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,hit_high,-0.09902597402597402,-0.16016865674626984,-0.02707363287659998
+MCD-rPPG test,E1,PhysNet,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1360,75,MAE_verified,1.3941865808823533,-0.6941305024769362,3.310890541241154
+VIPL-HR,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,MAE_high,2.0711658841940532,0.8988318427018006,3.6087807017543856
+VIPL-HR,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,MAE_low,-1.5724810761047479,-2.066721427988442,-1.0944772634350868
+VIPL-HR,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,MAE_all,-1.2803859302471459,-1.752737897550117,-0.8235148931203713
+VIPL-HR,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,signed_error_high,-2.3877640845070416,-4.2686126090737115,-0.8308399325496538
+VIPL-HR,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,signed_error_low,-2.878861497545008,-3.4280442963628817,-2.352820599733372
+VIPL-HR,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,signed_error_all,-2.839492378622506,-3.3893750085592367,-2.3214773512453353
+VIPL-HR,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,slope_high,-0.04284242808164004,-0.20903062676872872,0.010770724432140054
+VIPL-HR,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,spearman_high,-0.0807887592214979,-0.17286322884781724,-0.007238045804624638
+VIPL-HR,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,kendall_high,-0.06265183077631632,-0.13191258287699315,-0.0057899039215575775
+VIPL-HR,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,pearson_high,-0.058905769932049906,-0.19048950186568062,0.015259571325414665
+VIPL-HR,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,AUROC,0.006542482756147698,-0.01944222604151611,0.028401047607896072
+VIPL-HR,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,hit_high,-0.029733959311424123,-0.0558561075041522,-0.004716427495792371
+VIPL-HR,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,MAE_verified,-1.2803859302471459,-1.752737897550117,-0.8235148931203713
+MMPD-B,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,MAE_high,5.481216755319148,2.4502541656026557,8.815605542989784
+MMPD-B,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,MAE_low,-2.5226239300998574,-4.217732113028955,-1.0313121774040657
+MMPD-B,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,MAE_all,-1.1823133165083142,-3.0272321265020503,0.5180143706067382
+MMPD-B,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,signed_error_high,-7.9995013297872335,-11.676338023190047,-4.377669894528375
+MMPD-B,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,signed_error_low,-5.51165745363766,-7.442682240368789,-3.745908068042898
+MMPD-B,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,signed_error_all,-5.92826788895487,-7.793994209532644,-4.151334087852125
+MMPD-B,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,slope_high,-0.11347151136675881,-0.3798417592834215,0.2585371192513084
+MMPD-B,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,spearman_high,-0.07664513202589077,-0.206661437398765,0.06998175505525851
+MMPD-B,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,kendall_high,-0.061133528123549497,-0.16296411523550572,0.05214946830539821
+MMPD-B,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,pearson_high,-0.06667580804109587,-0.1793761869303642,0.0651967095674556
+MMPD-B,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,AUROC,-0.042705793479763776,-0.08903128012270639,0.00914170549856923
+MMPD-B,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,hit_high,-0.054373522458628844,-0.10626816153240334,0.0009667569775943
+MMPD-B,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,MAE_verified,-1.1823133165083142,-3.0272321265020503,0.5180143706067382
+MCD-rPPG test,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,MAE_high,1.53713474025974,0.7272331993031795,2.4049098189004243
+MCD-rPPG test,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,MAE_low,-0.13931381118881117,-0.43833767261617235,0.12768062394977595
+MCD-rPPG test,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,MAE_all,0.5612915535956583,0.15027412055566555,0.9968182568358142
+MCD-rPPG test,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,signed_error_high,-2.100243506493507,-3.257744082148204,-1.0402170182370327
+MCD-rPPG test,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,signed_error_low,-0.7703234265734266,-1.2606487392638779,-0.3934105282738096
+MCD-rPPG test,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,signed_error_all,-1.3261109226594303,-1.9751521399166838,-0.7601148323804577
+MCD-rPPG test,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,slope_high,-0.13407637225373933,-0.3021191014344715,-0.006473548156094146
+MCD-rPPG test,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,spearman_high,-0.11439723760484843,-0.19659534212238397,-0.038602831539882206
+MCD-rPPG test,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,kendall_high,-0.09751521588598293,-0.1685274261569855,-0.0320481245573933
+MCD-rPPG test,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,pearson_high,-0.1646322271513323,-0.24472480114745684,-0.09684751394969111
+MCD-rPPG test,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,AUROC,-0.030901547947002467,-0.05346673407506081,-0.008807693735010367
+MCD-rPPG test,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,hit_high,-0.03517316017316019,-0.07172995780590719,-0.003994923300117502
+MCD-rPPG test,E1,FactorizePhys (matched),(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1360,75,MAE_verified,0.7022633272058821,0.24602030004857614,1.1997415171204622
+VIPL-HR,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,MAE_high,-0.511649061032862,-2.8630851412286136,2.1877489672823587
+VIPL-HR,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,MAE_low,-0.6381065023186014,-1.4261380635842804,0.14792442534880135
+VIPL-HR,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,MAE_all,-0.6279689656253916,-1.2448906555801096,-0.028127402624175197
+VIPL-HR,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,signed_error_high,0.6932218309859147,-2.053866789579794,3.0497776242925445
+VIPL-HR,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,signed_error_low,-0.9527478007365003,-1.9814113775433126,0.21365782177735446
+VIPL-HR,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,signed_error_all,-0.8207976571321037,-1.9001353050304668,0.38394297610280687
+VIPL-HR,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,slope_high,0.04331341666551019,-0.0700122349470563,0.25698932102337363
+VIPL-HR,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,spearman_high,0.08796502529401697,-0.05519855347653461,0.2380768412617005
+VIPL-HR,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,kendall_high,0.05539862099830369,-0.055087921232865246,0.1682731821831652
+VIPL-HR,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,pearson_high,0.05503277093409689,-0.08225787188466578,0.25240692399648135
+VIPL-HR,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,AUROC,0.016974277013234212,-0.011855014559011376,0.04651514527567484
+VIPL-HR,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,hit_high,0.012519561815336477,-0.06010928961748633,0.0806932886423177
+VIPL-HR,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),2657,107,MAE_verified,-0.6279689656253916,-1.2448906555801096,-0.028127402624175197
+MMPD-B,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,MAE_high,0.33660239361702143,-0.9474551939378102,1.5909403496627263
+MMPD-B,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,MAE_low,-0.020896487161198962,-0.6890987111389455,0.7931454273998065
+MMPD-B,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,MAE_all,0.03896971496437077,-0.5314158448109431,0.7679961909645368
+MMPD-B,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,signed_error_high,-1.1510970744680857,-2.5351762507952977,0.2892590882486028
+MMPD-B,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,signed_error_low,-0.5190687410841658,-1.5484470364079954,0.628325738914048
+MMPD-B,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,signed_error_all,-0.6249072149643705,-1.572736475934079,0.38365620953176116
+MMPD-B,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,slope_high,-0.08972343951046534,-0.2701890447852188,0.2024954887441784
+MMPD-B,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,spearman_high,-0.03372195725558976,-0.13321743419745205,0.08572994700086807
+MMPD-B,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,kendall_high,-0.02057559463713169,-0.09706470911480614,0.06912015626828151
+MMPD-B,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,pearson_high,-0.05893500050688261,-0.16183689401913848,0.09760893475880805
+MMPD-B,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,AUROC,-0.007958910438650602,-0.035796028218490705,0.018162927431222976
+MMPD-B,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,hit_high,0.023640661938534275,-0.021506535038932146,0.060819409635199106
+MMPD-B,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1684,22,MAE_verified,0.03896971496437077,-0.5314158448109431,0.7679961909645368
+MCD-rPPG test,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,MAE_high,-4.008345170454545,-7.2524419810219305,-1.4695625006247015
+MCD-rPPG test,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,MAE_low,-10.512729458041958,-14.410169908216783,-6.773065967674323
+MCD-rPPG test,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,MAE_all,-7.794479308005428,-11.066968997220384,-4.758611075625277
+MCD-rPPG test,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,signed_error_high,-5.754743303571428,-10.61785007323955,-2.405018978746542
+MCD-rPPG test,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,signed_error_low,-11.810260052447553,-16.025609580133185,-7.761131805142979
+MCD-rPPG test,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,signed_error_all,-9.279596336499322,-12.995238739658483,-5.932915982299915
+MCD-rPPG test,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,slope_high,0.21326448363101394,-0.11558888635970373,0.4864463324803374
+MCD-rPPG test,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,spearman_high,0.12162347992925182,0.0065832912112703,0.26761326321817724
+MCD-rPPG test,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,kendall_high,0.10015498499527549,0.007976143177437948,0.22210274938114993
+MCD-rPPG test,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,pearson_high,0.1572584554071672,0.03494939629329314,0.3011289383621727
+MCD-rPPG test,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,AUROC,0.09151675344857164,0.02389362867842231,0.1695003693556789
+MCD-rPPG test,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1474,75,hit_high,0.05357142857142857,-0.014539784333140227,0.13548685782556746
+MCD-rPPG test,E1,RhythmFormer,(ii-lag)-(ii),(ii-lag-ubfc)-(ii-ubfc),1360,75,MAE_verified,-7.81192555147059,-11.32931084924554,-4.621211961825638

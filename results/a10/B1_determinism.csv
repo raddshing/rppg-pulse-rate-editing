@@ -1,0 +1,10 @@
+group,test_set,key,files,identical
+B1_PhysNet,MMPD_B,PhysNet__i-pc-b1low__s20261131__std,435,435
+B1_PhysNet,MCD_test,PhysNet__i-pc-b1low__s20261131__std,385,385
+B1_PhysNet,VIPL,PhysNet__i-pc-b1low__s20261131__std,2360,2360
+B1_RhythmFormer,MMPD_B,RhythmFormer__i-pc-b1low__s20261131__std,435,435
+B1_RhythmFormer,MCD_test,RhythmFormer__i-pc-b1low__s20261131__std,385,385
+B1_RhythmFormer,VIPL,RhythmFormer__i-pc-b1low__s20261131__std,2360,2360
+B1_FPm,MMPD_B,FPm__i-pc-b1low__s20261131__fsam-on,435,435
+B1_FPm,MCD_test,FPm__i-pc-b1low__s20261131__fsam-on,385,385
+B1_FPm,VIPL,FPm__i-pc-b1low__s20261131__fsam-on,2360,2360

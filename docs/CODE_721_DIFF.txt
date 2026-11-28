@@ -1,0 +1,102 @@
+Unified diff (no context lines) from each file as run in the operations workspace to its published form (7.21):
+the code of A10 (tools/a10/) and of the re-aggregations after the fourth internal review (tools/review4/).
+In removed lines a machine path is shown as <key/rest of the path> (key work folder = the OPS2 work folder, which
+is the repository root here). The other changed lines set the import paths for the new folders. SHA-256 of both
+forms: docs/CODE_721_A10_SHA256.csv and docs/CODE_721_REVIEW4_SHA256.csv.
+
+--- tools/b1_719/b1_design.py (as run)
++++ tools/a10/b1_design.py (published)
+@@ -33 +33 @@
+-W = Path('<work folder>')
++W = Path(__file__).resolve().parents[2]
+
+--- tools/b1_719/b1_plan.py (as run)
++++ tools/a10/b1_plan.py (published)
+@@ -24,2 +24,2 @@
+-W = Path('<work folder>')
+-sys.path.insert(0, str(W / 'tools' / 'b1_719'))
++W = Path(__file__).resolve().parents[2]
++sys.path.insert(0, str(W / 'tools' / 'a10'))
+
+--- tools/b1_719/b1_ufullm_v2.py (as run)
++++ tools/a10/b1_ufullm_v2.py (published)
+@@ -20,2 +20,2 @@
+-W = Path('<work folder>')
+-sys.path.insert(0, str(W / 'tools' / 'b1_719'))
++W = Path(__file__).resolve().parents[2]
++sys.path.insert(0, str(W / 'tools' / 'a10'))
+
+--- tools/b1_719/pure_phase_i.py (as run)
++++ tools/a10/pure_phase_i.py (published)
+@@ -12,2 +12,2 @@
+-W = Path('<work folder>')
+-sys.path.insert(0, str(W / 'tools' / 'b1_719'))
++W = Path(__file__).resolve().parents[2]
++sys.path.insert(0, str(W / 'tools' / 'a10'))
+
+--- train/gen_b1.py (as run)
++++ tools/a10/gen_b1.py (published)
+@@ -17 +17 @@
+-sys.path.insert(0, str(Path(__file__).resolve().parent))
++sys.path.insert(0, str(Path(__file__).resolve().parents[2] / 'train'))  # 7.21: published in tools/a10/; gen_ubfc.py is in train/
+
+--- tools/b1_719/originals_check.py (as run)
++++ tools/a10/originals_check.py (published)
+@@ -8 +8 @@
+-W = Path('<work folder>')
++W = Path(__file__).resolve().parents[2]
+
+--- tools/b1_719/a10_docs.py (as run)
++++ tools/a10/a10_docs.py (published)
+@@ -13 +13 @@
+-W = Path('<work folder>')
++W = Path(__file__).resolve().parents[2]
+
+--- train/train_b1.py (as run)
++++ tools/a10/train_b1.py (published)
+@@ -20 +20 @@
+-HERE = Path(__file__).resolve().parent
++HERE = Path(__file__).resolve().parents[2] / 'train'  # 7.21: published in tools/a10/; train_ubfc.py is in train/, the cache folder at the root
+
+--- tools/infer_index_720.py (as run)
++++ tools/a10/infer_index_720.py (published)
+@@ -10 +10 @@
+-sys.path.insert(0, str(Path(__file__).resolve().parent))
++sys.path.insert(0, str(Path(__file__).resolve().parents[1]))  # 7.21: published in tools/a10/; infer_index_709.py is in tools/
+@@ -13 +13 @@
+-C = Path(__file__).resolve().parents[1] / 'cache' / 'train720'
++C = Path(__file__).resolve().parents[2] / 'cache' / 'train720'
+
+--- tools/a9_eval/b1_groups.py (as run)
++++ tools/a10/b1_groups.py (published)
+@@ -31 +31 @@
+-sys.path.insert(0, str(Path(__file__).resolve().parent))
++sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'a9_eval'))  # 7.21: published in tools/a10/; a9_e2e3.py and a9_groups.py are in tools/a9_eval/
+
+--- tools/b1_report_720.py (as run)
++++ tools/a10/b1_report_720.py (published)
+@@ -17 +17 @@
+-W = Path('<work folder>')
++W = Path(__file__).resolve().parents[2]
+--- tools/a10/b1_report_720.py, the guard of the bundle step (as run -> published), described instead of shown:
+the assertion that no bundle text contains a server path tested two string literals, the root folder names mnt
+and home each between slashes; the published line builds the same two strings as '/' + 'mnt/' and '/' + 'home/'.
+The test is unchanged.
+
+--- tools/b_719/b_reagg.py (as run)
++++ tools/review4/b_reagg.py (published)
+@@ -27 +27 @@
+-W = Path('<work folder>')
++W = Path(__file__).resolve().parents[2]
+
+--- audit/a2_validity_ubfc_d1.py (as run)
++++ tools/review4/a2_validity_ubfc_d1.py (published)
+@@ -18 +18 @@
+-sys.path.insert(0, str(Path(__file__).resolve().parent))
++sys.path.insert(0, str(Path(__file__).resolve().parents[2] / 'audit'))  # 7.21: published in tools/review4/; a2_validity_ubfc.py is in audit/
+
+--- tools/b_719/b4_table.py (as run)
++++ tools/review4/b4_table.py (published)
+@@ -16 +16 @@
+-W = Path('<work folder>')
++W = Path(__file__).resolve().parents[2]

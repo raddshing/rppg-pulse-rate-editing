@@ -10,8 +10,7 @@ subject / validation-window lists.
 Not included: MMPD-B and MCD-rPPG window lists, predictions or reference signals; values per window,
 recording or subject; any face-pixel derivative (crops, frames, edited video, augmentation pools,
 masks); model checkpoints (their SHA-256 are listed, see below); server paths and credentials. Data
-must be obtained from the dataset providers under their licences. Window-level predictions and recording lists are left out because of the datasets' terms of use and
-this repository's publication rule (aggregate values only).
+must be obtained from the dataset providers under their licences. Window-level predictions and test-set window lists are left out because of the datasets' terms of use and this repository's publication rule (aggregate values only); `lists/` keeps the registered MMPD subject split and the MMPD-A development windows.
 
 Data notice. The identification codes that appear in this repository (the MMPD subjects in `lists/`,
 the recording codes in the file names of the stage hash lists, the PURE recording codes in
@@ -41,7 +40,7 @@ contains no video, no physiological signal and no personal information.
 
 | Path | Contents |
 |---|---|
-| `results/` | Aggregate results: test run (`test_run/`), development diagnostics (`dev_diagnostics/`), audits (`audit/`), post hoc experiments of the amendment of 2026-11-20 (`posthoc_704/`, `posthoc_P/`, `posthoc_R/`), VIPL-HR (`vipl/`) and the data of the figures (`figures/`). `results/README.md` describes the folders and columns; `results/MANIFEST.csv` gives the size, SHA-256 and source of every file |
+| `results/` | Aggregate results: test run (`test_run/`), development diagnostics (`dev_diagnostics/`), audits (`audit/`), post hoc experiments of the amendment of 2026-11-20 (`posthoc_704/`, `posthoc_P/`, `posthoc_R/`), VIPL-HR (`vipl/`), A9 (`a9/`), A10 (`a10/`), the re-aggregations after the fourth internal review (`review4_reaggregation/`) and the data of the figures (`figures/`). `results/README.md` describes the folders and columns; `results/MANIFEST.csv` gives the size, SHA-256 and source of every file |
 | `docs/DEVIATIONS.md` | Deviations from the registration, every technical failure and re-run of the post hoc block, the reading of its item 8(b), the deviations on VIPL-HR and the history of the test data, with the commits and reports that record them |
 | `docs/PAPER_MAP.md` | Map from the tables, figures and numbers of the manuscript to the files of `results/` and `docs/` |
 | `docs/A6_CHECKPOINTS_SHA256.csv` | SHA-256 of the 159 checkpoints of the post hoc block (amendment of 2026-11-20): settings of items 1 and 2 and rule 5 (84), new seeds of item 3 (54), RhythmFormer with the MCC loss of item 9 (21) |
@@ -183,6 +182,40 @@ lists.
 | 8 | Stored-output analyses | `python -B -s tools/a9_8/vipl_bvp.py` (BVP records for 8c and 8g), then `python -B -s tools/a9_8/<a9_8ae\|a9_8b\|a9_8c\|a9_8d\|a9_8f\|a9_8g\|a9_8g_rec\|a9_8h>.py` (shared code `tools/a9_8/a9_common.py`) |
 
 Aggregate results of these steps: `results/a9/` (see `results/a9/README.md`).
+
+## A10 experiment B1: UBFC-rPPG training below 100 bpm (amendment of 2026-11-27)
+
+Design. Training uses the UBFC-rPPG chunks of the A9 item 1 lists whose reference heart rate is below 100 bpm (U-low: 270
+chunks for PhysNet, 210 for RhythmFormer and FactorizePhys, each from 31 subjects; heart rates in the frame units of A9
+item 1), with four pool items per chunk whose targets are drawn uniformly from 100–140 bpm (U(100, 140), key 20261160), in
+the arms (0), (i-simple), (i) and (i-pc) (s = −1, d = 1 frame). Arm (0) is also trained on U-full-m: as many chunks as
+U-low, drawn from all chunks of the same 31 subjects (key [20261160, 10, v]), so that it contains recorded heart rates of
+at least 100 bpm. Three backbones × five arms × seeds 20261131–20261133: 45 runs. Keys, the SHA-256 of the pool manifests
+and chunk lists and the design table are in `docs/A10_UBFC_B1.txt`.
+
+Commits, in this order: `efb28e8` (the A10 entry and `docs/A10_UBFC_B1.txt`, before any training), `9fd0170`
+(`docs/A10_CHECKPOINTS_SHA256.csv`, the SHA-256 of the 45 checkpoints, before any of them was evaluated) and `f4590ad`
+(`docs/A10_B1_*_SHA256.txt`, the SHA-256 of the prediction files, before their analyses). Results: `results/a10/` (see
+`results/a10/README.md`).
+
+The code run for A10 is published in `tools/a10/` (in the operations workspace it was in `train/`, `tools/b1_719/`,
+`tools/` and `tools/a9_eval/`). `docs/CODE_721_A10_SHA256.csv` gives, for each file, its path and SHA-256 as run and its
+published path and SHA-256; the published files differ only in machine paths and in the import paths of the new folder
+(`docs/CODE_721_DIFF.txt`). Files published earlier (`train/gen_ubfc.py`, `train/train_ubfc.py`, `tools/infer_index_709.py`,
+`tools/a9_eval/`, `eval5/`) were used unchanged. `docs/A10_RUN_SETTINGS.csv` lists the settings recorded by the 45 training
+runs. The commands below are the calls made by the workspace runners, without their scheduling, GPU locks and progress
+guards (`python` = main environment, `python_repro` = repro environment of `config/paths.json`). Pool manifests, chunk
+lists and prediction folders stay on the server.
+
+| A10 item | Step | Entry point and command |
+|---|---|---|
+| 3 | Design table (four designs; training data only) | `python -B -s tools/a10/b1_design.py` |
+| 2, 4a | Pool plans (targets with key 20261160) and chunk lists | `python -B -s tools/a10/b1_plan.py`; then `python -B -s tools/a10/b1_ufullm_v2.py`: U-full-m from the 31 subjects of U-low (key [20261160, 10, v]), replacing the first U-full-m lists of `b1_plan.py`, which were drawn from all 42 subjects and not used; the phase measure of item 3 on the first PURE pool: `python -B -s tools/a10/pure_phase_i.py` |
+| 4a | Pools: (i), (i-pc) with d = 1 and (i-simple), one clip per item; originals | `OPS2_WORKERS=3 OPS2_POOL_COMPRESS=delta-zlib python -B -s tools/a10/gen_b1.py <PhysNet\|FPm\|RhythmFormer> <out_root>` (`job_family_i` of `train/gen_ubfc.py`, rounding key 20261160); originals `OPS2_WORKERS=2 OPS2_POOL_COMPRESS=delta-zlib python -B -s train/gen_ubfc.py <backbone> originals <out_root>`; check against the A9 originals: `python -B -s tools/a10/originals_check.py` |
+| 2–4 | `docs/A10_UBFC_B1.txt` | `python -B -s tools/a10/a10_docs.py` |
+| 5 | Training (45 runs) | `OPS2_DATA_WORKERS=3 CUDA_VISIBLE_DEVICES=<gpu> python_repro -B -s tools/a10/train_b1.py <PhysNet\|FPm\|RhythmFormer> <seed> U_low\|U_full_m <pool manifest>\|ORIGINAL <out_dir>`: `train/train_ubfc.py` with the B1 originals; the trial of five steps per case made before the A10 commit (the same command with the step limit 5) was discarded |
+| 6 | Index and inference | `python -B -s tools/a10/infer_index_720.py <backbone> <dir>`; passes as for A9: `python_repro -B -s eval5/stage2_predict.py --dataset MMPD\|MCD ... --unseal --amendment-commit <A10 commit> --manifest <dir>/manifest.csv --checkpoint-index <dir>/checkpoint_index.csv --set exploratory ...` and `python_repro -B -s eval5/vipl.py b ... --set exploratory`; each pass repeated for arm (i-pc), seed 20261131 (`--arms '(i-pc-b1low)' --seeds 20261131`), and the two prediction folders compared file by file |
+| 7–9 | Analysis | `python -B -s tools/a10/b1_groups.py vipl_readouts\|test_check\|analyze B1_<PhysNet\|FPm\|RhythmFormer>`, then `python -B -s tools/a10/b1_groups.py summary`; report tables `python -B -s tools/a10/b1_report_720.py tables` and the report bundle `python -B -s tools/a10/b1_report_720.py bundle <report>` |
 
 ## Licence and terms
 

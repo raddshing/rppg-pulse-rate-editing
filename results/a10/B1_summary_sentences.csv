@@ -1,0 +1,9 @@
+kind,dataset,backbone,backbones,k,sentence
+C3,VIPL-HR,,3,0.0,"With training on UBFC-rPPG chunks below 100 bpm, correcting the delay rule lowered the high-HR error of resampling (C3 interval below 0) for 0 of three backbones on VIPL-HR, at a mean phase error of 64–65°."
+C3,MMPD-B,,3,0.0,"With training on UBFC-rPPG chunks below 100 bpm, correcting the delay rule lowered the high-HR error of resampling (C3 interval below 0) for 0 of three backbones on MMPD-B, at a mean phase error of 64–65°."
+C3,MCD-rPPG test,,3,0.0,"With training on UBFC-rPPG chunks below 100 bpm, correcting the delay rule lowered the high-HR error of resampling (C3 interval below 0) for 0 of three backbones on MCD-rPPG test, at a mean phase error of 64–65°."
+recovery,VIPL-HR,PhysNet,1,,"Plain resampling recovered 2.87 [1.84, 8.65] of the high-HR gain from recorded high heart rates of the same subjects for PhysNet on VIPL-HR,"
+recovery,MMPD-B,PhysNet,1,,"Plain resampling recovered 4.18 [2.34, 17.54] of the high-HR gain from recorded high heart rates of the same subjects for PhysNet on MMPD-B,"
+recovery,MCD-rPPG test,PhysNet,1,,"Plain resampling recovered 1.28 [0.78, 2.27] of the high-HR gain from recorded high heart rates of the same subjects for PhysNet on MCD-rPPG test,"
+recovery,VIPL-HR,RhythmFormer,1,,"Plain resampling recovered 1.87 [1.50, 2.58] of the high-HR gain from recorded high heart rates of the same subjects for RhythmFormer on VIPL-HR,"
+recovery,MMPD-B,RhythmFormer,1,,"Plain resampling recovered 1.89 [1.37, 2.69] of the high-HR gain from recorded high heart rates of the same subjects for RhythmFormer on MMPD-B,"
